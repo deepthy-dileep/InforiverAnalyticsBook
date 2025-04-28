@@ -4,6 +4,7 @@ Inforiver Analytics+ is a unified platform for data visualization, planning and 
 
 Inforiver Analytics+ delivers key features that are available in other BI tools, but missing in Power BI, thus facilitating migration and consolidation in the Microsoft stack.
 
+![analytics+overview](https://github.com/user-attachments/assets/b7a5f235-95a1-4485-b8d8-bc324f1a24b3)
 
 ## Core Components of Analytics+
 
@@ -11,10 +12,13 @@ Inforiver Analytics+ is a comprehensive solution built around several core compo
 
 ### Advanced Visualization Library
 - 100+ chart types, tables, and KPI cards
+- Best-in-class Gantt for project planning
+- Ultra-fast dashboarding with the Storyboard
 - IBCS-certified templates and components
 - Small multiples/trellis capabilities across all visualizations
 - Specialized business charts (Waterfall, Bullet, Marimekko, etc.)
-- Comprehensive annotation and reference line features
+- Comprehensive annotation and analytics features
+- Fully formatted PDF export capabilities
 
 ### Performance Engine
 - Optimized rendering of 30,000+ data points
@@ -27,16 +31,9 @@ Inforiver Analytics+ is a comprehensive solution built around several core compo
 - Intuitive drag-and-drop interface
 - Excel-like formula capabilities
 - Visual configuration panels
-- On-object interactions
+- Advanced on-object interactions
 - Reduced dependence on complex DAX
-
-### Integration Framework
-- Seamless Power BI compatibility
-- Drill-through support
-- Filter and slicer integration
-- Theme alignment
-- Export capabilities
-
+- 
 These components work together to create a cohesive, enterprise-grade analytics experience within the Power BI environment.
 
 ## IBCS Certification and Significance
@@ -51,47 +48,6 @@ A distinguishing feature of Inforiver Analytics+ is its certification by the Int
 - **Flexibility Balance**: Standards compliance with customization options
 
 This certification underscores the solution's commitment to professional, effective business communication through visualization.
-
-## Key Differentiators
-
-Several key capabilities differentiate Inforiver Analytics+ from both native Power BI visuals and other third-party solutions:
-
-### 1. Unified Reporting, Analytics, and Planning
-- Integration of traditionally separate functions
-- Consistent data model across processes
-- Streamlined workflow from insight to action
-- Reduced data transfer between systems
-- Single source of truth for analysis and planning under the Inforiver umbrella
-
-### 2. Superior Data Handling
-- 10x the data point capacity of native visuals
-- Granular analysis without sampling
-- Responsive performance with large datasets
-- Efficient memory utilization
-- Rich interaction even with complex visualizations
-
-### 3. Expanded Visualization Options
-- Comprehensive chart library (100+ types)
-- Advanced variations of standard charts
-- Specialized business and financial visualizations
-- Statistical and analytical chart types
-- Small multiples across all visualization types
-
-### 4. No-Code Analytical Power
-- Advanced calculations without DAX complexity
-- Excel-like formula familiarity
-- Visual calculation builders
-- Simplified what-if analysis
-- Democratized advanced analytics
-
-### 5. Business User Empowerment
-- Reduced IT dependency for advanced reporting
-- Intuitive interfaces for non-technical users
-- Rapid dashboard development
-- Self-service analytical capabilities
-- Excel-like flexibility with enterprise governance
-
-These differentiators address critical gaps in the Power BI ecosystem, enabling organizations to fully leverage their Microsoft platform investments.
 
 ## Target Audiences and Use Cases
 
@@ -149,27 +105,5 @@ As a Power BI Certified Visual, Inforiver Analytics+ offers seamless integration
 - **Service Publishing**: Fully functional in Power BI Service and embedded scenarios
 
 This tight integration preserves an organization's existing Power BI investment while significantly enhancing its capabilities.
-
-## The Analytics+ Vision
-
-Beyond its current capabilities, Inforiver Analytics+ represents a vision for the future of business intelligence:
-
-- **Unified Analytics Experience**: Breaking down silos between reporting, analysis, and planning
-- **Standardized Visual Communication**: Promoting consistent, effective business communication
-- **Business User Empowerment**: Democratizing sophisticated analytics capabilities
-- **Modern Excel Alternative**: Providing a bridge from traditional Excel to modern analytics
-- **Enterprise-Scale Performance**: Delivering the performance needed for large, complex datasets
-
-This vision aligns with broader industry trends toward more integrated, accessible, and performant business intelligence solutions.
-
-## Initial Release and Evolution
-
-Since its initial release, Inforiver Analytics+ has undergone continuous evolution:
-
-- **Expanding Visualization Library**: Regular addition of new chart types and variants
-- **Performance Enhancements**: Ongoing optimization for larger datasets
-- **Deepening Microsoft Integration**: Alignment with new Power BI features and capabilities
-- **Extending Planning Features**: Enhanced budgeting and forecasting functionality
-- **UX Refinements**: Iterative improvements to the user experience
 
 In the following chapters, we'll explore each aspect of Inforiver Analytics+ in detail, from its visualization capabilities to its performance advantages, no-code experience, and integration with the broader Microsoft ecosystem. We'll also examine how organizations across industries are leveraging these capabilities to transform their approach to business intelligence. 
