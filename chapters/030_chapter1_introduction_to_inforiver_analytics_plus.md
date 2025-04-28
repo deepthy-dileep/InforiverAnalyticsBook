@@ -1,18 +1,9 @@
 # 1.4 Introduction to Inforiver Analytics+
 
-Inforiver Analytics+ represents a significant advancement in the Microsoft Power BI ecosystem, providing an enhanced visualization and analytics solution that addresses the limitations of native Power BI capabilities while maintaining seamless integration with the platform. In this section, we'll provide an overview of Inforiver Analytics+ and explore its core value proposition.
+Inforiver Analytics+ is a unified platform for data visualization, planning and dashboarding. It represents a significant advancement in the Microsoft Power BI ecosystem, providing an enhanced visualization and analytics solution that addresses the limitations of native Power BI capabilities while maintaining seamless integration with the platform. In this section, we'll provide an overview of Inforiver Analytics+ and explore its core value proposition.
 
-## Origins and Development Philosophy
+Inforiver Analytics+ delivers key features that are available in other BI tools, but missing in Power BI, thus facilitating migration and consolidation in the Microsoft stack.
 
-Inforiver Analytics+ emerged from a deep understanding of enterprise reporting and analytics needs:
-
-- **Excel Legacy Recognition**: Acknowledgment of Excel's strengths as the primary business analysis tool for decades
-- **Power BI Opportunity**: Recognition of Power BI's modern architecture and enterprise potential
-- **Gap Analysis**: Identification of critical gaps between Excel flexibility and Power BI capabilities
-- **User-Centric Design**: Focus on business user needs rather than technical specialists
-- **Standards-First Approach**: Commitment to visualization best practices and standards
-
-This development philosophy has resulted in a solution that combines the familiarity and flexibility of Excel with the modern architecture and enterprise capabilities of Power BI.
 
 ## Core Components of Analytics+
 
