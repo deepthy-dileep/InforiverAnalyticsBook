@@ -1,33 +1,6 @@
-# 1.5 Where Analytics+ Fits in the Microsoft Fabric Ecosystem
+# 1.4 Where Analytics+ Fits in the Microsoft Fabric Ecosystem
 
 Microsoft Fabric represents the next evolution of Microsoft's data and analytics services, bringing together various capabilities into a unified SaaS platform. As organizations adopt Microsoft Fabric, understanding how Inforiver Analytics+ complements and enhances this ecosystem is essential for maximizing the value of both investments.
-
-## The Microsoft Fabric Vision
-
-Microsoft Fabric integrates previously separate data and analytics services into a coherent whole:
-
-- **Data Engineering**: Data pipelines, data preparation, and transformation
-- **Data Science and Machine Learning**: AI model development and deployment
-- **Data Warehousing**: Enterprise-scale structured data storage and analysis
-- **Real-Time Analytics**: Processing and analyzing streaming data
-- **Power BI**: Business intelligence and data visualization
-- **Data Integration**: Connecting and unifying disparate data sources
-- **Governance**: Data management, security, and compliance
-
-This unified platform approach addresses many of the integration challenges that organizations face when working with siloed analytics services.
-
-## Power BI's Role in the Fabric Ecosystem
-
-Within the Microsoft Fabric ecosystem, Power BI serves as the primary business intelligence and visualization layer:
-
-- **Front-End Interface**: The user-facing component for data visualization and interaction
-- **Semantic Layer**: Translating underlying data for business consumption
-- **Reporting Platform**: Creating and sharing standardized business reports
-- **Dashboard Environment**: Consolidating KPIs and metrics for monitoring
-- **Self-Service Gateway**: Enabling business users to create their own analyses
-- **Distribution Mechanism**: Sharing insights throughout the organization
-
-As a critical component of Microsoft Fabric, Power BI's capabilities directly impact the overall value of the ecosystem.
 
 ## How Analytics+ Enhances Power BI
 
@@ -74,35 +47,6 @@ Inforiver Analytics+ integrates with Microsoft Fabric through several key touchp
 
 These integration points ensure that Inforiver Analytics+ functions as a natural extension of the Microsoft Fabric environment rather than a disconnected add-on.
 
-## Enhancing Microsoft Fabric Value Propositions
-
-Inforiver Analytics+ enhances several key value propositions of Microsoft Fabric:
-
-### 1. Unified Platform Experience
-- **Fabric Vision**: Single platform for all data and analytics needs
-- **Analytics+ Enhancement**: Extends visualization, analytics, and planning capabilities
-- **Combined Benefit**: More comprehensive solution with fewer gaps or needs for additional tools
-
-### 2. Simplified Data Analysis
-- **Fabric Vision**: Reducing complexity in the data analytics lifecycle
-- **Analytics+ Enhancement**: No-code approach to sophisticated visualization and analysis
-- **Combined Benefit**: Further democratization of data analysis capabilities
-
-### 3. Accelerated Insights
-- **Fabric Vision**: Faster path from data to decision
-- **Analytics+ Enhancement**: Rapid dashboard creation and enhanced performance
-- **Combined Benefit**: Quicker time-to-insight for business decision-makers
-
-### 4. IT-Business Collaboration
-- **Fabric Vision**: Bringing IT and business users together on one platform
-- **Analytics+ Enhancement**: Business-friendly interfaces on enterprise-grade infrastructure
-- **Combined Benefit**: Improved collaboration with appropriate governance
-
-### 5. Enterprise Scalability
-- **Fabric Vision**: Handling enterprise-scale data and user bases
-- **Analytics+ Enhancement**: Performance optimization for large, complex datasets
-- **Combined Benefit**: Enhanced scalability across the analysis lifecycle
-
 ## Positioning for Different User Personas
 
 Within the Microsoft Fabric ecosystem, Inforiver Analytics+ serves different user personas in complementary ways:
@@ -138,18 +82,6 @@ The future development roadmaps of Microsoft Fabric and Inforiver Analytics+ sho
 - **Semantic Layer Evolution**: Ongoing development of business-friendly data models
 
 This alignment suggests that the complementary relationship between Microsoft Fabric and Inforiver Analytics+ will continue to strengthen.
-
-## The "InfoBridge" Vision
-
-Looking ahead, the upcoming "InfoBridge" capability represents a significant evolution in how Inforiver Analytics+ integrates with the Microsoft Fabric ecosystem:
-
-- **Real-Time Data Streaming**: Enhanced connectivity with Fabric's real-time analytics
-- **Cross-Service Orchestration**: Deeper integration with Fabric's various services
-- **Expanded API Surface**: More programmatic integration options
-- **Event-Driven Architecture**: Responsive analytics based on business events
-- **Workflow Automation**: Streamlined analytical processes and insights delivery
-
-This vision further cements Inforiver Analytics+ as a strategic enhancer of the Microsoft Fabric ecosystem.
 
 ## Implementation Considerations
 
