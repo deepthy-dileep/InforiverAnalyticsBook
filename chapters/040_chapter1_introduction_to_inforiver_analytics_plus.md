@@ -39,13 +39,6 @@ Inforiver Analytics+ is a comprehensive solution built around several core compo
 - On-object interactions
 - Reduced dependence on complex DAX
 
-### Planning and Writeback Capabilities
-- Data input and collection mechanisms
-- Scenario modeling tools
-- Allocation methods
-- Workflow integration
-- Version control
-
 ### Integration Framework
 - Seamless Power BI compatibility
 - Drill-through support
@@ -77,7 +70,7 @@ Several key capabilities differentiate Inforiver Analytics+ from both native Pow
 - Consistent data model across processes
 - Streamlined workflow from insight to action
 - Reduced data transfer between systems
-- Single source of truth for analysis and planning
+- Single source of truth for analysis and planning under the Inforiver umbrella
 
 ### 2. Superior Data Handling
 - 10x the data point capacity of native visuals
@@ -187,7 +180,5 @@ Since its initial release, Inforiver Analytics+ has undergone continuous evoluti
 - **Deepening Microsoft Integration**: Alignment with new Power BI features and capabilities
 - **Extending Planning Features**: Enhanced budgeting and forecasting functionality
 - **UX Refinements**: Iterative improvements to the user experience
-
-The July 2024 update exemplifies this evolution, introducing highly anticipated chart types such as Pie, Sunburst, Treemap, Bubble, Quadrant, Scatter, and Radar/polar charts, further expanding the solution's visualization capabilities.
 
 In the following chapters, we'll explore each aspect of Inforiver Analytics+ in detail, from its visualization capabilities to its performance advantages, no-code experience, and integration with the broader Microsoft ecosystem. We'll also examine how organizations across industries are leveraging these capabilities to transform their approach to business intelligence. 
