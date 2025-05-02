@@ -29,9 +29,11 @@ For organizations with specific deployment requirements, direct import in Power 
 1. **Download the Visual**: Obtain the .pbiviz file from the Inforiver website or portal
 2. **Open Power BI Desktop**: Launch your local Power BI Desktop application
 3. **Import Custom Visual**: Click the "..." in the Visualizations pane
-4. **Select "Import from file"**: Browse to the downloaded .pbiviz file
-5. **Confirm Import**: Approve any security prompts that appear
-6. **Verify Installation**: Check that the Inforiver icon appears in your visualization pane
+   <img width="273" alt="image (1230)" src="https://github.com/user-attachments/assets/481abd66-28c9-4757-a1d1-0639d1a6034a" />
+5. **Select "Import from file"**: Browse to the downloaded .pbiviz file
+6. **Confirm Import**: Approve any security prompts that appear
+7. **Verify Installation**: Check that the Inforiver icon appears in your visualization pane
+   <img width="182" alt="image (1232)" src="https://github.com/user-attachments/assets/15fc179e-1180-4b85-8079-dc98c986e8a2" />
 
 This method is useful for controlled environments where AppSource access may be restricted or for testing specific versions before organizational deployment.
 
@@ -171,26 +173,6 @@ For optimal performance, ensure your environment meets these requirements:
 - **Memory**: Sufficient RAM for large dataset handling
 - **Screen Resolution**: Minimum 1366x768 for optimal visualization display
 
-### Organizational Readiness
-
-Prepare your organization for successful implementation:
-
-- **Stakeholder Alignment**: Ensure key stakeholders understand the value proposition
-- **User Training**: Plan for appropriate training based on user roles
-- **Support Structure**: Establish internal support processes
-- **Governance Framework**: Define usage guidelines and best practices
-- **Success Metrics**: Determine how you'll measure implementation success
-
-### Security Considerations
-
-Address security requirements early in the implementation process:
-
-- **Authentication Integration**: Align with existing Identity and Access Management
-- **Data Access Controls**: Ensure proper data security through Power BI permissions
-- **Compliance Verification**: Validate compliance with organizational security policies
-- **Update Procedures**: Establish protocols for secure updates
-- **Audit Capability**: Implement usage auditing if required
-
 ## Deployment Best Practices
 
 To ensure a successful deployment of Inforiver Analytics+, follow these best practices:
@@ -238,14 +220,6 @@ Maintaining your Inforiver Analytics+ implementation involves several ongoing pr
 3. **Cost Optimization**: Regularly review license allocation efficiency
 4. **Vendor Communication**: Maintain relationship with Inforiver support
 5. **Budget Planning**: Incorporate license costs in financial planning
-
-### User Support
-
-1. **Help Desk Integration**: Ensure support staff can address Analytics+ issues
-2. **Knowledge Base**: Maintain up-to-date troubleshooting guides
-3. **Community Engagement**: Participate in Inforiver user communities
-4. **Feedback Loop**: Channel user suggestions to product team
-5. **Continuous Education**: Provide ongoing training for new features
 
 ## Troubleshooting Common Installation Issues
 
