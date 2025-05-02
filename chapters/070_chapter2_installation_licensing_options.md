@@ -13,10 +13,12 @@ The simplest and most common installation method is through Microsoft AppSource:
 1. **Navigate to AppSource**: Visit the Microsoft AppSource marketplace (appsource.microsoft.com)
 2. **Search for Inforiver**: Enter "Inforiver" in the search bar
 3. **Select Analytics+**: Choose the Inforiver Analytics+ visual from the search results
-4. **Get It Now**: Click the "Get it now" button to initiate the installation
-5. **Authentication**: Sign in with your Microsoft account if prompted
-6. **Confirm Installation**: Approve the installation to your Power BI organization
-7. **Verification**: Confirm the visual appears in your Power BI Desktop visualization pane
+   <img width="1291" alt="image (364)" src="https://github.com/user-attachments/assets/9bd53f21-8288-4f35-9267-a7bce9744f70" />
+5. **Get It Now**: Click the "Get it now" button to initiate the installation
+6. **Authentication**: Sign in with your Microsoft account if prompted
+7. **Confirm Installation**: Approve the installation in your Power BI organization
+8. **Verification**: Confirm the visual appears in your Power BI Desktop visualization pane
+<img width="237" alt="image (366)" src="https://github.com/user-attachments/assets/7b8f862d-6a14-415b-a473-3e173ba9a3eb" />
 
 This method ensures you receive the official, certified version of Inforiver Analytics+ and simplifies the update process through AppSource's update mechanisms.
 
