@@ -29,10 +29,12 @@ For organizations with specific deployment requirements, direct import in Power 
 1. **Download the Visual**: Obtain the .pbiviz file from the Inforiver website or portal
 2. **Open Power BI Desktop**: Launch your local Power BI Desktop application
 3. **Import Custom Visual**: Click the "..." in the Visualizations pane
+   
    <img width="273" alt="image (1230)" src="https://github.com/user-attachments/assets/481abd66-28c9-4757-a1d1-0639d1a6034a" />
 5. **Select "Import from file"**: Browse to the downloaded .pbiviz file
 6. **Confirm Import**: Approve any security prompts that appear
 7. **Verify Installation**: Check that the Inforiver icon appears in your visualization pane
+   
    <img width="182" alt="image (1232)" src="https://github.com/user-attachments/assets/15fc179e-1180-4b85-8079-dc98c986e8a2" />
 
 This method is useful for controlled environments where AppSource access may be restricted or for testing specific versions before organizational deployment.
