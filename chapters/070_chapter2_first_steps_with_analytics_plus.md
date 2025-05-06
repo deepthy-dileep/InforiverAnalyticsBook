@@ -26,7 +26,7 @@ Use the links in the visual for additional information:
 
 The Analytics+ visual ships with different modes - chart, card, table, and Gantt. Each mode has a dedicated toolbar that contains customization options specific to it. 
 
-
+<img width="1459" alt="2025-05-06_11h13_22" src="https://github.com/user-attachments/assets/2223e6dc-9bed-4d69-bf19-d6f1a2d4c67d" />
 
 
 ## Assign Data
