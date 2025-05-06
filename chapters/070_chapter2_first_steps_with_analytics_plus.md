@@ -33,17 +33,17 @@ The Analytics+ visual ships with different modes - chart, card, table, and Gantt
 
 For starters, you can assign the Axis and Values visual parameters. We've added a Small Multiples parameter in Card and Table mode to demonstrate the trellis feature in Analytics+. The parameters are the same for Chart, Card, and Table mode, but Gantt requires a different set of input parameters. Based on the data assigned, Analytics+ will create a default visualization. You can then customize and tailor the visual to suit your specific requirements.
 
-Chart mode:
+**Chart mode:**
 <img width="1693" alt="2025-05-06_11h21_43" src="https://github.com/user-attachments/assets/40ec8644-6abc-400f-8592-ec7a7f2544a6" />
 
-Card mode:
+**Card mode:**
 <img width="1710" alt="2025-05-06_11h25_33" src="https://github.com/user-attachments/assets/dc73c627-76f2-4283-a4a8-4510a4cc1077" />
 
-Table mode:
+**Table mode:**
 <img width="1695" alt="2025-05-06_11h31_11" src="https://github.com/user-attachments/assets/52890a84-d100-4659-9b11-e81395515fd2" />
 
-
-
+**Gantt mode:**
+<img width="1701" alt="2025-05-06_11h52_53" src="https://github.com/user-attachments/assets/9d454400-18bf-4b16-a1d2-5b27187c4f1a" />
 
 By following these first steps and guidance, you'll quickly become comfortable with Inforiver Analytics+ and begin creating powerful, insightful visualizations that exceed the capabilities of native Power BI visuals.
 
