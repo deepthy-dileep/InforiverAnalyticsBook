@@ -34,139 +34,6 @@ Configuration panel
 
 ![config panel](https://github.com/user-attachments/assets/2a2b46e9-b2e0-4485-aaf6-7620ea28abd3)
 
-## Key Interface Components
-
-### 1. Toolbar and Global Controls
-
-The toolbar provides access to frequently used functions and global settings:
-
-- **Home**: Return to the default view
-- **Chart Selector**: Choose from 100+ visualization types
-- **View Controls**: Toggle different view modes
-- **Global Settings**: Access application-wide settings
-- **Undo/Redo**: Reverse or reapply recent actions
-- **Export Options**: Save or share your visualization
-- **Help Access**: Get assistance and documentation
-
-The toolbar uses intuitive icons with tooltips to help you identify available functions.
-
-### 2. Field Selection Panel
-
-This panel allows you to configure the data elements in your visualization:
-
-- **Data Fields**: Available columns from your dataset
-- **Field Containers**: Areas to place fields (Rows, Columns, Values, Filters)
-- **Field Properties**: Options to format and configure individual fields
-- **Hierarchy Management**: Controls for working with hierarchical data
-- **Calculation Creation**: Interface for creating calculated fields
-- **Filtering Controls**: Options for filtering data at the field level
-- **Sorting Options**: Controls for determining the sort order
-
-The field selection panel bridges your data structure and your visualization, determining what data appears and how it's organized.
-
-### 3. Visualization Area
-
-The central area displays your current visualization:
-
-- **Data Elements**: The visual representation of your data
-- **Interactive Controls**: Clickable and hoverable elements
-- **Context Menus**: Right-click options specific to different elements
-- **Selection Handles**: Controls for selecting and manipulating elements
-- **Annotations**: Notes and highlights added to the visualization
-- **Reference Elements**: Lines, bands, and other analytical components
-- **Titles and Labels**: Text elements providing context and explanation
-
-This area is the focal point of your work, where your data comes to life visually.
-
-### 4. Configuration Panel
-
-The configuration panel provides detailed control over your visualization's appearance and behavior:
-
-- **Chart Properties**: Settings specific to your selected chart type
-- **Formatting Options**: Controls for colors, fonts, borders, etc.
-- **Axis Settings**: Configuration for scales, labels, and grid lines
-- **Legend Controls**: Options for legend appearance and placement
-- **Analytical Features**: Settings for trend lines, forecasts, etc.
-- **Interactivity Settings**: Configuration for tooltips, clicks, etc.
-- **Conditional Formatting**: Rules-based formatting options
-
-The configuration panel typically organizes settings in collapsible sections to manage complexity.
-
-### 5. Status Bar / Information Area
-
-The bottom area provides context and system information:
-
-- **Data Point Count**: Number of data points displayed
-- **Selection Information**: Details about currently selected elements
-- **Filter Status**: Indication of active filters
-- **Warning Indicators**: Notifications of potential issues
-- **Performance Metrics**: Information about rendering time and memory usage
-- **Version Information**: Current version of Analytics+
-- **License Status**: Information about your license status
-
-This area helps you understand the current state of your visualization and the system.
-
-## Navigation Principles
-
-Inforiver Analytics+ employs several key principles to create an intuitive navigation experience:
-
-### Progressive Disclosure
-
-The interface reveals options progressively to manage complexity:
-
-- **Primary Controls**: Always visible for common tasks
-- **Secondary Controls**: Available with a single click or hover
-- **Tertiary Controls**: Accessible through dialogs or panels when needed
-- **Contextual Revelation**: Options appear based on current context
-- **Progressive Depth**: Simple options first, with advanced options available when needed
-- **Logical Grouping**: Related options kept together in the interface
-- **Visual Hierarchy**: Important controls are visually prominent
-
-This approach prevents overwhelming users while ensuring all capabilities remain accessible.
-
-### Consistent Interaction Patterns
-
-Analytics+ maintains consistent interactions throughout the interface:
-
-- **Click Behavior**: Single click selects, double click edits
-- **Right-Click Menus**: Contextual options available with right click
-- **Drag and Drop**: Movement of fields and elements uses consistent drag mechanics
-- **Selection Models**: Consistent approach to selecting single or multiple items
-- **Keyboard Shortcuts**: Standard shortcuts across the application
-- **Dialog Patterns**: Consistent layout and button placement in all dialogs
-- **Form Interactions**: Standardized input controls and validation
-
-These consistent patterns create predictability, reducing the learning curve.
-
-### Excel-Inspired Familiarity
-
-Many interface elements intentionally mirror Microsoft Excel to leverage existing user knowledge:
-
-- **Cell Selection**: Similar selection model for tabular data
-- **Formula Bar**: Familiar approach to entering calculations
-- **Formatting Controls**: Recognizable formatting options
-- **Ribbon-Like Organization**: Tools organized in a familiar pattern
-- **Right-Click Menus**: Similar context menu approach
-- **Cell Editing**: In-place editing with familiar conventions
-- **Function Library**: Excel-like function naming and syntax
-
-This Excel-inspired approach helps business users transition smoothly to Analytics+.
-
-### Contextual Awareness
-
-The interface adapts based on the current context:
-
-- **Chart-Specific Controls**: Options change based on the selected chart type
-- **Selection-Based Options**: Available actions adjust based on what's selected
-- **Data-Aware Settings**: Options reflect the nature of your data
-- **Status-Sensitive Controls**: Actions enable or disable based on current state
-- **View-Specific Tools**: Available tools vary by current view mode
-- **Role-Based Adaptation**: Interface may adjust based on user permissions
-- **Device-Responsive Design**: Layout adapts to different screen sizes
-
-This contextual sensitivity ensures the interface presents relevant options at the right time.
-
-## Navigating Different Chart Types
 
 Different visualization types in Analytics+ have specialized navigation features:
 
@@ -175,11 +42,19 @@ Different visualization types in Analytics+ have specialized navigation features
 When working with tabular visualizations:
 
 - **Cell Selection**: Click to select individual cells
-- **Range Selection**: Click and drag to select cell ranges
+  
+  ![Cell selection](https://github.com/user-attachments/assets/2434664e-7bc0-4237-a252-68a183219662)
+    
 - **Column/Row Headers**: Click headers to select entire columns or rows
+
+   ![Row and column headers](https://github.com/user-attachments/assets/4bfc9446-9385-4f62-a19f-0a4aabb93394)
+
 - **Resizing**: Drag column/row boundaries to resize
 - **Sorting**: Click on headers to sort data
 - **Expanding/Collapsing**: Toggle hierarchical levels with +/- controls
+  
+   ![Expand Collapse](https://github.com/user-attachments/assets/8d8017e0-94c9-4f7c-a85d-6ebe8e9a60bb)
+
 - **Cell Editing**: Double-click or press F2 to edit cell content (in editable tables)
 
 These table-specific interactions provide Excel-like control over tabular data.
