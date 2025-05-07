@@ -26,6 +26,9 @@ The Inforiver Analytics+ interface consists of several key components organized 
 
 This layout is designed to provide easy access to all necessary tools while maximizing the space available for your visualization.
 
+Toolbar, data management, and visualization area:
+
+
 ## Key Interface Components
 
 ### 1. Toolbar and Global Controls
