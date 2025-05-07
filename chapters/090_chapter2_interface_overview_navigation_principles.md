@@ -28,7 +28,7 @@ This layout is designed to provide easy access to all necessary tools while maxi
 
 Toolbar, data management, and visualization area:
 
-![Layout](images/image(585).png)
+![layout](https://github.com/user-attachments/assets/5383f1b7-4d06-40e5-9a60-8aadfa13aab5)
 
 ## Key Interface Components
 
