@@ -64,12 +64,32 @@ These table-specific interactions provide Excel-like control over tabular data.
 When working with graphical charts:
 
 - **Data Point Selection**: Click data points to select them
+
+![Data point selection](https://github.com/user-attachments/assets/1807e1c8-c934-4546-a6c8-6486440b4815)
+
 - **Series Selection**: Click on legend items to select entire series
-- **Axis Zoom**: Use zoom controls to focus on specific data ranges
+
+![Legend based selection](https://github.com/user-attachments/assets/61ebe805-6db0-42b6-923d-47cbeee88a1c)
+
 - **Pan and Scroll**: Navigate through large datasets
-- **Drill Operations**: Access drill-down and drill-up functionality
+
+![Scroll](https://github.com/user-attachments/assets/87a22d30-d81e-4ab0-80e1-f0cc19047e1d)
+
+- **Drill Operations**: Access drill-down and drill-up functionality for hierarchical datasets.
+
+![Axis zoom](https://github.com/user-attachments/assets/62224ced-d25d-436b-a503-1fbcf0a31002)
+  
 - **Lasso Selection**: Select multiple data points by drawing around them
-- **Chart Element Editing**: Directly manipulate chart elements
+
+![Lasso](https://github.com/user-attachments/assets/225439c6-0754-43c3-92f8-894f8b06a03d)
+
+- **Sync Highlight**: The data points selected in one Analytics+ visual will be mirrored in other Analytics+ visuals and small multiple panels in the same visual
+
+![Sync Highlight](https://github.com/user-attachments/assets/2d511cc7-3f05-4b60-adb3-c268e9d82bf7)
+
+- **Chart Element Editing**: Directly manipulate chart elements with the on-object interaction menus.
+
+![On-object interaction](https://github.com/user-attachments/assets/f0952bc6-c463-4175-8999-ba6f53e24f8b)
 
 These interactions enable exploration and refinement of visual charts.
 
