@@ -30,6 +30,10 @@ Toolbar, data management, and visualization area:
 
 ![layout](https://github.com/user-attachments/assets/5383f1b7-4d06-40e5-9a60-8aadfa13aab5)
 
+Configuration panel
+
+![config panel](https://github.com/user-attachments/assets/2a2b46e9-b2e0-4485-aaf6-7620ea28abd3)
+
 ## Key Interface Components
 
 ### 1. Toolbar and Global Controls
