@@ -102,12 +102,17 @@ When working with small multiples (trellis) visualizations:
   ![Cross panel selection](https://github.com/user-attachments/assets/0472de2e-6fac-46aa-89cd-ce5c53a93fd3)
 
 - **Panel Filtering**: Show/hide specific panels
-- 
+  
    ![Panel filtering](https://github.com/user-attachments/assets/b5de04f8-4b0d-43ad-afd0-cffec52059c3)
 
-- **Synchronization Controls**: Toggle synchronized scroll across panels for small multiple tables
-- 
+- **Synchronization Controls**: Toggle synchronized scroll across panels for small multiple tables for side-by-side comparisons
+
+  ![Sync scroll](https://github.com/user-attachments/assets/c68c408b-70ef-4b4a-a897-e8a9e157957c)
+
 - **Layout Adjustment**: Modify the grid layout of panels
+
+ ![Layout adjustment](https://github.com/user-attachments/assets/7acd83a4-e6b9-4242-aa3c-195a3a2aad05)
+
 - **Panel Expansion**: Temporarily expand a panel for a detailed view
 
   ![Focus mode](https://github.com/user-attachments/assets/44b25412-30ac-4308-8d17-eb03e03b6458)
