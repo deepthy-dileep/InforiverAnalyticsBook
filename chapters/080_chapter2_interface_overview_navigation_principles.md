@@ -97,13 +97,20 @@ These interactions enable exploration and refinement of visual charts.
 
 When working with small multiples (trellis) visualizations:
 
-- **Panel Selection**: Select individual panels
 - **Cross-Panel Selection**: Select the same element across multiple panels
-- **Panel Arrangement**: Reorder and reorganize panels
+
+  ![Cross panel selection](https://github.com/user-attachments/assets/0472de2e-6fac-46aa-89cd-ce5c53a93fd3)
+
 - **Panel Filtering**: Show/hide specific panels
-- **Synchronization Controls**: Toggle synchronized behaviors across panels
+- 
+   ![Panel filtering](https://github.com/user-attachments/assets/b5de04f8-4b0d-43ad-afd0-cffec52059c3)
+
+- **Synchronization Controls**: Toggle synchronized scroll across panels for small multiple tables
+- 
 - **Layout Adjustment**: Modify the grid layout of panels
-- **Panel Expansion**: Temporarily expand a panel for detailed view
+- **Panel Expansion**: Temporarily expand a panel for a detailed view
+
+  ![Focus mode](https://github.com/user-attachments/assets/44b25412-30ac-4308-8d17-eb03e03b6458)
 
 These specialized controls help manage the complexity of small multiples displays.
 
