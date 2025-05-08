@@ -51,6 +51,9 @@ When working with tabular visualizations:
 
 - **Resizing**: Drag column/row boundaries to resize
 - **Sorting**: Click on headers to sort data
+
+  ![Sort](https://github.com/user-attachments/assets/fd580141-b121-49e1-8646-96f3d0ab519c)
+
 - **Expanding/Collapsing**: Toggle hierarchical levels with +/- controls
   
    ![Expand Collapse](https://github.com/user-attachments/assets/8d8017e0-94c9-4f7c-a85d-6ebe8e9a60bb)
