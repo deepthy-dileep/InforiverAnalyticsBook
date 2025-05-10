@@ -11,14 +11,9 @@ The Inforiver Analytics+ interface consists of several key components organized 
 │ Toolbar and Global Controls                                   │
 ├───────────┬───────────────────────────────────┬───────────────┤
 │           │                                   │               │
-│           │                                   │               │
-│           │                                   │               │
 │ Field     │                                   │ Configuration │
 │ Selection │         Visualization Area        │     Panel     │
 │ Panel     │                                   │               │
-│           │                                   │               │
-│           │                                   │               │
-│           │                                   │               │
 ├───────────┴───────────────────────────────────┴───────────────┤
 │ Status Bar / Information Area                                 │
 └───────────────────────────────────────────────────────────────┘
