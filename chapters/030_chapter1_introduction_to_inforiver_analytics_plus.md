@@ -4,7 +4,7 @@ Inforiver Analytics+ is a unified platform for data visualization, planning and 
 
 Inforiver Analytics+ delivers key features that are available in other BI tools, but are missing in Power BI, thus facilitating migration and consolidation in the Microsoft stack.
 
-![analytics+overview](https://github.com/user-attachments/assets/b7a5f235-95a1-4485-b8d8-bc324f1a24b3)
+![Analytics Overview](https://github.com/user-attachments/assets/b7a5f235-95a1-4485-b8d8-bc324f1a24b3)
 
 ## Core Components of Analytics+
 

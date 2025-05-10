@@ -28,11 +28,11 @@ This layout is designed to provide easy access to all necessary tools while maxi
 
 Toolbar, data management, and visualization area:
 
-![layout](https://github.com/user-attachments/assets/5383f1b7-4d06-40e5-9a60-8aadfa13aab5)
+![Layout](https://github.com/user-attachments/assets/5383f1b7-4d06-40e5-9a60-8aadfa13aab5)
 
 Configuration panel
 
-![config panel](https://github.com/user-attachments/assets/2a2b46e9-b2e0-4485-aaf6-7620ea28abd3)
+![Config Panel](https://github.com/user-attachments/assets/2a2b46e9-b2e0-4485-aaf6-7620ea28abd3)
 
 
 Different visualization types in Analytics+ have specialized navigation features:
