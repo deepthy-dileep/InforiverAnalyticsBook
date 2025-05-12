@@ -18,7 +18,7 @@ COVER_IMAGE := images/cover.jpg
 COVER_IMAGE_EPUB := images/cover.jpg
 HIGHLIGHT := highlight/pygments.theme
 CSS_FILE = styles.css
-EBOOK_CONVERT := /Applications/calibre.app/Contents/MacOS/ebook-convert
+EBOOK_CONVERT := /Volumes/Extreme\ SSD/Applications/calibre.app/Contents/MacOS/ebook-convert
 
 # ARGS
 PDF_ARGS = -f markdown-raw_tex \
@@ -28,7 +28,7 @@ PDF_ARGS = -f markdown-raw_tex \
 		   -V documentclass=book \
 		   -V colorlinks \
 		   -V urlcolor=NavyBlue \
-		   --filter /Library/Frameworks/Python.framework/Versions/3.11/bin/pandoc-latex-environment \
+		   --filter /Users/devarajns/Library/Python/3.9/bin/pandoc-latex-environment \
 		   --variable linestretch=1.2  \
 		   --include-before-body others/cover.tex \
 		   -V header-includes="\\usepackage{fontspec} \
