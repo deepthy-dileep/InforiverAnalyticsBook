@@ -19,10 +19,35 @@ Analytics+ addresses these challenges by democratizing forecasting capabilities 
 
 ## Trend Analysis Capabilities
 
-Before forecasting future values, business users need sophisticated tools to identify and understand historical patterns:
+Before forecasting future values, business users need sophisticated tools to identify and understand historical patterns. Analytics+ provides comprehensive trend line functionality that helps users visualize and analyze data trends.
 
-![Trend Analysis Dashboard](../images/trend_analysis.png)
-*Figure 6.2.1: Analytics+ Trend Analysis Dashboard*
+### Trend Line Types and Customization
+
+Analytics+ offers multiple trend line types to match different data patterns:
+
+- **Linear**: Best for data with steady, consistent growth or decline
+- **Exponential**: Ideal for data showing percentage growth over time
+- **Logarithmic**: Useful for data that increases or decreases quickly then levels off
+- **Polynomial**: Appropriate for data with multiple rises and falls
+
+Users can customize trend lines with various styling options:
+- Line style (solid, dashed, dotted)
+- Line thickness
+- Line color
+- Measure selection (plot trend lines based on any measure or variance)
+
+![Trend Line Options](../images/trend_line_options.png)
+*Figure 6.2.1: Trend Line Customization in Analytics+*
+
+### Mathematical Equation Display
+
+Analytics+ can display the underlying mathematical equation that drives each trend line, helping users understand the precise relationship between variables:
+
+- Font color customization
+- Rotation control
+- Position offset adjustment
+
+This feature bridges the gap between visual analysis and mathematical understanding, making trend analysis more accessible to business users without statistical expertise.
 
 ### Pattern Detection and Decomposition
 
@@ -40,12 +65,50 @@ The decomposition visualization clearly illustrates how these components combine
 
 ```
 Example Trend Interpretation:
-"This revenue series shows a 12.3% annual growth trend with 
-strong weekly seasonality (weekends 63% below weekday average) 
-and quarterly seasonality (Q4 28% above annual average). 
-After accounting for these patterns, three significant positive 
+"This revenue series shows a 12.3% annual growth trend with
+strong weekly seasonality (weekends 63% below weekday average)
+and quarterly seasonality (Q4 28% above annual average).
+After accounting for these patterns, three significant positive
 anomalies remain, all corresponding to product launch events."
 ```
+
+### Reference Lines and Bands
+
+Analytics+ enhances trend analysis with reference lines and bands that provide statistical context:
+
+**Reference Lines**:
+- Add horizontal, vertical, or diagonal reference lines
+- Set fixed values or use statistical measures (mean, median, percentiles)
+- Customize line style, thickness, and color
+- Add labels with formatting options
+- Apply to specific series or all series
+
+**Reference Bands**:
+- Create bands between two reference values
+- Use statistical ranges (standard deviation, percentiles)
+- Customize fill color and transparency
+- Add border lines with style options
+- Include labels with positioning control
+
+These features help users quickly identify when data crosses important thresholds or falls within expected ranges.
+
+### Error Bars for Uncertainty Visualization
+
+Analytics+ provides comprehensive error bar functionality to visualize data variability and uncertainty:
+
+- **Multiple Display Options**:
+  - By Percentage: Set upper/lower percentage limits
+  - By Value: Assign specific upper/lower bound values
+  - By Field: Use measure values as upper/lower bounds
+- **Relationship Control**: Choose absolute or relative relationship to measure
+- **Symmetrical Option**: Ensure consistent difference between upper/lower bounds
+- **Customizable Appearance**:
+  - Match series color or set custom colors
+  - Adjust line thickness and marker size
+  - Choose from multiple marker shapes (line/circle/diamond/square/triangle)
+- **Error Area Visualization**: Plot error bands across axis categories with fill/line styling options
+
+Error bars are particularly valuable for trend analysis as they help users understand the reliability of the observed patterns and make more informed decisions about future projections.
 
 ### Correlation with Business Drivers
 
@@ -319,4 +382,4 @@ The trends and forecasting capabilities in Analytics+ represent a significant ad
 4. **Make better-informed decisions** based on probabilistic forecasts rather than point estimates
 5. **Maintain forecast consistency** across organizational hierarchies and time periods
 
-This democratization of forecasting capabilities enables a more agile, forward-looking approach to business planning and decision-making across all levels of the organization. 
+This democratization of forecasting capabilities enables a more agile, forward-looking approach to business planning and decision-making across all levels of the organization.

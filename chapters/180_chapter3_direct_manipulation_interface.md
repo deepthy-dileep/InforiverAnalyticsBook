@@ -1,6 +1,6 @@
 # 3.7 Direct Manipulation Interface
 
-Analytics+ is distinguished by its innovative direct manipulation interface that enables users to interact with data visualizations in intuitive, immediate ways. This approach moves beyond the traditional form-based configuration of business intelligence tools to provide a more natural, immediate connection between users and their data. This section explores the direct manipulation philosophy, interactive selection and filtering techniques, and in-situ editing capabilities that make Analytics+ uniquely accessible and powerful.
+Analytics+ is distinguished by its innovative direct manipulation interface that enables users to interact with data visualizations in intuitive, immediate ways. This approach moves beyond the traditional form-based configuration of business intelligence tools to provide a more natural, immediate connection between users and their data. As demonstrated throughout the Analytics+ documentation, users can directly manipulate charts, tables, and dashboard elements with simple gestures and clicks, making complex data visualization accessible to business users of all skill levels. This section explores the direct manipulation philosophy, interactive selection and filtering techniques, and in-situ editing capabilities that make Analytics+ uniquely accessible and powerful.
 
 ## Direct Manipulation Philosophy
 
@@ -20,21 +20,6 @@ The core principles guiding the direct manipulation interface include:
 
 These principles create an interface that feels more natural and reduces the cognitive load associated with complex analytical tasks, making sophisticated visualization accessible to a wider range of business users.
 
-```javascript
-// Direct manipulation philosophy implementation
-{
-  interactionModel: {
-    directManipulation: true,
-    feedbackLatency: "immediate",
-    historySteps: 50,
-    interactionDiscoverability: "progressive",
-    spatialConsistency: true,
-    contextualControls: true,
-    gestureSupport: true
-  }
-}
-```
-
 ### From Intention to Action
 
 The direct manipulation approach creates a more efficient path from analytical intention to visualization action:
@@ -53,15 +38,14 @@ This streamlined intention-to-action pathway accelerates the analytical process 
 
 Analytics+ leverages users' familiarity with Excel to create an instantly recognizable interaction experience:
 
-- **Cell Selection**: Familiar click and drag to select items
-- **Direct Editing**: Double-click to edit values and formulas
-- **Right-Click Menus**: Contextual commands similar to Excel
-- **Format Painter**: Copying formatting between elements
-- **Fill Handle**: Extending patterns and series
-- **Column/Row Operations**: Resizing, hiding, and freezing
-- **Keyboard Shortcuts**: Excel-consistent keyboard commands
+- **Cell Selection**: Familiar click and drag to select items, as seen in the Analytics+ tables
+- **Direct Editing**: Double-click to edit values and formulas, particularly useful in the "Adding calculated measures" functionality
+- **Right-Click Menus**: Contextual commands similar to Excel, providing relevant options based on the selected element
+- **Format Painter**: Copying formatting between elements, allowing for consistent styling across visualizations
+- **Column/Row Operations**: Resizing, hiding, and freezing columns or rows in tables, as documented in the Table toolbar section
+- **Keyboard Shortcuts**: Excel-consistent keyboard commands, detailed in the "21. Keyboard shortcuts" documentation
 
-This Excel-inspired approach transfers users' existing skills to the visualization context, significantly reducing the learning curve and increasing productivity from the first use.
+As shown in the documentation, users can directly manipulate tables with operations like row aggregation, column resizing, and hierarchical data management that mirror Excel's interaction patterns. This Excel-inspired approach transfers users' existing skills to the visualization context, significantly reducing the learning curve and increasing productivity from the first use.
 
 ## Interactive Selection and Filtering
 
@@ -71,47 +55,28 @@ Analytics+ provides sophisticated capabilities for selecting and filtering data 
 
 Comprehensive selection capabilities include:
 
-- **Click Selection**: Selecting individual data points, series, or categories
-- **Rectangle Selection**: Dragging to select multiple elements
-- **Lasso Selection**: Free-form selection of data points
-- **Path Selection**: Selecting along a drawn path
-- **Categorical Selection**: Selecting all items in a category
-- **Series Selection**: Selecting all points in a data series
-- **Hierarchical Selection**: Selecting at different hierarchy levels
+- **Click Selection**: Selecting individual data points, series, or categories in charts and tables
+- **Rectangle Selection**: Dragging to select multiple elements, as demonstrated in the "14. Data selection" documentation
+- **Categorical Selection**: Selecting all items in a category, particularly useful in hierarchical visualizations
+- **Series Selection**: Selecting all points in a data series, enabling quick comparative analysis
+- **Hierarchical Selection**: Selecting at different hierarchy levels, as detailed in the "15. Working with hierarchies" section that covers hierarchies in charts, cards, and tables
 - **Inverse Selection**: Selecting everything except specified elements
 
-These diverse selection mechanisms provide the flexibility to precisely isolate the data subsets most relevant to specific analytical questions.
-
-```javascript
-// Interactive selection configuration
-{
-  selectionCapabilities: {
-    modes: ["single", "multiple", "lasso", "rectangle", "path"],
-    levelControl: true,
-    seriesSelection: true,
-    categorySelection: true,
-    crossSelect: true,
-    persistentSelection: true,
-    selectionHistory: true,
-    selectionSets: true
-  }
-}
-```
+The documentation showcases how users can directly interact with hierarchical data in charts, cards, and tables, with specific support for unbalanced hierarchies and single child hierarchies. These diverse selection mechanisms provide the flexibility to precisely isolate the data subsets most relevant to specific analytical questions.
 
 ### Multi-Level Filtering
 
 Sophisticated filtering capabilities include:
 
-- **Visual Filters**: Filtering by directly manipulating visualization elements
-- **Cross-Visualization Filtering**: Applying selections from one chart to others
-- **Hierarchical Filtering**: Filtering at different levels of data hierarchies
-- **Progressive Filtering**: Building filter criteria incrementally
-- **Filter Visualization**: Showing the impact of filters on data coverage
+- **Visual Filters**: Filtering by directly manipulating visualization elements, as shown in the storyboard documentation
+- **Cross-Visualization Filtering**: Applying selections from one chart to others through the "Element interactions" feature in storyboards
+- **Hierarchical Filtering**: Filtering at different levels of data hierarchies, as detailed in the "15. Working with hierarchies" section
+- **Progressive Filtering**: Building filter criteria incrementally, allowing for refined data exploration
 - **Filter Sets**: Saving and applying combinations of filter conditions
-- **Temporary Filters**: Exploration without altering saved views
-- **Filter History**: Tracking and navigating through filtering steps
+- **Temporary Filters**: Exploration without altering saved views, supporting ad-hoc analysis
+- **Context Awareness**: Leveraging the "18. Context awareness" feature that allows visualizations to respond to the current filtering context
 
-These filtering capabilities enable users to quickly focus on relevant data subsets and explore different analytical perspectives without complex configuration.
+The documentation highlights how users can insert slicers in storyboards to create interactive filtering experiences and use element interactions to create coordinated filtering across multiple visualizations. These filtering capabilities enable users to quickly focus on relevant data subsets and explore different analytical perspectives without complex configuration.
 
 ### Brushing and Linking
 
@@ -131,15 +96,14 @@ These brushing and linking capabilities enable powerful multi-visualization anal
 
 Sophisticated data exploration capabilities include:
 
-- **Semantic Zoom**: Changing representation detail based on zoom level
-- **Fish-eye Views**: Distorting visualization to show focus area in detail
-- **Detail on Demand**: Showing additional information for selected elements
-- **Overview+Detail**: Showing both summary and detailed views simultaneously
-- **Expand/Collapse**: Controlling the visibility of hierarchical details
-- **Highlighting with Context**: Emphasizing selected data while maintaining overall context
-- **Progressive Disclosure**: Revealing details as users express interest
+- **Semantic Zoom**: Changing representation detail based on zoom level, as implemented in the Gantt chart's "Zoom levels" feature
+- **Detail on Demand**: Showing additional information for selected elements, demonstrated in the annotations feature
+- **Overview+Detail**: Showing both summary and detailed views simultaneously, as seen in the "16. Summary tables" functionality
+- **Expand/Collapse**: Controlling the visibility of hierarchical details, a core feature documented in the hierarchies section
+- **Highlighting with Context**: Emphasizing selected data while maintaining overall context, implemented through conditional formatting
+- **Progressive Disclosure**: Revealing details as users express interest, particularly evident in drill-down capabilities
 
-These focus+context techniques help users maintain orientation within complex datasets while exploring specific areas of interest in detail.
+The documentation showcases these techniques in action, such as the Gantt chart's zoom levels that allow users to define up to 5 levels of zoom detail from high-level (Year/Quarter/Month) to detailed views (Day/Hour/Minute). Similarly, the hierarchical data handling in charts, cards, and tables demonstrates how users can expand and collapse hierarchical details while maintaining context. These focus+context techniques help users maintain orientation within complex datasets while exploring specific areas of interest in detail.
 
 ## In-Situ Editing and Configuration
 
@@ -149,31 +113,15 @@ Analytics+ enables direct editing and configuration within the visualization its
 
 Comprehensive in-place editing capabilities include:
 
-- **Direct Text Editing**: Modifying titles, labels, and annotations directly
-- **Color Picking**: Changing colors by clicking on visual elements
-- **Size Adjustment**: Resizing elements through drag handles
-- **Position Control**: Moving elements by dragging
-- **Value Editing**: Changing data values directly in some visualizations
-- **Format Control**: Adjusting number formats through contextual menus
-- **Style Adjustment**: Modifying visual styles directly on elements
+- **Direct Text Editing**: Modifying titles, labels, and annotations directly, as shown in the "Working with textboxes" documentation
+- **Color Picking**: Changing colors by clicking on visual elements, demonstrated in the conditional formatting features
+- **Size Adjustment**: Resizing elements through drag handles, as illustrated in the storyboard documentation with animated examples of resizing elements
+- **Position Control**: Moving elements by dragging, shown in the "Re-arranging elements" section of the storyboard documentation
+- **Value Editing**: Changing data values directly in some visualizations, particularly in tables and cards
+- **Format Control**: Adjusting number formats through contextual menus, as detailed in the formatting options
+- **Style Adjustment**: Modifying visual styles directly on elements, demonstrated in the "Element customizations" section
 
-These direct manipulation capabilities eliminate the need to navigate complex property panels, accelerating the process of refining visualizations to communicate insights effectively.
-
-```javascript
-// In-situ editing configuration
-{
-  inSituEditing: {
-    enabledElements: ["titles", "labels", "annotations", "axes", "legends", "dataPoints"],
-    directTextEdit: true,
-    colorPicker: "contextual",
-    resizeHandles: true,
-    dragSupport: true,
-    valueEditing: { enabled: true, validation: "immediate" },
-    formatControls: "inline",
-    styleControls: "contextual"
-  }
-}
-```
+The documentation provides animated examples of these interactions, such as resizing and rearranging elements in storyboards with simple drag operations. As shown in the storyboard documentation, users can "click and drag the element to the desired position" when rearranging dashboard elements. These direct manipulation capabilities eliminate the need to navigate complex property panels, accelerating the process of refining visualizations to communicate insights effectively.
 
 ### Contextual Controls
 
@@ -193,29 +141,28 @@ These contextual controls provide sophisticated capabilities without overwhelmin
 
 Direct manipulation for changing visualization types includes:
 
-- **Drag-to-Change**: Transforming chart types through simple drag actions
-- **Visual Previews**: Showing how data would appear in different chart types
-- **Compatible Transformations**: Offering only appropriate chart type changes
+- **Visual Previews**: Showing how data would appear in different chart types, as demonstrated in the Quick charts documentation
+- **Compatible Transformations**: Offering only appropriate chart type changes based on the data structure
 - **Property Preservation**: Maintaining applicable settings during transformation
 - **Layout Optimization**: Automatically adjusting layout for new chart types
 - **Configuration Transfer**: Intelligently mapping settings between chart types
-- **Transition Animation**: Visually showing the transformation process
+- **Chart Type Gallery**: Providing a comprehensive library of over 50+ chart types that can be applied to visualize varied use cases, as mentioned in the Charts documentation
 
-These transformation capabilities enable rapid exploration of different visualization approaches without tedious reconfiguration, accelerating the process of finding the most effective representation for specific data.
+The Quick charts documentation showcases how users can easily switch between different chart types like Treemap, Sunburst, Waterfall, Marimekko, and other specialized visualizations with minimal reconfiguration. The documentation highlights that "Analytics+ offers a wide range of charts that can be rendered in just a few clicks," demonstrating the simplicity of chart transformation. These transformation capabilities enable rapid exploration of different visualization approaches without tedious reconfiguration, accelerating the process of finding the most effective representation for specific data.
 
 ### Direct Data Mapping
 
 Intuitive data-to-visualization mapping includes:
 
-- **Field Drag-and-Drop**: Assigning data fields directly to visual elements
-- **Visual Mapping Indicators**: Showing where fields can be mapped
+- **Field Drag-and-Drop**: Assigning data fields directly to visual elements, as demonstrated in the "Assigning data" section of the storyboard documentation
+- **Visual Mapping Indicators**: Showing where fields can be mapped in the interface
 - **Preview Feedback**: Instantly showing the effect of field mapping changes
 - **Role Reassignment**: Changing how fields are used in the visualization
 - **Field Replacement**: Swapping one data field for another
-- **Hierarchy Building**: Creating hierarchies through field arrangement
-- **Measure Transformation**: Changing aggregation or calculation methods
+- **Hierarchy Building**: Creating hierarchies through field arrangement, as detailed in the "15. Working with hierarchies" documentation
+- **Measure Transformation**: Changing aggregation or calculation methods, as shown in the "Adding calculated measures" documentation
 
-These direct mapping capabilities make the relationship between data and visualization elements explicit and intuitive, helping users understand and control how their data is represented visually.
+The documentation provides specific examples of these mapping capabilities, such as in the Gantt chart documentation where users can "map the fields to the Milestone bucket" or assign "tasks and subtasks to the axis visual parameter." Similarly, the "Advanced pivot" section demonstrates how users can directly manipulate data fields to create sophisticated data structures. These direct mapping capabilities make the relationship between data and visualization elements explicit and intuitive, helping users understand and control how their data is represented visually.
 
 ## Advanced Interaction Patterns
 
@@ -235,27 +182,6 @@ Comprehensive touch interaction capabilities include:
 
 These touch capabilities make Analytics+ fully functional on tablets and touch-enabled devices, supporting modern mobile workflows.
 
-```javascript
-// Multi-touch and gesture configuration
-{
-  touchInteraction: {
-    gestures: {
-      tap: { action: "select" },
-      doubleTap: { action: "drill" },
-      longPress: { action: "contextMenu" },
-      pinch: { action: "zoom" },
-      spread: { action: "expand" },
-      swipe: { action: "filter" },
-      twoFingerDrag: { action: "pan" },
-      rotate: { action: "perspective" }
-    },
-    multiTouch: true,
-    touchPrecision: "enhanced",
-    touchFeedback: true
-  }
-}
-```
-
 ### Keyboard Integration
 
 Sophisticated keyboard support includes:
@@ -274,15 +200,12 @@ These keyboard capabilities enhance productivity for power users and ensure acce
 
 Comprehensive analytical journey tracking includes:
 
-- **Interaction Timeline**: Recording the sequence of user interactions
 - **State Bookmarking**: Saving specific analytical states
-- **Visual History Browser**: Graphically navigating through exploration path
 - **Branching Exploration**: Supporting multiple analytical branches
 - **Shareable Journeys**: Exporting and sharing analytical paths
-- **Journey Replay**: Stepping through previous analysis sequences
-- **Annotation Integration**: Adding notes to exploration history
+- **Annotation Integration**: Adding notes to exploration history, as demonstrated in the "Annotations" section of the storyboard documentation
 
-These history capabilities support non-linear analytical workflows, enabling users to explore multiple avenues and return to previous states without losing their analytical context.
+The documentation shows how annotations can be used to capture analytical context and insights. As described in the Annotations documentation, "Annotations are a great way to add context and capture perspective in your dashboards. Multiple users can collaborate to provide a full picture of the data being visualized." Users can create annotations at both the canvas level and for specific data points, providing rich context for their analytical journey. The documentation also demonstrates how users can use the "Backup and restore" functionality to preserve analytical states. These history capabilities support non-linear analytical workflows, enabling users to explore multiple avenues and return to previous states without losing their analytical context.
 
 ### Progressive Disclosure
 
@@ -315,21 +238,6 @@ Applications for exploratory analysis include:
 - **Iterative Refinement**: Progressively focusing on relevant insights
 
 These applications help business users conduct sophisticated exploratory analysis without formal analytical training, accelerating insight discovery.
-
-```javascript
-// Ad hoc exploration configuration
-{
-  explorationWorkflow: {
-    startPoint: "overview",
-    selectionFlow: "cross-filter",
-    drillPath: "natural-hierarchy",
-    comparisonMode: "side-by-side",
-    historyTracking: true,
-    discoverabilityLevel: "progressive",
-    explorationGuidance: "subtle"
-  }
-}
-```
 
 ### Presentation Preparation
 
@@ -423,6 +331,8 @@ These quality benefits lead to more comprehensive, nuanced understanding of busi
 
 The direct manipulation interface in Analytics+ represents a significant advancement in business visualization interaction within Power BI. By enabling users to interact directly with visualizations through intuitive, immediate actions, Analytics+ reduces the gap between analytical intent and visualization outcomes.
 
-The combination of Excel-inspired familiarity, powerful selection and filtering capabilities, in-situ editing, and advanced interaction patterns creates an environment where business users can conduct sophisticated visual analysis without specialized technical skills. The resulting benefits—analytical accessibility, analysis efficiency, and insight quality—deliver tangible business value through more widespread, effective use of data visualization for decision support.
+The combination of Excel-inspired familiarity, powerful selection and filtering capabilities, in-situ editing, and advanced interaction patterns creates an environment where business users can conduct sophisticated visual analysis without specialized technical skills. As demonstrated throughout the documentation, from the storyboard's drag-and-drop dashboard creation to the Gantt chart's interactive timeline manipulation, Analytics+ consistently applies direct manipulation principles to make complex data visualization accessible and intuitive.
 
-In the next chapter, we'll explore the enterprise capabilities of Analytics+, examining how its security, governance, scalability, and integration features make it suitable for deployment across large organizations. 
+The resulting benefits—analytical accessibility, analysis efficiency, and insight quality—deliver tangible business value through more widespread, effective use of data visualization for decision support. The documentation showcases numerous examples of how these direct manipulation capabilities translate into practical business applications, from creating interactive dashboards with tabbed navigation to building sophisticated Gantt charts for project management.
+
+In the next chapter, we'll explore the enterprise capabilities of Analytics+, examining how its security, governance, scalability, and integration features make it suitable for deployment across large organizations. We'll also delve into the Visual Formula Engine, which extends the direct manipulation paradigm to calculations and business logic.

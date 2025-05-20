@@ -41,13 +41,41 @@ These multi-directional capabilities allow analysts to follow their train of tho
 
 ```
 Example Exploration Path:
-"Starting with annual revenue by product category, drill down 
-to quarterly performance of top sub-category, pivot to customer 
-segment view of that sub-category, drill down to specific 
-high-value customers, then explore their purchase patterns over 
-time, and finally analyze product attribute preferences within 
+"Starting with annual revenue by product category, drill down
+to quarterly performance of top sub-category, pivot to customer
+segment view of that sub-category, drill down to specific
+high-value customers, then explore their purchase patterns over
+time, and finally analyze product attribute preferences within
 that customer segment."
 ```
+
+#### Hierarchical Drill-Down Implementation
+
+Analytics+ provides sophisticated hierarchical drill-down capabilities across all visualization types:
+
+- **Drill-Down Navigation**: Click the drill-down icon (▶) to navigate to the next level in the hierarchy
+- **Roll-Up Navigation**: Click the roll-up icon (◀) to navigate back to higher levels
+- **Full Expansion**: Expand the entire hierarchy to its lowest level with a single click
+- **Level-Specific Navigation**: Jump directly to a specific level in the hierarchy
+- **Category Selection**: Filter to specific categories within a hierarchy level
+- **Expand/Collapse Control**: Selectively expand or collapse specific branches of the hierarchy
+
+These hierarchical navigation features work consistently across charts, cards, and tables, providing a unified exploration experience regardless of visualization type.
+
+#### Handling Complex Hierarchies
+
+Analytics+ includes specialized capabilities for working with real-world hierarchical data structures:
+
+- **Unbalanced Hierarchies**: Properly handle hierarchies where branches have different depths
+- **Ragged Hierarchy Support**: Option to suppress blank rows in uneven hierarchies
+- **Single-Child Hierarchy Options**: Multiple display options for parent-child relationships:
+  - **All**: Display the complete hierarchy with all nodes
+  - **Parent Only**: Hide leaf nodes that are single children
+  - **Parent (Multi-level)**: Hide all single-child nodes at any level
+  - **Single Child Level as Parent**: Replace immediate parent nodes with their single children
+  - **Single Child as Parent**: Replace entire parent chain with leaf node when all are single children
+
+These capabilities ensure that hierarchical data is presented in the most meaningful and efficient way for analysis.
 
 ### Contextual Drill-Down
 
@@ -59,9 +87,35 @@ Maintain analytical relevance through context-aware exploration:
 - **Selection Memory**: Preserve selections when changing visualization perspectives
 - **Analytical Bookmarking**: Save exploration points for returning to specific states
 - **Guided Analysis Paths**: Suggested exploration routes based on data characteristics
+- **Synchronized Highlighting**: Maintain selection context across multiple visualizations
 
 ![Contextual Drill-Down](../images/contextual_drilldown.png)
 *Figure 6.6.2: Contextual Drill-Down with Preserved Filters in Analytics+*
+
+#### Advanced Data Selection Techniques
+
+Analytics+ provides sophisticated data selection capabilities that enhance the contextual drill-down experience:
+
+- **Single-Click Selection**: Highlight specific data points with a simple click
+- **Lasso Selection**: Select multiple data points by drawing a selection area
+- **Reverse Lasso**: Exclude specific data points from the selection
+- **Legend-Based Selection**: Select data by category through legend interaction
+- **Synchronized Highlighting**: Reflect selections across multiple visualizations
+- **Include/Exclude Selection**: Choose to either include or exclude selected items
+- **Multi-Select**: Select multiple non-contiguous data points using Ctrl+click
+
+These selection techniques work across visualization types and maintain context when navigating between different levels of detail, ensuring that users can focus on specific data subsets throughout their analytical journey.
+
+#### Hierarchical Context Preservation
+
+When navigating hierarchical data, Analytics+ maintains important contextual elements:
+
+- **Level Awareness**: Clear indication of current hierarchical level
+- **Parent-Child Relationships**: Visual representation of hierarchical connections
+- **Selection Inheritance**: Apply selections from parent levels to child levels
+- **Filter Persistence**: Maintain filter context when drilling down
+- **Category Context**: Remember selected categories when moving between levels
+- **Trellis Context**: Preserve small multiples organization during drill-down
 
 ### Smart Drill-Down Suggestions
 
@@ -88,10 +142,36 @@ Intuitive interfaces for navigation and exploration:
 
 - **Click-Through Drill-Down**: Direct interaction with visual elements to explore
 - **Lasso Selection**: Select multiple elements for simultaneous exploration
+- **Reverse Lasso**: Exclude specific areas from selection
 - **Search-Based Drill-Down**: Type to find and navigate to specific elements
 - **Voice-Activated Navigation**: Use natural language to direct exploration
 - **Gesture-Based Interaction**: Pinch, zoom, and swipe for touch-enabled exploration
 - **Keyboard Navigation**: Power-user shortcuts for efficient exploration
+- **Legend-Based Selection**: Select data categories through legend interaction
+- **Zoom Controls**: Focus on specific regions of visualizations
+
+#### Advanced Selection Capabilities
+
+Analytics+ provides multiple ways to select and focus on specific data:
+
+- **Single-Click Selection**: Highlight individual data points with precise control
+- **Lasso Selection**: Draw a selection area to include multiple data points
+- **Reverse Lasso**: Select everything except the specified area
+- **Legend Selection Modes**: Choose between including or excluding selected categories
+- **Multi-Category Selection**: Select multiple categories using Ctrl+click
+- **Selection Persistence**: Maintain selections when navigating between views
+- **Selection Reset**: Clear selections with a single click
+
+#### Zoom Functionality
+
+For detailed exploration of dense data visualizations:
+
+- **Rectangular Zoom**: Select a specific area to zoom into
+- **Horizontal Zoom**: Focus on a specific time range while maintaining value scale
+- **Vertical Zoom**: Focus on a specific value range while maintaining time scale
+- **Zoom Reset**: Return to the original view with a single click
+- **Progressive Zoom**: Apply multiple zoom levels for deeper exploration
+- **Zoom History**: Navigate back through previous zoom states
 
 ### Visual Cues and Signposts
 
@@ -132,6 +212,22 @@ Maintain consistency across multiple visualization types:
 - **Linked Perspectives**: Connect multiple analytical perspectives of the same data
 - **Multi-Visual Story Flow**: Create guided paths across different visualizations
 - **Consistent Selection Model**: Maintain selections across different visual representations
+- **Synchronized Highlighting**: Reflect data selections across multiple visualizations
+- **Tabbed Navigation**: Organize related visualizations in accessible tab structures
+
+#### Tabbed Dashboard Navigation
+
+Analytics+ provides sophisticated tabbed navigation capabilities for complex analytical scenarios:
+
+- **Multi-Tab Organization**: Create multiple tabs within a single dashboard
+- **Context Preservation**: Maintain analytical context when switching between tabs
+- **Tab Customization**: Customize tab appearance, orientation, and behavior
+- **Group-Based Organization**: Organize visualizations into logical groups for tabs
+- **Shared Elements**: Include common elements across multiple tabs
+- **Tab Sequencing**: Create logical progression through analytical narrative
+- **Tab-Level Filtering**: Apply filters at the tab level for focused analysis
+
+These tabbed navigation features allow for the creation of comprehensive analytical applications that guide users through complex exploration paths while maintaining context and analytical thread.
 
 ### Semantic Drill-Down
 
@@ -233,11 +329,19 @@ The advanced drill-down capabilities in Analytics+ integrate seamlessly with the
 - **Anomaly Detection Integration**: Explore detected anomalies in detailed context (Section 6.3)
 - **Comparative Analysis Integration**: Maintain comparison context during exploration (Section 6.4)
 - **Decision Support Integration**: Link exploratory analysis to decision frameworks (Section 6.5)
+- **Analytics+ Feature Integration**:
+  - **Hierarchical Navigation**: Consistent drill-down experience across all visualization types
+  - **Data Selection**: Apply selection techniques across the analytical workflow
+  - **Tabbed Navigation**: Organize complex analyses into logical exploration paths
+  - **Trellis Layouts**: Maintain hierarchical context in small multiples
+  - **Conditional Formatting**: Highlight important elements during exploration
+  - **Custom Measures**: Create specialized metrics for different hierarchy levels
 - **Power BI Integration**:
   - Extend beyond standard Power BI drill-through capabilities
   - Enhance Power BI's Q&A with contextual exploration
   - Preserve Power BI slicers and filters during drill-down
   - Add sophisticated exploration to Power BI reports
+  - Synchronize selections across Analytics+ and Power BI visuals
 
 ## Governance and Best Practices
 
@@ -271,6 +375,12 @@ The Analytics+ roadmap includes several upcoming exploration enhancements:
 - **Collaborative Real-Time Exploration**: Multiple users exploring together with shared context
 - **Predictive Path Optimization**: Anticipate user exploration needs for faster navigation
 - **Natural Language Exploration Dialog**: Conversational interface for drill-down navigation
+- **Enhanced Hierarchical Visualization**: New visualization types optimized for hierarchical exploration
+- **Advanced Selection Memory**: Intelligent persistence of selections across analytical sessions
+- **Contextual Recommendations**: AI-powered suggestions based on exploration patterns
+- **Exploration Path Analytics**: Insights into how users navigate through data
+- **Customizable Drill-Down Paths**: User-defined exploration routes for common analytical tasks
+- **Cross-Application Drill-Through**: Seamless navigation between different analytical applications
 
 ## Conclusion: Unleashing Data Exploration
 
@@ -282,4 +392,4 @@ The advanced drill-down techniques in Analytics+ represent a significant advance
 4. **Follow analytical intuition** with multi-directional exploration paths
 5. **Focus on relevance** through intelligent navigation suggestions
 
-This transformation of the exploration process enables organizations to develop a deeper understanding of their data, uncover non-obvious patterns and relationships, and ultimately make better decisions based on a more complete picture of their business reality. By removing the traditional barriers between different levels and dimensions of analysis, Analytics+ helps create a truly data-driven organizational culture where insights are just a few clicks away, regardless of where they might be hiding in the data. 
+This transformation of the exploration process enables organizations to develop a deeper understanding of their data, uncover non-obvious patterns and relationships, and ultimately make better decisions based on a more complete picture of their business reality. By removing the traditional barriers between different levels and dimensions of analysis, Analytics+ helps create a truly data-driven organizational culture where insights are just a few clicks away, regardless of where they might be hiding in the data.

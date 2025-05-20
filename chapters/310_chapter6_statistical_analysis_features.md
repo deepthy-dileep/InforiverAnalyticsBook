@@ -18,7 +18,7 @@ Analytics+ addresses these challenges by embedding sophisticated yet accessible 
 
 ## Core Statistical Capabilities
 
-Analytics+ provides a comprehensive suite of statistical functions integrated directly into its user interface:
+Analytics+ provides a comprehensive suite of statistical functions integrated directly into its user interface through the Analytics menu:
 
 ![Statistical Analysis Menu](../images/statistical_analysis_menu.png)
 *Figure 6.1.1: Analytics+ Statistical Analysis Menu*
@@ -42,9 +42,9 @@ Unlike raw statistical outputs, Analytics+ presents these measures with visual c
 
 ```
 Example Interpretation Panel:
-"This sales distribution shows positive skewness (2.34), 
-indicating a concentration of values below the mean with 
-fewer high outliers. In business terms, this suggests most 
+"This sales distribution shows positive skewness (2.34),
+indicating a concentration of values below the mean with
+fewer high outliers. In business terms, this suggests most
 stores have revenue below the average, while a few high-
 performing locations significantly exceed typical performance."
 ```
@@ -87,10 +87,10 @@ Each significance test includes a business-oriented interpretation guide:
 
 ```
 Example t-test Result Interpretation:
-"The difference in conversion rates between the control and 
-test groups is statistically significant (p < 0.01). With 
-99% confidence, we can conclude that the new website design 
-improved conversion rates by 12-15%. This represents a 
+"The difference in conversion rates between the control and
+test groups is statistically significant (p < 0.01). With
+99% confidence, we can conclude that the new website design
+improved conversion rates by 12-15%. This represents a
 meaningful business improvement rather than random variation."
 ```
 
@@ -104,12 +104,15 @@ Analytics+ extends Power BI's visualization capabilities with specialized statis
 *Figure 6.1.3: Box Plot with Outlier Analysis in Analytics+*
 
 Box plots in Analytics+ include:
-- Interactive quartile identification
-- Outlier detection and highlighting
-- Side-by-side comparison of multiple distributions
-- Custom whisker definitions (standard deviation, percentile, etc.)
-- Statistical annotation options
-- Dynamic filtering of identified outliers
+- **Pre-calculated or Dynamic Boxplots**: Accept pre-calculated quartiles or dynamically calculate interquartile ranges
+- **Boxplot Auto-Sorting**: Automatically detect and assign quartiles and whisker values
+- **Box Format Customization**: Set color and style (solid, outlined, hatched)
+- **Whisker Format Customization**: Configure style, thickness, and color
+- **Median Line Formatting**: Customize style, thickness, and color
+- **Stem Line Formatting**: Adjust style, thickness, and color of lines connecting boxes to whiskers
+- **Overlapped Boxplots**: Compare current vs. previous period quartile values
+- **Combination/Integrated Variance**: Plot additional measures as overlay line charts with variance visualization
+- **Forecast Boxplots**: Visualize forecast ranges alongside actual data
 
 ### Histogram and Distribution Analysis
 
@@ -117,25 +120,45 @@ Box plots in Analytics+ include:
 *Figure 6.1.4: Interactive Histogram with Distribution Fitting in Analytics+*
 
 Histogram features include:
-- Automatic bin sizing with manual override options
-- Distribution curve overlays (normal, log-normal, etc.)
-- Skewness and kurtosis visualization
-- Comparative distribution analysis
-- Outlier highlighting
-- Probability density function integration
+- **Cumulative or Traditional Display**: View cumulative or separate bin totals
+- **Flexible Bin Configuration**: Specify by interval or number of bins
+- **Interval Type Control**: Choose between closed intervals or semi-closed intervals
+- **Underflow/Overflow Bins**: Group data points outside the specified range
+- **Gap Width Adjustment**: Define space between consecutive bins
+- **Distribution Curve Overlays**: Add normal, log-normal, or other distribution curves
+- **Comparative Distribution Analysis**: Compare multiple distributions side-by-side
 
-### Statistical Process Control Charts
+### Error Bars for Statistical Significance
 
-![SPC Chart Example](../images/spc_chart.png)
-*Figure 6.1.5: Statistical Process Control Chart in Analytics+*
+Analytics+ provides comprehensive error bar functionality to visualize data variability and uncertainty:
 
-SPC charts in Analytics+ offer:
-- Automatic control limit calculation
-- Out-of-control point identification
-- Process capability metrics (Cp, Cpk)
-- Rule pattern detection (Western Electric, Nelson)
-- Multi-metric SPC dashboards
-- Specification limit comparison
+- **Flexible Application**: Apply to any measure with one error bar per measure
+- **Multiple Display Options**:
+  - By Percentage: Set upper/lower percentage limits
+  - By Value: Assign specific upper/lower bound values
+  - By Field: Use measure values as upper/lower bounds
+- **Relationship Control**: Choose absolute or relative relationship to measure
+- **Symmetrical Option**: Ensure consistent difference between upper/lower bounds
+- **Customizable Appearance**:
+  - Match series color or set custom colors
+  - Adjust line thickness and marker size
+  - Choose from multiple marker shapes (line/circle/diamond/square/triangle)
+- **Label Customization**:
+  - Display absolute values or relative (numeric/percentage) values
+  - Format with custom colors, sizes, and background
+- **Error Area Visualization**: Plot error bands across axis categories with fill/line styling options
+
+### Trend Lines for Pattern Identification
+
+Analytics+ offers sophisticated trend line capabilities:
+
+- **Multiple Trend Types**: Linear, exponential, logarithmic, and polynomial
+- **Line Style Customization**: Solid, dashed, or dotted with adjustable thickness and color
+- **Measure Selection**: Plot trend lines based on any measure or variance
+- **Equation Display**: View and customize the underlying mathematical equation
+  - Font color customization
+  - Rotation control
+  - Position offset adjustment
 
 ### Statistical Scatter Plots
 
@@ -178,15 +201,23 @@ Regression analysis in Analytics+ includes:
 - Performance metric calculation (RMSE, MAE, R²)
 - Plain-language interpretation of coefficients
 
-### Statistical Distribution Fitting
+### Reference Lines and Bands
 
-For more sophisticated analysis, Analytics+ provides:
-- Automated distribution fitting to data
-- Goodness-of-fit testing
-- Parameter estimation
-- Probability calculations
-- Risk modeling capabilities
-- Monte Carlo simulation options
+Analytics+ provides powerful reference line and band capabilities for statistical context:
+
+**Reference Lines**:
+- Add horizontal, vertical, or diagonal reference lines
+- Set fixed values or use statistical measures (mean, median, percentiles)
+- Customize line style, thickness, and color
+- Add labels with formatting options
+- Apply to specific series or all series
+
+**Reference Bands**:
+- Create bands between two reference values
+- Use statistical ranges (standard deviation, percentiles)
+- Customize fill color and transparency
+- Add border lines with style options
+- Include labels with positioning control
 
 ## Statistical Analysis Workflow
 
@@ -329,4 +360,4 @@ The statistical analysis features in Analytics+ represent a significant advancem
 4. **Improve analytical quality** through consistent application of statistical methods
 5. **Communicate insights more effectively** with statistical visualization and interpretation
 
-While specialized statistical tools like R and Python will always have a place in advanced analytics, the statistical features in Analytics+ fill a critical gap by making essential statistical capabilities accessible within the business intelligence workflow. This integration of statistics into everyday business analysis enables a higher level of analytical maturity across the organization. 
+While specialized statistical tools like R and Python will always have a place in advanced analytics, the statistical features in Analytics+ fill a critical gap by making essential statistical capabilities accessible within the business intelligence workflow. This integration of statistics into everyday business analysis enables a higher level of analytical maturity across the organization.
