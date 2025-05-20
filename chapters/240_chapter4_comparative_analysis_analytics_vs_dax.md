@@ -137,7 +137,14 @@ CALCULATE(
 Running_Total = RUNNING_SUM([Sales])
 ```
 
-The DAX version requires understanding of filter manipulation and date relationships, while the Analytics+ version uses a purpose-built function that aligns with the business concept.
+The documentation shows that Analytics+ provides multiple ways to create running totals:
+
+1. **Using the formula approach**: Create a calculated measure with the RUNNING_SUM function
+2. **Using the Additional Series feature**: As stated in the documentation, "With Analytics+, you can plot the Running total/Running average/Pareto analysis/Percentage contribution. Enable the Additional series toggle to choose a specific type."
+
+The documentation includes animated examples showing how users can select "Running total" from a dropdown menu to instantly add this calculation to their visualization.
+
+The DAX version requires understanding of filter manipulation and date relationships, while the Analytics+ version offers both a purpose-built function and a no-code option through the Additional Series feature.
 
 ### Scenario 4: Top N Analysis with Others
 
