@@ -41,9 +41,9 @@ The time comparison features include intelligent alignment to account for busine
 
 ```
 Example Time Comparison Configuration:
-"Compare Q2 2023 (Apr-Jun) with Q2 2022, adjusted for 
-trading days (Q2 2023 had 63 vs. Q2 2022's 61 trading days) 
-and normalized for the Easter holiday shift (April 9, 2023 
+"Compare Q2 2023 (Apr-Jun) with Q2 2022, adjusted for
+trading days (Q2 2023 had 63 vs. Q2 2022's 61 trading days)
+and normalized for the Easter holiday shift (April 9, 2023
 vs. April 17, 2022)."
 ```
 
@@ -117,9 +117,32 @@ Specialized charts that integrate comparative data within a single visualization
 | Radar/Spider Charts | Multi-dimensional comparative outlines | Compare products across multiple attributes |
 | Parallel Coordinates | Compare entities across multiple dimensions | Multi-factor competitive position analysis |
 | Comparative Heatmaps | Color intensity shows difference magnitude | Identify areas of greatest change or variance |
+| Tornado Charts | Side-by-side analysis with opposing bars | Category contribution comparison |
+| Slope Graphs | Connect related points to show changes | Trend comparison across categories |
 
 ![Variance Analysis](../images/variance_analysis.png)
 *Figure 6.4.4: Variance Analysis Chart in Analytics+*
+
+#### Waterfall Chart Variations
+
+Analytics+ offers multiple waterfall chart types for different comparative scenarios:
+
+- **Simple Waterfall**: Shows contribution of each category to a total
+- **Variance Waterfall**: Visualizes differences between two measures (e.g., 2021 vs 2020 Actuals)
+- **Combo Waterfall**: Combines waterfall with column charts to show variance between actuals, plan, and previous periods
+- **Stacked Waterfall**: Adds subcategory breakdown within each waterfall segment
+- **Breakdown Waterfall**: Shows contribution of different dimensions to changes between consecutive categories
+- **Stacked Breakdown Waterfall**: Combines stacked and breakdown approaches for multi-dimensional analysis
+
+Waterfall charts include specialized features like variance data label formatting (value, percentage, or both), variance inflection indicators, and customizable variance base selection.
+
+#### Multi-Variate Comparison Charts
+
+For comparing across multiple dimensions simultaneously:
+
+- **Parallel Coordinates**: Visualizes multiple measures across categories with customizable axis scaling (individual or uniform)
+- **Slope Graphs**: Shows changes between two states with connecting lines to emphasize magnitude and direction of change
+- **Tornado Charts**: Displays opposing bars for direct comparison of two measures across categories
 
 ### Interactive Comparison Tools
 
@@ -131,6 +154,19 @@ Dynamic features that enhance comparative analysis:
 - **Animated Transitions**: Visualize changes between states or time periods
 - **Comparative Filtering**: Filter to show only variances exceeding thresholds
 - **Comparative Drill-Down**: Maintain comparison context during detailed exploration
+
+#### Variance Customization Options
+
+Analytics+ provides extensive variance customization capabilities:
+
+- **Icon Customization**: Choose from built-in icons or upload custom icons for positive, negative, and neutral variances
+- **Variable Size Icons**: Automatically size icons proportionally to variance magnitude
+- **Custom Labels**: Rename variance labels (e.g., change "vs PY" to "YoY Change")
+- **Zero Treatment**: Option to treat zero variances as neutral with distinct formatting
+- **Color Inversion**: Swap positive/negative color schemes globally or for individual panels
+- **Display Format**: Show variance as percentage, absolute value, or both
+- **Variance Borders**: Add colored borders to emphasize variance direction and magnitude
+- **Contextual Application**: Apply variance formatting to sparklines, borders, accent bars, and KPI metrics
 
 ## Advanced Comparative Features
 
@@ -250,11 +286,19 @@ The comparative analysis capabilities in Analytics+ integrate seamlessly with th
 - **Statistical Analysis Integration**: Apply significance testing to comparisons (Section 6.1)
 - **Forecasting Integration**: Compare forecasts to actuals (Section 6.2)
 - **Anomaly Detection Integration**: Highlight where comparative metrics show anomalies (Section 6.3)
+- **Analytics+ Feature Integration**:
+  - **Conditional Formatting**: Apply rules based on comparative metrics
+  - **Trellis Layouts**: Create small multiples for multi-dimensional comparisons
+  - **Hierarchies**: Maintain comparative context across hierarchical levels
+  - **Reference Lines/Bands**: Add statistical context to comparative visualizations
+  - **Trend Lines**: Visualize comparative trends over time
+  - **Measure Customization**: Create specialized comparative calculations
 - **Power BI Integration**:
   - Use Power BI parameters for dynamic comparison selection
   - Leverage Power BI bookmarks to save comparison configurations
   - Connect to Power BI slicers for interactive comparison filtering
   - Export comparative insights to Power BI reports
+  - Synchronize filtering across comparative visuals
 
 ## Governance and Best Practices
 
@@ -286,6 +330,12 @@ The Analytics+ roadmap includes several upcoming comparative analysis enhancemen
 - **Predictive Comparison**: Project how current differences will evolve over time
 - **Comparative Pattern Library**: Build institutional knowledge of recurring comparative patterns
 - **Automated Action Recommendations**: Suggest specific actions based on comparative analysis
+- **Enhanced Multi-Dimensional Visualization**: New chart types for complex comparative scenarios
+- **Integrated Statistical Significance**: Automatically highlight statistically significant differences
+- **Comparative Storytelling**: Guided analysis paths through comparative insights
+- **Cross-Source Comparison**: Compare data across different data sources with automatic normalization
+- **Temporal Pattern Recognition**: Identify recurring patterns in comparative time series
+- **Contextual Benchmarking**: Dynamically adjust comparisons based on relevant context factors
 
 ## Conclusion: Democratizing Comparative Intelligence
 
@@ -297,4 +347,4 @@ The comparative analysis tools in Analytics+ represent a significant advancement
 4. **Take action on findings** by quantifying gaps and opportunities
 5. **Build organizational knowledge** through standardized comparison methodologies
 
-This democratization of comparative analysis capabilities enables more informed decision-making, helps organizations identify best practices and improvement opportunities, and provides the analytical foundation for continuous performance optimization across the enterprise. 
+This democratization of comparative analysis capabilities enables more informed decision-making, helps organizations identify best practices and improvement opportunities, and provides the analytical foundation for continuous performance optimization across the enterprise.
