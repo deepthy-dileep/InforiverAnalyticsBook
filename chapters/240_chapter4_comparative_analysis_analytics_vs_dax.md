@@ -171,7 +171,17 @@ SUM(Sales[Amount]) - [Top_5_Products_Sales]
 // No formulas required - built into the visualization properties
 ```
 
-The DAX approach requires complex measure definitions, while Analytics+ handles this common visualization need through configuration options.
+The documentation describes how Analytics+ provides built-in ranking capabilities through the TopN feature. As stated in the "Dynamic ranking with numeric parameters" section:
+
+"The TopN feature can work with Power BI numeric range parameters, enabling you to easily perform what-if analysis. You just need to adjust the ranking slider to apply TopN."
+
+The documentation outlines a simple two-step process:
+1. Assign the Power BI numeric range parameter to the Tooltip categories visual parameter
+2. In the TopN configuration window, select "Measure" from the "By" dropdown and select the parameter
+
+This approach not only simplifies the initial implementation but also enables dynamic, interactive analysis where users can adjust the N value through a slider.
+
+The DAX approach requires complex measure definitions and separate measures for the "Others" category, while Analytics+ handles this common visualization need through simple configuration options with built-in "Group Others" functionality.
 
 ## Development Complexity Comparison
 
