@@ -1,0 +1,7 @@
+% Simple fix for \centering outside of proper environments
+\usepackage{etoolbox}
+\AtBeginDocument{%
+  \let\oldcentering\centering
+  \renewcommand{\centering}{\begin{center}}
+  \newcommand{\endcentering}{\end{center}}
+}
