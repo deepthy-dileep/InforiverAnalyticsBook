@@ -2,6 +2,13 @@
 
 The traditional approach to Power BI report development involves building each visualization from scratch, customizing properties, creating calculations, and designing layouts—a process that's time-consuming and often results in inconsistent reporting across an organization. Analytics+ transforms this paradigm through template-driven development, allowing users to build sophisticated, standards-compliant reports in minutes rather than days.
 
+As documented in the Analytics+ guides, the platform provides several template-driven approaches:
+
+1. **Dashboard Templates**: Pre-built dashboard layouts in the Storyboard mode
+2. **IBCS-Certified Templates**: Standards-compliant templates for consistent business reporting
+3. **Template Rows**: Reusable calculation templates for tables
+4. **Chart Templates**: Pre-configured chart types for specific business scenarios
+
 ## The Template Advantage
 
 Templates in Analytics+ are much more than simple visual themes or saved report designs. They encapsulate complete analytical solutions including:
@@ -23,184 +30,200 @@ This comprehensive approach delivers several key benefits:
 
 ## Template Library
 
-Analytics+ includes an extensive template library covering common business reporting needs:
+Based on the documentation, Analytics+ includes several types of templates to address different reporting needs:
 
-### Financial Templates
+### Dashboard Templates
 
-![Financial Templates](images/financial_templates.png)
+As shown in the Storyboard documentation, Analytics+ offers plug-and-play dashboard templates for a wide range of use cases:
 
-- Income Statement Analysis
-- Balance Sheet Breakdown
-- Cash Flow Analysis
-- Budget vs. Actual Comparison
-- Variance Analysis Dashboard
-- Financial Ratio Analysis
-- Cost Center Reporting
-- Working Capital Management
+![Dashboard Templates](images/financial_templates.png)
 
-All financial templates include built-in calculations for common metrics like year-over-year growth, period comparisons, and variance analysis. They also implement IBCS (International Business Communication Standards) principles for financial reporting.
+- **IBCS Templates**: Standards-compliant dashboard layouts
+- **Financial Templates**: Pre-configured financial reporting layouts
+- **KPI Templates**: Dashboard layouts optimized for key performance indicators
 
-### Sales and Marketing Templates
+The documentation states: "Analytics+ offers plug-and-play templates for a wide range of use cases including IBCS, financial, and KPI. You can select a template that is best suited to your specific requirements."
 
-- Sales Performance Dashboard
-- Customer Acquisition Analysis
-- Product Performance Matrix
-- Channel Effectiveness
-- Sales Pipeline Analysis
-- Marketing Campaign Tracker
-- Customer Segmentation Analysis
-- Sales Territory Mapping
+These dashboard templates provide complete layouts that can be populated with your data, saving significant development time and ensuring consistent reporting.
 
-These templates include pre-built calculations for conversion rates, customer lifetime value, acquisition costs, and other sales-specific metrics, along with appropriate visualization types for each analysis.
+### Auto-Create Reports
 
-### Operations Templates
+Beyond static templates, Analytics+ offers an "Auto-create report" feature that dynamically generates reports based on your data:
 
-- Inventory Management
-- Production Performance
-- Supply Chain Overview
-- Quality Control Monitoring
-- Resource Utilization
-- Process Efficiency Analysis
-- Capacity Planning
-- Logistics Performance
+"Choose the **Auto-create report** option to allow Analytics+ to build your reports in seconds without requiring manual intervention. You can then customize your charts, cards, and tables as required."
 
-Operations templates incorporate specialized calculations like OEE (Overall Equipment Effectiveness), inventory turns, lead times, and quality metrics, presented in visualization formats optimized for operational decision-making.
+This AI-driven approach analyzes your data structure and automatically creates appropriate visualizations, which can then be customized as needed.
 
-### Industry-Specific Templates
+### Custom Layout Builder
 
-Analytics+ also offers industry-specific templates tailored to unique sectoral requirements:
+For more flexibility, Analytics+ provides a custom layout builder:
 
-- Healthcare: Patient flow, clinical outcomes, resource utilization
-- Retail: Store performance, product mix analysis, promotion effectiveness
-- Manufacturing: Production efficiency, quality management, equipment utilization
-- Financial Services: Portfolio analysis, risk assessment, client segmentation
-- Professional Services: Project profitability, resource allocation, billable utilization
+"Select the **Custom layout** option to define the number of KPI cards, charts, and tables to include in your dashboard. The preview pane reflects the elements corresponding to the counts that are set. You can use the **Viz-data-ink ratio** slider to quickly assign the number of elements in your dashboard."
+
+This approach allows users to quickly define the structure of their dashboard while maintaining design consistency.
 
 ## IBCS-Certified Templates
 
-A major differentiator for Analytics+ is its extensive library of IBCS-certified templates. The International Business Communication Standards provide rigorous guidelines for clear, consistent business reporting.
+A major differentiator for Analytics+ is its IBCS certification and implementation of IBCS standards. The International Business Communication Standards provide rigorous guidelines for clear, consistent business reporting.
 
 ![IBCS Template Example](images/ibcs_template.png)
 
-IBCS templates implement standardized notation including:
+As documented in the Analytics+ guides, the platform is "an IBCS-certified visual" that allows users to "create charts, KPI cards, and tables that are fully IBCS compliant" by simply enabling the IBCS standards toggle.
 
-- Consistent color usage (actuals in black, plan in gray, variance in blue/red)
-- Standardized time axis (horizontal, left to right)
-- Unified scaling for comparable charts
-- Clear variance indicators and reference values
-- Standardized period labeling
-- Consistent treatment of hierarchies
+The documentation states: "The Analytics+ visual is IBCS compliant, adhering to standardized IBCS design principles. The visual ships with integrated IBCS templates, you can instantly create an IBCS report with in-built variance calculations in a single click."
+
+IBCS implementation in Analytics+ includes:
+
+- **Consistent color usage**: Actuals in black, plan in gray, variance in blue/red
+- **Standardized time axis**: Horizontal, left to right
+- **Unified scaling**: For comparable charts with scale bands when needed
+- **Clear variance indicators**: Automatic variance calculations and pin charts
+- **Standardized notation**: Renaming comparison fields to IBCS notations (AC/PY/PL and FC)
+- **Consistent treatment of hierarchies**: Proper handling of hierarchical data
+
+The documentation shows that when IBCS standards are enforced, "additional pin charts are rendered for absolute and relative variances" and users have "the flexibility to remove or retain the pin charts based on your requirements."
 
 By using IBCS-certified templates, organizations ensure that reports communicate clearly and consistently across departments and management levels, reducing misinterpretation and improving decision quality.
 
 ## Working with Templates
 
-### Selecting and Applying Templates
+Based on the documentation, Analytics+ offers several approaches to working with templates:
 
-Using templates in Analytics+ follows a straightforward process:
+### Dashboard Templates in Storyboard Mode
 
-1. **Access the Template Gallery**: From the Analytics+ toolbar, select "Templates" to view available options
+According to the Storyboard documentation, using dashboard templates follows this process:
 
-2. **Filter Templates**: Narrow the selection by category, industry, data type, or analytical purpose
+1. **Access Template Options**: Click on the "Choose Templates" option to view available layouts
 
-3. **Preview**: Hover over templates to see larger previews and descriptions of included features
+2. **Browse Templates**: The documentation states: "Analytics+ offers plug-and-play templates for a wide range of use cases including IBCS, financial, and KPI. You can select a template that is best suited to your specific requirements."
 
-4. **Apply Template**: Select the desired template to apply it to your current data
+3. **Apply Template**: Select the desired template to create your dashboard structure
 
-5. **Initial Configuration**: A wizard guides you through mapping your data fields to the template requirements:
-   - Map dimensions (e.g., time periods, products, regions)
-   - Map measures (e.g., sales, costs, quantities)
-   - Configure hierarchies if applicable
-   - Set default calculation parameters
+4. **Assign Data**: After applying the template, assign your data to the pre-configured elements
 
-6. **Preview and Adjust**: Review the initial result and make any necessary adjustments
+5. **Customize Elements**: Modify individual elements as needed while maintaining the overall structure
 
-### Customizing Templates
+The documentation also mentions: "If your organization follows a standard dashboard template, you can import the JSON config and use it as a base template."
 
-While templates provide excellent starting points, customization is often needed to meet specific requirements:
+### Enabling IBCS Templates
 
-1. **Visual Adjustments**: Modify colors, fonts, sizes, and other visual properties
-2. **Calculation Modifications**: Edit pre-built formulas or add new calculations
-3. **Layout Changes**: Add, remove, or rearrange visualization components
-4. **Conditional Formatting**: Adjust thresholds and formatting rules
-5. **Data Field Mapping**: Change how data fields map to template components
-6. **Text Elements**: Update titles, descriptions, and annotations
+For IBCS-compliant reporting, the process is even simpler:
 
-All customizations can be performed through the no-code interface, allowing business users to tailor templates to their specific needs without technical assistance.
+1. **Enable IBCS Toggle**: As stated in the documentation, "Analytics+ is an IBCS-certified visual. Enable the IBCS standards toggle to create charts, KPI cards, and tables that are fully IBCS compliant."
 
-### Creating Custom Templates
+2. **Apply Automatic Formatting**: When IBCS is enabled, the system automatically applies IBCS standards to your visualizations
 
-Organizations can also create their own templates to standardize reporting:
+3. **Customize as Needed**: The documentation notes that "You have the flexibility to remove or retain the pin charts based on your requirements"
 
-1. **Start with an Existing Visualization**: Build and perfect a visualization that meets your requirements
+### Template Rows in Tables
 
-2. **Convert to Template**: From the "Save" menu, select "Save as Template"
+The documentation describes a powerful template feature for tables:
 
-3. **Define Template Properties**:
-   - Name and description
-   - Category and tags
-   - Required data fields
-   - Default settings
-   - Documentation and usage notes
+1. **Select Row Position**: "Select the row in which position the template row should be inserted and choose the Add template row option from the row gripper."
 
-4. **Save to Template Library**: Choose between personal library or shared organizational library
+2. **Define Calculation**: "Enter the calculation and click Create."
 
-5. **Publish (Optional)**: Share with the broader organization through the template gallery
+3. **Apply Across Hierarchy**: The documentation shows how template rows are automatically applied across hierarchical data: "Notice how the Juices Enhc row is created for every region in one shot."
 
-Custom templates are particularly valuable for standardizing department-specific reports, implementing organizational design standards, and capturing analytical best practices.
+4. **Position Control**: "You can choose to insert the template row above or below the selected source row with the Position option."
 
-## Template Governance
+This template row feature allows users to create consistent calculated rows across hierarchical data with a single definition.
 
-For enterprise deployments, Analytics+ includes template governance features:
+## Additional Template Features
 
-- **Template Certification**: Process for reviewing and certifying templates for organizational use
-- **Version Control**: Track template versions and changes over time
-- **Usage Metrics**: Monitor which templates are most frequently used
-- **Centralized Repository**: Manage templates through a centralized library
-- **Permission Management**: Control who can create, modify, or publish templates
-- **Template Documentation**: Maintain comprehensive documentation on template purpose and usage
+The documentation highlights several additional template-related features in Analytics+:
 
-These governance capabilities ensure that templates remain high-quality, up-to-date, and aligned with organizational standards.
+### Chart Templates and Scenarios
 
-## Case Study: Financial Reporting Standardization
+The Chart Discoverability documentation describes how Analytics+ helps users select appropriate chart types:
 
-A multinational manufacturing company struggled with inconsistent financial reporting across 23 global subsidiaries. Each subsidiary produced monthly financial reports in different formats, making consolidation and comparison difficult.
+- **Chart Families**: "Analytics+ comes packaged with an unprecedented range of chart types - suitable for every business scenario, be it trend identification, storytelling, communication, or comparative analysis. You can browse the various chart types based on the family they belong to."
 
-By implementing Analytics+ template-driven development:
+- **Scenario-Based Selection**: "Analytics+ can render the chart that is best suited to visualize your data based on your business use case – all you need to do is choose an option from the list of scenarios. For instance, if you need to analyze cash flows across different sectors, you can choose the 'Financial Breakdown' scenario, and it will assign your data to a relevant chart type."
 
-1. **Template Creation**: Corporate finance designed standardized templates for key financial reports aligned with IBCS principles
+This scenario-based approach acts as a template system for chart selection, guiding users to the most appropriate visualization for their specific business needs.
 
-2. **Rollout and Training**: Subsidiaries received training on using the templates with their local data
+### Analytical Templates
 
-3. **Local Customization**: Each subsidiary made minor adjustments to account for local requirements while maintaining core standardization
+The documentation also describes pre-built analytical templates:
 
-4. **Centralized Reporting**: All subsidiary reports fed into a consolidated dashboard using consistent formatting and calculations
+- **Additional Series**: "With Analytics+, you can plot the Running total/Running average/Pareto analysis/Percentage contribution. Enable the Additional series toggle to choose a specific type."
 
-**Results**:
-- Reduced monthly reporting time from 12 days to 3 days
-- Eliminated 45+ hours per month spent reconciling inconsistent formats
-- Improved data quality through standardized calculation methods
-- Enhanced decision-making through consistent visualization standards
-- Enabled true performance comparisons across subsidiaries
+- **Trend Lines**: "Plot linear, exponential, logarithmic, and polynomial trend lines from the type dropdown."
+
+- **Reference Lines**: Options for adding reference lines based on values or time series
+
+These analytical templates provide standardized approaches to common analytical techniques, ensuring consistent application of best practices.
+
+## Practical Application: IBCS Financial Reporting
+
+Based on the capabilities documented in Analytics+, here's how an organization could implement standardized financial reporting:
+
+### Challenge
+
+A multinational company struggles with inconsistent financial reporting across multiple subsidiaries. Each subsidiary produces monthly financial reports in different formats, making consolidation and comparison difficult.
+
+### Solution with Analytics+ Templates
+
+1. **Enable IBCS Standards**: Activate the IBCS standards toggle to ensure all reports follow consistent notation and formatting
+
+2. **Select Financial Dashboard Template**: Choose an appropriate financial dashboard template from the template library
+
+3. **Configure Template Rows**: Create template rows for key calculations that need to be consistent across all reports:
+   - Variance calculations
+   - Growth rates
+   - Contribution percentages
+   - Custom business metrics
+
+4. **Apply Analytical Templates**: Add standardized analytical elements:
+   - Running totals for cumulative performance
+   - Trend lines for forecasting
+   - Reference lines for targets and thresholds
+
+### Benefits
+
+- **Rapid Implementation**: Reports can be created in minutes rather than days
+- **Consistent Formatting**: All reports follow the same visual standards
+- **Standardized Calculations**: Key metrics are calculated consistently across all reports
+- **Improved Comparability**: Standardized formats enable direct comparison between subsidiaries
+- **Enhanced Decision-Making**: Clear, consistent visualization improves understanding and analysis
 
 ## Best Practices for Template-Driven Development
 
-To maximize the benefits of template-driven development:
+Based on the documentation and capabilities of Analytics+, here are best practices for template-driven development:
 
-1. **Start with business requirements**, not visual preferences
+### For Dashboard Templates
 
-2. **Involve key stakeholders** in template selection and customization
+1. **Start with Auto-Create**: Let Analytics+ automatically generate a starting point based on your data
 
-3. **Document template usage guidelines** for consistent application
+2. **Explore Template Options**: Review the available templates to find the best match for your reporting needs
 
-4. **Create a template governance process** to maintain quality standards
+3. **Use the Viz-Data-Ink Ratio Slider**: As mentioned in the documentation, this tool helps "quickly assign the number of elements in your dashboard"
 
-5. **Establish a feedback loop** for continuous template improvement
+4. **Maintain Consistent Layouts**: Use the same template structure across related reports for better user experience
 
-6. **Build a template library gradually**, focusing on high-value, frequently used reports first
+### For IBCS Implementation
 
-7. **Recognize the limits** of templates and when custom development is necessary
+1. **Enable IBCS Toggle Early**: Start with IBCS standards enabled before building your report
 
-8. **Train users** not just on how to use templates, but why they're designed the way they are
+2. **Understand IBCS Principles**: Learn the basic IBCS notation to make the most of the templates
 
-By embracing template-driven development, organizations can dramatically accelerate their reporting processes while ensuring consistency, quality, and adherence to best practices. Business users can focus on analyzing and acting on insights rather than struggling with technical implementation details. 
+3. **Customize Selectively**: Make adjustments while maintaining core IBCS principles
+
+4. **Use Appropriate Scale Bands**: As noted in the documentation, "When working with IBCS templates with uniform scaling, certain data points may be in millions, while others can be in thousands, hundreds, or even tens. Scale bands can be enabled in such scenarios."
+
+### For Template Rows
+
+1. **Plan Hierarchical Calculations**: Design template rows with hierarchical data in mind
+
+2. **Document Calculations**: Maintain clear documentation of template row formulas
+
+3. **Position Consistently**: Choose consistent positioning (above or below source rows) across reports
+
+4. **Use Edit Template Row**: Regularly review and update template row calculations as needed
+
+## Conclusion
+
+By leveraging the template-driven development capabilities in Analytics+, organizations can dramatically accelerate their reporting processes while ensuring consistency, quality, and adherence to best practices. The combination of dashboard templates, IBCS standards, template rows, and analytical templates provides a comprehensive framework for efficient report development.
+
+As shown in the documentation, these template features allow business users to focus on analyzing and acting on insights rather than struggling with technical implementation details. The result is faster report development, more consistent reporting standards, and ultimately better business decisions based on clearly communicated data.

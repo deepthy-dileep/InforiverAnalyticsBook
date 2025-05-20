@@ -34,27 +34,10 @@ Small multiples deliver significant analytical benefits:
 
 By breaking complex multi-dimensional data into comparable chunks, small multiples significantly enhance users' ability to identify patterns, make comparisons, and draw insights.
 
-```javascript
-// Core small multiples configuration
-{
-  smallMultiples: {
-    enabled: true,
-    dimensionField: "region",
-    rows: 3,
-    columns: 4,
-    sortBy: "value",
-    sortOrder: "descending",
-    sharedScales: true,
-    showTitle: true,
-    titleTemplate: "{value} Performance",
-    emptySlotHandling: "hide"
-  }
-}
-```
 
 ## Implementation Across Chart Types
 
-Analytics+ implements small multiples across virtually all visualization types, with specialized functionality for each chart category.
+Analytics+ implements small multiples (also called trellis charts) across virtually all visualization types, with specialized functionality for each chart category. The implementation provides flexible layout options that can be accessed through the Trellis button in the toolbar or by selecting the Customize grid option from the dropdown menu.
 
 ### Bar and Column Charts
 
@@ -70,27 +53,15 @@ Small multiples implementation for bar/column charts includes:
 
 This versatile implementation enables effective comparison of categorical data across multiple dimensions without the visual clutter of grouped or stacked bars.
 
-```javascript
-// Bar chart small multiples for regional comparison
-{
-  chartType: "column",
-  smallMultiples: {
-    enabled: true,
-    dimensionField: "region",
-    layout: "grid",
-    rows: 2,
-    columns: 3,
-    sortBy: "totalValue",
-    labelPosition: "top"
-  },
-  properties: {
-    categoryField: "product",
-    valueField: "sales",
-    sortOrder: "value",
-    showValues: true
-  }
-}
-```
+Analytics+ offers several layout options for chart small multiples:
+
+- **Grid**: Displays data in a row-column grid with panels of equal size and uniform scaling
+- **Grid Auto-fit**: Maximizes data display in available canvas space without scrolling or pagination
+- **Scaled Rows**: Scales row height according to the top-performing panel (for vertical chart orientations)
+- **Ranked Panels**: Varies panel size based on measure magnitude (for single small multiple parameter assigned to column)
+
+Interactive resizing is available in grid and grid auto-fit layouts, allowing users to drag panel sides to adjust dimensions.
+
 
 ### Line Charts
 
@@ -133,6 +104,32 @@ Small multiples for tabular visualizations provide:
 - **Channel Analysis**: Comparing metrics across distribution channels
 
 This implementation transforms tables from mere data presentation to powerful comparative analysis tools.
+
+Analytics+ provides specialized layouts for table small multiples:
+
+- **Grid**: Standard row-column grid with equal-sized panels
+- **Scaled Table**: Panel size determined by the number of rows and columns in each table
+- **Single Row**: All small multiple tables arranged side-by-side in one row
+- **Single Column**: All small multiple tables stacked vertically in one column
+
+### Cards and KPIs
+
+Small multiples for cards and KPIs enable:
+
+- **Metric Comparison**: Comparing key metrics across categories
+- **Performance Indicators**: Contrasting KPIs across business segments
+- **Trend Visualization**: Showing trend indicators across categories
+- **Target Achievement**: Comparing performance against targets
+- **Variance Analysis**: Highlighting variances across segments
+- **Composite Metrics**: Comparing multi-part metrics across dimensions
+- **Status Indicators**: Contrasting status across categories
+
+Analytics+ offers specialized layouts for card small multiples:
+
+- **Grid**: Standard row-column grid with equal-sized panels
+- **Compact Grid**: Renders cards in stamp-sized panels, ideal for dashboard integration
+- **Single Row**: All cards arranged in one row
+- **Single Column**: Chart and metrics displayed side-by-side, with KPI metrics positionable to left or right
 
 ### Scatter and Bubble Charts
 
@@ -180,21 +177,6 @@ Analytics+ supports hierarchical small multiples:
 
 This hierarchical implementation enables deeper exploration of organizational structures, product hierarchies, and other nested data.
 
-```javascript
-// Hierarchical small multiples configuration
-{
-  smallMultiples: {
-    dimensionField: "geography",
-    hierarchyLevels: ["region", "country", "city"],
-    currentLevel: "country",
-    parentContext: true,
-    drillEnabled: true,
-    levelBasedLayout: true,
-    showAggregates: true
-  }
-}
-```
-
 ### Comparative Reference Elements
 
 Analytics+ enhances small multiples with reference elements:
@@ -206,6 +188,7 @@ Analytics+ enhances small multiples with reference elements:
 - **Outlier Indicators**: Consistent outlier highlighting across charts
 - **Comparative Annotations**: Annotations that provide cross-chart context
 - **Statistical References**: Showing statistical measures across multiples
+- **Average Panel**: Optional additional panel displaying the average of all small multiple categories
 
 These reference elements enhance the comparative power of small multiples by providing consistent context across all charts.
 
@@ -213,15 +196,29 @@ These reference elements enhance the comparative power of small multiples by pro
 
 Analytics+ provides sophisticated layout control:
 
-- **Adaptive Grid**: Automatically optimizing rows and columns
-- **Hierarchical Layout**: Organizing multiples based on data hierarchy
-- **Value-Based Positioning**: Placing high-value multiples prominently
-- **Flow Layout**: Arranging multiples to emphasize relationships
-- **Responsive Sizing**: Adapting to available display space
-- **Emphasis Scaling**: Making important multiples larger
-- **Empty Cell Handling**: Intelligent management of missing combinations
+- **Display Options**: Choose between scroll or pagination when content exceeds canvas size
+- **Panel Scale**: Select uniform scaling (based on entire dataset) or individual scaling (specific to each panel)
+- **Auto-fit Fill Type**: Prioritize arrangement in rows, columns, or balanced square panels
+- **Responsive Grid**: Dynamically adjust whitespace, resize charts, and adapt layout when canvas is resized
+- **Grid Configuration**: Specify number of rows and columns when responsive grid is disabled
+- **Lock Panel Size**: Fix panel dimensions with customizable height and width in pixels
+- **Axis Positioning**: Control x-axis and y-axis display for each panel, top/bottom rows only, or at grid edges
+- **Uniform Bar Width**: Ensure consistent bar thickness across all panels regardless of category count
 
 These layout options ensure effective use of available space while emphasizing the most important comparisons.
+
+### Panel Styling and Customization
+
+Analytics+ provides extensive styling options for small multiples:
+
+- **Title Customization**: Display category only or category with total/average value
+- **Value Position**: Show values inline with category or in a separate line
+- **Font Styling**: Set custom font styles and colors for categories and values
+- **Panel Background**: Apply custom backgrounds to all panels, alternate rows, or alternate columns
+- **Border and Shadow Effects**: Add shadows with customizable style and color
+- **Border Customization**: Set border style, color, and radius for each corner
+- **Panel Spacing**: Define the gap between adjacent panels in pixels
+- **Variance-Based Styling**: Use variance colors for panel borders
 
 ### Highlighting and Focus
 
@@ -248,6 +245,7 @@ Analytics+ provides extensive customization for small multiples:
 - **Sequence Highlighting**: Emphasizing progression across multiples
 - **Custom Sorting**: Arranging multiples based on complex criteria
 - **Filtering Control**: Selectively including or excluding multiples
+- **Interactive Resizing**: Drag panel sides to resize in grid and auto-fit layouts
 
 These customization options ensure that small multiples can be tailored to specific analytical and communication needs.
 
@@ -269,26 +267,7 @@ Small multiples for sales analysis:
 
 These applications help sales teams identify performance patterns, optimization opportunities, and strategic insights.
 
-```javascript
-// Sales analysis small multiples example
-{
-  chartType: "line",
-  smallMultiples: {
-    dimensionField: "productCategory",
-    rows: 2,
-    columns: 3,
-    sortBy: "growth",
-    sortOrder: "descending"
-  },
-  properties: {
-    measureField: "salesAmount",
-    timeField: "month",
-    showYearComparison: true,
-    showTrend: true,
-    highlightCurrentPeriod: true
-  }
-}
-```
+
 
 ### Financial Analysis
 
@@ -398,4 +377,8 @@ The small multiples capabilities in Analytics+ represent a significant advanceme
 
 The combination of consistent implementation across chart types, advanced techniques like hierarchical multiples and comparative references, and practical applications across business domains ensures that users can leverage the full power of comparative visualization for deeper insights and better decisions.
 
-In the next section, we'll explore the pivot data interface of Analytics+, examining how it provides flexible, interactive analysis of hierarchical and multi-dimensional data. 
+Analytics+ provides an intuitive interface for creating and customizing small multiples through the Trellis button in the toolbar. The extensive layout options, styling capabilities, and interactive features make it easy for users to create effective comparative visualizations tailored to their specific analytical needs. The responsive design ensures that small multiples remain effective across different screen sizes and device types.
+
+By implementing small multiples as a core capability across all visualization types, Analytics+ enables users to apply this powerful analytical technique consistently throughout their reports and dashboards, creating a cohesive analytical experience that enhances understanding and decision-making.
+
+In the next section, we'll explore the pivot data interface of Analytics+, examining how it provides flexible, interactive analysis of hierarchical and multi-dimensional data.

@@ -1,6 +1,10 @@
 # 4.4 Interactive What-If Analysis
 
-What-if analysis is a powerful decision-making technique that allows business users to model hypothetical scenarios and immediately see their potential impacts. While traditional Power BI implements what-if parameters at the data model level requiring DAX knowledge, Inforiver Analytics+ brings this capability directly into the visualization layer with an intuitive, spreadsheet-like experience that business users already understand.
+What-if analysis is a powerful decision-making technique that allows business users to model hypothetical scenarios and immediately see their potential impacts. While traditional Power BI implements what-if parameters at the data model level requiring DAX knowledge, Analytics+ enhances these capabilities by providing better integration and visualization options for what-if scenarios.
+
+> **Note:** The documentation indicates that advanced what-if simulations, scenario planning, and writeback capabilities are primarily available in Inforiver Matrix rather than Analytics+. As stated in the documentation: "For advanced use cases such as writeback, planning, what-if simulations, forecasting & budgeting, advanced formulae engine, formatted financial statements, paginated reports, threaded conversations, audit, data editing, scheduling, and notifications - use **Inforiver Matrix**."
+>
+> This chapter focuses on the what-if capabilities that are available in Analytics+ through integration with Power BI parameters and other features.
 
 ## The Business Value of What-If Analysis
 
@@ -15,181 +19,176 @@ Before diving into implementation details, it's important to understand why what
 
 Analytics+ makes these capabilities accessible to business users without technical expertise, democratizing advanced analytical techniques across the organization.
 
-## Types of What-If Scenarios in Analytics+
+## What-If Capabilities in Analytics+
 
-Analytics+ supports several types of what-if analysis to address different business needs:
+Based on the documentation, Analytics+ provides integration with Power BI's what-if parameters and offers visualization enhancements that make scenario analysis more accessible and intuitive:
 
-### 1. Parameter-Based Scenarios
+### 1. Integration with Power BI Parameters
 
-Users can create adjustable parameters that feed into calculations, allowing quick testing of different assumptions:
+Analytics+ can leverage Power BI's native what-if parameters to create interactive visualizations:
 
 ![Parameter Sliders](images/parameter_sliders.png)
 
-Examples include:
-- Discount rate sliders for pricing analysis
-- Growth rate assumptions for forecasting
-- Cost variables for margin analysis
-- Conversion rate parameters for funnel optimization
-- Headcount variables for capacity planning
+As documented in the "Dynamic ranking with numeric parameters" section, Analytics+ can work with Power BI numeric range parameters to enable what-if analysis. The documentation states:
 
-### 2. Direct Cell Editing
+> "The TopN feature can work with Power BI numeric range parameters, enabling you to easily perform what-if analysis. You just need to adjust the ranking slider to apply TopN."
 
-Users can temporarily override actual values with hypothetical ones to see the downstream effects:
+This integration allows users to:
+- Create dynamic rankings based on parameter values
+- Adjust parameters through sliders to see immediate visual feedback
+- Apply parameters across multiple visualizations for coordinated analysis
 
-![Direct Cell Editing](images/direct_editing.png)
+### 2. Context-Aware Visualizations
 
-This approach is useful for:
-- Ad-hoc experimentation
-- Quick "back of the envelope" calculations
-- Testing specific data point impacts
-- Presenting "what would happen if..." scenarios in meetings
+Analytics+ provides context-aware visualizations that respond to parameter changes:
 
-### 3. Scenario Management
+![Context-Aware Visualization](images/direct_editing.png)
 
-For more structured analysis, users can create, save, and compare multiple named scenarios:
+The documentation describes how Analytics+ supports context awareness:
 
-![Scenario Manager](images/scenario_manager.png)
+> "With the Inforiver Analytics+, you can implement context-aware commenting in your Power BI reports in just a few clicks. As you apply filters, the comments will change dynamically."
 
-Capabilities include:
-- Defining multiple alternative scenarios
-- Saving scenario assumptions for future reference
-- Side-by-side comparison of scenario outcomes
-- Exporting scenario results for documentation
-- Sharing scenarios with other team members
+This context awareness extends to:
+- Annotations that update based on parameter selections
+- Conditional formatting that responds to parameter changes
+- Visualizations that adapt to different parameter scenarios
 
-### 4. Goal Seek Analysis
+### 3. Comparative Analysis Tools
 
-Users can work backward from a desired result to determine the required input values:
+Analytics+ offers robust comparative analysis capabilities that enhance what-if scenarios:
 
-![Goal Seek](images/goal_seek.png)
+![Comparative Analysis](images/scenario_manager.png)
 
-Applications include:
-- Determining required sales to hit profit targets
-- Calculating necessary cost reductions to achieve margin goals
-- Identifying conversion rates needed to meet acquisition targets
-- Computing production levels required for inventory goals
+The documentation highlights how Analytics+ supports comparative analysis through:
+- Side-by-side visualization of different scenarios
+- Variance calculations that automatically update with parameter changes
+- Color-coded highlighting of differences between scenarios
+- Small multiples that show scenario results across multiple dimensions
 
-## Implementing What-If Analysis: A Step-by-Step Approach
+## Implementing What-If Analysis with Analytics+
 
-Let's walk through creating a what-if analysis for a sales forecast scenario:
+Based on the documentation, here's how to implement what-if analysis using Analytics+ with Power BI parameters:
 
-### Creating Parameter Controls
+### Creating Dynamic Rankings with Parameters
 
-1. **Open the Visualization**: Start with a sales forecast visualization in Analytics+
+As documented in the "Dynamic ranking with numeric parameters" section, you can set up dynamic ranking in 2 simple steps:
 
-2. **Add Parameters**: From the Analytics+ toolbar, select "What-If Analysis" → "Add Parameter"
+1. **Create a Power BI Parameter**:
+   - In Power BI Desktop, go to Modeling tab → What-if parameter
+   - Create a numeric parameter (e.g., "RankingSlider")
+   - Set minimum, maximum, and increment values
+   - Choose slider as the display type
 
-3. **Configure Each Parameter**:
-   - **Name**: "Sales Growth Rate"
-   - **Data Type**: Percentage
-   - **Default Value**: 5%
-   - **Range**: 0% to 20%
-   - **Step Size**: 1%
-   - **Display Format**: Percentage with 1 decimal place
-   - **Control Type**: Slider with input box
+2. **Configure Analytics+ to Use the Parameter**:
+   - **STEP 1:** Assign the Power BI numeric range parameter to the Tooltip categories visual parameter
+   - **STEP 2:** In the TopN configuration window, select "Measure" from the "By" dropdown
+   - Select the numeric range parameter name from the "Measure" dropdown
 
-4. **Add Additional Parameters** as needed:
-   - "Cost Inflation Rate"
-   - "New Product Contribution"
-   - "Marketing Effectiveness Multiplier"
+3. **Interact with the Parameter**:
+   - Adjust the parameter slider to dynamically change the ranking
+   - Observe how the visualization updates in real-time
+   - Use the parameter to answer "what-if" questions about ranking thresholds
 
-5. **Position Controls**: Arrange sliders and input boxes in the desired layout
+### Implementing Context-Aware Analysis
 
-### Connecting Parameters to Calculations
+The documentation describes how to create context-aware visualizations that respond to parameter changes:
 
-Once parameters are created, they need to be incorporated into calculations:
+1. **Create a Filter-Context Measure**:
+   - Let Analytics+ automatically generate the DAX script for you
+   - The documentation notes: "The steps to configure filter context are the same for charts, cards and tables"
 
-```
-// Base calculation
-Future_Sales = [Current_Sales] * (1 + [Sales_Growth_Rate])
+2. **Apply Context Awareness to Visualizations**:
+   - Add annotations that will update based on filter context
+   - Create conditional formatting rules that respond to context changes
+   - Configure visualizations to adapt to different parameter scenarios
 
-// More complex formula incorporating multiple parameters
-Future_Profit = ([Future_Sales] * (1 - [Cost_Ratio] * (1 + [Cost_Inflation_Rate]))) +
-                ([New_Product_Contribution] * [Marketing_Effectiveness_Multiplier])
-```
+3. **Test Context Awareness**:
+   - Change parameter values to see how annotations and formatting update
+   - Apply filters to observe how the visualization responds to context changes
+   - Use slicers to dynamically alter the visualization context
 
-Users create these formulas using the Visual Formula Engine covered in Section 4.2, with parameters appearing alongside other available fields in the formula builder.
+### Using Comparative Analysis for Scenarios
 
-### Creating Scenario Comparisons
+Analytics+ provides robust comparative analysis capabilities that can be used for scenario comparison:
 
-To compare different scenarios:
+1. **Create Base View**: Set up your initial visualization with default parameter values
 
-1. **Create Base Scenario**: Set parameters to default/expected values and save as "Base Case"
+2. **Create Comparison Views**:
+   - Use small multiples to show different parameter scenarios side by side
+   - Apply variance calculations to highlight differences between scenarios
+   - Use conditional formatting to emphasize significant differences
 
-2. **Create Alternative Scenarios**:
-   - "Optimistic Case": Higher growth, lower costs, higher marketing effectiveness
-   - "Pessimistic Case": Lower growth, higher costs, lower marketing effectiveness
-   - "New Product Focus": Moderate growth but high new product contribution
+3. **Analyze Results**:
+   - Compare outcomes across different parameter settings
+   - Identify optimal parameter values for specific business objectives
+   - Document insights from the comparative analysis
 
-3. **Generate Comparison View**: Select "Compare Scenarios" from the What-If toolbar to see outcomes side by side
+## Real-World Example: Dynamic Ranking Analysis
 
-4. **Visualize Differences**: Use variance columns or visualization options to highlight differences between scenarios
+Based on the documentation, here's a practical example of using Analytics+ for what-if analysis with dynamic ranking:
 
-## Real-World Example: Marketing Budget Optimization
-
-Let's examine a practical what-if analysis for marketing budget allocation:
-
-![Marketing Budget Optimization](images/marketing_whatif.png)
+![Dynamic Ranking Analysis](images/marketing_whatif.png)
 
 In this example:
 
-1. **Starting Point**: Current allocation of marketing budget across channels (Search, Social, Display, Email, Events)
+1. **Starting Point**: A visualization showing sales performance across different product categories
 
-2. **Parameters Created**:
-   - Sliders for budget allocation percentages (must sum to 100%)
-   - Input for total marketing budget
-   - Conversion rate assumptions for each channel
+2. **Parameter Setup**:
+   - Create a Power BI numeric range parameter called "RankingSlider"
+   - Set the minimum value to 1 and maximum value to 20
+   - Configure the parameter to display as a slider
 
-3. **Calculated Results**:
-   - Expected leads by channel based on historical conversion rates
-   - Cost per lead by channel
-   - Total expected leads and average cost per lead
-   - Expected revenue based on lead-to-sale conversion rate
+3. **Analytics+ Configuration**:
+   - Assign the "RankingSlider" parameter to the Tooltip categories visual parameter
+   - In the TopN configuration window, select "Measure" from the "By" dropdown
+   - Select "RankingSlider" from the Measure dropdown
 
-4. **Scenario Testing**:
-   By adjusting allocation percentages, the marketing team can:
-   - Identify the optimal channel mix to maximize leads
-   - Find the allocation that minimizes cost per lead
-   - Balance between volume and efficiency goals
-   - Test the impact of increasing or decreasing total budget
+4. **Analysis Capabilities**:
+   By adjusting the ranking slider, the business user can:
+   - Dynamically focus on the top N performing products
+   - Identify performance thresholds for inclusion in top performers
+   - Analyze how the composition of top performers changes with different thresholds
+   - Test "what-if" scenarios about ranking criteria
 
-## Advanced What-If Techniques
+## Advanced Visualization Techniques for What-If Analysis
 
-### Sensitivity Analysis
+Based on the documentation, Analytics+ provides several advanced visualization techniques that enhance what-if analysis:
 
-Sensitivity analysis helps identify which variables have the greatest impact on outcomes:
+### Context-Aware Conditional Formatting
 
-1. **Create a parameter** for each variable you want to test
+The documentation describes how context-aware conditional formatting can enhance what-if analysis:
 
-2. **Set up a table** showing outcomes for different parameter values
+1. **Create conditional formatting rules** that respond to parameter changes
 
-3. **Use conditional formatting** to highlight high-sensitivity relationships
+2. **Apply variable conditional formatting** to non-data elements like titles and axis labels
 
-4. **Create a tornado chart** showing the relative impact of each variable
+3. **Use the "Use as variable" toggle** to enable reusing the same conditional formatting rules across different elements
 
-### Monte Carlo Simulation
+4. **Apply formatting through the color picker's CF Rules tab** to create sophisticated visual feedback
 
-For more sophisticated analysis, Analytics+ can perform simple Monte Carlo simulations:
+### Small Multiple Visualizations
 
-1. **Define parameters** with probability distributions instead of single values
+The documentation highlights how small multiples can be used for comparative analysis:
 
-2. **Run multiple iterations** with randomly selected values from those distributions
+1. **Split measures into separate panels** to compare different scenarios side by side
 
-3. **View distribution of outcomes** to understand the range of possibilities and probabilities
+2. **Enable synchronized scrolling** between panels for easier comparison
 
-4. **Identify confidence intervals** for forecasts based on simulation results
+3. **Apply consistent formatting** across panels to maintain visual coherence
 
-### What-If with Historical Data
+4. **Use the "Split" button in the toolbar** to quickly create small multiple views
 
-Combine what-if analysis with historical data to create "alternate history" scenarios:
+### Hierarchical Data Exploration
 
-1. **Start with actual historical data** for a baseline
+The documentation shows how hierarchical data exploration can enhance what-if analysis:
 
-2. **Apply what-if parameters** to specific time periods or segments
+1. **Expand and collapse hierarchies** to focus on specific levels of detail
 
-3. **Recalculate derived metrics** based on the hypothetical changes
+2. **Use drill-down and roll-up** to navigate through hierarchical data
 
-4. **Compare actual results** with what might have happened under different conditions
+3. **Apply the "Ragged hierarchy" toggle** to handle unbalanced hierarchies
+
+4. **Configure zoom levels** to control the level of detail shown in time-based visualizations
 
 ## Best Practices for Effective What-If Analysis
 
@@ -213,16 +212,22 @@ To maximize the value of what-if capabilities:
 
 ## Integration with Broader Analytics+ Features
 
-What-if analysis becomes even more powerful when combined with other Analytics+ capabilities:
+Based on the documentation, what-if analysis becomes even more powerful when combined with other Analytics+ capabilities:
 
-- **Conditional formatting** to highlight when scenarios breach important thresholds
+- **Conditional formatting** to highlight when scenarios breach important thresholds, as demonstrated in the "Conditional formatting" documentation
 
-- **Small multiples** to show scenario results across multiple dimensions simultaneously
+- **Small multiples** to show scenario results across multiple dimensions simultaneously, as shown in the "Splitting and grouping" documentation
 
-- **Planning and writeback** to convert successful scenarios into official plans
+- **Annotations** to add context and capture insights about different scenarios, as described in the "Adding notes" section
 
-- **Templates** to standardize what-if analysis across the organization
+- **Context awareness** to ensure visualizations respond appropriately to parameter changes, as detailed in the "Context awareness" documentation
 
-- **Export capabilities** to share insights with stakeholders
+- **Export capabilities** to share insights with stakeholders, allowing for offline analysis of different scenarios
 
-By making what-if analysis accessible directly in visualizations without coding or complex data modeling, Analytics+ transforms Power BI from a reporting tool into an interactive decision support platform. Business users can explore possibilities, test assumptions, and make data-driven decisions with confidence—all within a familiar, spreadsheet-like environment. 
+## Conclusion
+
+While the documentation indicates that advanced what-if simulations and scenario planning are primarily available in Inforiver Matrix rather than Analytics+, the integration with Power BI parameters and the visualization enhancements in Analytics+ still provide valuable what-if analysis capabilities.
+
+By leveraging Power BI parameters and Analytics+ visualization features, business users can create interactive, context-aware dashboards that support scenario analysis and data-driven decision making. The dynamic ranking capabilities, context-aware visualizations, and comparative analysis tools in Analytics+ enhance Power BI's native what-if parameters, making them more accessible and visually impactful.
+
+For more advanced what-if simulations, forecasting, and scenario planning with writeback capabilities, users would need to consider Inforiver Matrix as indicated in the documentation.

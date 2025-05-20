@@ -1,0 +1,5 @@
+# Storytelling charts
+
+Storytelling charts make complex data more engaging and easier to understand. Explore our collection of Special charts:
+
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="range-charts.md">range-charts.md</a></td><td><a href="../../.gitbook/assets/2025-02-03_16h01_11.png">2025-02-03_16h01_11.png</a></td></tr><tr><td></td><td><a href="ribbon-chart.md">ribbon-chart.md</a></td><td><a href="../../.gitbook/assets/2025-02-03_16h02_54.png">2025-02-03_16h02_54.png</a></td></tr><tr><td></td><td><a href="tornado-chart.md">tornado-chart.md</a></td><td><a href="../../.gitbook/assets/2025-02-03_16h03_40.png">2025-02-03_16h03_40.png</a></td></tr><tr><td></td><td><a href="multi-variate-charts.md">multi-variate-charts.md</a></td><td><a href="../../.gitbook/assets/2025-02-03_16h04_52.png">2025-02-03_16h04_52.png</a></td></tr><tr><td></td><td><a href="sankey-charts.md">sankey-charts.md</a></td><td><a href="../../.gitbook/assets/2025-02-03_16h06_18.png">2025-02-03_16h06_18.png</a></td></tr></tbody></table>

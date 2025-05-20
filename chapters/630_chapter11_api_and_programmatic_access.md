@@ -1,4 +1,4 @@
-# 11.3 API and Programmatic Access 
+# 11.3 API and Programmatic Access
 
 ## Introduction to Analytics+ API Framework
 
@@ -54,54 +54,8 @@ Security is paramount when enabling programmatic access:
 - **IP Restrictions**: Ability to restrict API access by IP address
 - **Permission Scopes**: Granular control of API capabilities by token
 - **Audit Logging**: Comprehensive logging of all API activities
-
-## SDK and Client Libraries
-
-To facilitate integration, Analytics+ provides several software development kits:
-
-### Available SDKs
-
-- **JavaScript SDK**: For web and Node.js applications
-- **Python SDK**: For data science and backend integration
-- **C# SDK**: For .NET applications
-- **Java SDK**: For enterprise applications
-
-### Integration Examples
-
-```javascript
-// JavaScript SDK example for creating a visualization
-const analytics = new InforiverAnalytics(config);
-
-// Create a new chart
-const chart = await analytics.createVisualization({
-  type: 'column',
-  data: dataSource,
-  properties: {
-    title: 'Sales by Region',
-    colorPalette: 'corporate',
-    showLegend: true
-  }
-});
-
-// Add to container
-chart.render('#visualization-container');
-```
-
-```python
-# Python SDK example for data extraction
-import inforiver_analytics as ira
-
-# Initialize client
-client = ira.AnalyticsClient(api_key="your_api_key")
-
-# Extract data from a visualization
-data = client.visualizations.get_data("visualization_id")
-
-# Process with pandas
-import pandas as pd
-df = pd.DataFrame(data)
-result = df.groupby('Region').sum()
-```
+ 
+ 
 
 ## Embedded Analytics Scenarios
 
@@ -285,4 +239,4 @@ Resources available to developers:
 
 ## Summary
 
-The API and programmatic access capabilities of Inforiver Analytics+ provide a powerful foundation for integrating advanced analytics visualization into applications, automating reporting processes, and extending the platform's functionality. By leveraging these capabilities, organizations can create custom analytics solutions that address their specific business needs while maintaining the enterprise-grade security, performance, and governance of the core Analytics+ platform. 
+The API and programmatic access capabilities of Inforiver Analytics+ provide a powerful foundation for integrating advanced analytics visualization into applications, automating reporting processes, and extending the platform's functionality. By leveraging these capabilities, organizations can create custom analytics solutions that address their specific business needs while maintaining the enterprise-grade security, performance, and governance of the core Analytics+ platform.

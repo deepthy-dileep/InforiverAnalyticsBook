@@ -2,6 +2,8 @@
 
 The pivot data interface is a cornerstone of Analytics+, providing powerful capabilities for organizing, analyzing, and visualizing hierarchical and multi-dimensional data. Going beyond the basic pivoting functionality available in Power BI, the Analytics+ pivot interface combines the analytical flexibility of Excel-like pivoting with the visual power of interactive business visualizations. This section explores the pivot interface fundamentals, data manipulation capabilities, and advanced techniques that enable sophisticated data analysis.
 
+Analytics+ offers two interfaces for data management: the standard Pivot Data window and the Advanced Pivot interface. Both provide the same core functionality, but the Advanced Pivot offers an enhanced user experience with real-time visualization updates and additional filtering capabilities.
+
 ## Pivot Interface Fundamentals
 
 The Analytics+ pivot interface provides a structured yet flexible approach to data organization and analysis.
@@ -19,25 +21,6 @@ The fundamental concepts underpinning the pivot interface include:
 - **Calculated Measures**: Custom calculations based on other measures
 
 These core concepts provide the foundation for organizing and analyzing multi-dimensional data in a structured, tabular format that supports both deep analysis and clear communication.
-
-```javascript
-// Basic pivot configuration
-{
-  pivotConfig: {
-    rows: ["productCategory", "product"],
-    columns: ["year", "quarter"],
-    values: [
-      { field: "revenue", aggregation: "sum" },
-      { field: "cost", aggregation: "sum" },
-      { field: "profit", calculation: "revenue - cost" }
-    ],
-    filters: [
-      { field: "region", value: "Europe" },
-      { field: "channel", value: "Direct" }
-    ]
-  }
-}
-```
 
 ### Excel-Inspired User Experience
 
@@ -67,6 +50,91 @@ A distinguishing feature of Analytics+ is the seamless integration between pivot
 
 This integration enables users to fluidly move between tabular analysis and visual representation, leveraging the strengths of each approach without losing analytical context.
 
+## Advanced Pivot Interface
+
+The Advanced Pivot interface represents a significant enhancement to the data management experience in Analytics+, providing a more integrated and efficient approach to data configuration.
+
+### Designer View Integration
+
+The Advanced Pivot interface, also known as the designer view, offers several advantages over the standard pivot data window:
+
+- **Real-time Visualization Updates**: Changes to field assignments, filters, and settings are immediately reflected in the visualization without closing the interface
+- **Persistent Side Panel**: Remains open alongside the visualization, eliminating the need to repeatedly open and close the data configuration window
+- **Contextual Workspace**: Provides a more intuitive understanding of how data configuration changes affect the visualization
+- **Enhanced Productivity**: Streamlines the iterative process of data exploration and report design
+- **Responsive Layout**: Adapts to available screen space while maintaining access to all configuration options
+
+The Advanced Pivot interface automatically activates when the Analytics+ visual occupies a significant portion of the canvas (approximately 75% or more), providing a seamless transition to this enhanced experience when working with larger visualizations.
+
+### Advanced Pivot Components
+
+The Advanced Pivot interface is organized into several functional areas:
+
+#### Search and Filter Panel
+
+The search and filter panel provides efficient access to available fields:
+
+- **Field Selection**: Checkbox-based selection of measures and dimensions
+- **Search Functionality**: Quick location of specific fields within large datasets
+- **Field Organization**: Logical grouping of related fields
+- **Field Metadata**: Additional information about field types and properties
+- **Selection Management**: Tools for selecting or deselecting multiple fields
+
+This panel streamlines the process of locating and selecting relevant fields from potentially large datasets with numerous measures and dimensions.
+
+#### Fields Configuration Area
+
+The fields configuration area provides drag-and-drop management of data relationships:
+
+- **Data Wells**: Dedicated areas for measures (Actuals, Plan, Prior Year, Forecast)
+- **Dimension Buckets**: Specific zones for axis, legend, row, and column dimensions
+- **Visual Mapping**: Clear indication of how fields relate to visual elements
+- **Drag-and-Drop Interaction**: Intuitive movement of fields between areas
+- **Field Reordering**: Simple rearrangement of fields within each area
+- **Automatic Recalculation**: Immediate computation of variances when comparison measures are added
+
+This area provides a visual representation of the data structure that directly corresponds to the resulting visualization.
+
+#### Filtering Interface
+
+The filtering interface offers powerful data focusing capabilities:
+
+- **Measure Filtering**: Value-based filtering of numeric data
+- **Dimension Filtering**: Category-based filtering of dimensional data
+- **Basic Filtering**: Simple inclusion/exclusion of specific values
+- **Advanced Filtering**: Complex conditions with multiple criteria
+- **Visual Filter Indicators**: Clear display of active filters
+- **Filter Management**: Tools for clearing or modifying existing filters
+- **Filter Persistence**: Maintenance of filter state across sessions
+
+This filtering capability is exclusive to the Advanced Pivot interface, providing additional data focusing options not available in the standard pivot data window.
+
+#### Advanced Settings
+
+The advanced settings section provides access to specialized configuration options:
+
+- **IBCS Standards**: Toggle for International Business Communication Standards compliance
+- **Measure Splitting**: Options for displaying measures in separate panels
+- **Dimension Combination**: Controls for merging row and column dimensions
+- **Layout Preferences**: Settings for structural organization of the visualization
+- **Calculation Options**: Advanced computation settings
+- **Display Configurations**: Specialized visualization appearance options
+- **Interaction Settings**: Controls for how users engage with the visualization
+
+These advanced settings provide fine-grained control over both the analytical approach and the visual presentation.
+
+### Disabling Advanced Pivot
+
+While the Advanced Pivot interface offers significant advantages, Analytics+ provides the flexibility to disable this feature if preferred:
+
+- **User Preference**: Some users may prefer the popup dialog approach
+- **Screen Space Optimization**: Maximizing visualization area on smaller displays
+- **Consistent Experience**: Maintaining the same interface across different visual sizes
+- **Workflow Compatibility**: Accommodating established user workflows
+- **Configuration Access**: Display settings > Others > Hide advance pivot toggle
+
+This option ensures that users can choose the data management interface that best suits their specific needs and preferences.
+
 ## Data Manipulation Capabilities
 
 The Analytics+ pivot interface provides extensive capabilities for manipulating and analyzing data.
@@ -85,24 +153,6 @@ Sophisticated handling of dimensions includes:
 
 These capabilities enable flexible organization of data to support specific analytical needs and perspectives.
 
-```javascript
-// Custom hierarchy configuration
-{
-  hierarchyDefinition: {
-    name: "Geography",
-    levels: [
-      { field: "region", sortBy: "name" },
-      { field: "country", sortBy: "name" },
-      { field: "city", sortBy: "name" }
-    ],
-    defaultExpansion: "region",
-    memberFilters: {
-      region: ["EMEA", "Americas", "APAC"],
-      country: { exclude: ["Cuba", "North Korea"] }
-    }
-  }
-}
-```
 
 ### Measure Management
 
@@ -164,27 +214,6 @@ Comprehensive hierarchy capabilities include:
 
 These capabilities enable effective analysis of complex organizational structures, product categorizations, account hierarchies, and other multi-level business dimensions.
 
-```javascript
-// Multi-level hierarchy analysis
-{
-  pivotAnalysis: {
-    rows: {
-      hierarchy: "Geography",
-      expandedLevels: ["region", "country"],
-      levelsWithSubtotals: ["region"]
-    },
-    columns: {
-      hierarchy: "Time",
-      expandedLevels: ["year", "quarter"],
-      levelsWithSubtotals: ["year"]
-    },
-    levelCalculations: [
-      { level: "region", calculation: "average of countries" },
-      { level: "country", calculation: "sum of cities" }
-    ]
-  }
-}
-```
 
 ### Drill-Down Capabilities
 
@@ -246,30 +275,6 @@ Capabilities for non-uniform row arrangements include:
 
 These capabilities enable the creation of sophisticated, business-specific report layouts that match analytical and communication requirements.
 
-```javascript
-// Asymmetric report structure
-{
-  reportStructure: {
-    sections: [
-      {
-        title: "Revenue Analysis",
-        rows: ["totalRevenue", "directRevenue", "indirectRevenue"],
-        showSubtotals: false
-      },
-      {
-        title: "Cost Analysis",
-        rows: ["totalCost", "fixedCosts", "variableCosts"],
-        showSubtotals: true
-      },
-      {
-        title: "Profitability",
-        rows: ["grossProfit", "margin", "netProfit"],
-        calculationRows: true
-      }
-    ]
-  }
-}
-```
 
 ### Custom Column Structures
 
@@ -319,36 +324,31 @@ Analytics+ extends beyond basic pivoting with advanced analytical capabilities.
 
 ### Dynamic Calculations
 
-Sophisticated calculation capabilities include:
+Analytics+ provides sophisticated calculation capabilities that enable users to create visual-level measures without requiring DAX knowledge:
 
-- **Calculation Editor**: Formula creation with function assistance
+- **Calculation Editor**: Formula creation with function assistance and syntax highlighting
+- **Formula Bar**: Dedicated interface for creating and editing calculations
+- **Measure Suggestions**: Intelligent auto-complete with '#' key activation
 - **Cell References**: Excel-like references to other cells and ranges
 - **Variable Support**: Defining and using variables in calculations
 - **Conditional Logic**: Implementing IF/THEN/ELSE logic in formulas
 - **Array Formulas**: Performing calculations across data ranges
 - **Time Intelligence**: Period-to-date, year-over-year, and other time calculations
 - **Statistical Functions**: Built-in statistical and mathematical operations
+- **Calculation Management**: Edit, rename, or delete calculated measures through the interface
+- **Calculation Assignment**: Assign calculated measures to any data well (Actuals, Plan, etc.)
+- **Visual Integration**: Seamless incorporation of calculated measures into visualizations
 
-These calculation capabilities provide the analytical power to address complex business questions directly within the pivot interface.
+These calculation capabilities provide the analytical power to address complex business questions directly within the pivot interface without requiring specialized DAX knowledge or data model modifications. Users can create calculations like:
 
-```javascript
-// Advanced calculation example
-{
-  calculatedMeasure: {
-    name: "Risk-Adjusted Return",
-    formula: `
-      IF([Volatility] > 0) 
-      THEN ([Return] - [RiskFreeRate]) / [Volatility] 
-      ELSE NULL
-    `,
-    format: "0.00",
-    conditionalFormatting: [
-      { condition: "value > 1.5", style: "greenBackground" },
-      { condition: "value < 0.5", style: "redBackground" }
-    ]
-  }
-}
-```
+- Growth rates and variances
+- Custom aggregations and ratios
+- Conditional metrics and KPIs
+- Time-based comparisons
+- Statistical analyses
+
+The calculated measures created in the pivot interface are specific to the visual and do not modify the underlying data model, providing a safe, flexible environment for analytical exploration.
+
 
 ### Scenario Modeling
 
@@ -366,7 +366,7 @@ These capabilities transform the pivot interface from an analysis tool to a plan
 
 ### Advanced Filtering and Selection
 
-Sophisticated data focusing capabilities include:
+Analytics+ provides sophisticated data focusing capabilities that go beyond standard Power BI filtering:
 
 - **Linked Selection**: Coordinated selection across pivots and visualizations
 - **Selection Sets**: Saving and applying groups of selection states
@@ -376,7 +376,33 @@ Sophisticated data focusing capabilities include:
 - **Visual Filtering**: Drawing selection areas on visualizations
 - **Selection Effects**: Controlling how selection affects visibility and emphasis
 
-These advanced selection capabilities enable users to quickly focus on relevant data subsets across complex analytical contexts.
+#### Advanced Sorting Capabilities
+
+The pivot interface includes powerful sorting options that enhance data organization:
+
+- **Multi-level Sorting**: Apply nested sorts across multiple fields simultaneously
+- **Measure-based Sorting**: Order dimensions based on measure values
+- **Variance-based Sorting**: Sort by calculated differences or percentages
+- **Custom Sort Sequences**: Define specific sort orders beyond alphabetical
+- **Hierarchical Sorting**: Apply sorts that respect hierarchical relationships
+- **Panel Sorting**: In trellis layouts, sort the panels themselves
+- **Sort Direction Toggle**: Easily switch between ascending and descending order
+- **Sort Persistence**: Maintain sort settings across sessions
+- **Visual Sort Indicators**: Clear display of active sort directions
+
+#### Advanced Ranking Features
+
+Beyond basic sorting, Analytics+ provides sophisticated ranking capabilities:
+
+- **TopN/BottomN Filtering**: Display only the highest or lowest performing items
+- **Percentage-based Ranking**: Show top or bottom percentage of items
+- **Nested Ranking**: Apply ranking within hierarchical structures
+- **Conditional Ranking**: Rank based on complex criteria
+- **Rank Visualization**: Clearly indicate rank position in visualizations
+- **Rank Comparison**: Compare rankings across different measures or time periods
+- **Rank Filtering**: Focus analysis on specific rank ranges
+
+These advanced selection, sorting, and ranking capabilities enable users to quickly focus on relevant data subsets across complex analytical contexts, revealing patterns and insights that might otherwise remain hidden in large datasets.
 
 ### Export and Integration
 
@@ -424,26 +450,6 @@ Applications for sales and marketing include:
 
 These applications help sales and marketing teams understand performance drivers and optimization opportunities.
 
-```javascript
-// Sales analysis pivot configuration
-{
-  salesAnalysis: {
-    rows: ["salesTerritory", "accountManager", "customer"],
-    columns: ["year", "quarter", "month"],
-    measures: [
-      "revenue", 
-      "units", 
-      "averageSellingPrice",
-      "previousYearRevenue", 
-      "yearOverYearGrowth"
-    ],
-    filters: {
-      productCategory: "Electronics",
-      customerSegment: "Enterprise"
-    }
-  }
-}
-```
 
 ### Operations and Supply Chain
 
@@ -523,6 +529,10 @@ This process integration ensures that analytical capabilities directly support c
 
 The pivot data interface in Analytics+ represents a significant advancement in data analysis capabilities within Power BI. By combining the familiar structure of pivot tables with advanced analytical capabilities, flexible organization options, and seamless visualization integration, Analytics+ enables business users to conduct sophisticated multi-dimensional analysis without specialized technical skills.
 
-The comprehensive hierarchy support, asymmetric reporting capabilities, and advanced analytical techniques provide the tools needed to address complex business questions across finance, sales, operations, and other domains. The resulting benefits—analytical flexibility, information clarity, and process integration—deliver tangible business value through better-informed decisions and more effective communication.
+The dual interface approach—standard Pivot Data window and Advanced Pivot—provides flexibility to accommodate different user preferences and working styles. The Advanced Pivot interface, with its real-time visualization updates, integrated filtering, and persistent side panel, significantly enhances productivity for complex analytical tasks and report design.
 
-In the next section, we'll explore the storytelling features of Analytics+, examining how annotations and reference lines can be used to build compelling analytical narratives. 
+The comprehensive hierarchy support, asymmetric reporting capabilities, and advanced analytical techniques provide the tools needed to address complex business questions across finance, sales, operations, and other domains. Features like visual-level calculated measures, advanced sorting and ranking, and sophisticated filtering capabilities eliminate the need for complex DAX formulas or data model modifications in many scenarios.
+
+The resulting benefits—analytical flexibility, information clarity, and process integration—deliver tangible business value through better-informed decisions and more effective communication. By empowering business users with these capabilities, Analytics+ bridges the gap between technical data modeling and business-oriented analysis, enabling a more agile and responsive analytical process.
+
+In the next section, we'll explore the storytelling features of Analytics+, examining how annotations and reference lines can be used to build compelling analytical narratives.

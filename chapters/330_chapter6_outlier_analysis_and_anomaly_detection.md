@@ -46,6 +46,18 @@ in the top/bottom 1% of values, with automatic adjustment
 for seasonal patterns and day-of-week effects."
 ```
 
+#### Statistical Visualization Tools
+
+Analytics+ provides several built-in statistical visualization tools that help identify and analyze outliers:
+
+- **Reference Lines**: Add statistical markers such as mean, median, minimum, maximum, and standard deviation lines to quickly identify values that deviate from central tendencies. Reference lines can be customized with different styles, colors, and labels.
+
+- **Reference Bands**: Create statistical ranges (such as confidence intervals or standard deviation bands) to visualize acceptable variation ranges and easily spot values that fall outside these ranges. Reference bands can be configured with custom start and end points based on statistical measures.
+
+- **Error Bars**: Visualize data variability and uncertainty with customizable error bars that can be configured by percentage, absolute value, or using field values. Error bars can be symmetrical or asymmetrical and include options for error area visualization to highlight the range of potential values.
+
+These statistical visualization tools can be applied to any measure and customized to match the visual style of the report while clearly highlighting potential outliers.
+
 ### Contextual Anomaly Detection
 
 Analytics+ goes beyond basic statistical outliers to identify values that are anomalous only in specific contexts:
@@ -78,10 +90,10 @@ These advanced techniques operate behind a business-friendly interface that does
 
 ```
 Example ML Detection Configuration:
-"Learn normal patterns from the last 6 months of data, 
-automatically accounting for seasonality, trends, and 
-business cycles. Flag any new data points that deviate 
-significantly from expected patterns, with moderate 
+"Learn normal patterns from the last 6 months of data,
+automatically accounting for seasonality, trends, and
+business cycles. Flag any new data points that deviate
+significantly from expected patterns, with moderate
 sensitivity to balance detection rate and false positives."
 ```
 
@@ -102,6 +114,25 @@ Basic but effective techniques to draw attention to anomalies:
 
 ![Anomaly Highlighting](../images/anomaly_highlighting.png)
 *Figure 6.3.3: Anomaly Highlighting in Analytics+*
+
+### Conditional Formatting for Anomalies
+
+Analytics+ offers powerful conditional formatting capabilities specifically designed to highlight outliers and anomalies:
+
+#### One-Click Outlier Rules
+
+- **Value-Based Rules**: Quickly highlight values above or below specific thresholds with customizable colors and formatting
+- **Comparison-Based Rules**: Identify values that deviate significantly from benchmarks or comparison measures
+- **Color Scales**: Apply sequential, qualitative, or diverging color scales to visually represent data distribution and easily spot outliers
+
+#### Advanced Conditional Formatting
+
+- **Custom Rule Configuration**: Create sophisticated outlier detection rules with multiple conditions and logical operators
+- **Format Targeting**: Apply formatting selectively to charts, data labels, or data tables
+- **Visual Indicators**: Use color, fill styles (solid, outline, hatched), and borders to indicate anomalies
+- **Variable Rules**: Create dynamic thresholds that adjust based on data context
+
+These conditional formatting capabilities can be applied across charts, cards, and tables with a consistent visual language for anomaly identification.
 
 ### Specialized Anomaly Visualizations
 
@@ -129,6 +160,7 @@ Analytics+ provides powerful interactive capabilities for exploring and understa
 - **Comparative Analysis**: Compare anomalies across time periods or categories
 - **Pattern Matching**: Find similar anomaly patterns across the dataset
 - **Time-Window Adjustment**: Expand or contract time periods to understand context
+- **Contextual Filtering**: Focus analysis on specific segments where anomalies appear
 
 ## Real-Time and Batch Anomaly Detection
 
@@ -265,12 +297,21 @@ The anomaly detection capabilities in Analytics+ integrate seamlessly with the b
 
 - **Statistical Analysis Integration**: Leverage capabilities from Statistical Analysis (Section 6.1)
 - **Forecasting Integration**: Flag deviations from projected trends (Section 6.2)
-- **Storytelling Features**: Incorporate anomalies into analytics narratives
+- **Comparative Analysis Integration**: Compare anomalies across different dimensions (Section 6.4)
+- **Analytics+ Feature Integration**:
+  - **Reference Lines/Bands**: Create statistical boundaries to identify outliers
+  - **Error Bars**: Visualize data variability and uncertainty ranges
+  - **Conditional Formatting**: Apply sophisticated rules to highlight anomalies
+  - **Trend Lines**: Identify deviations from expected trends
+  - **Trellis Layouts**: Compare anomaly patterns across multiple dimensions
+  - **Hierarchies**: Analyze outliers at different levels of detail
+- **Storytelling Features**: Incorporate anomalies into analytics narratives with annotations and highlights
 - **Power BI Integration**:
   - Use Power BI datasets as anomaly detection sources
   - Connect Power BI alerts to anomaly detection results
   - Leverage Power BI bookmarks to save anomaly investigation states
   - Use Power BI drillthrough to explore anomaly details
+  - Apply Power BI filters to focus on specific anomaly contexts
 
 ## Governance and Best Practices
 
@@ -302,6 +343,12 @@ The Analytics+ roadmap includes several upcoming anomaly detection enhancements:
 - **Causal Network Analysis**: Visualize root cause relationships across complex systems
 - **Federated Anomaly Detection**: Share anomaly patterns across business units securely
 - **Natural Language Anomaly Explanations**: Automatically generate narrative explanations
+- **Enhanced Statistical Visualization**: New visualization types specifically for outlier analysis
+- **Automated Outlier Classification**: Intelligent categorization of different types of anomalies
+- **Contextual Sensitivity Controls**: Fine-tune detection based on business context
+- **Anomaly Pattern Recognition**: Identify recurring patterns in anomaly occurrence
+- **Integrated Anomaly Workflows**: Connect detection directly to business processes
+- **Real-time Collaborative Investigation**: Enable team-based anomaly analysis
 
 ## Conclusion: Business-Oriented Anomaly Intelligence
 
@@ -313,4 +360,4 @@ The outlier analysis and anomaly detection capabilities in Analytics+ represent 
 4. **Quantify business impact** of detected anomalies for proper prioritization
 5. **Learn from patterns** to continuously improve detection and prevention
 
-This democratization of anomaly detection capabilities enables more proactive business management, transforms quality control processes, enhances risk management, and helps organizations identify unexpected opportunities hidden in their data. 
+This democratization of anomaly detection capabilities enables more proactive business management, transforms quality control processes, enhances risk management, and helps organizations identify unexpected opportunities hidden in their data.

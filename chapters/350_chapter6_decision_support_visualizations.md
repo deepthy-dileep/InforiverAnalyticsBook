@@ -36,16 +36,49 @@ Support complex decisions with multiple criteria and alternatives:
 | Pareto Frontier Visualization | Identify optimal solutions with multiple objectives | Portfolio optimization, efficiency frontier analysis |
 | Sensitivity Analysis Heatmaps | Show how criteria weighting affects outcomes | Test robustness of decisions against preference changes |
 | Criteria Correlation Maps | Visualize relationships between evaluation criteria | Identify redundant or conflicting decision factors |
+| Radar/Polar Charts | Multi-dimensional comparison across evaluation criteria | Balanced scorecard visualization, capability assessment |
+| Parallel Coordinates | Visualize multiple variables simultaneously across options | Multi-factor option comparison, pattern identification |
+
+#### Radar and Polar Charts for Multi-Criteria Evaluation
+
+Radar charts (also known as spider or web charts) are particularly effective for multi-criteria decision analysis, allowing decision-makers to:
+
+- Visualize performance across multiple criteria simultaneously
+- Compare multiple alternatives on a single chart
+- Identify balanced versus specialized options
+- Detect strengths and weaknesses across evaluation dimensions
+
+Analytics+ offers extensive customization options for radar/polar charts:
+- Multiple series types (line, area, column) for different measures
+- Circular or linear grid layouts
+- Customizable axis labels and value displays
+- Individual series type options for differentiating between measures
+- Adjustable opacity and grid styling
+
+#### Parallel Coordinates for Complex Option Comparison
+
+For decisions involving numerous criteria and alternatives, parallel coordinates charts provide powerful visualization capabilities:
+
+- Plot multiple measures across multiple dimensions
+- Compare options across all criteria simultaneously
+- Identify patterns and relationships between criteria
+- Detect outliers and exceptional options
+
+Analytics+ implementation includes:
+- Individual or uniform scaling options for different measures
+- Customizable axis settings for each measure
+- Small multiples capability for additional categorization
+- Interactive highlighting for focused analysis
 
 The MCDA visualizations allow decision-makers to systematically evaluate alternatives and make transparent, defensible choices:
 
 ```
 Example Decision Matrix Application:
-"A manufacturing company evaluating 5 potential factory 
-locations across 12 criteria (labor costs, supply chain 
-proximity, tax incentives, etc.) with customized weighting 
-based on strategic priorities. The visualization highlights 
-the top-performing options and allows interactive adjustment 
+"A manufacturing company evaluating 5 potential factory
+locations across 12 criteria (labor costs, supply chain
+proximity, tax incentives, etc.) with customized weighting
+based on strategic priorities. The visualization highlights
+the top-performing options and allows interactive adjustment
 of weights to test decision robustness."
 ```
 
@@ -59,9 +92,44 @@ Help decision-makers understand and account for uncertainty:
 - **Tornado Charts**: Show sensitivity of outcomes to different variables
 - **Decision Trees**: Evaluate sequential decisions with probabilistic outcomes
 - **Confidence Interval Visualization**: Display uncertainty ranges around projections
+- **Bullet Charts**: Compare actual performance against targets with qualitative ranges
+- **Treemap Charts**: Visualize hierarchical risk categories with size representing impact
 
 ![Risk Matrix](../images/risk_matrix.png)
 *Figure 6.5.2: Interactive Risk Matrix in Analytics+*
+
+#### Tornado Charts for Sensitivity Analysis
+
+Tornado charts are particularly valuable for decision support as they help stakeholders:
+
+- Identify which variables have the greatest impact on outcomes
+- Visualize the range of potential outcomes based on variable uncertainty
+- Prioritize which factors require the most attention or risk mitigation
+- Compare the relative importance of different decision factors
+
+Analytics+ implementation features:
+- Side-by-side comparison of variables
+- Clear visualization of positive and negative impacts
+- Automatic sorting of factors by impact magnitude
+- Customizable formatting and styling
+
+#### Bullet Charts for Performance-to-Target Visualization
+
+Bullet charts provide an efficient way to evaluate decisions against targets and thresholds:
+
+- Compare actual performance against planned targets
+- Visualize performance bands (poor, satisfactory, good)
+- Highlight variance between actual and target
+- Display multiple metrics in a compact format
+
+Analytics+ offers several bullet chart variations:
+- **Conditional Column**: Tracks progress against targets with reference lines
+- **Comparative Column**: Compares performance across multiple categories
+- **Qualitative Column**: Includes qualitative performance bands with customizable colors
+- **Multi-measure Bullet**: Displays multiple measures with different scaling factors
+- **IBCS Bullet**: Standardized format following IBCS notation guidelines
+
+These charts include features like variance bars (inside or outside the actual bar), customizable colors for positive/negative variances, and target indicators.
 
 ### Recommendation Visualizations
 
@@ -75,8 +143,43 @@ Guide users toward optimal decisions based on data and business rules:
 | Recommendation Cards | Concise visual summaries of suggested actions | Operational decisions, next-best-action guidance |
 | Decision Rule Visualization | Show how business rules influence recommendations | Policy compliance, automated decision explanations |
 | Impact Projection Charts | Forecast expected outcomes of recommended actions | ROI forecasting, intervention planning |
+| Sankey Diagrams | Visualize flows between decision stages or categories | Resource allocation, process optimization |
+| Insight Charts | Compact bullet-style visualizations of KPI metrics | Performance monitoring, threshold-based decisions |
 
 These visualizations transform complex data into clear, actionable recommendations while maintaining transparency about the underlying logic.
+
+#### Sankey Diagrams for Decision Flow Visualization
+
+Sankey diagrams are powerful tools for decision support that help stakeholders:
+
+- Visualize resource flows between categories or decision stages
+- Understand the distribution of resources, costs, or benefits
+- Identify bottlenecks or inefficiencies in processes
+- Track how inputs transform into outputs through a decision process
+
+Analytics+ implementation includes:
+- Customizable node width and padding
+- Adjustable opacity for nodes and flows
+- Interactive highlighting of selected flows
+- Options to handle missing or negative values
+- Customizable node colors for different dimensions
+
+#### Insight Charts for Compact Decision Metrics
+
+For dashboard-style decision support, insight charts provide:
+
+- Condensed visualization of key performance indicators
+- Bullet-style charts showing performance against targets
+- Clear indication of variance from goals
+- Multiple visualization options in a compact format
+
+Analytics+ offers several insight chart types:
+- Conditional bar
+- Qualitative bullet bar
+- Comparative bullet bar
+- IBCS bullet bar
+
+These compact visualizations can be integrated into decision support dashboards to provide at-a-glance performance context for decision-making.
 
 ## Interactive Decision Support Features
 
@@ -103,9 +206,37 @@ Enable interactive evaluation of alternative decisions:
 - **Goal Seeking**: Reverse-engineer inputs needed to achieve desired outcomes
 - **Automated Scenario Generation**: AI-suggested alternatives to consider
 - **Scenario Comparison Views**: Side-by-side analysis of potential choices
+- **Treemap Exploration**: Drill down through hierarchical decision factors
+- **Multi-Variate Scenario Analysis**: Compare scenarios across multiple dimensions simultaneously
 
 ![Scenario Explorer](../images/scenario_explorer.png)
 *Figure 6.5.3: Scenario Explorer for Decision Support in Analytics+*
+
+#### Treemap Charts for Hierarchical Decision Exploration
+
+Treemap charts provide powerful capabilities for exploring hierarchical decision factors:
+
+- Visualize the relative importance of different decision categories
+- Drill down from high-level decision areas to specific factors
+- Compare the size and impact of different decision components
+- Identify which areas deserve the most attention in the decision process
+
+Analytics+ implementation features:
+- Multiple tile layout options for different visualization needs
+- Expandable hierarchies with drill-down capabilities
+- Measure grouping for comparing multiple metrics
+- Customizable padding and spacing for visual clarity
+- Options for handling missing values
+
+#### Multi-Variate Scenario Comparison
+
+For complex scenario analysis involving multiple variables, Analytics+ offers:
+
+- **Parallel Coordinates**: Compare scenarios across multiple dimensions simultaneously
+- **Slope Graphs**: Visualize changes between two states or scenarios
+- **Radar/Polar Charts**: Compare the balance of factors across different scenarios
+
+These visualization types help decision-makers understand the trade-offs between different scenarios and identify which option best meets their multi-dimensional requirements.
 
 ### Collaborative Decision Features
 
@@ -234,11 +365,20 @@ The decision support visualizations in Analytics+ integrate seamlessly with the 
 - **Forecasting Integration**: Use trend projections in decision scenarios (Section 6.2)
 - **Anomaly Detection Integration**: Identify risks and outliers in decision options (Section 6.3)
 - **Comparative Analysis Integration**: Compare decision alternatives comprehensively (Section 6.4)
+- **Analytics+ Feature Integration**:
+  - **Reference Lines/Bands**: Add statistical context to decision thresholds
+  - **Error Bars**: Visualize uncertainty in decision variables
+  - **Conditional Formatting**: Highlight decision-critical values
+  - **Trellis Layouts**: Compare decisions across multiple dimensions
+  - **Hierarchies**: Analyze decisions at different levels of detail
+  - **Custom Measures**: Create specialized decision metrics
+  - **Insight Charts**: Provide compact decision support visualizations
 - **Power BI Integration**:
   - Use Power BI data models as decision input sources
   - Leverage Power BI bookmarks to save decision scenarios
   - Connect to Power BI parameters for interactive decision criteria
   - Publish decision outcomes to Power BI reports and dashboards
+  - Use Power BI slicers for interactive scenario adjustment
 
 ## Governance and Best Practices
 
@@ -272,6 +412,12 @@ The Analytics+ roadmap includes several upcoming decision support enhancements:
 - **Decision Quality Prediction**: Forecast likelihood of decision success based on process quality
 - **Autonomous Decision Agents**: AI-driven decision-making for routine operational choices
 - **Collaborative Intelligence Features**: Better integration of human and machine decision inputs
+- **Enhanced Multi-Dimensional Visualization**: New chart types for complex decision scenarios
+- **Interactive Decision Trees**: Visual decision path exploration with probability weighting
+- **Automated Decision Documentation**: Capture decision context and rationale automatically
+- **Integrated Scenario Planning**: Connect forecasting directly to decision support tools
+- **Decision Impact Simulation**: Visualize cascading effects of decisions across the organization
+- **Customizable Decision Frameworks**: Templates for different decision types and methodologies
 
 ## Conclusion: Transforming Data into Decisions
 
@@ -283,4 +429,4 @@ The decision support visualizations in Analytics+ represent a significant advanc
 4. **Understand uncertainty** by visualizing risks and confidence levels
 5. **Document rationale** by capturing decision logic and context
 
-This transformation of the decision process enables organizations to move beyond using analytics merely for insight generation to leveraging it for systematic decision excellence. By integrating advanced decision science principles into accessible visualizations, Analytics+ helps organizations develop a sustainable competitive advantage through superior decision-making capabilities at all levels. 
+This transformation of the decision process enables organizations to move beyond using analytics merely for insight generation to leveraging it for systematic decision excellence. By integrating advanced decision science principles into accessible visualizations, Analytics+ helps organizations develop a sustainable competitive advantage through superior decision-making capabilities at all levels.

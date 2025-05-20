@@ -66,24 +66,7 @@ The IBCS notation framework provides specific guidelines for:
 
 This comprehensive framework ensures that visualizations not only look professional but also communicate effectively across different business contexts.
 
-```javascript
-// Sample configuration for IBCS-compliant column chart
-{
-  chartType: "ibcsColumn",
-  properties: {
-    measures: ["actual", "budget"],
-    timeScale: "months",
-    timeRange: "current_year",
-    comparisonType: "absolute",
-    showVariances: true,
-    semanticColors: true,
-    semanticNotation: true,
-    showAxisLabels: true,
-    condensed: true,
-    unifyScales: true
-  }
-}
-```
+
 
 ## Analytics+ IBCS Implementation
 
@@ -103,38 +86,52 @@ The IBCS certification for Analytics+ covers:
 
 This comprehensive certification ensures that Analytics+ users can create standardized visualizations across all common business reporting scenarios.
 
+### Enabling IBCS Mode
+
+Analytics+ provides a flexible approach to IBCS implementation, allowing users to easily toggle between standard and IBCS-compliant visualizations:
+
+- **IBCS Standards Toggle**: A simple switch that enables full IBCS compliance
+- **Flexible Implementation**: Can be applied at both dashboard and individual visualization levels
+- **Automatic Notation Conversion**: Field names automatically convert to IBCS notation (AC, PY, PL, FC)
+- **Variance Calculation**: Automatic generation of absolute and relative variances
+- **Visual Transformation**: Immediate visual conversion to IBCS-compliant representation
+- **Template Integration**: One-click application of IBCS-compliant templates
+- **Preservation of Customization**: Maintains user customizations while ensuring standards compliance
+
+This flexible approach allows organizations to implement IBCS standards without requiring extensive training or disrupting existing workflows, making the transition to standardized business communication smooth and efficient.
+
 ### Implementation Features
 
 Analytics+ implements IBCS standards through:
 
 #### Semantic Color Coding
 
-- **Actuals**: Solid dark colors (typically dark blue/black)
-- **Plan/Budget**: Outlined shapes in the same color
-- **Forecast**: Hatched pattern in the same color
-- **Previous Period**: Lighter shade of the same color
+Analytics+ implements the IBCS semantic notation through consistent visual encoding:
+
+- **Actuals (AC)**: Solid dark colors (typically dark blue/black)
+- **Plan/Budget (PL)**: Outlined shapes in the same color
+- **Forecast (FC)**: Hatched pattern in the same color
+- **Previous Period (PY)**: Lighter shade of the same color
 - **Positive Variances**: Standard green
 - **Negative Variances**: Standard red
 - **Structural Elements**: Neutral grays
 - **Highlighting**: Accent colors for emphasis
 
-This consistent color coding ensures that visualization meaning is immediately clear across all reports and dashboards.
+This semantic encoding extends beyond simple color choices to include:
 
-```javascript
-// IBCS semantic color implementation
-const ibcsSemanticColors = {
-  actual: "#000000",       // Black for actuals
-  plan: "#FFFFFF",         // White fill with black outline for plan
-  planStroke: "#000000",   // Outline color for plan
-  forecast: "#000000",     // Black with hatch pattern
-  forecastPattern: "hatch",
-  previousPeriod: "#666666", // Gray for previous period
-  positiveVariance: "#6BB537", // Green for positive
-  negativeVariance: "#E64157", // Red for negative
-  structural: "#CCCCCC",   // Light gray for structural elements
-  highlight: "#FFC000"     // Gold for highlights
-};
-```
+- **Fill Patterns**: Solid, outlined, and hatched patterns to distinguish between actuals, plan, and forecast
+- **Line Styles**: Solid lines for actuals, dashed lines for plans and forecasts
+- **Shape Consistency**: Maintaining consistent shapes across different scenarios
+- **Variance Indicators**: Standardized visual elements for variance representation
+- **Customizable Standards**: Ability to adjust colors while maintaining pattern distinctions
+- **Conditional Application**: Automatic application of semantic encoding based on data context
+- **Visual Hierarchy**: Consistent emphasis levels across different data types
+
+The semantic color coding system can be applied automatically through the IBCS toggle or customized while maintaining standards compliance. Users can also override specific colors for positive and negative variances while preserving the semantic meaning through consistent patterns and shapes.
+
+This consistent visual language ensures that visualization meaning is immediately clear across all reports and dashboards, reducing the cognitive load for users and enabling faster, more accurate interpretation of business information.
+
+
 
 #### Standardized Notation
 
@@ -151,6 +148,8 @@ This standardized notation creates a consistent visual language that becomes imm
 
 #### Advanced IBCS Components
 
+Analytics+ provides specialized IBCS-compliant components for sophisticated business analysis:
+
 - **Variance Waterfall**: For showing contribution to total variance
 - **Scenario Comparison**: For comparing actuals, plan, forecast, previous year
 - **Small Multiple Variance**: For variance across multiple dimensions
@@ -160,6 +159,32 @@ This standardized notation creates a consistent visual language that becomes imm
 - **Trend-based Alerting**: For highlighting concerning patterns
 
 These specialized components enable sophisticated IBCS-compliant analysis beyond basic standardized visualization.
+
+#### IBCS-Specific Chart Types
+
+Analytics+ includes specialized chart types designed specifically for IBCS-compliant reporting:
+
+- **Integrated Variance Column**: Combines actuals, plan, and variance in a single column with standardized notation
+- **IBCS Bullet Chart**: Tracks progress against targets with standardized visual encoding
+- **IBCS Waterfall**: Visualizes financial statements with proper notation for increases and decreases
+- **Variance Bridge**: Connects start and end values with standardized variance representation
+- **IBCS-Compliant Tables**: Implements proper notation in tabular formats with integrated pin charts
+- **Semantic KPI Cards**: Displays key metrics with standardized visual elements and variance indicators
+
+Each chart type automatically implements the appropriate IBCS notation, ensuring consistent communication across different visualization formats.
+
+#### IBCS Templates
+
+Analytics+ provides pre-built IBCS-compliant templates that can be applied with a single click:
+
+- **Financial Statement Templates**: Pre-configured layouts for income statements, balance sheets, and cash flow statements
+- **Variance Analysis Templates**: Standardized formats for comparing actuals against plan, forecast, or previous periods
+- **KPI Dashboard Templates**: IBCS-compliant layouts for key performance indicators
+- **Management Reporting Templates**: Standardized formats for executive reporting
+- **Operational Performance Templates**: IBCS-compliant layouts for operational metrics
+- **Custom Template Support**: Ability to save and reuse organization-specific IBCS-compliant templates
+
+These templates significantly reduce the time required to create IBCS-compliant reports, ensuring consistent application of standards across the organization while maintaining flexibility for specific reporting needs.
 
 ## Unified Visualization Model
 
@@ -179,32 +204,7 @@ The unified model includes:
 
 This unified model ensures that users experience consistent behavior and appearance regardless of the specific chart type being used.
 
-```javascript
-// Unified model implementation example
-{
-  unifiedModel: {
-    encoding: {
-      quantitative: "position",
-      categorical: "discrete-position",
-      temporal: "horizontal-position",
-      comparative: "group-position"
-    },
-    scales: {
-      unifyRelated: true,
-      startFromZero: true,
-      adaptiveResolution: true
-    },
-    typography: {
-      titleFamily: "Arial",
-      labelFamily: "Arial",
-      dataLabelFamily: "Arial",
-      titleWeight: "bold",
-      labelWeight: "normal",
-      dataLabelWeight: "normal"
-    }
-  }
-}
-```
+
 
 ### Cross-Chart Consistency
 
@@ -239,31 +239,7 @@ Analytics+ automatically classifies data elements:
 
 This classification ensures that visualization elements are consistently applied based on the semantic meaning of the data.
 
-```javascript
-// Semantic classification example
-{
-  semanticLayer: {
-    measures: [
-      { id: "revenue", type: "currency", aggregation: "sum" },
-      { id: "cost", type: "currency", aggregation: "sum" },
-      { id: "profit", type: "currency", aggregation: "sum", derivation: "revenue - cost" }
-    ],
-    dimensions: [
-      { id: "product", type: "categorical" },
-      { id: "region", type: "categorical", isGeographic: true }
-    ],
-    timeDimensions: [
-      { id: "month", type: "temporal", granularity: "month" },
-      { id: "quarter", type: "temporal", granularity: "quarter" }
-    ],
-    scenarios: [
-      { id: "actual", type: "actual" },
-      { id: "budget", type: "plan" },
-      { id: "forecast", type: "forecast" }
-    ]
-  }
-}
-```
+
 
 ### Business Rules Integration
 
@@ -279,6 +255,32 @@ The semantic layer incorporates business rules:
 - **Hierarchy Navigation**: Managing navigation between hierarchy levels
 
 These business rules ensure that visualizations not only look consistent but also reflect consistent business definitions and calculation methodologies.
+
+### IBCS-Specific Formatting Features
+
+Analytics+ implements several specialized formatting features to support IBCS-compliant reporting:
+
+#### Numeric Representation
+
+- **Basis Points**: Display small percentage changes in basis points (hundredths of a percentage point)
+- **Percentage Points**: Distinguish between percentage and percentage point changes
+- **Scaling Indicators**: Standardized notation for thousands (k), millions (m), billions (b)
+- **Custom Scaling Notation**: Ability to customize scaling indicators while maintaining standards
+- **Uniform Scaling**: Consistent scaling across comparable visualizations
+- **Scale Bands**: Visual indicators for scale changes within a single visualization
+- **Variance Formatting**: Standardized formats for absolute and relative variances
+
+#### Visual Structure
+
+- **Skip Lines**: Demarcation lines between categories in IBCS C04 layouts
+- **Report Title Integration**: Standardized display of scaling information in report titles
+- **Variance Display Options**: Configurable display of variances as bars or arrows
+- **Zero Suppression**: Controlled handling of zero values in accordance with IBCS principles
+- **Value Format Control**: Standardized display of positive and negative values
+- **Conditional Formatting**: IBCS-compliant highlighting of significant values
+- **Target Indicators**: Standardized visual representation of targets and thresholds
+
+These specialized formatting features ensure that Analytics+ visualizations not only follow IBCS visual standards but also implement the underlying principles of clear, consistent business communication through appropriate numeric representation and visual structure.
 
 ### Metadata Mapping
 
@@ -312,27 +314,7 @@ Standardized patterns for financial visualization:
 
 These patterns ensure that financial information is presented consistently across reports and time periods, enhancing comparability and comprehension.
 
-```javascript
-// Income statement pattern
-{
-  pattern: "incomeStatement",
-  properties: {
-    measures: ["revenue", "cogs", "grossProfit", "opex", "ebit", "taxes", "netIncome"],
-    showSubtotals: true,
-    showMargins: true,
-    comparisonType: "yearOverYear",
-    verticalFlow: true,
-    groupDefinitions: [
-      { id: "topLine", measures: ["revenue"] },
-      { id: "directCosts", measures: ["cogs"] },
-      { id: "grossProfit", measures: ["grossProfit"] },
-      { id: "operatingCosts", measures: ["opex"] },
-      { id: "operatingProfit", measures: ["ebit"] },
-      { id: "belowLine", measures: ["taxes", "netIncome"] }
-    ]
-  }
-}
-```
+
 
 ### Management Reporting Patterns
 
@@ -474,6 +456,10 @@ The IBCS certification and implementation in Analytics+ represent a significant 
 
 The unified visualization model, semantic layer principles, and standardized patterns ensure that visualizations not only look professional but also accurately reflect business meaning and context. The integration with Power BI ensures that these standards can be applied consistently within the broader business intelligence environment.
 
+Analytics+ stands out through its flexible approach to IBCS implementation, allowing organizations to adopt these standards at their own pace. The simple toggle mechanism for enabling IBCS compliance, combined with pre-built templates and specialized chart types, makes it easy for users to create standardized visualizations without extensive training or disruption to existing workflows.
+
+The comprehensive implementation of IBCS principles—from semantic color coding and standardized notation to specialized formatting features and business rule integration—ensures that Analytics+ delivers a complete IBCS solution rather than just superficial compliance. The specialized features like basis points, scale bands, and standardized variance representation demonstrate a deep understanding of business communication needs.
+
 The resulting benefits—operational efficiency, communication clarity, improved governance, and enhanced decision support—deliver tangible business value across the organization. By implementing IBCS standards through Analytics+, organizations can transform their business communication, making it more effective, efficient, and impactful.
 
-In the next section, we'll explore the small multiples capabilities of Analytics+, examining how this powerful comparative visualization technique is implemented across different chart types. 
+In the next section, we'll explore the small multiples capabilities of Analytics+, examining how this powerful comparative visualization technique is implemented across different chart types.
