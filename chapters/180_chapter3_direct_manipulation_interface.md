@@ -19,22 +19,7 @@ The core principles guiding the direct manipulation interface include:
 - **Reduced Translation**: Minimizing the gap between intent and action
 
 These principles create an interface that feels more natural and reduces the cognitive load associated with complex analytical tasks, making sophisticated visualization accessible to a wider range of business users.
-
-```javascript
-// Direct manipulation philosophy implementation
-{
-  interactionModel: {
-    directManipulation: true,
-    feedbackLatency: "immediate",
-    historySteps: 50,
-    interactionDiscoverability: "progressive",
-    spatialConsistency: true,
-    contextualControls: true,
-    gestureSupport: true
-  }
-}
-```
-
+ 
 ### From Intention to Action
 
 The direct manipulation approach creates a more efficient path from analytical intention to visualization action:
@@ -81,23 +66,7 @@ Comprehensive selection capabilities include:
 - **Inverse Selection**: Selecting everything except specified elements
 
 These diverse selection mechanisms provide the flexibility to precisely isolate the data subsets most relevant to specific analytical questions.
-
-```javascript
-// Interactive selection configuration
-{
-  selectionCapabilities: {
-    modes: ["single", "multiple", "lasso", "rectangle", "path"],
-    levelControl: true,
-    seriesSelection: true,
-    categorySelection: true,
-    crossSelect: true,
-    persistentSelection: true,
-    selectionHistory: true,
-    selectionSets: true
-  }
-}
-```
-
+ 
 ### Multi-Level Filtering
 
 Sophisticated filtering capabilities include:
@@ -158,23 +127,7 @@ Comprehensive in-place editing capabilities include:
 - **Style Adjustment**: Modifying visual styles directly on elements
 
 These direct manipulation capabilities eliminate the need to navigate complex property panels, accelerating the process of refining visualizations to communicate insights effectively.
-
-```javascript
-// In-situ editing configuration
-{
-  inSituEditing: {
-    enabledElements: ["titles", "labels", "annotations", "axes", "legends", "dataPoints"],
-    directTextEdit: true,
-    colorPicker: "contextual",
-    resizeHandles: true,
-    dragSupport: true,
-    valueEditing: { enabled: true, validation: "immediate" },
-    formatControls: "inline",
-    styleControls: "contextual"
-  }
-}
-```
-
+ 
 ### Contextual Controls
 
 Intelligent context-sensitive controls include:
@@ -234,28 +187,7 @@ Comprehensive touch interaction capabilities include:
 - **Two-Finger Manipulation**: Adjusting multiple properties simultaneously
 
 These touch capabilities make Analytics+ fully functional on tablets and touch-enabled devices, supporting modern mobile workflows.
-
-```javascript
-// Multi-touch and gesture configuration
-{
-  touchInteraction: {
-    gestures: {
-      tap: { action: "select" },
-      doubleTap: { action: "drill" },
-      longPress: { action: "contextMenu" },
-      pinch: { action: "zoom" },
-      spread: { action: "expand" },
-      swipe: { action: "filter" },
-      twoFingerDrag: { action: "pan" },
-      rotate: { action: "perspective" }
-    },
-    multiTouch: true,
-    touchPrecision: "enhanced",
-    touchFeedback: true
-  }
-}
-```
-
+ 
 ### Keyboard Integration
 
 Sophisticated keyboard support includes:
@@ -315,22 +247,7 @@ Applications for exploratory analysis include:
 - **Iterative Refinement**: Progressively focusing on relevant insights
 
 These applications help business users conduct sophisticated exploratory analysis without formal analytical training, accelerating insight discovery.
-
-```javascript
-// Ad hoc exploration configuration
-{
-  explorationWorkflow: {
-    startPoint: "overview",
-    selectionFlow: "cross-filter",
-    drillPath: "natural-hierarchy",
-    comparisonMode: "side-by-side",
-    historyTracking: true,
-    discoverabilityLevel: "progressive",
-    explorationGuidance: "subtle"
-  }
-}
-```
-
+ 
 ### Presentation Preparation
 
 Applications for communication preparation include:

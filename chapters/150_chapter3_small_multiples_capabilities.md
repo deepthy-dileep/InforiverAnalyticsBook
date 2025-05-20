@@ -33,24 +33,7 @@ Small multiples deliver significant analytical benefits:
 - **Cognitive Load Reduction**: Simplifying complex multi-dimensional comparisons
 
 By breaking complex multi-dimensional data into comparable chunks, small multiples significantly enhance users' ability to identify patterns, make comparisons, and draw insights.
-
-```javascript
-// Core small multiples configuration
-{
-  smallMultiples: {
-    enabled: true,
-    dimensionField: "region",
-    rows: 3,
-    columns: 4,
-    sortBy: "value",
-    sortOrder: "descending",
-    sharedScales: true,
-    showTitle: true,
-    titleTemplate: "{value} Performance",
-    emptySlotHandling: "hide"
-  }
-}
-```
+ 
 
 ## Implementation Across Chart Types
 
@@ -69,28 +52,7 @@ Small multiples implementation for bar/column charts includes:
 - **Channel Multiples**: Contrasting behavior across distribution channels
 
 This versatile implementation enables effective comparison of categorical data across multiple dimensions without the visual clutter of grouped or stacked bars.
-
-```javascript
-// Bar chart small multiples for regional comparison
-{
-  chartType: "column",
-  smallMultiples: {
-    enabled: true,
-    dimensionField: "region",
-    layout: "grid",
-    rows: 2,
-    columns: 3,
-    sortBy: "totalValue",
-    labelPosition: "top"
-  },
-  properties: {
-    categoryField: "product",
-    valueField: "sales",
-    sortOrder: "value",
-    showValues: true
-  }
-}
-```
+ 
 
 ### Line Charts
 
@@ -179,22 +141,7 @@ Analytics+ supports hierarchical small multiples:
 - **Cross-Level Analysis**: Analyzing patterns across hierarchy levels
 
 This hierarchical implementation enables deeper exploration of organizational structures, product hierarchies, and other nested data.
-
-```javascript
-// Hierarchical small multiples configuration
-{
-  smallMultiples: {
-    dimensionField: "geography",
-    hierarchyLevels: ["region", "country", "city"],
-    currentLevel: "country",
-    parentContext: true,
-    drillEnabled: true,
-    levelBasedLayout: true,
-    showAggregates: true
-  }
-}
-```
-
+ 
 ### Comparative Reference Elements
 
 Analytics+ enhances small multiples with reference elements:
@@ -269,26 +216,7 @@ Small multiples for sales analysis:
 
 These applications help sales teams identify performance patterns, optimization opportunities, and strategic insights.
 
-```javascript
-// Sales analysis small multiples example
-{
-  chartType: "line",
-  smallMultiples: {
-    dimensionField: "productCategory",
-    rows: 2,
-    columns: 3,
-    sortBy: "growth",
-    sortOrder: "descending"
-  },
-  properties: {
-    measureField: "salesAmount",
-    timeField: "month",
-    showYearComparison: true,
-    showTrend: true,
-    highlightCurrentPeriod: true
-  }
-}
-```
+
 
 ### Financial Analysis
 

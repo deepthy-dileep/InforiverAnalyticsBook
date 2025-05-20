@@ -19,26 +19,7 @@ The fundamental concepts underpinning the pivot interface include:
 - **Calculated Measures**: Custom calculations based on other measures
 
 These core concepts provide the foundation for organizing and analyzing multi-dimensional data in a structured, tabular format that supports both deep analysis and clear communication.
-
-```javascript
-// Basic pivot configuration
-{
-  pivotConfig: {
-    rows: ["productCategory", "product"],
-    columns: ["year", "quarter"],
-    values: [
-      { field: "revenue", aggregation: "sum" },
-      { field: "cost", aggregation: "sum" },
-      { field: "profit", calculation: "revenue - cost" }
-    ],
-    filters: [
-      { field: "region", value: "Europe" },
-      { field: "channel", value: "Direct" }
-    ]
-  }
-}
-```
-
+ 
 ### Excel-Inspired User Experience
 
 Analytics+ implements an Excel-inspired interface that leverages users' existing spreadsheet knowledge:
@@ -84,25 +65,7 @@ Sophisticated handling of dimensions includes:
 - **Dimension Pivoting**: Moving dimensions between rows, columns, and filters
 
 These capabilities enable flexible organization of data to support specific analytical needs and perspectives.
-
-```javascript
-// Custom hierarchy configuration
-{
-  hierarchyDefinition: {
-    name: "Geography",
-    levels: [
-      { field: "region", sortBy: "name" },
-      { field: "country", sortBy: "name" },
-      { field: "city", sortBy: "name" }
-    ],
-    defaultExpansion: "region",
-    memberFilters: {
-      region: ["EMEA", "Americas", "APAC"],
-      country: { exclude: ["Cuba", "North Korea"] }
-    }
-  }
-}
-```
+ 
 
 ### Measure Management
 
@@ -163,28 +126,7 @@ Comprehensive hierarchy capabilities include:
 - **Hierarchy Metadata**: Incorporating descriptive information about hierarchy levels
 
 These capabilities enable effective analysis of complex organizational structures, product categorizations, account hierarchies, and other multi-level business dimensions.
-
-```javascript
-// Multi-level hierarchy analysis
-{
-  pivotAnalysis: {
-    rows: {
-      hierarchy: "Geography",
-      expandedLevels: ["region", "country"],
-      levelsWithSubtotals: ["region"]
-    },
-    columns: {
-      hierarchy: "Time",
-      expandedLevels: ["year", "quarter"],
-      levelsWithSubtotals: ["year"]
-    },
-    levelCalculations: [
-      { level: "region", calculation: "average of countries" },
-      { level: "country", calculation: "sum of cities" }
-    ]
-  }
-}
-```
+ 
 
 ### Drill-Down Capabilities
 
@@ -245,31 +187,7 @@ Capabilities for non-uniform row arrangements include:
 - **Row Templates**: Applying predefined row structures for common reports
 
 These capabilities enable the creation of sophisticated, business-specific report layouts that match analytical and communication requirements.
-
-```javascript
-// Asymmetric report structure
-{
-  reportStructure: {
-    sections: [
-      {
-        title: "Revenue Analysis",
-        rows: ["totalRevenue", "directRevenue", "indirectRevenue"],
-        showSubtotals: false
-      },
-      {
-        title: "Cost Analysis",
-        rows: ["totalCost", "fixedCosts", "variableCosts"],
-        showSubtotals: true
-      },
-      {
-        title: "Profitability",
-        rows: ["grossProfit", "margin", "netProfit"],
-        calculationRows: true
-      }
-    ]
-  }
-}
-```
+ 
 
 ### Custom Column Structures
 
@@ -330,25 +248,7 @@ Sophisticated calculation capabilities include:
 - **Statistical Functions**: Built-in statistical and mathematical operations
 
 These calculation capabilities provide the analytical power to address complex business questions directly within the pivot interface.
-
-```javascript
-// Advanced calculation example
-{
-  calculatedMeasure: {
-    name: "Risk-Adjusted Return",
-    formula: `
-      IF([Volatility] > 0) 
-      THEN ([Return] - [RiskFreeRate]) / [Volatility] 
-      ELSE NULL
-    `,
-    format: "0.00",
-    conditionalFormatting: [
-      { condition: "value > 1.5", style: "greenBackground" },
-      { condition: "value < 0.5", style: "redBackground" }
-    ]
-  }
-}
-```
+ 
 
 ### Scenario Modeling
 
@@ -423,27 +323,7 @@ Applications for sales and marketing include:
 - **Product Performance**: Comparing metrics across the product portfolio
 
 These applications help sales and marketing teams understand performance drivers and optimization opportunities.
-
-```javascript
-// Sales analysis pivot configuration
-{
-  salesAnalysis: {
-    rows: ["salesTerritory", "accountManager", "customer"],
-    columns: ["year", "quarter", "month"],
-    measures: [
-      "revenue", 
-      "units", 
-      "averageSellingPrice",
-      "previousYearRevenue", 
-      "yearOverYearGrowth"
-    ],
-    filters: {
-      productCategory: "Electronics",
-      customerSegment: "Enterprise"
-    }
-  }
-}
-```
+ 
 
 ### Operations and Supply Chain
 

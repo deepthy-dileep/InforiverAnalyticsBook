@@ -19,34 +19,7 @@ The fundamental annotation concepts include:
 - **Annotation Templates**: Reusable annotation styles and configurations
 
 These core concepts provide the foundation for adding meaningful context to visualizations, transforming raw data displays into guided analytical narratives.
-
-```javascript
-// Basic annotation configuration
-{
-  annotations: [
-    {
-      type: "text",
-      text: "Q2 sales exceeded forecast by 15% due to new product launch",
-      position: { x: 350, y: 120 },
-      style: {
-        fontFamily: "Arial",
-        fontSize: 12,
-        fontWeight: "bold",
-        fill: "#333333",
-        padding: 8,
-        backgroundColor: "rgba(255, 255, 0, 0.2)",
-        borderRadius: 4
-      },
-      connector: {
-        targetPoint: { x: 425, y: 210 },
-        style: "dashed",
-        color: "#666666"
-      }
-    }
-  ]
-}
-```
-
+ 
 ### Annotation Types and Features
 
 Analytics+ supports diverse annotation types to meet various analytical needs:
@@ -75,25 +48,7 @@ Sophisticated positioning capabilities include:
 - **Distribution Options**: Evenly spacing multiple annotations
 
 These positioning capabilities ensure that annotations remain properly placed and readable across different visualization states and screen sizes.
-
-```javascript
-// Context-aware annotation positioning
-{
-  annotation: {
-    type: "callout",
-    text: "Significant market share increase",
-    anchorType: "dataPoint",
-    dataPoint: {
-      series: "Market Share",
-      category: "Q3 2023"
-    },
-    offset: { x: 10, y: -15 },
-    smartPlacement: true,
-    responsiveAdjustment: "maintain-relative-position"
-  }
-}
-```
-
+ 
 ### Conditional Annotations
 
 Dynamic annotation capabilities include:
@@ -125,38 +80,7 @@ Fundamental reference capabilities include:
 - **Standard Deviation Bands**: Visualizing variation from the mean
 
 These basic elements provide essential context for understanding data in relation to important thresholds, benchmarks, and statistical measures.
-
-```javascript
-// Reference line and band configuration
-{
-  referenceElements: [
-    {
-      type: "line",
-      orientation: "horizontal",
-      value: 1000000,
-      label: "Target",
-      style: {
-        stroke: "#FF0000",
-        strokeWidth: 2,
-        strokeDasharray: "5,5"
-      }
-    },
-    {
-      type: "band",
-      orientation: "horizontal",
-      lowerValue: 800000,
-      upperValue: 1200000,
-      label: "Acceptable Range",
-      style: {
-        fill: "rgba(0, 255, 0, 0.1)",
-        stroke: "#00FF00",
-        strokeWidth: 1
-      }
-    }
-  ]
-}
-```
-
+ 
 ### Advanced Reference Capabilities
 
 Sophisticated reference features include:
@@ -202,29 +126,7 @@ Comprehensive variance visualization options include:
 - **Cumulative Deviation Charts**: Showing accumulated variance over time
 
 These visualization types provide clear, intuitive representations of business variances for performance analysis and exception identification.
-
-```javascript
-// Variance visualization configuration
-{
-  varianceAnalysis: {
-    type: "bridge",
-    baseValue: "2022 Budget",
-    actualValue: "2022 Actual",
-    components: [
-      { factor: "Volume", calculation: "volumeVariance" },
-      { factor: "Price", calculation: "priceVariance" },
-      { factor: "Mix", calculation: "mixVariance" },
-      { factor: "Cost", calculation: "costVariance" },
-      { factor: "FX", calculation: "fxVariance" }
-    ],
-    positiveColor: "#367588",
-    negativeColor: "#A63A50",
-    showValues: true,
-    showPercentages: true
-  }
-}
-```
-
+ 
 ### Root Cause Visualization
 
 Techniques for showing contributing factors include:
@@ -270,51 +172,7 @@ The structured storytelling framework includes:
 - **Narrative Context**: Providing explanatory text to frame the analysis
 
 This architecture supports the creation of coherent analytical stories that guide users from initial context through analysis to conclusions and recommendations.
-
-```javascript
-// Story sequence configuration
-{
-  story: {
-    title: "Q3 Performance Analysis",
-    description: "Analysis of key factors driving Q3 performance variance",
-    storyPoints: [
-      {
-        title: "Overview",
-        description: "Q3 performance summary vs targets",
-        visualState: {
-          chartType: "column",
-          categories: ["Revenue", "Gross Margin", "Operating Expense", "Net Income"],
-          series: ["Actual", "Budget", "Prior Year"]
-        },
-        annotations: [
-          { type: "text", text: "Revenue exceeded budget by 4.2%", position: {...} },
-          { type: "text", text: "Margins declined by 1.5 points vs prior year", position: {...} }
-        ]
-      },
-      {
-        title: "Revenue Analysis",
-        description: "Breakdown of revenue performance by region",
-        visualState: {
-          chartType: "column",
-          categories: ["North America", "Europe", "Asia Pacific", "Latin America"],
-          series: ["Actual", "Budget", "Growth %"]
-        },
-        annotations: [
-          { type: "callout", text: "APAC growth driven by China expansion", position: {...} }
-        ]
-      },
-      // Additional story points...
-    ],
-    navigation: {
-      showProgress: true,
-      allowSkip: true,
-      autoPlayOption: true,
-      transitionDuration: 800
-    }
-  }
-}
-```
-
+ 
 ### Interactive Narrative Elements
 
 Dynamic storytelling capabilities include:
@@ -374,28 +232,7 @@ Applications for finance include:
 - **Capital Allocation**: Explaining investment prioritization
 
 These applications help finance professionals communicate not just what happened, but why it happened and what it means for the business.
-
-```javascript
-// Financial analysis annotation example
-{
-  financialAnnotation: {
-    type: "varianceExplanation",
-    metric: "Gross Margin",
-    period: "Q3 2023",
-    variance: "-2.4%",
-    components: [
-      { factor: "Raw Material Costs", impact: "-1.8%", description: "Supply chain disruptions in Asia" },
-      { factor: "Product Mix", impact: "-0.9%", description: "Higher sales of lower-margin products" },
-      { factor: "Manufacturing Efficiency", impact: "+0.3%", description: "Automation initiative benefits" }
-    ],
-    recommendedActions: [
-      "Accelerate alternative supplier qualification",
-      "Review pricing strategy for low-margin products"
-    ]
-  }
-}
-```
-
+ 
 ### Sales and Marketing Analysis
 
 Applications for sales and marketing include:

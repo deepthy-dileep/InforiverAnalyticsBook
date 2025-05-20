@@ -66,24 +66,7 @@ The IBCS notation framework provides specific guidelines for:
 
 This comprehensive framework ensures that visualizations not only look professional but also communicate effectively across different business contexts.
 
-```javascript
-// Sample configuration for IBCS-compliant column chart
-{
-  chartType: "ibcsColumn",
-  properties: {
-    measures: ["actual", "budget"],
-    timeScale: "months",
-    timeRange: "current_year",
-    comparisonType: "absolute",
-    showVariances: true,
-    semanticColors: true,
-    semanticNotation: true,
-    showAxisLabels: true,
-    condensed: true,
-    unifyScales: true
-  }
-}
-```
+
 
 ## Analytics+ IBCS Implementation
 
@@ -120,21 +103,7 @@ Analytics+ implements IBCS standards through:
 
 This consistent color coding ensures that visualization meaning is immediately clear across all reports and dashboards.
 
-```javascript
-// IBCS semantic color implementation
-const ibcsSemanticColors = {
-  actual: "#000000",       // Black for actuals
-  plan: "#FFFFFF",         // White fill with black outline for plan
-  planStroke: "#000000",   // Outline color for plan
-  forecast: "#000000",     // Black with hatch pattern
-  forecastPattern: "hatch",
-  previousPeriod: "#666666", // Gray for previous period
-  positiveVariance: "#6BB537", // Green for positive
-  negativeVariance: "#E64157", // Red for negative
-  structural: "#CCCCCC",   // Light gray for structural elements
-  highlight: "#FFC000"     // Gold for highlights
-};
-```
+
 
 #### Standardized Notation
 
@@ -179,32 +148,7 @@ The unified model includes:
 
 This unified model ensures that users experience consistent behavior and appearance regardless of the specific chart type being used.
 
-```javascript
-// Unified model implementation example
-{
-  unifiedModel: {
-    encoding: {
-      quantitative: "position",
-      categorical: "discrete-position",
-      temporal: "horizontal-position",
-      comparative: "group-position"
-    },
-    scales: {
-      unifyRelated: true,
-      startFromZero: true,
-      adaptiveResolution: true
-    },
-    typography: {
-      titleFamily: "Arial",
-      labelFamily: "Arial",
-      dataLabelFamily: "Arial",
-      titleWeight: "bold",
-      labelWeight: "normal",
-      dataLabelWeight: "normal"
-    }
-  }
-}
-```
+
 
 ### Cross-Chart Consistency
 
@@ -239,31 +183,7 @@ Analytics+ automatically classifies data elements:
 
 This classification ensures that visualization elements are consistently applied based on the semantic meaning of the data.
 
-```javascript
-// Semantic classification example
-{
-  semanticLayer: {
-    measures: [
-      { id: "revenue", type: "currency", aggregation: "sum" },
-      { id: "cost", type: "currency", aggregation: "sum" },
-      { id: "profit", type: "currency", aggregation: "sum", derivation: "revenue - cost" }
-    ],
-    dimensions: [
-      { id: "product", type: "categorical" },
-      { id: "region", type: "categorical", isGeographic: true }
-    ],
-    timeDimensions: [
-      { id: "month", type: "temporal", granularity: "month" },
-      { id: "quarter", type: "temporal", granularity: "quarter" }
-    ],
-    scenarios: [
-      { id: "actual", type: "actual" },
-      { id: "budget", type: "plan" },
-      { id: "forecast", type: "forecast" }
-    ]
-  }
-}
-```
+
 
 ### Business Rules Integration
 
@@ -312,27 +232,7 @@ Standardized patterns for financial visualization:
 
 These patterns ensure that financial information is presented consistently across reports and time periods, enhancing comparability and comprehension.
 
-```javascript
-// Income statement pattern
-{
-  pattern: "incomeStatement",
-  properties: {
-    measures: ["revenue", "cogs", "grossProfit", "opex", "ebit", "taxes", "netIncome"],
-    showSubtotals: true,
-    showMargins: true,
-    comparisonType: "yearOverYear",
-    verticalFlow: true,
-    groupDefinitions: [
-      { id: "topLine", measures: ["revenue"] },
-      { id: "directCosts", measures: ["cogs"] },
-      { id: "grossProfit", measures: ["grossProfit"] },
-      { id: "operatingCosts", measures: ["opex"] },
-      { id: "operatingProfit", measures: ["ebit"] },
-      { id: "belowLine", measures: ["taxes", "netIncome"] }
-    ]
-  }
-}
-```
+
 
 ### Management Reporting Patterns
 
@@ -476,4 +376,4 @@ The unified visualization model, semantic layer principles, and standardized pat
 
 The resulting benefits—operational efficiency, communication clarity, improved governance, and enhanced decision support—deliver tangible business value across the organization. By implementing IBCS standards through Analytics+, organizations can transform their business communication, making it more effective, efficient, and impactful.
 
-In the next section, we'll explore the small multiples capabilities of Analytics+, examining how this powerful comparative visualization technique is implemented across different chart types. 
+In the next section, we'll explore the small multiples capabilities of Analytics+, examining how this powerful comparative visualization technique is implemented across different chart types.

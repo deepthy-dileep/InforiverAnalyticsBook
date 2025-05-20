@@ -37,45 +37,7 @@ Organizations can create custom visualizations to address specialized analytical
 - **Composite Visualizations**: Complex visualizations combining multiple chart types
 
 ### Development Approach
-
-```javascript
-// Basic structure of a custom visualization extension
-export class CustomSankeyDiagram extends InforiverVisualization {
-  constructor(config) {
-    super(config);
-    this.initialize();
-  }
-  
-  initialize() {
-    // Setup initialization logic
-    this.createContainer();
-    this.setupEventHandlers();
-  }
-  
-  render(data) {
-    // Visualization rendering logic
-    // This example uses D3.js
-    const svg = d3.select(this.container)
-      .append("svg")
-      .attr("width", this.width)
-      .attr("height", this.height);
-      
-    // Implement sankey diagram using D3
-    const sankeyGenerator = d3.sankey()
-      .nodeWidth(15)
-      .nodePadding(10)
-      .size([this.width, this.height]);
-      
-    // Bind data and render
-    // ...
-  }
-  
-  // Additional methods for interaction, updates, etc.
-}
-
-// Register the custom visualization
-InforiverExtensions.register("custom-sankey", CustomSankeyDiagram);
-```
+ 
 
 ### Case Example: Pharmaceutical Pathway Analysis
 
@@ -98,58 +60,7 @@ Extending Analytics+ to connect with specialized or proprietary data sources:
 - **Proprietary APIs**: Organization-specific data services
 
 ### Implementation Pattern
-
-```javascript
-// Example data connector implementation
-export class ManufacturingMESConnector extends InforiverDataConnector {
-  constructor(config) {
-    super(config);
-    this.baseUrl = config.baseUrl;
-    this.credentials = config.credentials;
-  }
-  
-  async connect() {
-    // Establish connection to the MES system
-    this.session = await this.authenticate();
-    return this.session.isValid;
-  }
-  
-  async authenticate() {
-    // Authentication logic
-    const response = await fetch(`${this.baseUrl}/auth`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(this.credentials)
-    });
-    
-    return await response.json();
-  }
-  
-  async getData(query) {
-    // Data retrieval logic
-    const response = await fetch(`${this.baseUrl}/data`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${this.session.token}`
-      },
-      body: JSON.stringify(query)
-    });
-    
-    const data = await response.json();
-    return this.transformToInforiverFormat(data);
-  }
-  
-  transformToInforiverFormat(rawData) {
-    // Transform proprietary data format to Analytics+ format
-    // ...
-  }
-}
-
-// Register the connector
-InforiverExtensions.registerConnector("manufacturing-mes", ManufacturingMESConnector);
-```
-
+ 
 ### Case Example: Energy Trading Platform
 
 An energy company created a custom connector to their proprietary trading platform that:
@@ -171,32 +82,7 @@ Extending the Visual Formula Engine with specialized calculations:
 - **Data Science Integration**: Machine learning model integration
 
 ### Implementation Approach
-
-```javascript
-// Example custom calculation function
-InforiverFormula.registerFunction({
-  name: "RISK_ADJUSTED_RETURN",
-  category: "Financial",
-  description: "Calculates risk-adjusted return using the Sharpe ratio",
-  syntax: "RISK_ADJUSTED_RETURN(returns, riskFreeRate, standardDeviation)",
-  examples: ["RISK_ADJUSTED_RETURN(A1:A12, B1, C1)"],
-  minArgs: 3,
-  maxArgs: 3,
-  execute: function(returns, riskFreeRate, standardDeviation) {
-    // Validate inputs
-    if (!Array.isArray(returns)) {
-      throw new Error("Returns must be an array of values");
-    }
-    
-    // Calculate average return
-    const avgReturn = returns.reduce((sum, val) => sum + val, 0) / returns.length;
-    
-    // Calculate Sharpe ratio
-    return (avgReturn - riskFreeRate) / standardDeviation;
-  }
-});
-```
-
+ 
 ### Case Example: Insurance Risk Analysis
 
 An insurance company developed custom calculation functions that:
@@ -218,54 +104,7 @@ Tailoring the user experience with customized interface elements:
 - **Toolbars**: Specialized toolbar actions and buttons
 
 ### Implementation Pattern
-
-```javascript
-// Example custom UI component
-export class ScenarioManagerPanel extends InforiverUIComponent {
-  constructor(config) {
-    super(config);
-    this.scenarios = config.scenarios || [];
-    this.activeScenario = null;
-    this.initialize();
-  }
-  
-  initialize() {
-    this.container = document.createElement('div');
-    this.container.className = 'scenario-manager-panel';
-    
-    // Create UI elements
-    this.createScenarioList();
-    this.createActionButtons();
-    
-    // Set up event handlers
-    this.setupEventListeners();
-  }
-  
-  createScenarioList() {
-    // Create dropdown for scenario selection
-    // ...
-  }
-  
-  createActionButtons() {
-    // Create buttons for managing scenarios
-    // ...
-  }
-  
-  setupEventListeners() {
-    // Handle UI interactions
-    // ...
-  }
-  
-  // Emit events when scenarios change
-  onScenarioChange(scenario) {
-    this.activeScenario = scenario;
-    this.emit('scenarioChanged', { scenario });
-  }
-}
-
-// Register the component
-InforiverExtensions.registerUIComponent("scenario-manager", ScenarioManagerPanel);
-```
+ 
 
 ### Case Example: Retail Planning Dashboard
 
@@ -288,45 +127,7 @@ Creating specialized integrations with other enterprise systems:
 - **Marketing Automation**: Connecting with marketing platforms
 
 ### Implementation Approach
-
-```javascript
-// Example ERP integration service
-export class ERPIntegrationService {
-  constructor(config) {
-    this.erpConfig = config.erp;
-    this.analyticsClient = new InforiverAnalyticsClient(config.analytics);
-  }
-  
-  async initialize() {
-    // Connect to both systems
-    await this.connectToERP();
-    await this.connectToAnalytics();
-    
-    // Set up synchronization
-    this.setupSyncSchedules();
-  }
-  
-  async syncFinancialData() {
-    // Retrieve financial data from ERP
-    const financialData = await this.erpClient.getFinancialData({
-      period: 'current-month',
-      details: 'full'
-    });
-    
-    // Transform data
-    const transformedData = this.transformForAnalytics(financialData);
-    
-    // Update Analytics+ visualizations
-    await this.analyticsClient.updateVisualization(
-      'financial-dashboard',
-      transformedData
-    );
-  }
-  
-  // Additional methods for data transformation, error handling, etc.
-}
-```
-
+ 
 ### Case Example: Manufacturing Operations Center
 
 A manufacturing company built integration extensions that:
