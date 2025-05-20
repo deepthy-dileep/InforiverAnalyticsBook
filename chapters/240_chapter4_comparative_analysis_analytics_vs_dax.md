@@ -14,36 +14,39 @@ The conventional Power BI development workflow centers around DAX (Data Analysis
 - Demands understanding of evaluation contexts and filter propagation
 - Often necessitates complex formula patterns for common business scenarios
 - Creates dependencies between data model design and calculation capabilities
+- Requires modifying the underlying data source to add calculations
 
-### The Analytics+ No-Code Approach
+### The Analytics+ Visual Formula Engine Approach
 
-In contrast, Analytics+ fundamentally shifts the development paradigm by:
+As documented in the Analytics+ guides, the Visual Formula Engine provides an alternative approach by:
 
-- Moving calculation logic into the visualization layer
-- Employing a familiar Excel-like formula interface
-- Eliminating the need to understand complex DAX concepts
-- Providing immediate visual feedback on calculation results
+- Enabling "visual-level measures within the Analytics+ visual, without having to modify your data source"
+- Employing a familiar Excel-like formula interface with over 200 functions
+- Providing a suggestion window that opens when typing the "#" key to select measures
+- Offering a maximized view of the formula editor for "entering large, complex formulae"
+- Allowing formulas to be created directly in charts, cards, and tables
+- Supporting immediate visualization of calculation results
 - Centralizing all development in a single interface
 - Aligning closely with business users' mental models
 
 ## Side-by-Side Comparison: Common Scenarios
 
-Let's examine how both approaches handle common analytical requirements:
+Let's examine how both approaches handle common analytical requirements, based on the documentation:
 
 ### Scenario 1: Year-over-Year Comparison
 
 **DAX Approach:**
 ```DAX
-YOY_Sales_Growth = 
+YOY_Sales_Growth =
 CALCULATE(
-    SUM(Sales[Amount]), 
+    SUM(Sales[Amount]),
     FILTER(
         ALL(Calendar),
         Calendar[Year] = MAX(Calendar[Year]) - 1
     )
 )
 
-YOY_Growth_Pct = 
+YOY_Growth_Pct =
 DIVIDE(
     SUM(Sales[Amount]) - [YOY_Sales_Growth],
     [YOY_Sales_Growth],
@@ -54,8 +57,16 @@ DIVIDE(
 **Analytics+ Approach:**
 ```
 // In formula cell
-YOY_Growth_Pct = ([Sales]) / PREVIOUS_YEAR([Sales]) - 1
+YoY_Growth = ([Revenue]) - PREVIOUS_YEAR([Revenue])
+YoY_Growth_Pct = [YoY_Growth] / PREVIOUS_YEAR([Revenue]) * 100
 ```
+
+As documented in the Visual Formula Engine chapter, Analytics+ provides specialized time intelligence functions that make these calculations more intuitive. The documentation shows that users can:
+
+- Create the formula by clicking the formula button in the toolbar
+- Use the "#" key to open the suggestion window and select measures
+- Apply number formatting directly through dedicated icons
+- See the results immediately in the visualization
 
 In this example, the DAX approach requires:
 - Understanding of CALCULATE, FILTER, and ALL functions
@@ -63,23 +74,23 @@ In this example, the DAX approach requires:
 - Creation of an intermediate measure
 - Careful handling of division by zero situations
 
-The Analytics+ approach uses a single formula with an intuitive PREVIOUS_YEAR function directly in the visualization.
+The Analytics+ approach uses intuitive time intelligence functions directly in the visualization, with no need to modify the data source.
 
 ### Scenario 2: Sales vs. Budget Variance Analysis
 
 **DAX Approach:**
 ```DAX
-Sales_vs_Budget_Variance = 
+Sales_vs_Budget_Variance =
 SUM(Sales[Amount]) - SUM(Budget[Amount])
 
-Sales_vs_Budget_Variance_Pct = 
+Sales_vs_Budget_Variance_Pct =
 DIVIDE(
     [Sales_vs_Budget_Variance],
     SUM(Budget[Amount]),
     0
 )
 
-Sales_vs_Budget_Status = 
+Sales_vs_Budget_Status =
 IF(
     [Sales_vs_Budget_Variance_Pct] >= 0,
     "Favorable",
@@ -90,20 +101,27 @@ IF(
 **Analytics+ Approach:**
 ```
 // Column calculations
-Variance = [Sales] - [Budget]
-Variance % = [Variance] / [Budget]
+Variance = [Actuals] - [Plan]
+Variance % = [Variance] / [Plan] * 100
 Status = IF([Variance] >= 0, "Favorable", "Unfavorable")
-
-// With conditional formatting applied directly to cells
 ```
 
-The DAX approach requires three separate measures defined in the data model, while Analytics+ accomplishes the same with direct formulas plus built-in conditional formatting.
+According to the documentation, Analytics+ provides built-in variance calculations that are automatically applied when comparison measures are added. The documentation states:
+
+"Variances are automatically calculated in table mode when the second measure is added to the visual."
+
+Additionally, Analytics+ offers one-click conditional formatting options:
+- Value-based rules (greater than, less than, equal to)
+- Comparison value rules (comparing two columns)
+- Color scales for gradient visualization
+
+The DAX approach requires three separate measures defined in the data model, while Analytics+ accomplishes the same with direct formulas plus built-in conditional formatting that can be applied with a single click.
 
 ### Scenario 3: Running Total
 
 **DAX Approach:**
 ```DAX
-Running_Total = 
+Running_Total =
 CALCULATE(
     SUM(Sales[Amount]),
     FILTER(
@@ -125,7 +143,7 @@ The DAX version requires understanding of filter manipulation and date relations
 
 **DAX Approach:**
 ```DAX
-Top_5_Products_Sales = 
+Top_5_Products_Sales =
 CALCULATE(
     SUM(Sales[Amount]),
     TOPN(
@@ -135,7 +153,7 @@ CALCULATE(
     )
 )
 
-Other_Products_Sales = 
+Other_Products_Sales =
 SUM(Sales[Amount]) - [Top_5_Products_Sales]
 ```
 
@@ -267,4 +285,4 @@ Organizations that recognize the strengths of each approach can implement a stra
 - Creates a governance framework that clearly defines when to use each approach
 - Builds capabilities in both methodologies to address diverse analytical needs
 
-This balanced strategy delivers both the technical depth required for complex enterprise BI and the agility needed for modern self-service analytics. 
+This balanced strategy delivers both the technical depth required for complex enterprise BI and the agility needed for modern self-service analytics.
