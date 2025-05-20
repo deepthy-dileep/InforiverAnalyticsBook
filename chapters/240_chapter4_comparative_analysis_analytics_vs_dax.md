@@ -185,16 +185,29 @@ The DAX approach requires complex measure definitions and separate measures for 
 
 ## Development Complexity Comparison
 
-Let's evaluate the complexity difference across several dimensions:
+Based on the documentation, let's evaluate the complexity difference across several dimensions:
 
 ### Learning Curve
 
 | DAX Approach | Analytics+ Approach |
 |------------|-----------------|
 | Steep learning curve requiring weeks or months to master | Shallow learning curve leveraging existing Excel skills |
-| Requires understanding of: <br>- Filter context<br>- Row context<br>- Context transitions<br>- CALCULATE function<br>- Table functions<br>- DAX syntax rules | Requires understanding of: <br>- Basic formula concepts<br>- Field references<br>- Function selection<br>- Visualization types |
-| Typically requires formal training | Can be learned through exploration and basic guidance |
-| Large corpus of functions with overlapping capabilities | Streamlined function library organized by purpose |
+| Requires understanding of: <br>- Filter context<br>- Row context<br>- Context transitions<br>- CALCULATE function<br>- Table functions<br>- DAX syntax rules | Requires understanding of: <br>- Basic formula concepts<br>- Field references with "#" key for suggestions<br>- Visual-level function selection<br>- Built-in analytical features |
+| Typically requires formal training | "Analytics+ enables even casual users to create engaging, dynamic dashboards and reports in a matter of minutes" |
+| Large corpus of functions with overlapping capabilities | Over 200 functions organized by purpose in categories like mathematical, time intelligence, text, and financial |
+| Requires modifying the data source | "Create visual-level measures without having to modify your data source" |
+
+### Function Categories
+
+According to the documentation, Analytics+ includes functions across multiple categories:
+
+| Function Category | Examples from Documentation |
+|-------------------|----------------------------|
+| Time Intelligence | PREVIOUS_YEAR, PREVIOUS_PERIOD, SAME_PERIOD_LAST_YEAR |
+| Running Calculations | RUNNING_SUM, RUNNING_AVG, MOVING_AVG |
+| Aggregations | AVERAGE, TOTAL, MIN, MAX |
+| Group Functions | FIRST, LAST, NEXT, PREVIOUS |
+| Conditional Logic | IF statements for status indicators |
 
 ### Development Time
 
@@ -207,7 +220,7 @@ Let's evaluate the complexity difference across several dimensions:
 
 ### Maintenance Overhead
 
-Ongoing maintenance also differs significantly:
+Ongoing maintenance also differs significantly, as reflected in the documentation:
 
 **DAX Approach:**
 - Calculations buried in the data model, separate from visualizations
@@ -215,25 +228,37 @@ Ongoing maintenance also differs significantly:
 - Documentation often separate from the model
 - Complex formulas may be difficult for others to understand
 - Debugging requires understanding of evaluation contexts
+- Requires modifying the underlying data source for changes
 
 **Analytics+ Approach:**
-- Calculations visible in the visualization
+- Calculations visible in the visualization where they're used
 - Changes to source data handled more gracefully
-- Documentation can be embedded in the visualization
-- Formula structure accessible to business users
+- Documentation can be embedded in the visualization using annotations
+- Formula structure accessible to business users with Excel-like syntax
 - Debugging simplified with immediate visual feedback
+- Formulas can be edited directly by clicking the formula icon in the visualization
+- Template rows can be created to apply the same calculation across hierarchical data
+
+The documentation highlights how users can "click the formula icon to modify the formula" directly in the visualization, making maintenance more intuitive and accessible.
 
 ## Performance Considerations
 
-While Analytics+ offers significant development advantages, performance characteristics differ from DAX-based solutions:
+While Analytics+ offers significant development advantages, performance characteristics differ from DAX-based solutions. The documentation mentions several performance-related features:
 
 | Aspect | DAX Approach | Analytics+ Approach |
 |--------|------------|-----------------|
 | Calculation timing | Evaluation at query time | Real-time in the visualization |
 | Memory usage | Server-side processing | Client-side processing |
-| Large dataset handling | Can leverage VertiPaq compression | Optimized visualization rendering |
+| Large dataset handling | Can leverage VertiPaq compression | "Line and area charts with high data volume and a large number of data points can be plotted significantly faster with the performance mode option" |
 | Complex calculation chains | May require careful optimization | Automatically optimized for dependencies |
 | Refresh impact | Needs full dataset refresh | Can recalculate without full refresh |
+| Visualization rendering | Standard Power BI rendering | "Optimized rendering of 30,000+ data points" |
+
+The documentation specifically mentions performance optimization features:
+- Performance mode for line and area charts with high data volume
+- Optimized rendering for large datasets
+- Efficient memory management
+- Advanced caching mechanisms
 
 For most business scenarios with datasets under millions of rows, both approaches provide acceptable performance, with Analytics+ often delivering better interactive response due to its in-visualization calculation approach.
 
@@ -257,7 +282,7 @@ The approaches differ in how they balance flexibility and standardization:
 
 ## When to Use Each Approach
 
-Both approaches have their place in a comprehensive BI strategy:
+Based on the documentation, both approaches have their place in a comprehensive BI strategy:
 
 **Consider DAX When:**
 1. Implementing enterprise-wide standard definitions
@@ -270,17 +295,48 @@ Both approaches have their place in a comprehensive BI strategy:
 **Consider Analytics+ When:**
 1. Accelerating report development timelines
 2. Empowering business users to create their own analytics
-3. Creating interactive planning and forecasting solutions
-4. Implementing standardized reporting templates
+3. Creating visualizations that exceed native Power BI capabilities
+4. Implementing IBCS-compliant reporting (Analytics+ is "an IBCS-certified visual")
 5. Building dashboards that require frequent changes
-6. Creating visualizations that exceed native Power BI capabilities
-7. Reports need extensive formatting and annotation
+6. Reports need extensive formatting and annotation
+7. Creating context-aware visualizations that respond to filter changes
+8. Implementing template-driven development with standardized layouts
+
+The documentation specifically notes that for "advanced use cases such as writeback, planning, what-if simulations, forecasting & budgeting, advanced formulae engine, formatted financial statements, paginated reports, threaded conversations, audit, data editing, scheduling, and notifications - use Inforiver Matrix" rather than Analytics+.
 
 Many organizations adopt a hybrid approach, using DAX for core enterprise metrics in the semantic layer while leveraging Analytics+ for rapid visualization development and business user empowerment.
 
-## Case Study: Financial Reporting Transformation
+## Practical Application: Financial Reporting with Analytics+
 
-A financial services company compared their traditional DAX-based approach with Analytics+ for quarterly financial reporting:
+Based on the capabilities documented in Analytics+, here's how an organization could implement financial reporting:
+
+### Challenge
+
+A global manufacturing company with operations in multiple countries needs to transform their financial reporting process. Their existing approach uses DAX-based Power BI reports but faces several challenges:
+
+- Reports take weeks to develop
+- Limited team members have sufficient DAX expertise
+- Changes require specialized developer time
+- Business users can't modify reports to answer emerging questions
+- Formatting inconsistencies between reports
+
+### Solution with Analytics+
+
+By implementing Analytics+, the company could achieve:
+
+1. **IBCS-Compliant Reporting**: Enable the IBCS standards toggle to create standardized financial reports that follow international business communication standards
+
+2. **Template-Driven Development**: Use the dashboard templates to quickly create consistent financial reports
+
+3. **Visual Formula Engine**: Create visual-level measures without modifying the data source, using familiar Excel-like syntax
+
+4. **Template Rows**: Create template rows for key calculations that need to be consistent across all reports
+
+5. **Conditional Formatting**: Apply one-click conditional formatting to highlight variances and exceptions
+
+6. **Context-Aware Visualizations**: Create reports that respond dynamically to filter changes
+
+### Expected Benefits
 
 | Metric | DAX Approach | Analytics+ Approach | Improvement |
 |--------|------------|-----------------|------------|
@@ -290,16 +346,20 @@ A financial services company compared their traditional DAX-based approach with 
 | Maintenance time per quarter | 8 hours | 2 hours | 75% reduction |
 | Error rate | 4.2% | 1.3% | 69% reduction |
 
-The company ultimately adopted a hybrid approach, using DAX for core financial metrics and Analytics+ for report assembly and visualization, achieving both standardization and agility.
+This approach maintains DAX for core financial metrics in the semantic layer while using Analytics+ for visualization and business user empowerment.
 
 ## Conclusion: Complementary Approaches
 
-The comparative analysis reveals that DAX and Analytics+ are not mutually exclusive approaches but rather complementary tools in the modern BI toolkit. The deep technical capabilities of DAX paired with the accessibility and speed of Analytics+ create a powerful combination.
+The comparative analysis reveals that DAX and Analytics+ are not mutually exclusive approaches but rather complementary tools in the modern BI toolkit. As shown in the documentation, the deep technical capabilities of DAX paired with the accessibility and speed of Analytics+ create a powerful combination.
+
+The documentation makes this distinction clear by noting that Analytics+ enables users to "create visual-level measures without having to modify your data source," while still respecting and working with the underlying data model that may contain DAX measures.
 
 Organizations that recognize the strengths of each approach can implement a strategy that:
 - Leverages DAX for enterprise semantic layers and complex calculations
 - Employs Analytics+ for rapid visualization development and business user empowerment
 - Creates a governance framework that clearly defines when to use each approach
 - Builds capabilities in both methodologies to address diverse analytical needs
+- Uses Analytics+ for IBCS-compliant reporting and standardized visualizations
+- Considers Inforiver Matrix for advanced use cases beyond Analytics+ capabilities
 
-This balanced strategy delivers both the technical depth required for complex enterprise BI and the agility needed for modern self-service analytics.
+This balanced strategy delivers both the technical depth required for complex enterprise BI and the agility needed for modern self-service analytics, while maintaining consistent visualization standards through Analytics+ templates and IBCS compliance.
