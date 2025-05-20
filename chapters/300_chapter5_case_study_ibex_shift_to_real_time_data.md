@@ -50,7 +50,7 @@ After evaluating multiple solutions, Ibex selected Analytics+ as their enterpris
 
 ### Implementation Architecture
 
-![Ibex Architecture](../images/ibex_architecture.png)
+![Ibex Architecture](images/ibex_architecture.png)
 *Figure 5.6.1: Ibex's Analytics+ Implementation Architecture*
 
 The implementation architecture included:

@@ -30,7 +30,7 @@ Analytics+ implements a fundamentally different approach to memory management:
 
 ### Core Memory Architecture Principles
 
-![Memory Architecture](../images/memory_architecture.png)
+![Memory Architecture](images/memory_architecture.png)
 *Figure 5.4.1: Analytics+ Memory Management Architecture*
 
 1. **Virtualized Display Layer**

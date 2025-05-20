@@ -21,7 +21,7 @@ Analytics+ addresses these challenges by providing comprehensive anomaly detecti
 
 Analytics+ implements multiple outlier detection techniques, selecting the appropriate method based on data characteristics:
 
-![Outlier Detection Dashboard](../images/outlier_detection.png)
+![Outlier Detection Dashboard](images/outlier_detection.png)
 *Figure 6.3.1: Analytics+ Outlier Detection Dashboard*
 
 ### Statistical Outlier Detection
@@ -68,7 +68,7 @@ Analytics+ goes beyond basic statistical outliers to identify values that are an
 - **Relationship-Based Detection**: Flag unusual relationships between variables
 - **State-Dependent Anomalies**: Detect values unusual only in specific business states
 
-![Contextual Anomaly](../images/contextual_anomaly.png)
+![Contextual Anomaly](images/contextual_anomaly.png)
 *Figure 6.3.2: Contextual Anomaly Detection in Analytics+*
 
 Example contextual anomaly: A 15% increase in website traffic would be normal during a marketing campaign but anomalous during a typical weekend. Analytics+ can distinguish these cases automatically.
@@ -112,7 +112,7 @@ Basic but effective techniques to draw attention to anomalies:
 - **Focus+Context Views**: Emphasize anomalies while maintaining overall context
 - **Outlier Galleries**: Curated collections of discovered anomalies for review
 
-![Anomaly Highlighting](../images/anomaly_highlighting.png)
+![Anomaly Highlighting](images/anomaly_highlighting.png)
 *Figure 6.3.3: Anomaly Highlighting in Analytics+*
 
 ### Conditional Formatting for Anomalies
@@ -147,7 +147,7 @@ Analytics+ includes dedicated visualization types for anomaly analysis:
 | Deviation Lollipop Charts | Quantify and rank anomaly magnitude | Prioritize investigation by impact |
 | Anomaly Calendar Heatmaps | Temporal pattern visualization for anomalies | Identify time-based patterns in anomaly occurrence |
 
-![Anomaly Network](../images/anomaly_network.png)
+![Anomaly Network](images/anomaly_network.png)
 *Figure 6.3.4: Anomaly Network Visualization in Analytics+*
 
 ### Interactive Exploration

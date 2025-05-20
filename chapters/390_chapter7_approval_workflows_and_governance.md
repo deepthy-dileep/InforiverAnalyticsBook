@@ -22,7 +22,7 @@ Analytics+ addresses these challenges with a flexible, configurable approval fra
 
 Analytics+ provides a robust, configurable approval framework that brings structure and control to planning processes:
 
-![Approval Workflow Framework](../images/approval_workflow.png)
+![Approval Workflow Framework](images/approval_workflow.png)
 *Figure 7.3.1: Analytics+ Approval Workflow Dashboard with Status and Actions*
 
 ### Workflow Engine
@@ -51,7 +51,7 @@ Rich capabilities for reviewers and approvers:
 - **Approval with Reservations**: Document concerns while allowing progress
 - **Delegate Review**: Assign deep-dive review to subject matter experts
 
-![Approval Actions Interface](../images/approval_actions.png)
+![Approval Actions Interface](images/approval_actions.png)
 *Figure 7.3.2: Approval Actions with Contextual Comments and Annotations*
 
 ### Approval Visibility and Monitoring
@@ -100,7 +100,7 @@ Classic top-down organizational review:
 
 Cross-functional approval for complex organizations:
 
-![Matrix Approval Workflow](../images/matrix_approval.png)
+![Matrix Approval Workflow](images/matrix_approval.png)
 *Figure 7.3.3: Matrix Approval Flow Visualization*
 
 - **Functional Oversight**: Approvals from relevant functional leaders
@@ -157,7 +157,7 @@ Define and enforce planning policies:
 
 Clear definition of planning authority and responsibility:
 
-![Roles and Responsibilities Matrix](../images/roles_matrix.png)
+![Roles and Responsibilities Matrix](images/roles_matrix.png)
 *Figure 7.3.4: Planning Roles and Responsibilities Matrix*
 
 | Role Type | Responsibilities | System Implementation |
@@ -212,7 +212,7 @@ Control over plan status and modification:
 
 Analytics+ provides insights into the governance process itself:
 
-![Governance Analytics Dashboard](../images/governance_analytics.png)
+![Governance Analytics Dashboard](images/governance_analytics.png)
 *Figure 7.3.5: Governance Analytics Dashboard*
 
 ### Process Metrics

@@ -36,7 +36,7 @@ Users can customize trend lines with various styling options:
 - Line color
 - Measure selection (plot trend lines based on any measure or variance)
 
-![Trend Line Options](../images/trend_line_options.png)
+![Trend Line Options](images/trend_line_options.png)
 *Figure 6.2.1: Trend Line Customization in Analytics+*
 
 ### Mathematical Equation Display
@@ -120,7 +120,7 @@ Beyond pattern identification, Analytics+ helps users understand relationships b
 - **Change Point Detection**: Identifies when relationships between variables shift significantly
 - **Intervention Analysis**: Measures the impact of specific events or actions on trend patterns
 
-![Driver Analysis](../images/driver_analysis.png)
+![Driver Analysis](images/driver_analysis.png)
 *Figure 6.2.2: Driver Analysis in Analytics+*
 
 ### Interactive Trend Exploration
@@ -166,7 +166,7 @@ Analytics+ doesn't just produce forecasts—it ensures their quality through rig
 - **Sensitivity Analysis**: Tests forecast stability under different conditions
 - **Model Explanation**: Plain-language description of how the forecast is generated
 
-![Forecast Validation](../images/forecast_validation.png)
+![Forecast Validation](images/forecast_validation.png)
 *Figure 6.2.3: Forecast Validation Dashboard in Analytics+*
 
 ## Interactive Forecasting Capabilities
@@ -183,7 +183,7 @@ All forecasts include customizable confidence intervals:
 - **Probability Distribution View**: Understand the full range of possible outcomes
 - **Risk Threshold Marking**: Highlight when forecasts cross critical business thresholds
 
-![Confidence Intervals](../images/confidence_intervals.png)
+![Confidence Intervals](images/confidence_intervals.png)
 *Figure 6.2.4: Forecast Confidence Intervals in Analytics+*
 
 ### Business-Driven Adjustments

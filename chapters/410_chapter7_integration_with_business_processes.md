@@ -22,7 +22,7 @@ Analytics+ addresses these challenges with a comprehensive business process inte
 
 Analytics+ provides a sophisticated integration framework that connects planning activities with core business processes:
 
-![Business Process Integration Framework](../images/process_integration.png)
+![Business Process Integration Framework](images/process_integration.png)
 *Figure 7.5.1: Analytics+ Business Process Integration Framework*
 
 ### Process Connectors
@@ -55,7 +55,7 @@ Intelligent management of cross-functional processes:
 
 Capabilities for streamlining repetitive process activities:
 
-![Process Automation](../images/process_automation.png)
+![Process Automation](images/process_automation.png)
 *Figure 7.5.2: Process Automation Components in Analytics+*
 
 | Automation Capability | Implementation | Business Benefit |
@@ -102,7 +102,7 @@ Pre-built connectors to major enterprise systems:
 
 Multiple approaches to system connectivity:
 
-![Integration Methods](../images/integration_methods.png)
+![Integration Methods](images/integration_methods.png)
 *Figure 7.5.3: Analytics+ Integration Methods and Data Flow*
 
 - **Direct API Integration**: Real-time connections via REST and SOAP APIs
@@ -147,7 +147,7 @@ Analytics+ integrates with a wide range of business processes to deliver compreh
 
 End-to-end integration with the financial planning cycle:
 
-![Financial Planning Process](../images/financial_planning_process.png)
+![Financial Planning Process](images/financial_planning_process.png)
 *Figure 7.5.4: Integrated Financial Planning Process Flow*
 
 - **Budget Preparation**: Automated distribution of budget templates
@@ -223,7 +223,7 @@ Analytics+ supports multiple approaches to business process integration:
 
 Incremental deployment of process integrations:
 
-![Phased Integration Approach](../images/phased_integration.png)
+![Phased Integration Approach](images/phased_integration.png)
 *Figure 7.5.5: Phased Process Integration Roadmap*
 
 - **Process Assessment**: Evaluation of existing processes and integration opportunities

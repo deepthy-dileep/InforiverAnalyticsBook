@@ -18,7 +18,7 @@ Modern business analytics presents a fundamental tension between data freshness 
 
 Analytics+ implements a sophisticated multi-level caching architecture that optimizes both performance and data currency:
 
-![Caching Architecture](../images/caching_architecture.png)
+![Caching Architecture](images/caching_architecture.png)
 *Figure 5.5.1: Analytics+ Multi-Level Caching Architecture*
 
 ### Level 1: Visualization Rendering Cache
