@@ -13,7 +13,7 @@ First, we need to add the Inforiver Analytics+ visual to the Power BI canvas. Us
 * **Documentation**: Discover all the advanced reporting, visualization and customization capabilities available in Analytics+.
 * **Pricing**: Analytics+ offers different pricing tiers and plans you can use to purchase.
 
-![Adding the Analytics+ visual](https://github.com/user-attachments/assets/analytics-plus-visual.png)
+**Image: Adding the Analytics+ visual**
 
 ### 2. Choose the mode
 
@@ -29,7 +29,7 @@ The Analytics+ visual ships with 5 different modes, each with a dedicated toolba
 
 Analytics+ is an IBCS-certified visual. Enable the **IBCS standards** toggle to create charts, KPI cards, and tables that are fully IBCS compliant.
 
-![IBCS toggle](https://github.com/user-attachments/assets/ibcs-toggle.png)
+**Image: IBCS toggle**
 
 Since we chose the chart mode, an IBCS compliant chart is rendered.
 

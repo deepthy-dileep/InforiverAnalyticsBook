@@ -3,6 +3,7 @@
 /* This adds margins around every page to stop ADE's line numbers from being superimposed over content  */
 @page {
     margin: 10px;
+    border: 2px solid #fff;
 }
 
 /*===Reset code to prevent cross-reader strangeness===*/
@@ -202,6 +203,8 @@ body {
     /* text-align: justify; */
     font-size: small;
     line-height: 120%;
+    background-color: #8a6bac; /* Purple background color similar to the image */
+    color: #ffffff; /* White text for better contrast */
 }
 
 /*===Headings===*/
@@ -393,7 +396,7 @@ span.ibu {
     text-decoration: underline;
 }
 
-/* This fixes the bug where the text-align property of block-level elements is not recognized on iBooks 
+/* This fixes the bug where the text-align property of block-level elements is not recognized on iBooks
 example: html markup would look like <p class="centered"><span class="ipadcenterfix">Centered Content</span></p> */
 
 span.ipadcenterfix {
@@ -461,4 +464,56 @@ div.blockquote {
     margin: 1em 1.5em 0 1.5em;
     text-align: left;
     font-size: 0.9em;
+}
+
+/*==HEADER AND FOOTER==*/
+header, footer {
+    background-color: #8a6bac;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation dots styling */
+.nav-dots {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.nav-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8a6bac;
+    font-weight: bold;
+}
+
+.nav-dot.active {
+    background-color: #ffffff;
+}
+
+/* Perspective label */
+.perspective-label {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #8a6bac;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

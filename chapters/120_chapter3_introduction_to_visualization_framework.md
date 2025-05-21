@@ -144,7 +144,7 @@ Reference lines add context and highlight important thresholds or benchmarks:
 
 These reference lines help users quickly identify performance against key metrics and thresholds.
 
-![Reference Lines](/images/referencelines.png)  
+![Reference Lines](images/referencelines.png)  
 
 #### Reference Bands
 
@@ -158,7 +158,7 @@ Reference bands highlight ranges or zones within visualizations:
 
 Reference bands provide visual context that helps users interpret data within established parameters.
 
-![Reference bands](/images/2025-05-20_09h31_32.png)
+![Reference bands](images/2025-05-20_09h31_32.png)
 
 #### Error Bars
 
@@ -172,7 +172,7 @@ Error bars communicate data uncertainty and variability:
 
 These error indicators help users understand data reliability and make more informed decisions.
 
-![Error bars](/images/error-bars-stacked-cluster-charts.png)
+![Error bars](images/error-bars-stacked-cluster-charts.png)
 
 #### Trend Lines
 

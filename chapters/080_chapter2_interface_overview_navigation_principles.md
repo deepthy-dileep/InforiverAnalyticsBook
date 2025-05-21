@@ -127,24 +127,24 @@ The chart gallery provides a visual way to select visualization types:
 
 - **Category Navigation**: Browse by chart category
 
-![Category Navigation](/images/categoryNavigation.png)
+![Category Navigation](images/categoryNavigation.png)
   
 - **Preview Thumbnails**: See miniature examples of each chart type
 
-![thumbnails](/images/thumbnails.png)
+![thumbnails](images/thumbnails.png)
   
 - **Recently Used**: Quick access to frequently used charts
 
-![favorites](/images/favorites.png)
+![favorites](images/favorites.png)
   
 - **Search Function**: Find charts by name or description
 
-![search](/images/chartSearch.png)
+![search](images/chartSearch.png)
   
 - **Data Preview**: See how your data would look in different chart types
 - **Recommended Charts**: Suggestions based on your data structure or business scenario
 
-![scenario based selection](/images/2025-05-20_11h18_10.png)
+![scenario based selection](images/2025-05-20_11h18_10.png)
 
 - **Detailed Information**: Access details about each chart type's purpose and requirements
 
@@ -160,7 +160,7 @@ The formula editor provides an environment for creating calculated measures with
   
 - **Error Checking**: Real-time validation of formula syntax
 
-![Formula editor](/images/2024-07-09_15h46_37.png)
+![Formula editor](images/2024-07-09_15h46_37.png)
 
 This specialized editor makes creating calculations more accessible to business users, without having to modify the underlying dataset.
 

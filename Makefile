@@ -23,6 +23,7 @@ EBOOK_CONVERT := /Volumes/Extreme\ SSD/Applications/calibre.app/Contents/MacOS/e
 # ARGS
 PDF_ARGS = -f markdown-raw_tex \
 		   --pdf-engine=xelatex \
+		   --pdf-engine-opt=-shell-escape \
 		   -V geometry:margin=1in \
 		   -V papersize:a4 \
 		   -V documentclass=book \
@@ -32,19 +33,31 @@ PDF_ARGS = -f markdown-raw_tex \
 		   --variable linestretch=1.2  \
 		   --include-before-body others/cover.tex \
 		   -V header-includes="\\usepackage{fontspec} \
-				\\usepackage{wallpaper} \
+			\\usepackage{graphicx} \
+			\\usepackage{caption} \
+			\\usepackage{float} \
+		   		\\usepackage{wallpaper} \
 				\\setmainfont[Path=$(CURRENT_DIR)/fonts/, Extension=.ttf, UprightFont=Merriweather-Regular, BoldFont=Merriweather-Bold, ItalicFont=Merriweather-Italic]{Merriweather} \
 				\\setsansfont[Path=$(CURRENT_DIR)/fonts/, Extension=.ttf, UprightFont=OpenSans-Regular, BoldFont=OpenSans-Bold, ItalicFont=OpenSans-Italic]{OpenSans} \
 				\\usepackage{titlesec} \
 				\\titleformat{\\chapter}[display]{\\normalfont\\bfseries\\large}{\\thechapter}{10pt}{\\raggedright} \
 				\\titlespacing*{\\chapter}{0pt}{0pt}{10pt} \
 					\\usepackage{fancyhdr} \
+					\\usepackage{xcolor} \
+					\\definecolor{purplebackground}{HTML}{8A6BAC} \
 					\\pagestyle{fancy} \
 					\\fancyhf{} \
-					\\fancyfoot[C]{\\leftmark} \
-					\\fancyhead[R]{\\thepage} \
+					\\fancyfoot[C]{\\colorbox{purplebackground}{\\textcolor{white}{\\leftmark}}} \
+					\\fancyhead[R]{\\colorbox{purplebackground}{\\textcolor{white}{\\thepage}}} \
+					\\fancyhead[L]{\\colorbox{purplebackground}{\\textcolor{white}{Inforiver Analytics+}}} \
 					\\renewcommand{\\headrulewidth}{0pt} \
-					\\renewcommand{\\footrulewidth}{0.4pt}" \
+					\\renewcommand{\\footrulewidth}{0.4pt} \
+					\\usepackage{pagecolor} \
+					\\pagecolor{white} \
+					\\usepackage{mdframed} \
+					\\newmdenv[linecolor=purplebackground,linewidth=2pt,topline=true,bottomline=true,leftline=true,rightline=true,innerleftmargin=15pt,innerrightmargin=15pt,innertopmargin=15pt,innerbottommargin=15pt]{customframe} \
+					\\AtBeginDocument{\\begin{customframe}} \
+					\\AtEndDocument{\\end{customframe}}" \
 		   $(ARGS) \
 		   $(METADATA_ARG)
 
@@ -69,7 +82,15 @@ ARGS = --from=markdown $(TOC_ARGS) --top-level-division=chapter
 
 all: output output/book.pdf output/html-epub
 
-pdf: output output/book.pdf 
+pdf: output output/book.pdf
+
+# Generate PDF with image placeholders to avoid LaTeX errors
+pdf-no-images: output
+	./fix-pdf.sh
+
+# Generate PDF with optimized images
+pdf-with-images: output
+	./generate-pdf-with-images.sh
 
 epub: output output/book.epub
 
@@ -83,7 +104,7 @@ output:
 	@mkdir -p ./output
 
 output/%.pdf: Makefile $(CHAPTERS) | output
-	pandoc $(CHAPTERS) $(PDF_ARGS) -o $@
+	pandoc $(CHAPTERS) $(PDF_ARGS) --resource-path=.:images --wrap=none -o $@
 
 output/%.epub: Makefile $(CHAPTERS) $(FONTS) $(HIGHLIGHT) $(COVER_IMAGE) | output
 	pandoc $(CHAPTERS) $(ARGS) $(HIGHLIGHT_ARGS) $(EPUB_ARGS) -o $@

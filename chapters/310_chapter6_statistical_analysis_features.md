@@ -20,7 +20,7 @@ Analytics+ addresses these challenges by embedding sophisticated yet accessible 
 
 Analytics+ provides a comprehensive suite of statistical functions integrated directly into its user interface through the Analytics menu:
 
-![Statistical Analysis Menu](../images/statistical_analysis_menu.png)
+![Statistical Analysis Menu](images/statistical_analysis_menu.png)
 *Figure 6.1.1: Analytics+ Statistical Analysis Menu*
 
 ### Descriptive Statistics
@@ -67,7 +67,7 @@ The correlation capabilities in Analytics+ are designed to help business users a
 - How closely do marketing investments align with revenue growth?
 - What operational metrics best predict quality issues?
 
-![Correlation Matrix](../images/correlation_matrix.png)
+![Correlation Matrix](images/correlation_matrix.png)
 *Figure 6.1.2: Interactive Correlation Matrix in Analytics+*
 
 ### Statistical Significance Testing
@@ -100,7 +100,7 @@ Analytics+ extends Power BI's visualization capabilities with specialized statis
 
 ### Box Plots and Whisker Charts
 
-![Box Plot Example](../images/box_plot.png)
+![Box Plot Example](images/box_plot.png)
 *Figure 6.1.3: Box Plot with Outlier Analysis in Analytics+*
 
 Box plots in Analytics+ include:
@@ -116,7 +116,7 @@ Box plots in Analytics+ include:
 
 ### Histogram and Distribution Analysis
 
-![Histogram Example](../images/histogram.png)
+![Histogram Example](images/histogram.png)
 *Figure 6.1.4: Interactive Histogram with Distribution Fitting in Analytics+*
 
 Histogram features include:

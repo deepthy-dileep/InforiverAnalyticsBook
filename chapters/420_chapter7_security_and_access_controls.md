@@ -22,7 +22,7 @@ Analytics+ addresses these challenges with a multi-layered security architecture
 
 Analytics+ is built on a comprehensive security architecture that protects data at every level:
 
-![Security Architecture](../images/security_architecture.png)
+![Security Architecture](images/security_architecture.png)
 *Figure 7.6.1: Analytics+ Multi-Layered Security Architecture*
 
 ### Authentication Framework
@@ -55,7 +55,7 @@ Granular access control capabilities:
 
 Protection for sensitive planning data:
 
-![Data Security Controls](../images/data_security.png)
+![Data Security Controls](images/data_security.png)
 *Figure 7.6.2: Analytics+ Data Security Controls*
 
 | Data Security Capability | Implementation | Business Value |
@@ -102,7 +102,7 @@ Analytics+ provides a sophisticated access control framework that enables precis
 
 Predefined security roles for common planning functions:
 
-![Role-Based Access](../images/role_based_access.png)
+![Role-Based Access](images/role_based_access.png)
 *Figure 7.6.3: Analytics+ Role-Based Access Control Model*
 
 - **Plan Administrator**: Full control over all planning functions
@@ -144,7 +144,7 @@ Flexible approaches to data access definition:
 
 Tools for managing security configurations:
 
-![Access Administration](../images/access_administration.png)
+![Access Administration](images/access_administration.png)
 *Figure 7.6.4: Analytics+ Security Administration Interface*
 
 | Administrative Capability | Implementation | Management Benefit |
@@ -191,7 +191,7 @@ Features designed to meet regulatory requirements:
 
 Tools for demonstrating security compliance:
 
-![Audit Tools](../images/audit_tools.png)
+![Audit Tools](images/audit_tools.png)
 *Figure 7.6.5: Analytics+ Audit Support Capabilities*
 
 - **Audit Reports**: Pre-configured reports for common audit requirements
@@ -236,7 +236,7 @@ Connections with enterprise security monitoring:
 
 Alignment with enterprise security management:
 
-![Security Administration Integration](../images/security_admin_integration.png)
+![Security Administration Integration](images/security_admin_integration.png)
 *Figure 7.6.6: Enterprise Security Integration Framework*
 
 | Integration Area | Implementation | Administrative Benefit |

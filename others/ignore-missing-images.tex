@@ -1,0 +1,45 @@
+% Solution to ignore missing images
+\usepackage{graphicx}
+
+% Set draft mode for graphicx to replace images with empty boxes
+\setkeys{Gin}{draft=true}
+
+% Suppress warnings about missing images
+\usepackage{silence}
+\WarningFilter{latex}{Float too large}
+\WarningFilter{latex}{Cannot determine size of graphic}
+\WarningFilter{latex}{File .* not found}
+
+% Define a default bounding box for all graphics
+\setlength{\fboxsep}{0pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Redefine includegraphics to handle missing files gracefully
+\makeatletter
+\let\orig@Ginclude@graphics\Ginclude@graphics
+\def\Ginclude@graphics#1{%
+  \begingroup
+  \let\input@path\Ginput@path
+  \filename@parse{#1}%
+  \ifx\filename@ext\relax
+    \@for\Gin@temp:=\Gin@extensions\do{%
+      \ifx\Gin@ext\relax
+        \Gin@getbase\Gin@temp
+      \fi
+    }%
+  \else
+    \Gin@getbase{\Gin@sepdefault\filename@ext}%
+    \ifx\Gin@ext\relax
+      \Gin@getbase\Gin@sepdefault
+    \fi
+  \fi
+  \ifx\Gin@ext\relax
+    % File not found, use placeholder
+    \fbox{\rule{0pt}{2cm}\hspace{3cm}}%
+  \else
+    % File found, use original handler
+    \orig@Ginclude@graphics{#1}%
+  \fi
+  \endgroup
+}
+\makeatother

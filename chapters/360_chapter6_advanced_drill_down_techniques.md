@@ -21,7 +21,7 @@ Analytics+ addresses these challenges with advanced drill-down techniques that m
 
 Analytics+ provides a comprehensive toolkit of drill-down capabilities that go beyond standard hierarchical navigation:
 
-![Advanced Drill-Down Interface](../images/advanced_drilldown.png)
+![Advanced Drill-Down Interface](images/advanced_drilldown.png)
 *Figure 6.6.1: Analytics+ Advanced Drill-Down Interface*
 
 ### Multi-Directional Drill-Down
@@ -89,7 +89,7 @@ Maintain analytical relevance through context-aware exploration:
 - **Guided Analysis Paths**: Suggested exploration routes based on data characteristics
 - **Synchronized Highlighting**: Maintain selection context across multiple visualizations
 
-![Contextual Drill-Down](../images/contextual_drilldown.png)
+![Contextual Drill-Down](images/contextual_drilldown.png)
 *Figure 6.6.2: Contextual Drill-Down with Preserved Filters in Analytics+*
 
 #### Advanced Data Selection Techniques
@@ -184,7 +184,7 @@ Guide users through the exploration process:
 - **Detail Availability Indicators**: Show where further detail is available
 - **Related Content Signposts**: Indicate related data areas worth exploring
 
-![Navigation Signposts](../images/navigation_signposts.png)
+![Navigation Signposts](images/navigation_signposts.png)
 *Figure 6.6.3: Visual Exploration Signposts in Analytics+*
 
 ### Performance Optimization
