@@ -155,19 +155,31 @@ Analytics+ allows the addition of derived or supplementary data series:
 
 These additional series enhance comparative analysis and provide richer context for data interpretation.
 
-
+![Additional series](/images/TrendLine.png)
 
 ### Data Processing Layer
 
 The foundation layer that prepares data for visualization:
 
-- **Data Transformation**: Conversion of raw data into visualization-ready format
 - **Aggregation Engine**: Summarization of data at different levels
+
+![Aggregation engine](/images/Aggregation.png)
+  
 - **Filtering System**: Selection of relevant data subsets
+
+![Aggregation engine](/images/filter.png)
+  
 - **Sorting Mechanism**: Arrangement of data in meaningful sequences
+
+![Sorting engine](/images/Sort.png)
+  
 - **Calculation Engine**: Execution of visualization-specific calculations
+
+[!Calculated measures](/images/Calcmeasues.png)
+  
 - **Pivoting Engine**: Reorganization of data for different analytical perspectives
-- **Data Binding**: Connection between data and visual elements
+
+[!Pivoting engine](/images/PivotingEngine.png)
 
 These layers work together to provide a seamless visualization experience that balances analytical power with ease of use.
 
