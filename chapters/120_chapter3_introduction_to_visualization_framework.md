@@ -175,11 +175,11 @@ The foundation layer that prepares data for visualization:
   
 - **Calculation Engine**: Execution of visualization-specific calculations
 
-[!Calculated measures](/images/Calcmeasues.png)
+![Calculation engine](/images/Calcmeasues.png)
   
 - **Pivoting Engine**: Reorganization of data for different analytical perspectives
 
-[!Pivoting engine](/images/PivotingEngine.png)
+![Pivoting engine](/images/PivotingEngine.png)
 
 These layers work together to provide a seamless visualization experience that balances analytical power with ease of use.
 
