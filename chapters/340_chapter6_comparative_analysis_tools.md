@@ -21,7 +21,7 @@ Analytics+ addresses these challenges with an integrated suite of comparative an
 
 Analytics+ provides a comprehensive toolkit for comparison across various business dimensions:
 
-![Comparative Analysis Dashboard](../images/comparative_analysis.png)
+![Comparative Analysis Dashboard](images/comparative_analysis.png)
 *Figure 6.4.1: Analytics+ Comparative Analysis Dashboard*
 
 ### Time-Based Comparisons
@@ -58,7 +58,7 @@ Compare actual performance against planned scenarios, forecasts, or what-if anal
 - **Target Comparison**: Evaluate performance against strategic goals
 - **Benchmark Comparison**: Compare metrics against industry standards
 
-![Scenario Comparison](../images/scenario_comparison.png)
+![Scenario Comparison](images/scenario_comparison.png)
 *Figure 6.4.2: Scenario Comparison in Analytics+*
 
 ### Entity Comparisons
@@ -102,7 +102,7 @@ Directly compare different datasets with aligned visualizations:
 - **Synchronized Filtering**: Apply filters to multiple comparative views simultaneously
 - **Comparative Tables**: Multi-column tables with dynamic comparison calculations
 
-![Small Multiples](../images/small_multiples.png)
+![Small Multiples](images/small_multiples.png)
 *Figure 6.4.3: Small Multiples for Regional Comparison in Analytics+*
 
 ### Integrated Comparative Visuals
@@ -120,7 +120,7 @@ Specialized charts that integrate comparative data within a single visualization
 | Tornado Charts | Side-by-side analysis with opposing bars | Category contribution comparison |
 | Slope Graphs | Connect related points to show changes | Trend comparison across categories |
 
-![Variance Analysis](../images/variance_analysis.png)
+![Variance Analysis](images/variance_analysis.png)
 *Figure 6.4.4: Variance Analysis Chart in Analytics+*
 
 #### Waterfall Chart Variations

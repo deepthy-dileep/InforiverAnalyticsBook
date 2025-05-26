@@ -1,0 +1,24 @@
+% Fix for LaTeX errors in Pandoc-generated documents
+\makeatletter
+
+% Fix for \centering outside of proper environments
+\let\old@centering\centering
+\renewcommand{\centering}{%
+  \ifvmode
+    \begin{center}%
+  \else
+    \old@centering
+  \fi
+}
+
+% Fix for itemize environment issues
+\usepackage{etoolbox}
+
+% Ensure we're in the right mode for various environments
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Redefine the \item command to be more robust
+\let\olditem\item
+\def\item{\ifhmode\unskip\par\fi\olditem}
+
+\makeatother

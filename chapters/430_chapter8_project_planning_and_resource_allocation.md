@@ -22,7 +22,7 @@ Analytics+ implementations require a balanced approach that addresses both techn
 
 A comprehensive implementation strategy framework provides structure and direction for Analytics+ projects:
 
-![Implementation Framework](../images/implementation_framework.png)
+![Implementation Framework](images/implementation_framework.png)
 *Figure 8.1.1: Analytics+ Implementation Strategy Framework*
 
 ### Strategic Planning Phase
@@ -55,7 +55,7 @@ Evaluating organizational readiness for implementation:
 
 Creating an effective organizational model for implementation:
 
-![Project Structure](../images/project_structure.png)
+![Project Structure](images/project_structure.png)
 *Figure 8.1.2: Analytics+ Implementation Project Structure*
 
 | Role/Team | Responsibilities | Composition |
@@ -117,7 +117,7 @@ Business and functional resources required:
 
 Technical infrastructure requirements:
 
-![Infrastructure Resources](../images/infrastructure_resources.png)
+![Infrastructure Resources](images/infrastructure_resources.png)
 *Figure 8.1.3: Analytics+ Infrastructure Resource Requirements*
 
 | Infrastructure Component | Requirements | Purpose |
@@ -150,7 +150,7 @@ Analytics+ implementations typically follow a phased approach with specific time
 
 Structured implementation progression:
 
-![Implementation Phases](../images/implementation_phases.png)
+![Implementation Phases](images/implementation_phases.png)
 *Figure 8.1.4: Analytics+ Implementation Phase Model*
 
 | Phase | Duration | Key Activities | Deliverables |
@@ -209,7 +209,7 @@ Comprehensive implementation across the organization:
 
 Focused implementation within specific business units:
 
-![Business Unit Approach](../images/business_unit_approach.png)
+![Business Unit Approach](images/business_unit_approach.png)
 *Figure 8.1.5: Business Unit Implementation Approach*
 
 | Characteristic | Implementation | Business Impact |
@@ -267,7 +267,7 @@ Resources managed through a central project structure:
 
 Distributed resources with central coordination:
 
-![Federated Resource Model](../images/federated_resource.png)
+![Federated Resource Model](images/federated_resource.png)
 *Figure 8.1.6: Federated Resource Allocation Model*
 
 | Resource Category | Allocation Approach | Coordination Method |
@@ -354,7 +354,7 @@ Key practices for optimizing resource allocation and utilization:
 
 Building capabilities throughout the implementation:
 
-![Skill Development](../images/skill_development.png)
+![Skill Development](images/skill_development.png)
 *Figure 8.1.7: Analytics+ Implementation Skill Development Model*
 
 | Skill Development Strategy | Implementation | Capability Benefit |
@@ -413,7 +413,7 @@ Analytics+ implementation can be coordinated with Power BI projects:
 
 Coordination with Power BI implementation activities:
 
-![Power BI Alignment](../images/powerbi_alignment.png)
+![Power BI Alignment](images/powerbi_alignment.png)
 *Figure 8.1.8: Analytics+ and Power BI Implementation Alignment*
 
 | Implementation Area | Alignment Approach | Integration Benefit |

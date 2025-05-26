@@ -21,7 +21,7 @@ Analytics+ addresses these challenges with purpose-built decision support visual
 
 Analytics+ provides a comprehensive toolkit of visualizations specifically designed for decision support:
 
-![Decision Support Interface](../images/decision_support.png)
+![Decision Support Interface](images/decision_support.png)
 *Figure 6.5.1: Analytics+ Decision Support Interface*
 
 ### Multi-Criteria Decision Analysis (MCDA) Visualizations
@@ -95,7 +95,7 @@ Help decision-makers understand and account for uncertainty:
 - **Bullet Charts**: Compare actual performance against targets with qualitative ranges
 - **Treemap Charts**: Visualize hierarchical risk categories with size representing impact
 
-![Risk Matrix](../images/risk_matrix.png)
+![Risk Matrix](images/risk_matrix.png)
 *Figure 6.5.2: Interactive Risk Matrix in Analytics+*
 
 #### Tornado Charts for Sensitivity Analysis
@@ -209,7 +209,7 @@ Enable interactive evaluation of alternative decisions:
 - **Treemap Exploration**: Drill down through hierarchical decision factors
 - **Multi-Variate Scenario Analysis**: Compare scenarios across multiple dimensions simultaneously
 
-![Scenario Explorer](../images/scenario_explorer.png)
+![Scenario Explorer](images/scenario_explorer.png)
 *Figure 6.5.3: Scenario Explorer for Decision Support in Analytics+*
 
 #### Treemap Charts for Hierarchical Decision Exploration

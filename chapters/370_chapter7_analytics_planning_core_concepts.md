@@ -22,7 +22,7 @@ Analytics+ addresses these challenges by unifying analysis and planning in a sin
 
 The Analytics+ planning module provides a comprehensive planning and writeback solution that integrates directly with the analytical capabilities discussed in previous chapters:
 
-![Analytics+ Planning Interface](../images/planning_interface.png)
+![Analytics+ Planning Interface](images/planning_interface.png)
 *Figure 7.1.1: Analytics+ Planning Interface with Integrated Analysis and Planning*
 
 ### Unified Planning Framework
@@ -53,7 +53,7 @@ The core of Analytics+ planning functionality lies in its intelligent grid techn
 - **Adaptive Layout**: Responsive grid design optimized for planning tasks
 - **Hierarchy Management**: Intelligent handling of hierarchical relationships
 
-![Planning Grid Technology](../images/planning_grid.png)
+![Planning Grid Technology](images/planning_grid.png)
 *Figure 7.1.2: Rich Planning Grid with Formula Support and Cell-Level Validation*
 
 ### Multi-Dimensional Planning Model
@@ -126,7 +126,7 @@ Analytics+ supports sophisticated collaboration for planning activities:
 - **Contribution Tracking**: Visibility into who changed what and when
 - **Consensus Building**: Tools to facilitate agreement on plan elements
 
-![Collaborative Planning](../images/collaborative_planning.png)
+![Collaborative Planning](images/collaborative_planning.png)
 *Figure 7.1.3: Collaborative Planning with Role Assignments and Contribution Tracking*
 
 ## Integration with Analytics Capabilities

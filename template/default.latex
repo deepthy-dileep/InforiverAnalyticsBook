@@ -61,22 +61,25 @@ $endfor$
 \raggedbottom
 $if(section-titles)$
 \setbeamertemplate{part page}{
-  \centering
+  \begin{center}
   \begin{beamercolorbox}[sep=16pt,center]{part title}
     \usebeamerfont{part title}\insertpart\par
   \end{beamercolorbox}
+  \end{center}
 }
 \setbeamertemplate{section page}{
-  \centering
+  \begin{center}
   \begin{beamercolorbox}[sep=12pt,center]{part title}
     \usebeamerfont{section title}\insertsection\par
   \end{beamercolorbox}
+  \end{center}
 }
 \setbeamertemplate{subsection page}{
-  \centering
+  \begin{center}
   \begin{beamercolorbox}[sep=8pt,center]{part title}
     \usebeamerfont{subsection title}\insertsubsection\par
   \end{beamercolorbox}
+  \end{center}
 }
 \AtBeginPart{
   \frame{\partpage}

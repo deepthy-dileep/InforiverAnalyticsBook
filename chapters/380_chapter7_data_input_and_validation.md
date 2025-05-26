@@ -22,7 +22,7 @@ Analytics+ addresses these challenges with a comprehensive approach to data inpu
 
 Analytics+ offers multiple input methods to accommodate different user preferences, data volumes, and scenarios:
 
-![Data Input Methods](../images/data_input_methods.png)
+![Data Input Methods](images/data_input_methods.png)
 *Figure 7.2.1: Analytics+ Multiple Input Methods for Planning*
 
 ### Direct Cell Entry
@@ -79,7 +79,7 @@ For automated data flows from other systems:
 
 Analytics+ includes a sophisticated validation framework that ensures data quality throughout the planning process:
 
-![Validation Framework](../images/validation_framework.png)
+![Validation Framework](images/validation_framework.png)
 *Figure 7.2.2: Multi-Layer Validation Framework in Analytics+*
 
 ### Cell-Level Validation
@@ -154,7 +154,7 @@ Immediate feedback during data entry:
 
 Tools for efficiently handling validation issues:
 
-![Validation Management](../images/validation_management.png)
+![Validation Management](images/validation_management.png)
 *Figure 7.2.3: Validation Management Interface in Analytics+*
 
 - **Issue Navigation**: Quickly move between validation problems
@@ -225,7 +225,7 @@ Standardized structures for consistent data entry:
 
 Coordinated data entry across multiple contributors:
 
-![Collaborative Input](../images/collaborative_input.png)
+![Collaborative Input](images/collaborative_input.png)
 *Figure 7.2.4: Collaborative Input with Role Assignments and Work Tracking*
 
 - **Assigned Input Areas**: Clear delineation of responsibility

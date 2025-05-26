@@ -1,0 +1,31 @@
+% Comprehensive fix for LaTeX errors in Pandoc-generated documents
+\makeatletter
+
+% Fix for centering issues - using a different approach than both previous files
+\let\pandoc@centering\centering
+\def\centering{%
+  \ifvmode
+    \begin{center}%
+  \else
+    \pandoc@centering
+  \fi
+}
+
+% Fix for list environments
+\usepackage{etoolbox}
+
+% Ensure we're in the right mode for various environments
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+}
+
+% Fix for empty lists and missing items
+\def\@listi{\leftmargin\leftmargini
+            \parsep 4\p@ \@plus2\p@ \@minus\p@
+            \topsep 8\p@ \@plus2\p@ \@minus4\p@
+            \itemsep4\p@ \@plus2\p@ \@minus\p@}
+\let\@listI\@listi
+\@listi
+
+\makeatother

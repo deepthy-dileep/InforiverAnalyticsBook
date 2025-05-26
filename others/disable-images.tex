@@ -1,0 +1,14 @@
+% Completely disable image processing
+\usepackage{graphicx}
+
+% Set draft mode for graphicx to replace images with empty boxes
+\setkeys{Gin}{draft}
+
+% Redefine \includegraphics to do nothing
+\renewcommand{\includegraphics}[2][]{\fbox{\phantom{Image: #2}}}
+
+% Silence warnings about images
+\usepackage{silence}
+\WarningFilter{latex}{Float too large}
+\WarningFilter{latex}{Cannot determine size of graphic}
+\WarningFilter{latex}{File .* not found}
