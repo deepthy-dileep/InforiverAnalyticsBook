@@ -18,7 +18,7 @@ Analytics+ has been built as a complete storytelling platform that enables even 
 
 4. **Gantt Mode**: Enables users to visualize task schedules, identify dependencies, allocate resources, and track deadlines with a best-in-class Gantt chart implementation.
 
-![Gantt mode](/images/image(36).png)
+![Gantt mode](/images/GanttMode.png)
 
 5. **Storyboard Mode**: Allows rapid design of captivating dashboards with a single visual and a single query, incorporating charts, text, images, slicers, KPI cards, and tables without importing separate visuals.
 
