@@ -6,11 +6,19 @@ Analytics+ has been built as a complete storytelling platform that enables even 
 
 1. **Chart Mode**: Offers a diverse library of over 100 chart types including Waterfall, Marimekko, Bullet charts, and boxplots, suitable for virtually any data visualization scenario.
 
+![Chart mode](/images/2025-05-26_15h06_30.png)  
+
 2. **Card Mode**: Provides KPI cards with embedded charts, text, and image support to showcase metrics in a compact, information-rich format.
+
+![Card mode](/images/2025-05-26_15h09_40.png)
 
 3. **Table Mode**: Delivers a bird's eye view of data categories and relationships with advanced tabular visualizations including small multiples tables.
 
+![Table mode](/images/2025-05-26_15h13_14.png)
+
 4. **Gantt Mode**: Enables users to visualize task schedules, identify dependencies, allocate resources, and track deadlines with a best-in-class Gantt chart implementation.
+
+![Gantt mode](/images/image(36).png)
 
 5. **Storyboard Mode**: Allows rapid design of captivating dashboards with a single visual and a single query, incorporating charts, text, images, slicers, KPI cards, and tables without importing separate visuals.
 
