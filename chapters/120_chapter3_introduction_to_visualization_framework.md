@@ -24,20 +24,6 @@ Analytics+ has been built as a complete storytelling platform that enables even 
 
 Users can seamlessly switch between these modes, leveraging the specific capabilities of each to create comprehensive, interactive visualizations that communicate insights effectively.
 
-## The Evolution of Business Visualization
-
-Business visualization has evolved significantly over the past decade, moving from basic charts and graphs to sophisticated, interactive visual analysis tools. This evolution has been driven by several key factors:
-
-- **Data Complexity Growth**: Increasing volumes and complexity of business data
-- **Decision Speed Requirements**: Accelerating business cycles demanding faster insights
-- **Visualization Best Practices**: Maturing standards for effective visual communication
-- **User Expectations**: Rising expectations for intuitive, interactive experiences
-- **Mobile Accessibility**: Need for visualization consumption across devices
-- **Analytical Sophistication**: Growing demand for advanced analytical capabilities
-- **Democratization of Analytics**: Expanding visualization access beyond specialists
-
-Despite these advances, many organizations still struggle with visualization limitations in their business intelligence platforms, including restricted chart types, performance constraints, lack of standardization, and complex implementation requirements. These limitations often result in suboptimal visual communication, compromised analytical depth, and inefficient workflows as users resort to exporting data to other tools.
-
 ## The Analytics+ Visualization Philosophy
 
 Inforiver Analytics+ approaches visualization with a distinct philosophy centered on several core principles:
@@ -98,46 +84,6 @@ Analytics+ treats visualization as an integral part of the analytical process:
 
 This integrated approach ensures that visualization is not just about presentation but serves as a core analytical tool that helps users discover and communicate insights.
 
-## Visualization Framework Architecture
-
-The Analytics+ visualization framework is built on a multi-layer architecture designed for flexibility, performance, and standards compliance:
-
-### Visualization Layer
-
-The outermost layer that users directly interact with, comprising:
-
-- **Chart Types**: The 100+ visualization options available to users
-- **Templates**: Pre-configured visualization patterns
-- **Style Library**: Visual styling and formatting options
-- **Interaction Patterns**: Defined user interaction behaviors
-- **Annotation System**: Tools for adding context and explanation
-- **Layout Engine**: Control of visual element positioning and sizing
-- **Responsive Framework**: Adaptation to different display environments
-
-### Data Visualization Layer
-
-The layer that transforms data into visual representations:
-
-- **Visual Mapping Engine**: Translation of data values to visual properties
-- **Scale Management**: Handling of axes, ranges, and data domains
-- **Color Management**: Application of color schemes and palettes
-- **Legend System**: Generation and management of visualization legends
-- **Small Multiples Engine**: Creation of trellis/small multiples displays
-- **Data Label Handler**: Positioning and formatting of data labels
-- **Reference Elements**: Implementation of reference lines, bands, and points
-
-### Analytical Layer
-
-The layer that enhances visualizations with analytical capabilities:
-
-- **Statistical Functions**: Built-in statistical calculations
-- **Trend Analysis**: Trend line generation and visualization
-- **Variance Analysis**: Tools for comparing actual vs. target/forecast
-- **Distribution Analysis**: Visualization of data distributions
-- **Outlier Detection**: Identification and highlighting of outliers
-- **Pattern Recognition**: Tools for identifying and visualizing patterns
-- **Forecast Visualization**: Display of forecast and projection data
-
 Analytics+ provides a comprehensive set of analytical tools that can be directly integrated into visualizations:
 
 #### Reference Lines
@@ -195,6 +141,8 @@ Trend lines reveal underlying patterns and future directions:
 
 Trend analysis helps users distinguish between random fluctuations and meaningful directional changes.
 
+![Trend line](/images/TrendLine.png)
+
 #### Additional Series
 
 Analytics+ allows the addition of derived or supplementary data series:
@@ -206,6 +154,8 @@ Analytics+ allows the addition of derived or supplementary data series:
 - **Scenario Series**: Alternative projections based on different assumptions
 
 These additional series enhance comparative analysis and provide richer context for data interpretation.
+
+
 
 ### Data Processing Layer
 
