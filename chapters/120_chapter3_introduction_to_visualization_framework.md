@@ -210,11 +210,28 @@ The Viz-data-ink ratio slider allows users to quickly adjust the information den
 Storyboard mode supports a comprehensive set of dashboard elements:
 
 - **Visualization Components**: Charts, cards, and tables with full customization capabilities
+
+![VisualizationComponents](/images/VisualizationComponents.png)
+  
 - **Navigation Controls**: Tabs, boards, and play axes for multi-page dashboards
+
+![NavigationControls](/images/Navigation.png)
+  
 - **Annotation System**: Comments and highlights to explain insights
+
+![Annotation](/images/Annotations.png)
+
 - **Design Elements**: Shapes, text boxes, and images for visual organization
+
+![DesignElements](/images/shapesimagestextboxes.png)
+  
 - **Interactive Controls**: Slicers and filters for data exploration
+
+![SlicersFilters](/images/slicer.png)
+
 - **Layering System**: Z-order control for complex visual arrangements
+
+![Layers](/images/Layers.png)
 
 Each element maintains its full functionality and customization options, with dedicated toolbars appearing contextually when elements are selected.
 
