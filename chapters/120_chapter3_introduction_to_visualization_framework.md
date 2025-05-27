@@ -247,6 +247,9 @@ Analytics+ includes a comprehensive theming system for visual consistency:
 
 - **Color Palette Management**: Control of primary, secondary, and accent colors
 - **Accessibility Considerations**: High-contrast themes for improved readability
+
+![Color blind Themes](/images/ColorBlindTheme.png)
+  
 - **Corporate Branding**: Support for organization-specific color schemes
 
 The theming capabilities ensure that dashboards maintain visual consistency while allowing for creative expression and brand alignment.
