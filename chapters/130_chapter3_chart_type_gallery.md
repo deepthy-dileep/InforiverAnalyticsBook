@@ -26,7 +26,7 @@ The foundation of comparison visualization, these charts include:
   
 - **100% Stacked Column/Bar Chart**: For comparing percentage contributions
 
-![100%StackedColumn](/images/100%StackedColumn.png)
+![100%StackedColumn](/images/HundredPercentStackedColumn.png)
 
 - **Column +Column Chart**: For hierarchical category comparison
 
