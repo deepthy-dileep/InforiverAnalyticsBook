@@ -308,12 +308,30 @@ The IBCS toggle can be applied at both the dashboard level and for individual vi
 Analytics+ provides specialized IBCS-compliant chart types:
 
 - **Integrated Variance Column**: Showing actuals, plans, and variances in a standardized format
+
+![Integrated Variance Column](/images/IntegratedVarianceChart.png)
+
 - **IBCS Waterfall**: Visualizing financial statements with proper notation
+
+![IBCS Waterfall](/images/ColumnsWithWaterfall.png)
+  
 - **Variance Bridge**: Connecting start and end values with standardized variance representation
+
+![Variance Bridge](/images/HierarchicalrowswithIntegratedBar.png)
+  
 - **IBCS-Compliant Tables**: Implementing proper notation in tabular formats
+
+![IBCS-Compliant Tables](/images/IBCSTable.png)
+
+- **Tables with integrated waterfalls**: Measure rows and integrated waterfalls
+
+![Tables with integrated waterfalls](/images/TablesWithIntegratedWaterfalls.png)
+
 - **Semantic KPI Cards**: Displaying key metrics with standardized visual elements
 
-These specialized chart types ensure that business reporting follows consistent standards that improve clarity and comparability.
+![IBCS KPI cards](/images/IBCSCards.png)
+
+These specialized chart types ensure that business reporting adheres to consistent standards, improving clarity and comparability.
 
 ## The Business Impact of Advanced Visualization
 
