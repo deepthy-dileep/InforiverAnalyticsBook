@@ -193,9 +193,15 @@ Analytics+ offers multiple paths to dashboard creation:
 
 1. **Auto-create Reports**: Leverages AI to automatically generate dashboards based on the data structure, creating appropriate visualizations without manual intervention.
 
+![Auto create](/images/autocreate.png)
+
 2. **Template-Based Dashboards**: Provides a library of pre-built templates for common scenarios including IBCS-compliant dashboards, financial reports, and KPI dashboards.
 
+![Template](/images/templatestore.png)
+
 3. **Custom Layouts**: Enables users to build dashboards from scratch, defining the number and arrangement of elements through an intuitive interface.
+
+![CustomLayout](/images/customLayout.png)
 
 The Viz-data-ink ratio slider allows users to quickly adjust the information density of dashboards, balancing visual appeal with analytical depth.
 
