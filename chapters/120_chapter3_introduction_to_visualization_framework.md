@@ -234,8 +234,17 @@ The Storyboard provides sophisticated layout capabilities:
 Analytics+ includes a comprehensive theming system for visual consistency:
 
 - **Pre-built Themes**: Library of professionally designed color schemes
+
+![CustomLayout](/images/customLayout.png)
+  
 - **Theme Customization**: Ability to modify existing themes or create new ones
+
+![CustomStoryboardTheme](/images/CustomStoryboardTheme.png)
+  
 - **Element-Level Theming**: Application of different themes to individual dashboard elements
+
+![Individual Element Theme](/images/IndividualElementThemes.png)
+
 - **Color Palette Management**: Control of primary, secondary, and accent colors
 - **Accessibility Considerations**: High-contrast themes for improved readability
 - **Corporate Branding**: Support for organization-specific color schemes
