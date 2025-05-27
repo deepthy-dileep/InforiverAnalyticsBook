@@ -295,20 +295,6 @@ Analytics+ provides specialized IBCS-compliant chart types:
 
 These specialized chart types ensure that business reporting follows consistent standards that improve clarity and comparability.
 
-### Visualization Governance
-
-Beyond certification, Analytics+ provides a framework for visualization governance:
-
-- **Style Libraries**: Organization-specific visual standards
-- **Template Management**: Control of approved visualization templates
-- **Color Palettes**: Corporate-standard color schemes
-- **Terminology Standards**: Consistent naming conventions
-- **Visual Hierarchy Guidelines**: Standards for information prioritization
-- **Annotation Policies**: Guidelines for contextual annotations
-- **Approval Workflows**: Processes for visualization review and approval
-
-This governance framework helps organizations maintain consistent, high-quality visualizations across departments and use cases.
-
 ## The Business Impact of Advanced Visualization
 
 The advanced visualization capabilities of Analytics+ deliver significant business impact:
