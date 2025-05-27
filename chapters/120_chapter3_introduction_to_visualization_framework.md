@@ -155,7 +155,7 @@ Analytics+ allows the addition of derived or supplementary data series:
 
 These additional series enhance comparative analysis and provide richer context for data interpretation.
 
-![Additional series](/images/TrendLine.png)
+![Additional series](/images/Movingaverage.png)
 
 ### Data Processing Layer
 
@@ -252,7 +252,7 @@ Analytics+ includes a comprehensive theming system for visual consistency:
 
 - **Pre-built Themes**: Library of professionally designed color schemes
 
-![CustomLayout](/images/customLayout.png)
+![CustomLayout](/images/StoryboardThemes.png)
   
 - **Theme Customization**: Ability to modify existing themes or create new ones
 
@@ -309,7 +309,7 @@ Analytics+ provides specialized IBCS-compliant chart types:
 
 - **Integrated Variance Column**: Showing actuals, plans, and variances in a standardized format
 
-![Integrated Variance Column](/images/IntegratedVarianceChart.png)
+![Integrated Variance Column](/images/IntegratedVarianceColumn.png)
 
 - **IBCS Waterfall**: Visualizing financial statements with proper notation
 
