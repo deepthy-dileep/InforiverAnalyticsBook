@@ -12,20 +12,37 @@ Comparison visualizations help users analyze similarities and differences betwee
 
 The foundation of comparison visualization, these charts include:
 
-- **Standard Column Chart**: For basic category comparison
-- **Clustered Column Chart**: For comparing multiple measures across categories
-- **Stacked Column Chart**: For showing both individual and total values
-- **100% Stacked Column Chart**: For comparing percentage contributions
-- **Horizontal Bar Chart**: For categories with long labels or many categories
-- **Clustered Bar Chart**: For multi-measure comparison with better label space
-- **Stacked Bar Chart**: For combining part-to-whole and comparison
-- **100% Stacked Bar Chart**: For percentage composition analysis
-- **Grouped Bar Chart**: For hierarchical category comparison
-- **Butterfly Chart**: For comparing two related categories symmetrically
-- **Diverging Bar Chart**: For highlighting positive/negative values
+- **Overlapped Column/Bar Chart**: For basic category comparison
+
+![Overlapped](/images/OverlappeColumn.png)
+
+- **Clustered Column/Bar Chart**: For comparing multiple measures across categories
+
+![Clustered](/images/ClusteredColumn.png)
+  
+- **Stacked Column/Bar Chart**: For showing both individual and total values
+
+![Stacked](/images/StackedColumn.png)
+  
+- **100% Stacked Column/Bar Chart**: For comparing percentage contributions
+
+![100%StackedColumn](/images/100%StackedColumn.png)
+
+- **Column +Column Chart**: For hierarchical category comparison
+
+![Column+Column](/images/Column+Column.png)
+  
 - **Win Loss Chart**: For depicting categories that are performing well against those that are under-performing
+
+![WinLossColumn](/images/WinLossColumn.png)
+  
 - **Side by Side Bar Chart**: For showing two measures side-by-side in horizontal orientation
+
+![SidebySideBar](/images/SidebySideBar.png)
+  
 - **Stacked Measure Chart**: For showing the contribution of each measure to the total
+
+![StackedMeasure](/images/StackedMeasure.png)
 
 Column charts are particularly effective for time-based comparisons, while horizontal bar charts excel at comparing values across numerous categories or those with long descriptive labels.
 
