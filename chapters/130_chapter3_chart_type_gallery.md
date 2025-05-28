@@ -160,25 +160,21 @@ Line charts are the cornerstone of time-based analysis, providing clear visualiz
 
 Analytics+ offers several specialized implementations of area charts:
 
-1. **Standard Area Chart**: Displays the magnitude of a single measure over time with the area below the line filled.
+- **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
 
-2. **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
+![Stacked Area](/images/StackedArea.png)
 
-3. **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
+- **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
 
-4. **Range Area Chart**: Visualizes a range of values between upper and lower bounds, ideal for showing confidence intervals or forecast ranges.
+![100% Stacked Area](/images/HundredPercentStackedArea.png)
 
-#### Storytelling with Line Charts
+- **Cluster Area Chart**: Highlight both differences and similarities between categories or groups.
 
-Analytics+ enhances line charts with several storytelling features:
+![ClusterArea](/images/ClusterArea.png)
 
-1. **Range Charts**: Visualize data ranges, confidence intervals, or forecast bands with shaded areas between upper and lower bounds.
+- **Base Area Chart**: Depict the variations of a particular measure with the high-performing portions in green and the low-performing portions in red.
 
-2. **Ribbon Charts**: Show rank changes over time with varying ribbon widths, making it easy to track how different categories change positions.
-
-3. **Reference Lines and Bands**: Add context with customizable reference elements that highlight important thresholds, targets, or time periods.
-
-4. **Annotations**: Add explanatory text directly to the chart to guide viewers' understanding of significant points or trends.
+![Base Area](/images/BaseArea.png)
 
 #### Customization Options
 
