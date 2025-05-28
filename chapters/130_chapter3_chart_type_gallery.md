@@ -197,15 +197,15 @@ Classic approaches to showing composition:
 
 - **Pie Chart**: For simple part-to-whole relationships
 
-![Pie Chart](/images/Pie.png)
+![Pie](/images/Pie.png)
 
 - **Donut Chart**: For part-to-whole with space for central metrics
 
-![Donut Chart](/images/Donut.png)
+![Donut](/images/Donut.png)
 
 - **Exploded Pie/Donut**: For emphasizing specific segments
 
-![Pie Explosion Chart](/images/PieExplosion.png)
+![Pie explosion](/images/PieExplosion.png)
 
 - **Waterfall Chart**: For building up/breaking down a total
 
