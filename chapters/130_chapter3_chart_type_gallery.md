@@ -26,7 +26,7 @@ The foundation of comparison visualization, these charts include:
   
 - **100% Stacked Column/Bar Chart**: For comparing percentage contributions
 
-![100%StackedColumn](/images/100%StackedColumn.png)
+![100%StackedColumn](/images/HundredPercentStackedColumn.png)
 
 - **Column +Column Chart**: For hierarchical category comparison
 
@@ -72,13 +72,25 @@ Bar and column charts in Analytics+ offer extensive customization capabilities:
 
 Specialized for actual vs. target/plan/prior period comparisons:
 
-- **Variance Column Chart**: Showing actual and plan with variance
-- **Progressive Variance Chart**: Displaying cumulative variance over time
+- **Integrated Variance Column**: Showing actual and plan with variance
+
+![Integrated Variance Column](/images/IntegratedVarianceColumnChart.png)
+
+- **Variance Line**: Displaying cumulative variance over time
+
+![Variance Line](/images/VarianceLine.png)
+
+- **Variance Area**: Area chart displaying cumulative variance over time
+
+![Variance Area](/images/VarianceArea.png)
+
 - **Waterfall Variance Chart**: Visualizing how variances contribute to final results
-- **Variance Bridge Chart**: Connecting beginning and ending values through variances
+
+![Variance Waterfall](/images/VarianceWaterfall.png)
+
 - **Bullet Chart**: Comparing actual performance against targets and ranges
-- **Thermometer Chart**: Visualizing progress toward goals
-- **Progress Gauge**: Showing completion percentage with custom thresholds
+
+![Bullet chart](/images/IBCSBulletBar.png)
 
 These variance-focused charts are particularly valuable for financial reporting, performance monitoring, and planning/forecasting scenarios.
 
