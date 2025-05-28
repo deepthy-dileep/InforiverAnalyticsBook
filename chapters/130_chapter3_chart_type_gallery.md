@@ -282,17 +282,18 @@ These visualizations help users understand the spread, central tendency, and sha
 Specialized charts for distribution analysis:
 
 - **Histogram**: For showing frequency distribution
-- **Density Plot**: For smooth distribution visualization
+
+![Histogram](/images/histogram.png)
+
 - **Box Plot (Box and Whisker)**: For visualizing statistical summary
-- **Violin Plot**: For showing distribution shape and statistics
+
+![Boxplot](/images/boxplot.png)
+
 - **Bee Swarm**: For distribution with individual point visibility
-- **Stem and Leaf Plot**: For showing distribution while preserving data values
-- **Q-Q Plot**: For comparing distributions against theoretical ones
-- **Empirical Cumulative Distribution**: For showing cumulative probability
+
+![Swarm plot](/images/swarm-plot.png)
 
 These statistical visualizations are particularly valuable for quality control, research analysis, and understanding data characteristics.
-
-
 
 ### Scatter and Bubble Charts
 
