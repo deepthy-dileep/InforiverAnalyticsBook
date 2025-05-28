@@ -100,13 +100,26 @@ These variance-focused charts are particularly valuable for financial reporting,
 
 Charts specifically designed to highlight rank order:
 
-- **Ranking Bar Chart**: Horizontal bars ordered by value
+- **Range Bar Chart**: Vertical bars ordered by value
+
+![Range chart](/images/RangeBar.png)
+
 - **Slope Chart**: Comparing rankings between two time periods
-- **Bump Chart**: Tracking ranking changes over multiple periods
+
+![Slope chart](/images/SlopeGraph.png)
+  
 - **Lollipop Chart**: Combining bar and point for clearer ranking
+
+![Lollipop chart](/images/Lollipop.png)
+  
 - **Dot Plot**: Emphasizing position in a distribution
+
+![dotplot chart](/images/dotplot.png)
+
 - **Dumbbell Chart**: Showing change between two points while maintaining rank context
 
+![dumbbell chart](/images/dumbbell.png)
+  
 These charts excel at communicating competitive position, market share rankings, and performance standings.
 
 ## Time Series Charts
