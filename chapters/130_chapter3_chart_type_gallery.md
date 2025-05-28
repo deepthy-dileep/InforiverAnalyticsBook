@@ -187,22 +187,6 @@ Line and area charts in Analytics+ offer extensive customization capabilities:
 - **Axis Configuration**: Extensive control over axis scales, labels, and gridlines
 - **Highlighting**: Emphasize specific time periods or data points
 
-
-
-### Specialized Time Series
-
-Advanced time-based visualizations:
-
-- **Candlestick Chart**: For showing open/high/low/close values
-- **OHLC Chart**: Alternative view of open/high/low/close
-- **Range Bar Chart**: For visualizing value ranges over time
-- **Fan Chart**: For projected values with confidence intervals
-- **Horizon Chart**: For dense time series with multiple variables
-- **Calendar Heatmap**: For daily patterns over months/years
-- **Cycle Plot**: For revealing both trend and cyclical patterns
-
-These specialized time series charts address specific analytical needs beyond basic trend analysis, particularly valuable for financial data, forecasting, and seasonal pattern analysis.
-
 ## Part-to-Whole Charts
 
 These visualizations help users understand composition and how individual components contribute to a whole.
@@ -212,14 +196,24 @@ These visualizations help users understand composition and how individual compon
 Classic approaches to showing composition:
 
 - **Pie Chart**: For simple part-to-whole relationships
+
+![Pie Chart](/images/Pie.png)
+
 - **Donut Chart**: For part-to-whole with space for central metrics
+
+![Donut Chart](/images/Donut.png)
+
 - **Exploded Pie/Donut**: For emphasizing specific segments
-- **Ring Chart**: For showing hierarchy in composition
-- **Stacked Bar/Column**: For composition across categories
-- **100% Stacked Bar/Column**: For percentage composition
+
+![Pie Explosion Chart](/images/PieExplosion.png)
+
 - **Waterfall Chart**: For building up/breaking down a total
+
+![Waterfall Chart](/images/BreakdownWaterfall.png)
+
 - **Mekko Chart (Marimekko)**: For showing composition with two variables
-- **Cascade Chart**: For visualizing sequential additions/subtractions
+
+![Marimekko Chart](/images/Marimekko.png)
 
 While simple pie charts are often criticized in data visualization literature, Analytics+ implements best practices (limited segments, clear labeling) to ensure they are used appropriately.
 
@@ -230,11 +224,12 @@ While simple pie charts are often criticized in data visualization literature, A
 Visualizations for multi-level compositional data:
 
 - **Treemap**: For hierarchical part-to-whole relationships
+
+![Treemap](/images/Treemap.png)
+
 - **Sunburst Chart**: For visualizing hierarchical data as concentric rings
-- **Icicle Chart**: For hierarchical data in a rectangular layout
-- **Circle Packing**: For hierarchical grouping with size encoding
-- **Nested Pie/Donut**: For two-level hierarchical composition
-- **Nightingale Rose**: For cyclical compositional data
+
+![sunburst](/images/sunburst.png)
 
 These charts are particularly valuable for visualizing hierarchical structures like organizational data, product categories, or budget allocations.
 
