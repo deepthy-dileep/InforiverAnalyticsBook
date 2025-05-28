@@ -131,15 +131,28 @@ Time-based visualizations reveal patterns, trends, and changes over time periods
 The standard for time series analysis:
 
 - **Basic Line Chart**: For showing trends over time
-- **Multi-Line Chart**: For comparing multiple series over time
-- **Step Line Chart**: For visualizing discrete changes
+
+![Line](/images/LineChart.png)
+
+- **Clustered-Line Chart**: For comparing multiple series over time
+
+![ClusteredLine](/images/ClusteredLine.png)
+
+- **Stepped Line Chart**: For visualizing discrete changes
+
+![SteppedLine](/images/SteppedLine.png)
+
 - **Curved Line Chart**: For smoothed trend visualization
-- **Area Line Chart**: For emphasizing magnitude alongside trends
-- **Stacked Area Chart**: For showing both individual contributions and totals over time
-- **100% Stacked Area Chart**: For visualizing changing percentage composition
-- **Ribbon Chart**: For emphasizing rank changes with width encoding
-- **Range Area Chart**: For showing bounds or confidence intervals
-- **Step Area Chart**: For discrete changes with magnitude emphasis
+
+![Spline](/images/Spline.png)
+
+- **Stacked Line Chart**: For showing both individual contributions and totals over time
+
+![Stacked Line](/images/StackedLine.png)
+  
+- **100% Stacked Line Chart**: For visualizing changing percentage composition
+
+![100% Stacked Line](/images/HundredPercentStackedLine.png)
 
 Line charts are the cornerstone of time-based analysis, providing clear visualization of trends, patterns, and relationships over time.
 
