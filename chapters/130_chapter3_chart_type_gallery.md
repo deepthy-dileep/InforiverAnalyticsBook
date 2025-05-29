@@ -299,13 +299,23 @@ These statistical visualizations are particularly valuable for quality control, 
 
 Visualizing relationships between variables:
 
-- **Scatter Plot**: For showing relationship between two variables
+- **Scatter Plot**: For showing the relationship between two variables
+
+![image](https://github.com/user-attachments/assets/9666b585-5ae2-42e3-a2f3-0d18cccac878)
+
+
 - **Bubble Chart**: For relationships with a third variable encoded by size
-- **Connected Scatter Plot**: For showing trajectories
-- **Jitter Plot**: For handling overplotting in dense data
-- **3D Scatter Plot**: For relationships among three variables
-- **Scatter Plot Matrix**: For multiple pairwise relationships
+
+![image](https://github.com/user-attachments/assets/636cc7f6-3e95-433b-b9e9-c8d31ae5aef0)
+
 - **Quadrant Chart**: For categorizing data points into four segments
+
+![image](https://github.com/user-attachments/assets/2b67d7bb-dd4f-44ca-b352-61a537c806e1)
+
+- **Packed bubble Chart**: For comparing quantities or relationships in a visually appealing and space-efficient way.
+
+![image](https://github.com/user-attachments/assets/060d8ea8-8363-4245-8a67-6e238940bdb1)
+
 
 These charts excel at correlation analysis, outlier detection, and visualizing relationships between multiple variables.
 
