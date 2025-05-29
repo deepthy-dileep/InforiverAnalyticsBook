@@ -556,77 +556,32 @@ Analytics+ tables offer sophisticated capabilities beyond basic data presentatio
 
 1. **Hierarchical Data**: Display multi-level hierarchies with expand/collapse functionality.
 
-2. **Conditional Formatting**: Apply color scales, data bars, and icon sets based on values.
+![image](https://github.com/user-attachments/assets/b9cb531b-e996-4109-abf2-040fc558e143)
 
-3. **Custom Aggregations**: Define how measures are summarized at different hierarchy levels.
+3. **Conditional Formatting**: Apply color scales, data bars, and icon sets based on values.
 
-4. **Cross-Tabulation**: Create pivot-style tables with multiple dimensions and measures.
+![image](https://github.com/user-attachments/assets/12a9a9dc-0292-436b-a111-9633f62ad4d8)
 
-5. **Interactive Sorting and Filtering**: Enable users to sort and filter data directly in the table.
+4. **Custom Aggregations**: Define how measures are summarized at different hierarchy levels.
 
-6. **Custom Number Formatting**: Apply sophisticated formatting rules to numeric values.
+![image](https://github.com/user-attachments/assets/eb339df2-92bb-433a-af88-4cd528930663)
 
-7. **Cell Merging**: Combine cells for better visual organization of related data.
+5. **Cross-Tabulation**: Create pivot-style tables with multiple dimensions and measures.
 
+![Pivot Table](/images/PivotTables.png)
 
-## Small Multiples Implementation
+7. **Interactive Sorting and Filtering**: Enable users to sort and filter data directly in the table.
 
-Most chart types in Analytics+ can be implemented as small multiples (trellis charts), enabling side-by-side comparison across categories, regions, time periods, or scenarios.
+![image](https://github.com/user-attachments/assets/fed308cf-bd00-4926-b8d6-563999f460df)
 
-### Small Multiples Options
+7. **Custom Number Formatting**: Apply sophisticated formatting rules to numeric values.
 
-Configuration options for small multiples:
+![image](https://github.com/user-attachments/assets/f01e18bb-0d2b-4c71-b8d3-be98d79160e1)
 
-- **Grid Layout**: Arranging multiples in rows and columns
-- **Shared Scales**: Using consistent scales across multiples
-- **Independent Scales**: Optimizing each chart's scale individually
-- **Highlight Options**: Emphasizing specific multiples
-- **Sort Options**: Organizing multiples by values or categories
-- **Comparative Reference Lines**: Adding cross-multiple references
-- **Hierarchical Filtering**: Drilling down within small multiple contexts
+8. **Cell Merging**: Combine cells for better visual organization of related data.
 
-Small multiples transform nearly any chart type into a powerful comparative visualization tool, revealing patterns and outliers across dimensions that might otherwise go unnoticed.
+![image](https://github.com/user-attachments/assets/521acea5-2bfc-488c-a991-9651d286ef41)
 
-#### Trellis Layout Customization
-
-Analytics+ provides extensive customization options for trellis layouts:
-
-1. **Layout Configuration**: Control the number of rows and columns in the grid, or let the system automatically optimize the layout.
-
-2. **Title Customization**: Format titles for each small multiple to clearly identify the dimension value.
-
-3. **Scale Synchronization**: Choose between synchronized scales (for accurate comparison) or independent scales (for pattern visibility).
-
-4. **Spacing Control**: Adjust the spacing between individual charts in the trellis.
-
-5. **Background Options**: Apply background colors or patterns to distinguish between different categories.
-
-6. **Border Settings**: Add borders around each small multiple for visual separation.
-
-7. **Empty Cell Handling**: Control how empty cells in the trellis grid are displayed.
-
-#### Implementation Across Chart Types
-
-The trellis functionality in Analytics+ can be applied to virtually any chart type:
-
-1. **Bar and Column Charts**: Compare patterns across different categories or time periods.
-
-2. **Line Charts**: Show trend patterns across different segments or regions.
-
-3. **Pie and Donut Charts**: Compare composition across different categories.
-
-4. **Scatter Plots**: Examine correlation patterns across different segments.
-
-5. **Tables**: Display multiple tables side by side for comparative analysis.
-
-6. **Cards**: Show KPI cards for different regions, products, or time periods.
-
-The trellis layout is particularly valuable for:
-- Regional comparisons across multiple metrics
-- Product performance analysis across different markets
-- Time period comparisons across different business units
-- Scenario analysis with multiple forecast models
-- Segment performance across multiple KPIs
 
 ## Chart Selection Guidance
 
