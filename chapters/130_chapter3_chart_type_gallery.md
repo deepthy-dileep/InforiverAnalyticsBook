@@ -328,12 +328,16 @@ Analytics+ provides specialized visualizations designed specifically for common 
 Tailored for financial analysis and reporting:
 
 - **Waterfall Chart**: For financial statements and variance analysis
-- **Bridge Chart**: For reconciliation and variance explanation
+
+![image](https://github.com/user-attachments/assets/77858f1c-f3c3-4361-94ad-96aa8bf42a22)
+
 - **IBCS Column/Bar**: For standardized financial reporting
+
+![image](https://github.com/user-attachments/assets/93a87eff-6631-4f31-8765-09a29a3195e3)
+
 - **Variance Chart**: For plan vs. actual visualization
-- **P&L Statement Chart**: For profit and loss visualization
-- **Cash Flow Chart**: For visualizing cash movements
-- **Financial KPI Grid**: For key financial metrics
+
+![image](https://github.com/user-attachments/assets/e9853f56-2ce7-4fd8-af54-cef1053b1145)
 
 These charts implement IBCS standards for financial reporting, ensuring clarity and consistency in financial communication.
 
@@ -369,17 +373,33 @@ The Gantt chart in Analytics+ is a best-in-class implementation for visualizing 
 
 1. **Multi-level Timeline**: Capture progress at detailed levels with hierarchical task organization.
 
-2. **Task Dependencies**: Visualize project dependencies with customizable connector lines.
+![image](https://github.com/user-attachments/assets/ffaef3dc-cb1d-4b3a-9083-64077669dec3)
 
-3. **Resource Allocation**: Assign and track resources across tasks and subtasks.
+3. **Task Dependencies**: Visualize project dependencies with customizable connector lines.
 
-4. **Progress Tracking**: Show completion percentage for each task with progress bars.
+![image](https://github.com/user-attachments/assets/eab1b552-67b7-4e15-a6c6-23d2fea26176)
 
-5. **Milestones**: Mark important project events with customizable milestone markers.
+4. **Resource Allocation**: Assign and track resources across tasks and subtasks.
 
-6. **Reference Lines and Bands**: Highlight important dates or phases with reference elements.
+![image](https://github.com/user-attachments/assets/cb25a6d6-9c46-4600-a0d8-18307258c09f)
 
-7. **Planned vs. Actual Comparison**: Compare planned dates against actual execution.
+5. **Progress Tracking**: Show completion percentage for each task with progress bars.
+
+![image](https://github.com/user-attachments/assets/c5c3dc18-dc9e-48f7-8ab4-225f5992bf60)
+
+7. **Milestones**: Mark important project events with customizable milestone markers.
+
+![image](https://github.com/user-attachments/assets/fb08b310-7f85-439b-9376-5a102a750e34)
+
+9. **Reference Lines and Bands**: Highlight important dates or phases with reference elements.
+
+![image](https://github.com/user-attachments/assets/9b8b8a5f-c3be-414c-a758-edff1e7808e0)
+
+
+11. **Planned vs. Actual Comparison**: Compare planned dates against actual execution.
+
+![image](https://github.com/user-attachments/assets/59bb38f8-9dc4-418c-a145-10aa84b3a241)
+
 
 Implementation steps:
 - Map tasks and subtasks to create the project hierarchy
@@ -392,53 +412,21 @@ Implementation steps:
 
 The Gantt chart's extensive customization options allow for detailed project visualization, making it an essential tool for project managers and teams working in Power BI.
 
-### Strategic Charts
-
-Visualizations for strategic analysis:
-
-- **Strategy Map**: For visualizing strategic objectives
-- **Balanced Scorecard**: For tracking strategic KPIs
-- **SWOT Matrix**: For strengths, weaknesses, opportunities, threats
-- **BCG Matrix**: For portfolio analysis
-- **Ansoff Matrix**: For growth strategies
-- **Porter's Five Forces**: For competitive analysis
-- **Value Chain**: For visualizing business activities
-
-These specialized charts help organizations visualize strategic frameworks and communicate complex business concepts.
 
 ### Market and Customer Charts
 
 Tailored for market and customer analysis:
 
-- **Market Share Tree**: For hierarchical market structure
-- **Competitive Position**: For market share vs. growth
-- **Customer Journey Map**: For visualizing customer experience
 - **Funnel Chart**: For conversion processes
-- **Funnel Bar Chart**: For stage comparison across segments
+
+![image](https://github.com/user-attachments/assets/3dbde1b3-010d-456b-99dc-cbac85b2a2f7)
+
 - **Tornado Chart**: For demographic comparison
-- **Net Promoter Score**: For customer satisfaction visualization
+
+![image](https://github.com/user-attachments/assets/8893ec4a-662f-4309-8672-1a3ce39cf301)
+
 
 These charts address specific needs in marketing, sales, and customer experience analysis.
-
-## Geospatial Visualizations
-
-Analytics+ offers various approaches to visualizing geographical data.
-
-### Map Visualizations
-
-Options for geospatial data:
-
-- **Choropleth Map**: For values across regions
-- **Symbol Map**: For showing point locations
-- **Flow Map**: For origin-destination relationships
-- **Heat Map (Geographic)**: For density visualization
-- **Tile Grid Map**: For equal-area geographical comparison
-- **Hex Bin Map**: For aggregated spatial data
-- **Cartogram**: For value-distorted geography
-
-These visualizations enable effective analysis of regional sales, market penetration, logistics networks, and other geospatial data.
-
-
 
 ## Network and Relationship Charts
 
@@ -448,13 +436,9 @@ Visualizations for interconnected data and relationships.
 
 Options for showing connections:
 
-- **Network Graph**: For general relationship visualization
 - **Sankey Diagram**: For flow visualization
-- **Chord Diagram**: For bidirectional relationships
-- **Hierarchical Edge Bundling**: For hierarchical relationships
-- **Arc Diagram**: For simplified connection visualization
-- **Alluvial Diagram**: For categorical flow changes
-- **Dependency Graph**: For dependencies between elements
+  
+![image](https://github.com/user-attachments/assets/651fb27c-9f02-4841-8483-336395e8192c)
 
 These visualizations are valuable for supply chain analysis, organizational relationships, customer journey mapping, and system dependencies.
 
