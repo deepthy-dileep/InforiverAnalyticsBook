@@ -475,17 +475,21 @@ The intuitive visual representation of flows makes Sankey diagrams an excellent 
 
 Charts designed to communicate three or more variables simultaneously.
 
-### Multi-Variable Charts
+### Multi-Variate Charts
 
 Approaches for complex multi-variable analysis:
 
 - **Radar/Spider Chart**: For multivariate comparison
+
+![image](https://github.com/user-attachments/assets/76692be5-e2b6-4d78-b908-4fd99a654731)
+
 - **Parallel Coordinates**: For visualizing multiple dimensions
-- **Andrews Curves**: For pattern detection in multivariate data
-- **Heatmap**: For visualizing two categorical dimensions and a value
-- **3D Surface Plot**: For three-dimensional relationships
-- **Contour Plot**: For showing isolines of a third variable
-- **Bubble Matrix**: For showing relationship patterns
+
+![image](https://github.com/user-attachments/assets/7e15336c-7f80-405a-857e-e6250b730e9f)
+
+- **Slope graph**: For pattern detection in multivariate data
+
+![image](https://github.com/user-attachments/assets/0c7886f8-5fda-4c98-9317-c0dd57232904)
 
 These advanced visualizations enable analysis of complex, multi-dimensional business data, though they require more user familiarity for effective interpretation.
 
@@ -518,38 +522,6 @@ Radar charts are particularly valuable for:
 - Quality analysis across multiple dimensions
 - Strategic planning using balanced scorecard approaches
 
-
-
-#### Multi-Variate Charts
-
-Analytics+ offers several specialized multi-variate chart types:
-
-1. **Tornado Chart**: Compare two sets of categories side by side in a horizontal bar chart format, ideal for demographic comparisons or before/after analysis.
-
-2. **Bubble Matrix**: Visualize relationships between two categorical dimensions with a third variable represented by bubble size, useful for identifying patterns and outliers.
-
-3. **Heatmap**: Display values for two categorical dimensions using color intensity, perfect for identifying patterns and hotspots in complex data.
-
-These multi-variate charts provide powerful ways to analyze complex relationships in business data, enabling users to identify patterns that might be missed in simpler visualizations.
-
-## Interactive Dashboard Elements
-
-Beyond standard charts, Analytics+ provides specialized visualization components designed for dashboard construction.
-
-### Dashboard Components
-
-Interactive elements for dashboards:
-
-- **KPI Cards**: For highlighting key metrics
-- **Micro Charts**: For space-efficient trend visualization
-- **Sparklines**: For inline trend visualization
-- **Bullet Graphs**: For compact performance indicators
-- **Gauge Charts**: For progress against targets
-- **Indicator Tiles**: For status visualization
-- **Scorecard Grids**: For multiple metrics in tabular form
-
-These components enable the creation of information-dense, actionable dashboards that communicate multiple metrics effectively in limited space.
-
 ## Tabular Visualizations
 
 Enhanced table formats that go beyond basic data grids.
@@ -558,29 +530,19 @@ Enhanced table formats that go beyond basic data grids.
 
 Sophisticated tabular visualizations:
 
-- **Heat Table**: For value-colored cells
-- **Icon Table**: For status indication with symbols
-- **Sparkline Table**: For embedding trends in tables
-- **Bar-in-Cell Table**: For inline bars within cells
-- **Multi-Level Tables**: For hierarchical data presentation
-- **Cross-Tab**: For multi-dimensional analysis
-- **Matrix**: For two-dimensional categorization
+- **Single measure bar charts**: To visualize the magnitude of single measure values
+
+![Inline bar chart](/images/InlineBar.png)
+  
+- **Lollipop charts**: To visualize the magnitude of single-measure values
+
+![Inline Lollipop](/images/InlineLollipop.png)
+
+- **Waterfall charts**: To visualize the breakdown of measure values
+
+![Inline Waterfall](/images/InlineWaterfall.png)
 
 These enhanced tables combine the precision of tabular data with visual cues that highlight patterns and exceptions.
-
-#### Inline Charts in Tables
-
-Analytics+ enhances tabular data with embedded visualizations:
-
-1. **Sparklines**: Embed mini trend lines within table cells to show historical patterns for each row.
-
-2. **Bar-in-Cell**: Display horizontal bars within cells to provide visual comparison while maintaining precise values.
-
-3. **Bullet Charts**: Embed compact performance indicators showing progress against targets.
-
-4. **Icon Sets**: Use conditional icons to indicate status, trends, or performance levels.
-
-5. **Mini Pie Charts**: Show composition within table cells for part-to-whole relationships.
 
 Implementation example:
 - Configure the main table with rows and columns
@@ -605,7 +567,6 @@ Analytics+ tables offer sophisticated capabilities beyond basic data presentatio
 6. **Custom Number Formatting**: Apply sophisticated formatting rules to numeric values.
 
 7. **Cell Merging**: Combine cells for better visual organization of related data.
-
 
 
 ## Small Multiples Implementation
