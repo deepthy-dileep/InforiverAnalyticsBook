@@ -56,9 +56,20 @@ This versatile implementation enables effective comparison of categorical data a
 Analytics+ offers several layout options for chart small multiples:
 
 - **Grid**: Displays data in a row-column grid with panels of equal size and uniform scaling
+
+![Grid](/images/GridLayout-Charts.png)
+
 - **Grid Auto-fit**: Maximizes data display in available canvas space without scrolling or pagination
+
+![GridAutoFit](/images/GridLayout-AutoFitCharts-Charts.png)
+
 - **Scaled Rows**: Scales row height according to the top-performing panel (for vertical chart orientations)
+
+![Scaled Rows](/images/ScacledRowsCharts.png)
+
 - **Ranked Panels**: Varies panel size based on measure magnitude (for single small multiple parameter assigned to column)
+
+![Ranked Panels](/images/RankedPanelsCharts.png)
 
 Interactive resizing is available in grid and grid auto-fit layouts, allowing users to drag panel sides to adjust dimensions.
 
