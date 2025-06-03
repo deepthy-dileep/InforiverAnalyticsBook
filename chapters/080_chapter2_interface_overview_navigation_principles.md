@@ -165,7 +165,8 @@ The formula editor provides an environment for creating calculated measures with
   
 - **Error Checking**: Real-time validation of formula syntax
 
-![Formula editor](images/2024-07-09_15h46_37.png)
+![image](https://github.com/user-attachments/assets/efb600ee-8b7c-4949-9106-a129d7814b7c)
+
 
 This specialized editor makes creating calculations more accessible to business users, without having to modify the underlying dataset.
 
