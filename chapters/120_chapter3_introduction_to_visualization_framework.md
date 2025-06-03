@@ -6,29 +6,23 @@ Analytics+ has been built as a complete storytelling platform that enables even 
 
 1. **Chart Mode**: Offers a diverse library of over 100 chart types including Waterfall, Marimekko, Bullet charts, and boxplots, suitable for virtually any data visualization scenario.
 
+![Chart mode](/images/2025-05-26_15h06_30.png)  
+
 2. **Card Mode**: Provides KPI cards with embedded charts, text, and image support to showcase metrics in a compact, information-rich format.
+
+![Card mode](/images/2025-05-26_15h09_40.png)
 
 3. **Table Mode**: Delivers a bird's eye view of data categories and relationships with advanced tabular visualizations including small multiples tables.
 
+![Table mode](/images/2025-05-26_15h13_14.png)
+
 4. **Gantt Mode**: Enables users to visualize task schedules, identify dependencies, allocate resources, and track deadlines with a best-in-class Gantt chart implementation.
+
+![Gantt mode](/images/GanttMode.png)
 
 5. **Storyboard Mode**: Allows rapid design of captivating dashboards with a single visual and a single query, incorporating charts, text, images, slicers, KPI cards, and tables without importing separate visuals.
 
 Users can seamlessly switch between these modes, leveraging the specific capabilities of each to create comprehensive, interactive visualizations that communicate insights effectively.
-
-## The Evolution of Business Visualization
-
-Business visualization has evolved significantly over the past decade, moving from basic charts and graphs to sophisticated, interactive visual analysis tools. This evolution has been driven by several key factors:
-
-- **Data Complexity Growth**: Increasing volumes and complexity of business data
-- **Decision Speed Requirements**: Accelerating business cycles demanding faster insights
-- **Visualization Best Practices**: Maturing standards for effective visual communication
-- **User Expectations**: Rising expectations for intuitive, interactive experiences
-- **Mobile Accessibility**: Need for visualization consumption across devices
-- **Analytical Sophistication**: Growing demand for advanced analytical capabilities
-- **Democratization of Analytics**: Expanding visualization access beyond specialists
-
-Despite these advances, many organizations still struggle with visualization limitations in their business intelligence platforms, including restricted chart types, performance constraints, lack of standardization, and complex implementation requirements. These limitations often result in suboptimal visual communication, compromised analytical depth, and inefficient workflows as users resort to exporting data to other tools.
 
 ## The Analytics+ Visualization Philosophy
 
@@ -90,46 +84,6 @@ Analytics+ treats visualization as an integral part of the analytical process:
 
 This integrated approach ensures that visualization is not just about presentation but serves as a core analytical tool that helps users discover and communicate insights.
 
-## Visualization Framework Architecture
-
-The Analytics+ visualization framework is built on a multi-layer architecture designed for flexibility, performance, and standards compliance:
-
-### Visualization Layer
-
-The outermost layer that users directly interact with, comprising:
-
-- **Chart Types**: The 100+ visualization options available to users
-- **Templates**: Pre-configured visualization patterns
-- **Style Library**: Visual styling and formatting options
-- **Interaction Patterns**: Defined user interaction behaviors
-- **Annotation System**: Tools for adding context and explanation
-- **Layout Engine**: Control of visual element positioning and sizing
-- **Responsive Framework**: Adaptation to different display environments
-
-### Data Visualization Layer
-
-The layer that transforms data into visual representations:
-
-- **Visual Mapping Engine**: Translation of data values to visual properties
-- **Scale Management**: Handling of axes, ranges, and data domains
-- **Color Management**: Application of color schemes and palettes
-- **Legend System**: Generation and management of visualization legends
-- **Small Multiples Engine**: Creation of trellis/small multiples displays
-- **Data Label Handler**: Positioning and formatting of data labels
-- **Reference Elements**: Implementation of reference lines, bands, and points
-
-### Analytical Layer
-
-The layer that enhances visualizations with analytical capabilities:
-
-- **Statistical Functions**: Built-in statistical calculations
-- **Trend Analysis**: Trend line generation and visualization
-- **Variance Analysis**: Tools for comparing actual vs. target/forecast
-- **Distribution Analysis**: Visualization of data distributions
-- **Outlier Detection**: Identification and highlighting of outliers
-- **Pattern Recognition**: Tools for identifying and visualizing patterns
-- **Forecast Visualization**: Display of forecast and projection data
-
 Analytics+ provides a comprehensive set of analytical tools that can be directly integrated into visualizations:
 
 #### Reference Lines
@@ -144,7 +98,7 @@ Reference lines add context and highlight important thresholds or benchmarks:
 
 These reference lines help users quickly identify performance against key metrics and thresholds.
 
-![Reference Lines](images/referencelines.png)  
+![Reference Lines](/images/referencelines.png)  
 
 #### Reference Bands
 
@@ -158,7 +112,7 @@ Reference bands highlight ranges or zones within visualizations:
 
 Reference bands provide visual context that helps users interpret data within established parameters.
 
-![Reference bands](images/2025-05-20_09h31_32.png)
+![Reference bands](/images/2025-05-20_09h31_32.png)
 
 #### Error Bars
 
@@ -172,7 +126,7 @@ Error bars communicate data uncertainty and variability:
 
 These error indicators help users understand data reliability and make more informed decisions.
 
-![Error bars](images/error-bars-stacked-cluster-charts.png)
+![Error bars](/images/error-bars-stacked-cluster-charts.png)
 
 #### Trend Lines
 
@@ -187,6 +141,8 @@ Trend lines reveal underlying patterns and future directions:
 
 Trend analysis helps users distinguish between random fluctuations and meaningful directional changes.
 
+![Trend line](/images/TrendLine.png)
+
 #### Additional Series
 
 Analytics+ allows the addition of derived or supplementary data series:
@@ -199,17 +155,31 @@ Analytics+ allows the addition of derived or supplementary data series:
 
 These additional series enhance comparative analysis and provide richer context for data interpretation.
 
+![Additional series](/images/Movingaverage.png)
+
 ### Data Processing Layer
 
 The foundation layer that prepares data for visualization:
 
-- **Data Transformation**: Conversion of raw data into visualization-ready format
 - **Aggregation Engine**: Summarization of data at different levels
+
+![Aggregation engine](/images/Aggregation.png)
+  
 - **Filtering System**: Selection of relevant data subsets
+
+![Aggregation engine](/images/filter.png)
+  
 - **Sorting Mechanism**: Arrangement of data in meaningful sequences
+
+![Sorting engine](/images/Sort.png)
+  
 - **Calculation Engine**: Execution of visualization-specific calculations
+
+![Calculation engine](/images/Calcmeasues.png)
+  
 - **Pivoting Engine**: Reorganization of data for different analytical perspectives
-- **Data Binding**: Connection between data and visual elements
+
+![Pivoting engine](/images/PivotingEngine.png)
 
 These layers work together to provide a seamless visualization experience that balances analytical power with ease of use.
 
@@ -223,9 +193,15 @@ Analytics+ offers multiple paths to dashboard creation:
 
 1. **Auto-create Reports**: Leverages AI to automatically generate dashboards based on the data structure, creating appropriate visualizations without manual intervention.
 
+![Auto create](/images/autocreate.png)
+
 2. **Template-Based Dashboards**: Provides a library of pre-built templates for common scenarios including IBCS-compliant dashboards, financial reports, and KPI dashboards.
 
+![Template](/images/templatestore.png)
+
 3. **Custom Layouts**: Enables users to build dashboards from scratch, defining the number and arrangement of elements through an intuitive interface.
+
+![CustomLayout](/images/customLayout.png)
 
 The Viz-data-ink ratio slider allows users to quickly adjust the information density of dashboards, balancing visual appeal with analytical depth.
 
@@ -234,11 +210,28 @@ The Viz-data-ink ratio slider allows users to quickly adjust the information den
 Storyboard mode supports a comprehensive set of dashboard elements:
 
 - **Visualization Components**: Charts, cards, and tables with full customization capabilities
+
+![VisualizationComponents](/images/VisualizationComponents.png)
+  
 - **Navigation Controls**: Tabs, boards, and play axes for multi-page dashboards
+
+![NavigationControls](/images/Navigation.png)
+  
 - **Annotation System**: Comments and highlights to explain insights
+
+![Annotation](/images/Annotations.png)
+
 - **Design Elements**: Shapes, text boxes, and images for visual organization
+
+![DesignElements](/images/shapesimagestextboxes.png)
+  
 - **Interactive Controls**: Slicers and filters for data exploration
+
+![SlicersFilters](/images/slicer.png)
+
 - **Layering System**: Z-order control for complex visual arrangements
+
+![Layers](/images/Layers.png)
 
 Each element maintains its full functionality and customization options, with dedicated toolbars appearing contextually when elements are selected.
 
@@ -258,10 +251,22 @@ The Storyboard provides sophisticated layout capabilities:
 Analytics+ includes a comprehensive theming system for visual consistency:
 
 - **Pre-built Themes**: Library of professionally designed color schemes
+
+![CustomLayout](/images/StoryboardThemes.png)
+  
 - **Theme Customization**: Ability to modify existing themes or create new ones
+
+![CustomStoryboardTheme](/images/CustomStoryboardTheme.png)
+  
 - **Element-Level Theming**: Application of different themes to individual dashboard elements
+
+![Individual Element Theme](/images/IndividualElementThemes.png)
+
 - **Color Palette Management**: Control of primary, secondary, and accent colors
 - **Accessibility Considerations**: High-contrast themes for improved readability
+
+![Color blind Themes](/images/ColorBlindTheme.png)
+  
 - **Corporate Branding**: Support for organization-specific color schemes
 
 The theming capabilities ensure that dashboards maintain visual consistency while allowing for creative expression and brand alignment.
@@ -303,26 +308,30 @@ The IBCS toggle can be applied at both the dashboard level and for individual vi
 Analytics+ provides specialized IBCS-compliant chart types:
 
 - **Integrated Variance Column**: Showing actuals, plans, and variances in a standardized format
+
+![Integrated Variance Column](/images/IntegratedVarianceColumn.png)
+
 - **IBCS Waterfall**: Visualizing financial statements with proper notation
+
+![IBCS Waterfall](/images/ColumnsWithWaterfall.png)
+  
 - **Variance Bridge**: Connecting start and end values with standardized variance representation
+
+![Variance Bridge](/images/HierarchicalrowswithIntegratedBar.png)
+  
 - **IBCS-Compliant Tables**: Implementing proper notation in tabular formats
+
+![IBCS-Compliant Tables](/images/IBCSTable.png)
+
+- **Tables with integrated waterfalls**: Measure rows and integrated waterfalls
+
+![Tables with integrated waterfalls](/images/TablesWithIntegratedWaterfalls.png)
+
 - **Semantic KPI Cards**: Displaying key metrics with standardized visual elements
 
-These specialized chart types ensure that business reporting follows consistent standards that improve clarity and comparability.
+![IBCS KPI cards](/images/IBCSCards.png)
 
-### Visualization Governance
-
-Beyond certification, Analytics+ provides a framework for visualization governance:
-
-- **Style Libraries**: Organization-specific visual standards
-- **Template Management**: Control of approved visualization templates
-- **Color Palettes**: Corporate-standard color schemes
-- **Terminology Standards**: Consistent naming conventions
-- **Visual Hierarchy Guidelines**: Standards for information prioritization
-- **Annotation Policies**: Guidelines for contextual annotations
-- **Approval Workflows**: Processes for visualization review and approval
-
-This governance framework helps organizations maintain consistent, high-quality visualizations across departments and use cases.
+These specialized chart types ensure that business reporting adheres to consistent standards, improving clarity and comparability.
 
 ## The Business Impact of Advanced Visualization
 

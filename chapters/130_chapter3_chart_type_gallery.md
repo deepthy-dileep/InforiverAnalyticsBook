@@ -12,20 +12,37 @@ Comparison visualizations help users analyze similarities and differences betwee
 
 The foundation of comparison visualization, these charts include:
 
-- **Standard Column Chart**: For basic category comparison
-- **Clustered Column Chart**: For comparing multiple measures across categories
-- **Stacked Column Chart**: For showing both individual and total values
-- **100% Stacked Column Chart**: For comparing percentage contributions
-- **Horizontal Bar Chart**: For categories with long labels or many categories
-- **Clustered Bar Chart**: For multi-measure comparison with better label space
-- **Stacked Bar Chart**: For combining part-to-whole and comparison
-- **100% Stacked Bar Chart**: For percentage composition analysis
-- **Grouped Bar Chart**: For hierarchical category comparison
-- **Butterfly Chart**: For comparing two related categories symmetrically
-- **Diverging Bar Chart**: For highlighting positive/negative values
+- **Overlapped Column/Bar Chart**: For basic category comparison
+
+![Overlapped](/images/OverlappeColumn.png)
+
+- **Clustered Column/Bar Chart**: For comparing multiple measures across categories
+
+![Clustered](/images/ClusteredColumn.png)
+  
+- **Stacked Column/Bar Chart**: For showing both individual and total values
+
+![Stacked](/images/StackedColumn.png)
+  
+- **100% Stacked Column/Bar Chart**: For comparing percentage contributions
+
+![100%StackedColumn](/images/HundredPercentStackedColumn.png)
+
+- **Column +Column Chart**: For hierarchical category comparison
+
+![Column+Column](/images/Column+Column.png)
+  
 - **Win Loss Chart**: For depicting categories that are performing well against those that are under-performing
+
+![WinLossColumn](/images/WinLossColumn.png)
+  
 - **Side by Side Bar Chart**: For showing two measures side-by-side in horizontal orientation
+
+![SidebySideBar](/images/SidebySideBar.png)
+  
 - **Stacked Measure Chart**: For showing the contribution of each measure to the total
+
+![StackedMeasure](/images/StackedMeasure.png)
 
 Column charts are particularly effective for time-based comparisons, while horizontal bar charts excel at comparing values across numerous categories or those with long descriptive labels.
 
@@ -55,13 +72,25 @@ Bar and column charts in Analytics+ offer extensive customization capabilities:
 
 Specialized for actual vs. target/plan/prior period comparisons:
 
-- **Variance Column Chart**: Showing actual and plan with variance
-- **Progressive Variance Chart**: Displaying cumulative variance over time
+- **Integrated Variance Column**: Showing actual and plan with variance
+
+![Integrated Variance Column](/images/IntegratedVarianceColumnChart.png)
+
+- **Variance Line**: Displaying cumulative variance over time
+
+![Variance Line](/images/VarianceLine.png)
+
+- **Variance Area**: Area chart displaying cumulative variance over time
+
+![Variance Area](/images/VarianceArea.png)
+
 - **Waterfall Variance Chart**: Visualizing how variances contribute to final results
-- **Variance Bridge Chart**: Connecting beginning and ending values through variances
+
+![Variance Waterfall](/images/VarianceWaterfall.png)
+
 - **Bullet Chart**: Comparing actual performance against targets and ranges
-- **Thermometer Chart**: Visualizing progress toward goals
-- **Progress Gauge**: Showing completion percentage with custom thresholds
+
+![Bullet chart](/images/IBCSBulletBar.png)
 
 These variance-focused charts are particularly valuable for financial reporting, performance monitoring, and planning/forecasting scenarios.
 
@@ -71,13 +100,26 @@ These variance-focused charts are particularly valuable for financial reporting,
 
 Charts specifically designed to highlight rank order:
 
-- **Ranking Bar Chart**: Horizontal bars ordered by value
+- **Range Bar Chart**: Vertical bars ordered by value
+
+![Range chart](/images/RangeBar.png)
+
 - **Slope Chart**: Comparing rankings between two time periods
-- **Bump Chart**: Tracking ranking changes over multiple periods
+
+![Slope chart](/images/SlopeGraph.png)
+  
 - **Lollipop Chart**: Combining bar and point for clearer ranking
+
+![Lollipop chart](/images/Lollipop.png)
+  
 - **Dot Plot**: Emphasizing position in a distribution
+
+![dotplot chart](/images/dotplot.png)
+
 - **Dumbbell Chart**: Showing change between two points while maintaining rank context
 
+![dumbbell chart](/images/dumbbell.png)
+  
 These charts excel at communicating competitive position, market share rankings, and performance standings.
 
 ## Time Series Charts
@@ -89,15 +131,28 @@ Time-based visualizations reveal patterns, trends, and changes over time periods
 The standard for time series analysis:
 
 - **Basic Line Chart**: For showing trends over time
-- **Multi-Line Chart**: For comparing multiple series over time
-- **Step Line Chart**: For visualizing discrete changes
+
+![Line](/images/LineChart.png)
+
+- **Clustered-Line Chart**: For comparing multiple series over time
+
+![ClusteredLine](/images/ClusteredLine.png)
+
+- **Stepped Line Chart**: For visualizing discrete changes
+
+![SteppedLine](/images/SteppedLine.png)
+
 - **Curved Line Chart**: For smoothed trend visualization
-- **Area Line Chart**: For emphasizing magnitude alongside trends
-- **Stacked Area Chart**: For showing both individual contributions and totals over time
-- **100% Stacked Area Chart**: For visualizing changing percentage composition
-- **Ribbon Chart**: For emphasizing rank changes with width encoding
-- **Range Area Chart**: For showing bounds or confidence intervals
-- **Step Area Chart**: For discrete changes with magnitude emphasis
+
+![Spline](/images/Spline.png)
+
+- **Stacked Line Chart**: For showing both individual contributions and totals over time
+
+![Stacked Line](/images/StackedLine.png)
+  
+- **100% Stacked Line Chart**: For visualizing changing percentage composition
+
+![100% Stacked Line](/images/HundredPercentStackedLine.png)
 
 Line charts are the cornerstone of time-based analysis, providing clear visualization of trends, patterns, and relationships over time.
 
@@ -105,25 +160,21 @@ Line charts are the cornerstone of time-based analysis, providing clear visualiz
 
 Analytics+ offers several specialized implementations of area charts:
 
-1. **Standard Area Chart**: Displays the magnitude of a single measure over time with the area below the line filled.
+- **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
 
-2. **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
+![Stacked Area](/images/StackedArea.png)
 
-3. **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
+- **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
 
-4. **Range Area Chart**: Visualizes a range of values between upper and lower bounds, ideal for showing confidence intervals or forecast ranges.
+![100% Stacked Area](/images/HundredPercentStackedArea.png)
 
-#### Storytelling with Line Charts
+- **Cluster Area Chart**: Highlight both differences and similarities between categories or groups.
 
-Analytics+ enhances line charts with several storytelling features:
+![ClusterArea](/images/ClusterArea.png)
 
-1. **Range Charts**: Visualize data ranges, confidence intervals, or forecast bands with shaded areas between upper and lower bounds.
+- **Base Area Chart**: Depict the variations of a particular measure with the high-performing portions in green and the low-performing portions in red.
 
-2. **Ribbon Charts**: Show rank changes over time with varying ribbon widths, making it easy to track how different categories change positions.
-
-3. **Reference Lines and Bands**: Add context with customizable reference elements that highlight important thresholds, targets, or time periods.
-
-4. **Annotations**: Add explanatory text directly to the chart to guide viewers' understanding of significant points or trends.
+![Base Area](/images/BaseArea.png)
 
 #### Customization Options
 
@@ -136,22 +187,6 @@ Line and area charts in Analytics+ offer extensive customization capabilities:
 - **Axis Configuration**: Extensive control over axis scales, labels, and gridlines
 - **Highlighting**: Emphasize specific time periods or data points
 
-
-
-### Specialized Time Series
-
-Advanced time-based visualizations:
-
-- **Candlestick Chart**: For showing open/high/low/close values
-- **OHLC Chart**: Alternative view of open/high/low/close
-- **Range Bar Chart**: For visualizing value ranges over time
-- **Fan Chart**: For projected values with confidence intervals
-- **Horizon Chart**: For dense time series with multiple variables
-- **Calendar Heatmap**: For daily patterns over months/years
-- **Cycle Plot**: For revealing both trend and cyclical patterns
-
-These specialized time series charts address specific analytical needs beyond basic trend analysis, particularly valuable for financial data, forecasting, and seasonal pattern analysis.
-
 ## Part-to-Whole Charts
 
 These visualizations help users understand composition and how individual components contribute to a whole.
@@ -161,14 +196,24 @@ These visualizations help users understand composition and how individual compon
 Classic approaches to showing composition:
 
 - **Pie Chart**: For simple part-to-whole relationships
+
+![Pie](/images/Pie.png)
+
 - **Donut Chart**: For part-to-whole with space for central metrics
+
+![Donut](/images/Donut.png)
+
 - **Exploded Pie/Donut**: For emphasizing specific segments
-- **Ring Chart**: For showing hierarchy in composition
-- **Stacked Bar/Column**: For composition across categories
-- **100% Stacked Bar/Column**: For percentage composition
+
+![Pie explosion](/images/PieExplosion.png)
+
 - **Waterfall Chart**: For building up/breaking down a total
+
+![Waterfall Chart](/images/BreakdownWaterfall.png)
+
 - **Mekko Chart (Marimekko)**: For showing composition with two variables
-- **Cascade Chart**: For visualizing sequential additions/subtractions
+
+![Marimekko Chart](/images/Marimekko.png)
 
 While simple pie charts are often criticized in data visualization literature, Analytics+ implements best practices (limited segments, clear labeling) to ensure they are used appropriately.
 
@@ -179,11 +224,12 @@ While simple pie charts are often criticized in data visualization literature, A
 Visualizations for multi-level compositional data:
 
 - **Treemap**: For hierarchical part-to-whole relationships
+
+![Treemap](/images/Treemap.png)
+
 - **Sunburst Chart**: For visualizing hierarchical data as concentric rings
-- **Icicle Chart**: For hierarchical data in a rectangular layout
-- **Circle Packing**: For hierarchical grouping with size encoding
-- **Nested Pie/Donut**: For two-level hierarchical composition
-- **Nightingale Rose**: For cyclical compositional data
+
+![sunburst](/images/sunburst.png)
 
 These charts are particularly valuable for visualizing hierarchical structures like organizational data, product categories, or budget allocations.
 
@@ -236,29 +282,40 @@ These visualizations help users understand the spread, central tendency, and sha
 Specialized charts for distribution analysis:
 
 - **Histogram**: For showing frequency distribution
-- **Density Plot**: For smooth distribution visualization
+
+![Histogram](/images/histogram.png)
+
 - **Box Plot (Box and Whisker)**: For visualizing statistical summary
-- **Violin Plot**: For showing distribution shape and statistics
+
+![Boxplot](/images/boxplot.png)
+
 - **Bee Swarm**: For distribution with individual point visibility
-- **Stem and Leaf Plot**: For showing distribution while preserving data values
-- **Q-Q Plot**: For comparing distributions against theoretical ones
-- **Empirical Cumulative Distribution**: For showing cumulative probability
+
+![Swarm plot](/images/swarm-plot.png)
 
 These statistical visualizations are particularly valuable for quality control, research analysis, and understanding data characteristics.
-
-
 
 ### Scatter and Bubble Charts
 
 Visualizing relationships between variables:
 
-- **Scatter Plot**: For showing relationship between two variables
+- **Scatter Plot**: For showing the relationship between two variables
+
+![image](https://github.com/user-attachments/assets/9666b585-5ae2-42e3-a2f3-0d18cccac878)
+
+
 - **Bubble Chart**: For relationships with a third variable encoded by size
-- **Connected Scatter Plot**: For showing trajectories
-- **Jitter Plot**: For handling overplotting in dense data
-- **3D Scatter Plot**: For relationships among three variables
-- **Scatter Plot Matrix**: For multiple pairwise relationships
+
+![image](https://github.com/user-attachments/assets/636cc7f6-3e95-433b-b9e9-c8d31ae5aef0)
+
 - **Quadrant Chart**: For categorizing data points into four segments
+
+![image](https://github.com/user-attachments/assets/2b67d7bb-dd4f-44ca-b352-61a537c806e1)
+
+- **Packed bubble Chart**: For comparing quantities or relationships in a visually appealing and space-efficient way.
+
+![image](https://github.com/user-attachments/assets/060d8ea8-8363-4245-8a67-6e238940bdb1)
+
 
 These charts excel at correlation analysis, outlier detection, and visualizing relationships between multiple variables.
 
@@ -271,12 +328,16 @@ Analytics+ provides specialized visualizations designed specifically for common 
 Tailored for financial analysis and reporting:
 
 - **Waterfall Chart**: For financial statements and variance analysis
-- **Bridge Chart**: For reconciliation and variance explanation
+
+![image](https://github.com/user-attachments/assets/77858f1c-f3c3-4361-94ad-96aa8bf42a22)
+
 - **IBCS Column/Bar**: For standardized financial reporting
+
+![image](https://github.com/user-attachments/assets/93a87eff-6631-4f31-8765-09a29a3195e3)
+
 - **Variance Chart**: For plan vs. actual visualization
-- **P&L Statement Chart**: For profit and loss visualization
-- **Cash Flow Chart**: For visualizing cash movements
-- **Financial KPI Grid**: For key financial metrics
+
+![image](https://github.com/user-attachments/assets/e9853f56-2ce7-4fd8-af54-cef1053b1145)
 
 These charts implement IBCS standards for financial reporting, ensuring clarity and consistency in financial communication.
 
@@ -312,17 +373,33 @@ The Gantt chart in Analytics+ is a best-in-class implementation for visualizing 
 
 1. **Multi-level Timeline**: Capture progress at detailed levels with hierarchical task organization.
 
-2. **Task Dependencies**: Visualize project dependencies with customizable connector lines.
+![image](https://github.com/user-attachments/assets/ffaef3dc-cb1d-4b3a-9083-64077669dec3)
 
-3. **Resource Allocation**: Assign and track resources across tasks and subtasks.
+3. **Task Dependencies**: Visualize project dependencies with customizable connector lines.
 
-4. **Progress Tracking**: Show completion percentage for each task with progress bars.
+![image](https://github.com/user-attachments/assets/eab1b552-67b7-4e15-a6c6-23d2fea26176)
 
-5. **Milestones**: Mark important project events with customizable milestone markers.
+4. **Resource Allocation**: Assign and track resources across tasks and subtasks.
 
-6. **Reference Lines and Bands**: Highlight important dates or phases with reference elements.
+![image](https://github.com/user-attachments/assets/cb25a6d6-9c46-4600-a0d8-18307258c09f)
 
-7. **Planned vs. Actual Comparison**: Compare planned dates against actual execution.
+5. **Progress Tracking**: Show completion percentage for each task with progress bars.
+
+![image](https://github.com/user-attachments/assets/c5c3dc18-dc9e-48f7-8ab4-225f5992bf60)
+
+7. **Milestones**: Mark important project events with customizable milestone markers.
+
+![image](https://github.com/user-attachments/assets/fb08b310-7f85-439b-9376-5a102a750e34)
+
+9. **Reference Lines and Bands**: Highlight important dates or phases with reference elements.
+
+![image](https://github.com/user-attachments/assets/9b8b8a5f-c3be-414c-a758-edff1e7808e0)
+
+
+11. **Planned vs. Actual Comparison**: Compare planned dates against actual execution.
+
+![image](https://github.com/user-attachments/assets/59bb38f8-9dc4-418c-a145-10aa84b3a241)
+
 
 Implementation steps:
 - Map tasks and subtasks to create the project hierarchy
@@ -335,53 +412,21 @@ Implementation steps:
 
 The Gantt chart's extensive customization options allow for detailed project visualization, making it an essential tool for project managers and teams working in Power BI.
 
-### Strategic Charts
-
-Visualizations for strategic analysis:
-
-- **Strategy Map**: For visualizing strategic objectives
-- **Balanced Scorecard**: For tracking strategic KPIs
-- **SWOT Matrix**: For strengths, weaknesses, opportunities, threats
-- **BCG Matrix**: For portfolio analysis
-- **Ansoff Matrix**: For growth strategies
-- **Porter's Five Forces**: For competitive analysis
-- **Value Chain**: For visualizing business activities
-
-These specialized charts help organizations visualize strategic frameworks and communicate complex business concepts.
 
 ### Market and Customer Charts
 
 Tailored for market and customer analysis:
 
-- **Market Share Tree**: For hierarchical market structure
-- **Competitive Position**: For market share vs. growth
-- **Customer Journey Map**: For visualizing customer experience
 - **Funnel Chart**: For conversion processes
-- **Funnel Bar Chart**: For stage comparison across segments
+
+![image](https://github.com/user-attachments/assets/3dbde1b3-010d-456b-99dc-cbac85b2a2f7)
+
 - **Tornado Chart**: For demographic comparison
-- **Net Promoter Score**: For customer satisfaction visualization
+
+![image](https://github.com/user-attachments/assets/8893ec4a-662f-4309-8672-1a3ce39cf301)
+
 
 These charts address specific needs in marketing, sales, and customer experience analysis.
-
-## Geospatial Visualizations
-
-Analytics+ offers various approaches to visualizing geographical data.
-
-### Map Visualizations
-
-Options for geospatial data:
-
-- **Choropleth Map**: For values across regions
-- **Symbol Map**: For showing point locations
-- **Flow Map**: For origin-destination relationships
-- **Heat Map (Geographic)**: For density visualization
-- **Tile Grid Map**: For equal-area geographical comparison
-- **Hex Bin Map**: For aggregated spatial data
-- **Cartogram**: For value-distorted geography
-
-These visualizations enable effective analysis of regional sales, market penetration, logistics networks, and other geospatial data.
-
-
 
 ## Network and Relationship Charts
 
@@ -391,13 +436,9 @@ Visualizations for interconnected data and relationships.
 
 Options for showing connections:
 
-- **Network Graph**: For general relationship visualization
 - **Sankey Diagram**: For flow visualization
-- **Chord Diagram**: For bidirectional relationships
-- **Hierarchical Edge Bundling**: For hierarchical relationships
-- **Arc Diagram**: For simplified connection visualization
-- **Alluvial Diagram**: For categorical flow changes
-- **Dependency Graph**: For dependencies between elements
+  
+![image](https://github.com/user-attachments/assets/651fb27c-9f02-4841-8483-336395e8192c)
 
 These visualizations are valuable for supply chain analysis, organizational relationships, customer journey mapping, and system dependencies.
 
@@ -434,17 +475,21 @@ The intuitive visual representation of flows makes Sankey diagrams an excellent 
 
 Charts designed to communicate three or more variables simultaneously.
 
-### Multi-Variable Charts
+### Multi-Variate Charts
 
 Approaches for complex multi-variable analysis:
 
 - **Radar/Spider Chart**: For multivariate comparison
+
+![image](https://github.com/user-attachments/assets/76692be5-e2b6-4d78-b908-4fd99a654731)
+
 - **Parallel Coordinates**: For visualizing multiple dimensions
-- **Andrews Curves**: For pattern detection in multivariate data
-- **Heatmap**: For visualizing two categorical dimensions and a value
-- **3D Surface Plot**: For three-dimensional relationships
-- **Contour Plot**: For showing isolines of a third variable
-- **Bubble Matrix**: For showing relationship patterns
+
+![image](https://github.com/user-attachments/assets/7e15336c-7f80-405a-857e-e6250b730e9f)
+
+- **Slope graph**: For pattern detection in multivariate data
+
+![image](https://github.com/user-attachments/assets/0c7886f8-5fda-4c98-9317-c0dd57232904)
 
 These advanced visualizations enable analysis of complex, multi-dimensional business data, though they require more user familiarity for effective interpretation.
 
@@ -477,38 +522,6 @@ Radar charts are particularly valuable for:
 - Quality analysis across multiple dimensions
 - Strategic planning using balanced scorecard approaches
 
-
-
-#### Multi-Variate Charts
-
-Analytics+ offers several specialized multi-variate chart types:
-
-1. **Tornado Chart**: Compare two sets of categories side by side in a horizontal bar chart format, ideal for demographic comparisons or before/after analysis.
-
-2. **Bubble Matrix**: Visualize relationships between two categorical dimensions with a third variable represented by bubble size, useful for identifying patterns and outliers.
-
-3. **Heatmap**: Display values for two categorical dimensions using color intensity, perfect for identifying patterns and hotspots in complex data.
-
-These multi-variate charts provide powerful ways to analyze complex relationships in business data, enabling users to identify patterns that might be missed in simpler visualizations.
-
-## Interactive Dashboard Elements
-
-Beyond standard charts, Analytics+ provides specialized visualization components designed for dashboard construction.
-
-### Dashboard Components
-
-Interactive elements for dashboards:
-
-- **KPI Cards**: For highlighting key metrics
-- **Micro Charts**: For space-efficient trend visualization
-- **Sparklines**: For inline trend visualization
-- **Bullet Graphs**: For compact performance indicators
-- **Gauge Charts**: For progress against targets
-- **Indicator Tiles**: For status visualization
-- **Scorecard Grids**: For multiple metrics in tabular form
-
-These components enable the creation of information-dense, actionable dashboards that communicate multiple metrics effectively in limited space.
-
 ## Tabular Visualizations
 
 Enhanced table formats that go beyond basic data grids.
@@ -517,29 +530,19 @@ Enhanced table formats that go beyond basic data grids.
 
 Sophisticated tabular visualizations:
 
-- **Heat Table**: For value-colored cells
-- **Icon Table**: For status indication with symbols
-- **Sparkline Table**: For embedding trends in tables
-- **Bar-in-Cell Table**: For inline bars within cells
-- **Multi-Level Tables**: For hierarchical data presentation
-- **Cross-Tab**: For multi-dimensional analysis
-- **Matrix**: For two-dimensional categorization
+- **Single measure bar charts**: To visualize the magnitude of single measure values
+
+![Inline bar chart](/images/InlineBar.png)
+  
+- **Lollipop charts**: To visualize the magnitude of single-measure values
+
+![Inline Lollipop](/images/InlineLollipop.png)
+
+- **Waterfall charts**: To visualize the breakdown of measure values
+
+![Inline Waterfall](/images/InlineWaterfall.png)
 
 These enhanced tables combine the precision of tabular data with visual cues that highlight patterns and exceptions.
-
-#### Inline Charts in Tables
-
-Analytics+ enhances tabular data with embedded visualizations:
-
-1. **Sparklines**: Embed mini trend lines within table cells to show historical patterns for each row.
-
-2. **Bar-in-Cell**: Display horizontal bars within cells to provide visual comparison while maintaining precise values.
-
-3. **Bullet Charts**: Embed compact performance indicators showing progress against targets.
-
-4. **Icon Sets**: Use conditional icons to indicate status, trends, or performance levels.
-
-5. **Mini Pie Charts**: Show composition within table cells for part-to-whole relationships.
 
 Implementation example:
 - Configure the main table with rows and columns
@@ -553,78 +556,32 @@ Analytics+ tables offer sophisticated capabilities beyond basic data presentatio
 
 1. **Hierarchical Data**: Display multi-level hierarchies with expand/collapse functionality.
 
-2. **Conditional Formatting**: Apply color scales, data bars, and icon sets based on values.
+![image](https://github.com/user-attachments/assets/b9cb531b-e996-4109-abf2-040fc558e143)
 
-3. **Custom Aggregations**: Define how measures are summarized at different hierarchy levels.
+3. **Conditional Formatting**: Apply color scales, data bars, and icon sets based on values.
 
-4. **Cross-Tabulation**: Create pivot-style tables with multiple dimensions and measures.
+![image](https://github.com/user-attachments/assets/12a9a9dc-0292-436b-a111-9633f62ad4d8)
 
-5. **Interactive Sorting and Filtering**: Enable users to sort and filter data directly in the table.
+4. **Custom Aggregations**: Define how measures are summarized at different hierarchy levels.
 
-6. **Custom Number Formatting**: Apply sophisticated formatting rules to numeric values.
+![image](https://github.com/user-attachments/assets/eb339df2-92bb-433a-af88-4cd528930663)
 
-7. **Cell Merging**: Combine cells for better visual organization of related data.
+5. **Cross-Tabulation**: Create pivot-style tables with multiple dimensions and measures.
 
+![Pivot Table](/images/PivotTables.png)
 
+7. **Interactive Sorting and Filtering**: Enable users to sort and filter data directly in the table.
 
-## Small Multiples Implementation
+![image](https://github.com/user-attachments/assets/fed308cf-bd00-4926-b8d6-563999f460df)
 
-Most chart types in Analytics+ can be implemented as small multiples (trellis charts), enabling side-by-side comparison across categories, regions, time periods, or scenarios.
+7. **Custom Number Formatting**: Apply sophisticated formatting rules to numeric values.
 
-### Small Multiples Options
+![image](https://github.com/user-attachments/assets/f01e18bb-0d2b-4c71-b8d3-be98d79160e1)
 
-Configuration options for small multiples:
+8. **Cell Merging**: Combine cells for better visual organization of related data.
 
-- **Grid Layout**: Arranging multiples in rows and columns
-- **Shared Scales**: Using consistent scales across multiples
-- **Independent Scales**: Optimizing each chart's scale individually
-- **Highlight Options**: Emphasizing specific multiples
-- **Sort Options**: Organizing multiples by values or categories
-- **Comparative Reference Lines**: Adding cross-multiple references
-- **Hierarchical Filtering**: Drilling down within small multiple contexts
+![image](https://github.com/user-attachments/assets/521acea5-2bfc-488c-a991-9651d286ef41)
 
-Small multiples transform nearly any chart type into a powerful comparative visualization tool, revealing patterns and outliers across dimensions that might otherwise go unnoticed.
-
-#### Trellis Layout Customization
-
-Analytics+ provides extensive customization options for trellis layouts:
-
-1. **Layout Configuration**: Control the number of rows and columns in the grid, or let the system automatically optimize the layout.
-
-2. **Title Customization**: Format titles for each small multiple to clearly identify the dimension value.
-
-3. **Scale Synchronization**: Choose between synchronized scales (for accurate comparison) or independent scales (for pattern visibility).
-
-4. **Spacing Control**: Adjust the spacing between individual charts in the trellis.
-
-5. **Background Options**: Apply background colors or patterns to distinguish between different categories.
-
-6. **Border Settings**: Add borders around each small multiple for visual separation.
-
-7. **Empty Cell Handling**: Control how empty cells in the trellis grid are displayed.
-
-#### Implementation Across Chart Types
-
-The trellis functionality in Analytics+ can be applied to virtually any chart type:
-
-1. **Bar and Column Charts**: Compare patterns across different categories or time periods.
-
-2. **Line Charts**: Show trend patterns across different segments or regions.
-
-3. **Pie and Donut Charts**: Compare composition across different categories.
-
-4. **Scatter Plots**: Examine correlation patterns across different segments.
-
-5. **Tables**: Display multiple tables side by side for comparative analysis.
-
-6. **Cards**: Show KPI cards for different regions, products, or time periods.
-
-The trellis layout is particularly valuable for:
-- Regional comparisons across multiple metrics
-- Product performance analysis across different markets
-- Time period comparisons across different business units
-- Scenario analysis with multiple forecast models
-- Segment performance across multiple KPIs
 
 ## Chart Selection Guidance
 

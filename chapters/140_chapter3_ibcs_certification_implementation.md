@@ -91,11 +91,23 @@ This comprehensive certification ensures that Analytics+ users can create standa
 Analytics+ provides a flexible approach to IBCS implementation, allowing users to easily toggle between standard and IBCS-compliant visualizations:
 
 - **IBCS Standards Toggle**: A simple switch that enables full IBCS compliance
+
+![image](https://github.com/user-attachments/assets/e86c70d4-b89f-45c6-a436-faed3afe1367)
+  
 - **Flexible Implementation**: Can be applied at both dashboard and individual visualization levels
 - **Automatic Notation Conversion**: Field names automatically convert to IBCS notation (AC, PY, PL, FC)
+
+![IBCS naming convention](/images/ACPYPLNotation.png)
+
 - **Variance Calculation**: Automatic generation of absolute and relative variances
+
+![Variance Calculation](/images/IBCSVarianceCalculation.png)
+
 - **Visual Transformation**: Immediate visual conversion to IBCS-compliant representation
 - **Template Integration**: One-click application of IBCS-compliant templates
+
+![image](https://github.com/user-attachments/assets/e7de3b04-e80c-472f-972d-019682fbb423)
+
 - **Preservation of Customization**: Maintains user customizations while ensuring standards compliance
 
 This flexible approach allows organizations to implement IBCS standards without requiring extensive training or disrupting existing workflows, making the transition to standardized business communication smooth and efficient.
