@@ -127,24 +127,29 @@ The chart gallery provides a visual way to select visualization types:
 
 - **Category Navigation**: Browse by chart category
 
-![Category Navigation](images/categoryNavigation.png)
+![image](https://github.com/user-attachments/assets/56064cde-8aaf-4ade-83aa-836ccc40bd80)
+
   
 - **Preview Thumbnails**: See miniature examples of each chart type
 
-![thumbnails](images/thumbnails.png)
+![image](https://github.com/user-attachments/assets/d68fb679-dcc2-4527-8908-c3512733ac12)
+
   
 - **Recently Used**: Quick access to frequently used charts
 
-![favorites](images/favorites.png)
+![image](https://github.com/user-attachments/assets/d1d9fbae-9c8f-404c-bf0f-4c71c2f0c4fe)
+
   
 - **Search Function**: Find charts by name or description
 
-![search](images/chartSearch.png)
+![image](https://github.com/user-attachments/assets/c147e2a7-51a0-47da-864f-20c2f2ba736d)
+
   
 - **Data Preview**: See how your data would look in different chart types
 - **Recommended Charts**: Suggestions based on your data structure or business scenario
 
-![scenario based selection](images/2025-05-20_11h18_10.png)
+![image](https://github.com/user-attachments/assets/af71d7a2-621b-4945-8bd3-11102d8fb703)
+
 
 - **Detailed Information**: Access details about each chart type's purpose and requirements
 
