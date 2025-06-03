@@ -119,9 +119,20 @@ This implementation transforms tables from mere data presentation to powerful co
 Analytics+ provides specialized layouts for table small multiples:
 
 - **Grid**: Standard row-column grid with equal-sized panels
+
+![Grid](/images/GridLayoutTables.png)
+
 - **Scaled Table**: Panel size determined by the number of rows and columns in each table
+
+![Scaled Table](/images/ScaledTable.png)
+
 - **Single Row**: All small multiple tables arranged side-by-side in one row
+
+![Single Row](/images/SingleRow.png)
+
 - **Single Column**: All small multiple tables stacked vertically in one column
+
+![Single Column](/images/SingleColumn.png)
 
 ### Cards and KPIs
 
