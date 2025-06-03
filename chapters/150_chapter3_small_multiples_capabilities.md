@@ -61,7 +61,7 @@ Analytics+ offers several layout options for chart small multiples:
 
 - **Grid Auto-fit**: Maximizes data display in available canvas space without scrolling or pagination
 
-![GridAutoFit](/images/GridLayout-AutoFitCharts-Charts.png)
+![GridAutoFit](/images/GridAutoFitCharts.png)
 
 - **Scaled Rows**: Scales row height according to the top-performing panel (for vertical chart orientations)
 
