@@ -97,11 +97,11 @@ Analytics+ provides a flexible approach to IBCS implementation, allowing users t
 - **Flexible Implementation**: Can be applied at both dashboard and individual visualization levels
 - **Automatic Notation Conversion**: Field names automatically convert to IBCS notation (AC, PY, PL, FC)
 
-![IBCS naming convention](/images/ACPYPLNotation.png)
+![IBCS naming convention](images/ACPYPLNotation.png)
 
 - **Variance Calculation**: Automatic generation of absolute and relative variances
 
-![Variance Calculation](/images/IBCSVarianceCalculation.png)
+![Variance Calculation](images/IBCSVarianceCalculation.png)
 
 - **Visual Transformation**: Immediate visual conversion to IBCS-compliant representation
 - **Template Integration**: One-click application of IBCS-compliant templates

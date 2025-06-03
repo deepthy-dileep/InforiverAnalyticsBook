@@ -14,35 +14,35 @@ The foundation of comparison visualization, these charts include:
 
 - **Overlapped Column/Bar Chart**: For basic category comparison
 
-![Overlapped](/images/OverlappeColumn.png)
+![Overlapped](images/OverlappeColumn.png)
 
 - **Clustered Column/Bar Chart**: For comparing multiple measures across categories
 
-![Clustered](/images/ClusteredColumn.png)
+![Clustered](images/ClusteredColumn.png)
   
 - **Stacked Column/Bar Chart**: For showing both individual and total values
 
-![Stacked](/images/StackedColumn.png)
+![Stacked](images/StackedColumn.png)
   
 - **100% Stacked Column/Bar Chart**: For comparing percentage contributions
 
-![100%StackedColumn](/images/HundredPercentStackedColumn.png)
+![100%StackedColumn](images/HundredPercentStackedColumn.png)
 
 - **Column +Column Chart**: For hierarchical category comparison
 
-![Column+Column](/images/Column+Column.png)
+![Column+Column](images/Column+Column.png)
   
 - **Win Loss Chart**: For depicting categories that are performing well against those that are under-performing
 
-![WinLossColumn](/images/WinLossColumn.png)
+![WinLossColumn](images/WinLossColumn.png)
   
 - **Side by Side Bar Chart**: For showing two measures side-by-side in horizontal orientation
 
-![SidebySideBar](/images/SidebySideBar.png)
+![SidebySideBar](images/SidebySideBar.png)
   
 - **Stacked Measure Chart**: For showing the contribution of each measure to the total
 
-![StackedMeasure](/images/StackedMeasure.png)
+![StackedMeasure](images/StackedMeasure.png)
 
 Column charts are particularly effective for time-based comparisons, while horizontal bar charts excel at comparing values across numerous categories or those with long descriptive labels.
 
@@ -74,23 +74,23 @@ Specialized for actual vs. target/plan/prior period comparisons:
 
 - **Integrated Variance Column**: Showing actual and plan with variance
 
-![Integrated Variance Column](/images/IntegratedVarianceColumnChart.png)
+![Integrated Variance Column](images/IntegratedVarianceColumnChart.png)
 
 - **Variance Line**: Displaying cumulative variance over time
 
-![Variance Line](/images/VarianceLine.png)
+![Variance Line](images/VarianceLine.png)
 
 - **Variance Area**: Area chart displaying cumulative variance over time
 
-![Variance Area](/images/VarianceArea.png)
+![Variance Area](images/VarianceArea.png)
 
 - **Waterfall Variance Chart**: Visualizing how variances contribute to final results
 
-![Variance Waterfall](/images/VarianceWaterfall.png)
+![Variance Waterfall](images/VarianceWaterfall.png)
 
 - **Bullet Chart**: Comparing actual performance against targets and ranges
 
-![Bullet chart](/images/IBCSBulletBar.png)
+![Bullet chart](images/IBCSBulletBar.png)
 
 These variance-focused charts are particularly valuable for financial reporting, performance monitoring, and planning/forecasting scenarios.
 
@@ -102,23 +102,23 @@ Charts specifically designed to highlight rank order:
 
 - **Range Bar Chart**: Vertical bars ordered by value
 
-![Range chart](/images/RangeBar.png)
+![Range chart](images/RangeBar.png)
 
 - **Slope Chart**: Comparing rankings between two time periods
 
-![Slope chart](/images/SlopeGraph.png)
+![Slope chart](images/SlopeGraph.png)
   
 - **Lollipop Chart**: Combining bar and point for clearer ranking
 
-![Lollipop chart](/images/Lollipop.png)
+![Lollipop chart](images/Lollipop.png)
   
 - **Dot Plot**: Emphasizing position in a distribution
 
-![dotplot chart](/images/dotplot.png)
+![dotplot chart](images/dotplot.png)
 
 - **Dumbbell Chart**: Showing change between two points while maintaining rank context
 
-![dumbbell chart](/images/dumbbell.png)
+![dumbbell chart](images/dumbbell.png)
   
 These charts excel at communicating competitive position, market share rankings, and performance standings.
 
@@ -132,27 +132,27 @@ The standard for time series analysis:
 
 - **Basic Line Chart**: For showing trends over time
 
-![Line](/images/LineChart.png)
+![Line](images/LineChart.png)
 
 - **Clustered-Line Chart**: For comparing multiple series over time
 
-![ClusteredLine](/images/ClusteredLine.png)
+![ClusteredLine](images/ClusteredLine.png)
 
 - **Stepped Line Chart**: For visualizing discrete changes
 
-![SteppedLine](/images/SteppedLine.png)
+![SteppedLine](images/SteppedLine.png)
 
 - **Curved Line Chart**: For smoothed trend visualization
 
-![Spline](/images/Spline.png)
+![Spline](images/Spline.png)
 
 - **Stacked Line Chart**: For showing both individual contributions and totals over time
 
-![Stacked Line](/images/StackedLine.png)
+![Stacked Line](images/StackedLine.png)
   
 - **100% Stacked Line Chart**: For visualizing changing percentage composition
 
-![100% Stacked Line](/images/HundredPercentStackedLine.png)
+![100% Stacked Line](images/HundredPercentStackedLine.png)
 
 Line charts are the cornerstone of time-based analysis, providing clear visualization of trends, patterns, and relationships over time.
 
@@ -162,19 +162,19 @@ Analytics+ offers several specialized implementations of area charts:
 
 - **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
 
-![Stacked Area](/images/StackedArea.png)
+![Stacked Area](images/StackedArea.png)
 
 - **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
 
-![100% Stacked Area](/images/HundredPercentStackedArea.png)
+![100% Stacked Area](images/HundredPercentStackedArea.png)
 
 - **Cluster Area Chart**: Highlight both differences and similarities between categories or groups.
 
-![ClusterArea](/images/ClusterArea.png)
+![ClusterArea](images/ClusterArea.png)
 
 - **Base Area Chart**: Depict the variations of a particular measure with the high-performing portions in green and the low-performing portions in red.
 
-![Base Area](/images/BaseArea.png)
+![Base Area](images/BaseArea.png)
 
 #### Customization Options
 
@@ -197,23 +197,23 @@ Classic approaches to showing composition:
 
 - **Pie Chart**: For simple part-to-whole relationships
 
-![Pie](/images/Pie.png)
+![Pie](images/Pie.png)
 
 - **Donut Chart**: For part-to-whole with space for central metrics
 
-![Donut](/images/Donut.png)
+![Donut](images/Donut.png)
 
 - **Exploded Pie/Donut**: For emphasizing specific segments
 
-![Pie explosion](/images/PieExplosion.png)
+![Pie explosion](images/PieExplosion.png)
 
 - **Waterfall Chart**: For building up/breaking down a total
 
-![Waterfall Chart](/images/BreakdownWaterfall.png)
+![Waterfall Chart](images/BreakdownWaterfall.png)
 
 - **Mekko Chart (Marimekko)**: For showing composition with two variables
 
-![Marimekko Chart](/images/Marimekko.png)
+![Marimekko Chart](images/Marimekko.png)
 
 While simple pie charts are often criticized in data visualization literature, Analytics+ implements best practices (limited segments, clear labeling) to ensure they are used appropriately.
 
@@ -225,11 +225,11 @@ Visualizations for multi-level compositional data:
 
 - **Treemap**: For hierarchical part-to-whole relationships
 
-![Treemap](/images/Treemap.png)
+![Treemap](images/Treemap.png)
 
 - **Sunburst Chart**: For visualizing hierarchical data as concentric rings
 
-![sunburst](/images/sunburst.png)
+![sunburst](images/sunburst.png)
 
 These charts are particularly valuable for visualizing hierarchical structures like organizational data, product categories, or budget allocations.
 
@@ -283,15 +283,15 @@ Specialized charts for distribution analysis:
 
 - **Histogram**: For showing frequency distribution
 
-![Histogram](/images/histogram.png)
+![Histogram](images/histogram.png)
 
 - **Box Plot (Box and Whisker)**: For visualizing statistical summary
 
-![Boxplot](/images/boxplot.png)
+![Boxplot](images/boxplot.png)
 
 - **Bee Swarm**: For distribution with individual point visibility
 
-![Swarm plot](/images/swarm-plot.png)
+![Swarm plot](images/swarm-plot.png)
 
 These statistical visualizations are particularly valuable for quality control, research analysis, and understanding data characteristics.
 
@@ -532,15 +532,15 @@ Sophisticated tabular visualizations:
 
 - **Single measure bar charts**: To visualize the magnitude of single measure values
 
-![Inline bar chart](/images/InlineBar.png)
+![Inline bar chart](images/InlineBar.png)
   
 - **Lollipop charts**: To visualize the magnitude of single-measure values
 
-![Inline Lollipop](/images/InlineLollipop.png)
+![Inline Lollipop](images/InlineLollipop.png)
 
 - **Waterfall charts**: To visualize the breakdown of measure values
 
-![Inline Waterfall](/images/InlineWaterfall.png)
+![Inline Waterfall](images/InlineWaterfall.png)
 
 These enhanced tables combine the precision of tabular data with visual cues that highlight patterns and exceptions.
 
@@ -568,7 +568,7 @@ Analytics+ tables offer sophisticated capabilities beyond basic data presentatio
 
 5. **Cross-Tabulation**: Create pivot-style tables with multiple dimensions and measures.
 
-![Pivot Table](/images/PivotTables.png)
+![Pivot Table](images/PivotTables.png)
 
 7. **Interactive Sorting and Filtering**: Enable users to sort and filter data directly in the table.
 
