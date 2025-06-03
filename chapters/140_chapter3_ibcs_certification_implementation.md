@@ -101,7 +101,7 @@ Analytics+ provides a flexible approach to IBCS implementation, allowing users t
 
 - **Variance Calculation**: Automatic generation of absolute and relative variances
 
-![image](https://github.com/user-attachments/assets/894b4c8c-e78c-449c-9219-dd830ae3cc13)
+![Variance Calculation](/images/IBCSVarianceCalculation.png)
 
 - **Visual Transformation**: Immediate visual conversion to IBCS-compliant representation
 - **Template Integration**: One-click application of IBCS-compliant templates
