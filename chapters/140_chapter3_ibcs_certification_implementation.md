@@ -177,11 +177,22 @@ These specialized components enable sophisticated IBCS-compliant analysis beyond
 Analytics+ includes specialized chart types designed specifically for IBCS-compliant reporting:
 
 - **Integrated Variance Column**: Combines actuals, plan, and variance in a single column with standardized notation
+
+![IntegratedVarianceColumn](/images/IntegratedVarianceColumn.png)
+
 - **IBCS Bullet Chart**: Tracks progress against targets with standardized visual encoding
+
+![image](https://github.com/user-attachments/assets/d71829c7-f3ab-4ab9-9bf8-8aa1018e62ed)
+
 - **IBCS Waterfall**: Visualizes financial statements with proper notation for increases and decreases
-- **Variance Bridge**: Connects start and end values with standardized variance representation
+
 - **IBCS-Compliant Tables**: Implements proper notation in tabular formats with integrated pin charts
+
+
+  
 - **Semantic KPI Cards**: Displays key metrics with standardized visual elements and variance indicators
+
+![IBCS Cards](/images/IBCSCards.png)
 
 Each chart type automatically implements the appropriate IBCS notation, ensuring consistent communication across different visualization formats.
 

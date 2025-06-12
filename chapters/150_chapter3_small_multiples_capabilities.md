@@ -56,9 +56,20 @@ This versatile implementation enables effective comparison of categorical data a
 Analytics+ offers several layout options for chart small multiples:
 
 - **Grid**: Displays data in a row-column grid with panels of equal size and uniform scaling
+
+![Grid](/images/GridLayout-Charts.png)
+
 - **Grid Auto-fit**: Maximizes data display in available canvas space without scrolling or pagination
+
+![GridAutoFit](/images/GridAutoFitCharts.png)
+
 - **Scaled Rows**: Scales row height according to the top-performing panel (for vertical chart orientations)
+
+![Scaled Rows](/images/ScacledRowsCharts.png)
+
 - **Ranked Panels**: Varies panel size based on measure magnitude (for single small multiple parameter assigned to column)
+
+![Ranked Panels](/images/RankedPanelsCharts.png)
 
 Interactive resizing is available in grid and grid auto-fit layouts, allowing users to drag panel sides to adjust dimensions.
 
@@ -108,9 +119,20 @@ This implementation transforms tables from mere data presentation to powerful co
 Analytics+ provides specialized layouts for table small multiples:
 
 - **Grid**: Standard row-column grid with equal-sized panels
+
+![Grid](/images/GridLayoutTables.png)
+
 - **Scaled Table**: Panel size determined by the number of rows and columns in each table
+
+![Scaled Table](/images/ScaledTable.png)
+
 - **Single Row**: All small multiple tables arranged side-by-side in one row
+
+![Single Row](/images/SingleRow.png)
+
 - **Single Column**: All small multiple tables stacked vertically in one column
+
+![Single Column](/images/SingleColumn.png)
 
 ### Cards and KPIs
 
