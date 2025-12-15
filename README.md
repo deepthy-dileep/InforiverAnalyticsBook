@@ -11,3 +11,7 @@ You need to have installed:
 * [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment)
 
 If you have a problem or a question, please open a new issue and try to be as descriptive as possible.
+brew install make
+brew install pandoc
+brew install calibre 
+brew install --cask basictex
