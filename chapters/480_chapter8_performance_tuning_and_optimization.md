@@ -4,6 +4,9 @@
 
 Analytics+ delivers superior performance compared to native Power BI visuals, but optimal implementation requires attention to performance considerations. This section provides guidance for maximizing performance across enterprise deployments.
 
+![Performance Tuning Overview](images/kpi-dashboard-regions-performance-data-visualization.png)
+*Figure 8.6.1: Performance Monitoring Dashboard*
+
 #### Performance Benchmarking
 
 Establish baseline performance metrics:
@@ -25,6 +28,9 @@ Establish baseline performance metrics:
 #### Data Model Optimization for Analytics+
 
 The foundation of performance is an optimized data model:
+
+![Data Model Optimization](images/analytics-performance-mode-charts-tables-cards.png)
+*Figure 8.6.2: Data Model Performance Optimization*
 
 - **Dimensional Model Best Practices**
   - Implement star schema design where possible
@@ -91,6 +97,9 @@ Ensure the supporting infrastructure is configured for performance:
 #### Performance Monitoring and Maintenance
 
 Establish ongoing performance management:
+
+![Performance Monitoring](images/kpi-performance-bar-chart-regions-data.png)
+*Figure 8.6.3: Performance Monitoring Framework*
 
 - **Monitoring Framework**
   - Implement automated performance testing

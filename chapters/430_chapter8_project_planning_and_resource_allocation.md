@@ -29,6 +29,9 @@ A comprehensive implementation strategy framework provides structure and directi
 
 Establishing the foundation for implementation success:
 
+![Strategic Planning](images/gantt-chart-progress-status-resource-planning.png)
+*Figure 8.1.1a: Strategic Planning Phase Activities*
+
 | Planning Component | Key Activities | Deliverables |
 |-------------------|----------------|--------------|
 | Business Case Development | Value identification, cost-benefit analysis, ROI calculation | Comprehensive business case with quantified benefits |
@@ -74,6 +77,9 @@ Creating an effective organizational model for implementation:
 ### Resource Allocation Strategy
 
 Approach to optimizing resource allocation across the implementation:
+
+![Resource Allocation Strategy](images/gantt-chart-project-timeline-resource-allocation.png)
+*Figure 8.1.2a: Resource Allocation Strategy Framework*
 
 - **Skill-Based Allocation**: Matching resources based on required capabilities
 - **Phase-Based Allocation**: Dynamic resource assignment based on project phases
@@ -350,9 +356,15 @@ A global manufacturing corporation with operations in 25 countries implemented A
 
 Key practices for optimizing resource allocation and utilization:
 
+![Resource Management](images/project-management-gantt-chart-web-urls.png)
+*Figure 8.1.8a: Resource Management Best Practices Framework*
+
 ### Skill Development Approach
 
 Building capabilities throughout the implementation:
+
+![Skill Development](images/project-timeline-development-progress-chart.png)
+*Figure 8.1.8b: Skill Development Timeline*
 
 ![Skill Development](images/chart-types-overview-data-visualization.png)
 *Figure 8.1.7: Analytics+ Implementation Skill Development Model*
@@ -397,6 +409,9 @@ Effective use of implementation partners and external resources:
 
 Strategies for minimizing operational impact during implementation:
 
+![Business Disruption Management](images/bullet-charts-data-insight-management-dashboard.png)
+*Figure 8.1.9: Business Disruption Management Dashboard*
+
 - **Business Calendar Alignment**: Scheduling implementation around critical business periods
 - **Progressive Deployment**: Incremental capability rollout to manage change impact
 - **Parallel Operations**: Maintaining existing systems during transition period
@@ -408,6 +423,9 @@ Strategies for minimizing operational impact during implementation:
 ## Integration with Power BI Implementation
 
 Analytics+ implementation can be coordinated with Power BI projects:
+
+![Power BI Integration](images/inforiver-analytics-power-bi-visuals-overview.png)
+*Figure 8.1.10: Analytics+ and Power BI Integration Overview*
 
 ### Power BI Alignment
 

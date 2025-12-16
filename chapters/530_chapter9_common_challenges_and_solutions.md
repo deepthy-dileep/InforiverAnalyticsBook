@@ -3,6 +3,9 @@
 
 Even well-planned Analytics+ implementations face obstacles. This section addresses common adoption challenges and provides proven solutions.
 
+![Common Challenges](images/chart-data-visualization-summary-analysis.png)
+*Figure 9.5.1: Common Implementation Challenges Framework*
+
 #### User Resistance Challenges
 
 1. **"Our Current Tools Work Fine"**
@@ -60,6 +63,9 @@ Even well-planned Analytics+ implementations face obstacles. This section addres
 #### Solution Implementation Framework
 
 When addressing challenges, follow this structured approach:
+
+![Solution Framework](images/gantt-chart-project-phases-timeline-analysis.png)
+*Figure 9.5.2: Solution Implementation Framework*
 
 1. **Challenge Identification**
    - Gather specific feedback through surveys and interviews

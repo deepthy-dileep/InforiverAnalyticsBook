@@ -1,8 +1,12 @@
 
 
+
 ### 9.3 Developing Internal Champions
 
 Internal champions are crucial for sustainable Analytics+ adoption. This section outlines strategies for identifying, developing, and supporting champions who will drive usage and best practices.
+
+![Internal Champions Program](images/project-management-gantt-chart-web-urls.png)
+*Figure 9.3.1: Internal Champions Development Program*
 
 #### Champion Identification
 
@@ -34,6 +38,9 @@ Identify potential champions across the organization:
 
 Create a structured program to develop champion capabilities:
 
+![Champion Development](images/project-timeline-development-progress-chart.png)
+*Figure 9.3.2: Champion Development Program Timeline*
+
 1. **Champion Training Track**
    - Advanced Analytics+ capabilities
    - Troubleshooting and optimization
@@ -58,6 +65,9 @@ Create a structured program to develop champion capabilities:
 #### Champion Activation
 
 Establish clear roles and responsibilities for champions:
+
+![Champion Activation](images/chart-types-overview-data-visualization.png)
+*Figure 9.3.3: Champion Activities and Responsibilities*
 
 1. **Formal Champion Activities**
    - Conduct department-specific demos

@@ -3,6 +3,9 @@
 
 Analytics+ offers multiple integration options to extend its capabilities beyond standalone Power BI reports. This section explores various embedding scenarios and integration possibilities.
 
+![Embedding and Integration Options](images/settings-dashboard-visualization-interaction-options.png)
+*Figure 8.4.1: Analytics+ Embedding and Integration Options Overview*
+
 #### Power BI Embedding Scenarios
 
 1. **Internal Application Embedding**
@@ -27,6 +30,9 @@ Analytics+ offers multiple integration options to extend its capabilities beyond
 
 Analytics+ integrates seamlessly with the broader Microsoft environment:
 
+![Microsoft Ecosystem Integration](images/inforiver-analytics-power-bi-visuals-overview.png)
+*Figure 8.4.2: Analytics+ Integration with Microsoft Ecosystem*
+
 - **Microsoft Teams Integration**
   - Share Analytics+ visuals directly to Teams channels
   - Enable collaborative commenting and discussion
@@ -48,6 +54,9 @@ Analytics+ integrates seamlessly with the broader Microsoft environment:
 #### API-Based Integration
 
 Advanced integration scenarios can leverage available APIs:
+
+![API Integration](images/data-import-settings-chart-visualization-json.png)
+*Figure 8.4.3: Analytics+ API-Based Integration Configuration*
 
 - **REST API Capabilities**
   - Programmatically create and modify Analytics+ configurations

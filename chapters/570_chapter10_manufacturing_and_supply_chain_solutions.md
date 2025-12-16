@@ -2,6 +2,9 @@
 
 Manufacturing organizations face complex operational visualization needs that Analytics+ addresses through specialized capabilities. This section explores manufacturing and supply chain applications.
 
+![Manufacturing Analytics](images/sum-of-actuals-and-plan-by-month-in-millions.png)
+*Figure 10.3.1: Manufacturing and Supply Chain Analytics Dashboard*
+
 #### Production Analytics Applications
 
 Manufacturers leverage Analytics+ for:
@@ -30,6 +33,9 @@ Manufacturers leverage Analytics+ for:
 #### Supply Chain Applications
 
 Supply chain operations benefit from:
+
+![Supply Chain Analytics](images/actuals-plan-monthly-chart-visualization.png)
+*Figure 10.3.2: Supply Chain Performance Analytics*
 
 1. **Inventory Management Visualization**
    - Inventory level optimization
@@ -80,6 +86,9 @@ Planning and forecasting functions utilize:
 #### Manufacturing Implementation Considerations
 
 Key considerations for manufacturing implementations include:
+
+![Manufacturing Implementation](images/actuals-plan-by-year-in-millions.png)
+*Figure 10.3.3: Manufacturing Implementation Framework*
 
 1. **Shop Floor Integration**
    - MES/SCADA system connections

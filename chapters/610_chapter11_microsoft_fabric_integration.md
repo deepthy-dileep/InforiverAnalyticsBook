@@ -1,12 +1,18 @@
-# 11.1 Microsoft Fabric Integration 
+### 11.1 Microsoft Fabric Integration 
 
 ## Introduction to Microsoft Fabric
 
 Microsoft Fabric represents Microsoft's unified analytics platform that brings together data engineering, data integration, data warehousing, data science, real-time analytics, and business intelligence capabilities under a single, integrated SaaS offering. As a comprehensive analytics solution designed for the Microsoft ecosystem, Inforiver Analytics+ has been engineered to integrate seamlessly with Microsoft Fabric, providing organizations a powerful combination of advanced visualization and enterprise analytics infrastructure.
 
+![Microsoft Fabric Integration](images/inforiver-analytics-power-bi-visuals-overview.png)
+*Figure 11.1.1: Microsoft Fabric Integration Overview*
+
 ## Native Integration Points
 
 Inforiver Analytics+ offers several key integration points with Microsoft Fabric:
+
+![Native Integration](images/data-import-settings-chart-visualization-json.png)
+*Figure 11.1.2: Native Integration Points*
 
 ### Direct Connection to Fabric Datasets
 

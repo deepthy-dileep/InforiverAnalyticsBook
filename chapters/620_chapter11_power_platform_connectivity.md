@@ -1,4 +1,4 @@
-# 11.2 Power Platform Connectivity 
+### 11.2 Power Platform Connectivity 
 
 ## Understanding the Power Platform Ecosystem
 
@@ -11,9 +11,15 @@ Microsoft Power Platform represents a suite of low-code/no-code tools that enabl
 
 Inforiver Analytics+ is designed to work harmoniously with the Power Platform ecosystem, enhancing its capabilities and extending its functionality through strategic integration points.
 
+![Power Platform Connectivity](images/power-bi-visuals-inforiver-analytics-reporting-writeback.png)
+*Figure 11.2.1: Power Platform Connectivity Overview*
+
 ## Power BI Integration: Beyond the Visual
 
 While Analytics+ is primarily deployed as a custom visual within Power BI, the integration extends far beyond basic visual embedding:
+
+![Power BI Integration](images/visualization-options-get-more-visuals.png)
+*Figure 11.2.2: Power BI Integration Beyond the Visual*
 
 ### Enhanced Report Interactivity
 

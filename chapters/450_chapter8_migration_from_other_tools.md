@@ -3,13 +3,13 @@
 
 Transitioning from legacy visualization tools to Analytics+ requires a structured approach to minimize disruption and maximize value. This section outlines strategies for successful migrations from common platforms.
 
-![Analytics+ Visualization Interface](../images/analytics-plus-visualization-interface-screenshot.png)
+![Analytics+ Visualization Interface](images/analytics-plus-visualization-interface-screenshot.png)
 
 #### Migration Assessment Framework
 
 Before beginning any migration, conduct a thorough assessment:
 
-![Migration Assessment](../images/data-analysis-report-actuals-and-plans.png)
+![Migration Assessment](images/data-analysis-report-actuals-and-plans.png)
 
 1. **Inventory Current Assets**
    - Document existing reports and dashboards
@@ -37,7 +37,7 @@ Before beginning any migration, conduct a thorough assessment:
 - Use templates to standardize formerly inconsistent Excel reports
 - Maintain Excel as an export option during transition
 
-![Excel Migration Interface](../images/2024-plan-2023-actuals-quarterly-data-grid.png)
+![Excel Migration Interface](images/2024-plan-2023-actuals-quarterly-data-grid.png)
 
 **Tableau Migration**
 - Map Tableau workbooks to Analytics+ Story Boards
@@ -45,7 +45,7 @@ Before beginning any migration, conduct a thorough assessment:
 - Recreate dashboard layouts using Analytics+ components
 - Utilize Small Multiples to replace Tableau dashboard actions
 
-![Tableau Migration Dashboard](../images/dashboard-sales-data-visualization-analysis.png)
+![Tableau Migration Dashboard](images/dashboard-sales-data-visualization-analysis.png)
 
 **Power BI Native Visual Migration**
 - Identify performance bottlenecks in current visuals
@@ -53,13 +53,13 @@ Before beginning any migration, conduct a thorough assessment:
 - Replace complex DAX measures with in-visual calculations
 - Maintain report-level filters and interactions
 
-![Power BI Visual Migration](../images/inforiver-analytics-power-bi-visuals-overview.png)
+![Power BI Visual Migration](images/inforiver-analytics-power-bi-visuals-overview.png)
 
 #### Phased Implementation Approach
 
 A successful migration typically follows these phases:
 
-![Phased Implementation Timeline](../images/analytics-gantt-chart-project-timeline-2024-2025.png)
+![Phased Implementation Timeline](images/analytics-gantt-chart-project-timeline-2024-2025.png)
 
 1. **Pilot Phase**
    - Select 2-3 high-value, moderate-complexity reports
@@ -83,7 +83,7 @@ A successful migration typically follows these phases:
 
 Common challenges encountered during migrations include:
 
-![Migration Challenges Analysis](../images/ac-pl-monthly-data-analysis-report.png)
+![Migration Challenges Analysis](images/ac-pl-monthly-data-analysis-report.png)
 
 - **Complex Calculations**: Break down into smaller components and leverage Visual Formula Engine
 - **User Resistance**: Provide side-by-side comparisons showing Analytics+ advantages

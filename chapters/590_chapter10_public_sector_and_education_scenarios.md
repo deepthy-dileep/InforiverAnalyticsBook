@@ -1,6 +1,9 @@
-# 10.5 Public Sector and Education Scenarios
+### 10.5 Public Sector and Education Scenarios
 
 Public sector organizations and educational institutions present distinct analytics requirements focused on citizen/student service, program effectiveness, and resource management. Analytics+ offers powerful solutions for these specialized environments.
+
+![Public Sector Analytics](images/charts-data-analysis-performance-metrics-2023.png)
+*Figure 10.5.1: Public Sector and Education Analytics Dashboard*
 
 #### Government Administration Applications
 
@@ -56,6 +59,9 @@ Financial management in government leverages:
 
 Educational institutions benefit from:
 
+![Education Analytics](images/data-visualization-sum-actuals-sub-category.png)
+*Figure 10.5.2: Education Administration Analytics*
+
 1. **Student Performance Visualization**
    - Academic achievement tracking
    - Cohort progression analysis
@@ -105,6 +111,9 @@ Health and safety agencies leverage:
 #### Implementation Considerations for Public Sector
 
 Key considerations for public sector implementations include:
+
+![Public Sector Implementation](images/project-management-gantt-chart-web-urls.png)
+*Figure 10.5.3: Public Sector Implementation Framework*
 
 1. **Compliance and Governance Requirements**
    - Regulatory reporting automation

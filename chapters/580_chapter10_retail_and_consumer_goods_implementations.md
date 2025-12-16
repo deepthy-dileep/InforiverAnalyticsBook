@@ -1,6 +1,9 @@
-# 10.4 Retail and Consumer Goods Implementations
+### 10.4 Retail and Consumer Goods Implementations
 
 Retail and consumer goods organizations face unique challenges in visualizing customer behavior, product performance, and operational efficiency. Analytics+ offers specialized solutions tailored to these industries.
+
+![Retail Analytics](images/dashboard-sales-data-visualization-analysis.png)
+*Figure 10.4.1: Retail and Consumer Goods Analytics Dashboard*
 
 #### Customer Analytics Applications
 
@@ -30,6 +33,9 @@ Retailers leverage Analytics+ for customer-focused insights:
 #### Merchandising Analytics
 
 Effective merchandising relies on Analytics+ for:
+
+![Merchandising Analytics](images/charts-and-data-by-region-and-quarter.png)
+*Figure 10.4.2: Merchandising Performance Analytics*
 
 1. **Product Performance Visualization**
    - SKU-level sales analysis
@@ -105,6 +111,9 @@ Retail-specific supply chain insights include:
 #### Implementation Considerations for Retail
 
 Key considerations for retail implementations include:
+
+![Retail Implementation](images/kpi-dashboard-sales-performance-regions.png)
+*Figure 10.4.3: Retail Implementation Framework*
 
 1. **Data Integration Requirements**
    - POS system connection

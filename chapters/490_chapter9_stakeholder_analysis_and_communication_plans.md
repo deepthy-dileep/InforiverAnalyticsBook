@@ -5,6 +5,8 @@ Successful implementation of Analytics+ depends heavily on effective stakeholder
 
 #### Stakeholder Identification and Analysis
 
+![An executive summary dashboard tailored for high-level decision makers.](images/financial-performance-executive-summary-dashboard.png)
+
 Begin with a comprehensive stakeholder mapping:
 
 1. **Stakeholder Categories**
@@ -32,6 +34,8 @@ Begin with a comprehensive stakeholder mapping:
 
 #### Communication Strategy Development
 
+![Utilizing comment panes for collaborative communication within reports.](images/comments-pane-styling-financial-performance-dashboard.png)
+
 Create a structured communication plan:
 
 1. **Communication Objectives**
@@ -58,6 +62,8 @@ Create a structured communication plan:
 
 #### Communication Timeline
 
+![A Gantt chart visualizing the implementation and communication timeline.](images/analytics-gantt-chart-project-timeline-2024-2025.png)
+
 Structure communications across the implementation lifecycle:
 
 1. **Pre-Implementation Phase**
@@ -79,6 +85,8 @@ Structure communications across the implementation lifecycle:
    - Continuous improvement opportunities
 
 #### Measuring Communication Effectiveness
+
+![Tracking task progress and adoption milestones.](images/gantt-chart-task-progress-summary-2024-2025.png)
 
 Track communication impact through:
 
