@@ -18,7 +18,7 @@ Modern business analytics presents a fundamental tension between data freshness 
 
 Analytics+ implements a sophisticated multi-level caching architecture that optimizes both performance and data currency:
 
-![Caching Architecture](images/caching_architecture.png)
+![Caching Architecture](images/analytics-performance-mode-charts-tables-cards.png)
 *Figure 5.5.1: Analytics+ Multi-Level Caching Architecture*
 
 ### Level 1: Visualization Rendering Cache
@@ -67,6 +67,8 @@ The innermost cache layer that operates at the data model level:
 
 ## Intelligent Refresh Strategies
 
+![Refresh Strategies](images/refresh-icon-blue-arrow-circle.png)
+
 Analytics+ implements multiple refresh strategies optimized for different business scenarios:
 
 ### Time-Based Refresh Patterns
@@ -80,6 +82,8 @@ Analytics+ implements multiple refresh strategies optimized for different busine
 | Event-triggered refresh | Data-change detection initiates targeted refresh | Exception monitoring and alert-driven analytics |
 
 ### Segment-Level Refresh Optimization
+
+![Refresh Hierarchy](images/filtercontext-data-table-category-hierarchy.png)
 
 Rather than refreshing entire datasets, Analytics+ can selectively refresh data segments:
 
@@ -178,6 +182,8 @@ Enterprise Caching Architecture:
 This multi-tier approach optimizes caching at each level of the architecture, balancing performance with resource utilization.
 
 ## Refresh Performance Optimization
+
+![Performance Optimization](images/charts-data-analysis-performance-metrics-2023.png)
 
 Analytics+ implements several techniques to optimize refresh performance:
 

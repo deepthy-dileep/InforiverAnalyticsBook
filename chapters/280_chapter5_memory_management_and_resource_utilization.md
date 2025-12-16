@@ -8,6 +8,8 @@ Memory management represents one of the most significant challenges in modern bu
 
 ### Common Memory Issues in Power BI
 
+![Common Memory Issues in Power BI](images/power-bi-visuals-inforiver-analytics-reporting-writeback.png)
+
 | Memory Challenge | Native Power BI Impact | Business Consequence |
 |------------------|------------------------|----------------------|
 | Browser memory leaks | Progressive slowdown during analysis sessions | Frequent browser crashes and restarts |
@@ -30,7 +32,7 @@ Analytics+ implements a fundamentally different approach to memory management:
 
 ### Core Memory Architecture Principles
 
-![Memory Architecture](images/memory_architecture.png)
+![Analytics+ Performance Mode](images/analytics-performance-mode-charts-tables-cards.png)
 *Figure 5.4.1: Analytics+ Memory Management Architecture*
 
 1. **Virtualized Display Layer**
@@ -54,6 +56,8 @@ Analytics+ implements a fundamentally different approach to memory management:
    - Progressive memory reclamation for unused visual elements
 
 ### Memory Utilization Comparison
+
+![Memory Utilization Comparison](images/chart-comparison-2022-2024-actuals-plans.png)
 
 The following table compares memory utilization patterns between native Power BI visuals and Analytics+:
 
@@ -92,6 +96,8 @@ While section 5.3 covered broader data model optimization, these techniques spec
 
 ### Dashboard Design for Memory Efficiency
 
+![Dashboard Design for Memory Efficiency](images/dashboard-templates-financial-performance-reports.png)
+
 Memory-efficient dashboard design patterns include:
 
 - **Visual Prioritization**: Designate primary vs. secondary visuals with appropriate loading priority
@@ -101,6 +107,8 @@ Memory-efficient dashboard design patterns include:
 - **Optimized Default Views**: Configure memory-efficient initial states that expand on demand
 
 ## Resource Allocation Strategies
+
+![Resource Allocation Strategies](images/gantt-chart-project-timeline-resource-allocation.png)
 
 Beyond memory management, Analytics+ provides sophisticated resource allocation capabilities:
 

@@ -1,14 +1,20 @@
 # 3.5 Pivot Data Interface
 
+![3.5 Pivot Data Interface](images/pivot-data-fields-visualization-interface.png)
+
 The pivot data interface is a cornerstone of Analytics+, providing powerful capabilities for organizing, analyzing, and visualizing hierarchical and multi-dimensional data. Going beyond the basic pivoting functionality available in Power BI, the Analytics+ pivot interface combines the analytical flexibility of Excel-like pivoting with the visual power of interactive business visualizations. This section explores the pivot interface fundamentals, data manipulation capabilities, and advanced techniques that enable sophisticated data analysis.
 
 Analytics+ offers two interfaces for data management: the standard Pivot Data window and the Advanced Pivot interface. Both provide the same core functionality, but the Advanced Pivot offers an enhanced user experience with real-time visualization updates and additional filtering capabilities.
 
 ## Pivot Interface Fundamentals
 
+![Pivot Interface Fundamentals](images/pivot-data-beverages-juices-soda-quarterly-summary.png)
+
 The Analytics+ pivot interface provides a structured yet flexible approach to data organization and analysis.
 
 ### Core Pivot Concepts
+
+![Core Pivot Concepts](images/pivot-data-table-2024-actuals-plans-summary.png)
 
 The fundamental concepts underpinning the pivot interface include:
 
@@ -38,6 +44,8 @@ This familiar interface significantly reduces the learning curve, enabling users
 
 ### Pivot-to-Visualization Integration
 
+![Pivot-to-Visualization Integration](images/data-visualization-pivot-chart-juices-soda-water.png)
+
 A distinguishing feature of Analytics+ is the seamless integration between pivot tables and visualizations:
 
 - **Synchronized Analysis**: Changes to pivot structure automatically update visualizations
@@ -51,6 +59,8 @@ A distinguishing feature of Analytics+ is the seamless integration between pivot
 This integration enables users to fluidly move between tabular analysis and visual representation, leveraging the strengths of each approach without losing analytical context.
 
 ## Advanced Pivot Interface
+
+![Advanced Pivot Interface](images/pivot-data-analysis-sales-reports-dashboard.png)
 
 The Advanced Pivot interface represents a significant enhancement to the data management experience in Analytics+, providing a more integrated and efficient approach to data configuration.
 
@@ -68,6 +78,8 @@ The Advanced Pivot interface automatically activates when the Analytics+ visual 
 
 ### Advanced Pivot Components
 
+![Advanced Pivot Components](images/pivot-data-analysis-chart-table-summary.png)
+
 The Advanced Pivot interface is organized into several functional areas:
 
 #### Search and Filter Panel
@@ -83,6 +95,8 @@ The search and filter panel provides efficient access to available fields:
 This panel streamlines the process of locating and selecting relevant fields from potentially large datasets with numerous measures and dimensions.
 
 #### Fields Configuration Area
+
+![Fields Configuration Area](images/pivot-data-manage-data-fields-settings.png)
 
 The fields configuration area provides drag-and-drop management of data relationships:
 
@@ -111,6 +125,8 @@ This filtering capability is exclusive to the Advanced Pivot interface, providin
 
 #### Advanced Settings
 
+![Advanced Settings](images/chart-settings-advanced-sorting-months-visualization.png)
+
 The advanced settings section provides access to specialized configuration options:
 
 - **IBCS Standards**: Toggle for International Business Communication Standards compliance
@@ -125,6 +141,8 @@ These advanced settings provide fine-grained control over both the analytical ap
 
 ### Disabling Advanced Pivot
 
+![Disabling Advanced Pivot](images/pivot-data-table-2024-actuals-comparisons.png)
+
 While the Advanced Pivot interface offers significant advantages, Analytics+ provides the flexibility to disable this feature if preferred:
 
 - **User Preference**: Some users may prefer the popup dialog approach
@@ -136,6 +154,8 @@ While the Advanced Pivot interface offers significant advantages, Analytics+ pro
 This option ensures that users can choose the data management interface that best suits their specific needs and preferences.
 
 ## Data Manipulation Capabilities
+
+![Data Manipulation Capabilities](images/pivot-data-2024-actuals-regional-comparison-chart.png)
 
 The Analytics+ pivot interface provides extensive capabilities for manipulating and analyzing data.
 
@@ -155,6 +175,8 @@ These capabilities enable flexible organization of data to support specific anal
 
 
 ### Measure Management
+
+![Measure Management](images/pivot-data-visualization-charts-and-measures.png)
 
 Extensive measure handling capabilities include:
 
@@ -184,6 +206,8 @@ These capabilities enable users to focus on the most relevant data subsets and o
 
 ### Layout and Display Options
 
+![Layout and Display Options](images/custom-layout-pivot-data-table-settings.png)
+
 Extensive control over pivot appearance includes:
 
 - **Column Width/Row Height**: Adjusting space allocation for better readability
@@ -197,6 +221,8 @@ Extensive control over pivot appearance includes:
 These options ensure that pivot tables not only provide analytical capabilities but also create clear, professional-looking reports that effectively communicate insights.
 
 ## Hierarchical Data Visualization
+
+![Hierarchical Data Visualization](images/data-visualization-pivot-chart-quarterly-2024.png)
 
 The Analytics+ pivot interface excels at working with hierarchical data structures common in business analysis.
 
@@ -245,6 +271,8 @@ These features provide flexible, powerful summarization capabilities that adapt 
 
 ### Relative Comparison
 
+![Relative Comparison](images/pivot-data-2024-actuals-regional-comparison-chart-1.png)
+
 Advanced comparative analysis capabilities include:
 
 - **Parent-Child Comparison**: Analyzing contributions to parent aggregates
@@ -263,6 +291,8 @@ Analytics+ supports advanced asymmetric reporting requirements that go beyond ba
 
 ### Custom Row Structures
 
+![Custom Row Structures](images/custom-layout-pivot-data-table-configuration.png)
+
 Capabilities for non-uniform row arrangements include:
 
 - **Mixed Hierarchy Levels**: Showing different hierarchy levels in the same report
@@ -277,6 +307,8 @@ These capabilities enable the creation of sophisticated, business-specific repor
 
 
 ### Custom Column Structures
+
+![Custom Column Structures](images/pivot-data-combine-row-column-fields-chart.png)
 
 Support for complex column arrangements includes:
 
@@ -306,6 +338,8 @@ These matrix capabilities enable rich, information-dense presentations that comb
 
 ### Financial Statement Formats
 
+![Financial Statement Formats](images/financial-statement-2024-data-analysis.png)
+
 Specialized support for financial reporting includes:
 
 - **Income Statement Format**: Standard profit and loss statement structure
@@ -319,6 +353,8 @@ Specialized support for financial reporting includes:
 These specialized formats ensure that financial reports conform to standard accounting practices while providing analytical flexibility.
 
 ## Advanced Pivot Techniques
+
+![Advanced Pivot Techniques](images/pivot-data-chart-united-states-international-1.png)
 
 Analytics+ extends beyond basic pivoting with advanced analytical capabilities.
 
@@ -378,6 +414,8 @@ Analytics+ provides sophisticated data focusing capabilities that go beyond stan
 
 #### Advanced Sorting Capabilities
 
+![Advanced Sorting Capabilities](images/settings-chart-advanced-sorting-options-display.png)
+
 The pivot interface includes powerful sorting options that enhance data organization:
 
 - **Multi-level Sorting**: Apply nested sorts across multiple fields simultaneously
@@ -424,6 +462,8 @@ The pivot data interface in Analytics+ supports sophisticated analysis across bu
 
 ### Financial Analysis and Reporting
 
+![Financial Analysis and Reporting](images/charts-data-analysis-financial-reporting-visualization.png)
+
 Applications for finance include:
 
 - **Financial Statement Analysis**: Examining income statements, balance sheets, cash flow
@@ -437,6 +477,8 @@ Applications for finance include:
 These applications provide finance teams with the detailed, accurate analysis needed for financial management and reporting.
 
 ### Sales and Marketing Analysis
+
+![Sales and Marketing Analysis](images/data-analysis-pivot-table-sales-summary.png)
 
 Applications for sales and marketing include:
 

@@ -36,7 +36,7 @@ Based on the documentation, Analytics+ includes several types of templates to ad
 
 As shown in the Storyboard documentation, Analytics+ offers plug-and-play dashboard templates for a wide range of use cases:
 
-![Dashboard Templates](images/financial_templates.png)
+![Dashboard Templates](images/dashboard-templates-financial-performance-reports.png)
 
 - **IBCS Templates**: Standards-compliant dashboard layouts
 - **Financial Templates**: Pre-configured financial reporting layouts
@@ -54,6 +54,8 @@ Beyond static templates, Analytics+ offers an "Auto-create report" feature that 
 
 This AI-driven approach analyzes your data structure and automatically creates appropriate visualizations, which can then be customized as needed.
 
+![Auto-Create Options](images/storyboard-options-auto-create-custom-layout-template.png)
+
 ### Custom Layout Builder
 
 For more flexibility, Analytics+ provides a custom layout builder:
@@ -62,11 +64,13 @@ For more flexibility, Analytics+ provides a custom layout builder:
 
 This approach allows users to quickly define the structure of their dashboard while maintaining design consistency.
 
+![Custom Layout Builder](images/custom-layout-elements-configuration-preview.png)
+
 ## IBCS-Certified Templates
 
 A major differentiator for Analytics+ is its IBCS certification and implementation of IBCS standards. The International Business Communication Standards provide rigorous guidelines for clear, consistent business reporting.
 
-![IBCS Template Example](images/ibcs_template.png)
+![IBCS Template Example](images/ibcs-certified-visuals-quarterly-data-analysis.png)
 
 As documented in the Analytics+ guides, the platform is "an IBCS-certified visual" that allows users to "create charts, KPI cards, and tables that are fully IBCS compliant" by simply enabling the IBCS standards toggle.
 
@@ -129,6 +133,8 @@ The documentation describes a powerful template feature for tables:
 
 This template row feature allows users to create consistent calculated rows across hierarchical data with a single definition.
 
+![Template Row Example](images/data-analysis-template-row-subcategory-report.png)
+
 ## Additional Template Features
 
 The documentation highlights several additional template-related features in Analytics+:
@@ -142,6 +148,8 @@ The Chart Discoverability documentation describes how Analytics+ helps users sel
 - **Scenario-Based Selection**: "Analytics+ can render the chart that is best suited to visualize your data based on your business use case – all you need to do is choose an option from the list of scenarios. For instance, if you need to analyze cash flows across different sectors, you can choose the 'Financial Breakdown' scenario, and it will assign your data to a relevant chart type."
 
 This scenario-based approach acts as a template system for chart selection, guiding users to the most appropriate visualization for their specific business needs.
+
+![Chart Template Selection](images/choose-template-explore-import-options.png)
 
 ### Analytical Templates
 

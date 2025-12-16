@@ -163,7 +163,7 @@ The foundation layer that prepares data for visualization:
 
 - **Aggregation Engine**: Summarization of data at different levels
 
-![Aggregation engine](images/Aggregation.png)
+![Aggregation engine](images/actuals-plan-chart-year-quarter-aggregation.png)
   
 - **Filtering System**: Selection of relevant data subsets
 
@@ -219,7 +219,7 @@ Storyboard mode supports a comprehensive set of dashboard elements:
   
 - **Annotation System**: Comments and highlights to explain insights
 
-![Annotation](images/Annotations.png)
+![Annotation](images/chart-data-visualization-2024-2023-annotations.png)
 
 - **Design Elements**: Shapes, text boxes, and images for visual organization
 
@@ -309,7 +309,7 @@ Analytics+ provides specialized IBCS-compliant chart types:
 
 - **Integrated Variance Column**: Showing actuals, plans, and variances in a standardized format
 
-![Integrated Variance Column](images/IntegratedVarianceColumn.png)
+![Integrated Variance Column](images/integrated-variance-column-monthly-data-chart.png)
 
 - **IBCS Waterfall**: Visualizing financial statements with proper notation
 

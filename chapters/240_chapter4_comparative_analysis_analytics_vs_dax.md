@@ -76,6 +76,8 @@ In this example, the DAX approach requires:
 
 The Analytics+ approach uses intuitive time intelligence functions directly in the visualization, with no need to modify the data source.
 
+![](images/2023-2022-actuals-monthly-comparison-chart.png)
+
 ### Scenario 2: Sales vs. Budget Variance Analysis
 
 **DAX Approach:**
@@ -117,6 +119,8 @@ Additionally, Analytics+ offers one-click conditional formatting options:
 
 The DAX approach requires three separate measures defined in the data model, while Analytics+ accomplishes the same with direct formulas plus built-in conditional formatting that can be applied with a single click.
 
+![](images/chart-variance-by-month-actuals-plan.png)
+
 ### Scenario 3: Running Total
 
 **DAX Approach:**
@@ -145,6 +149,8 @@ The documentation shows that Analytics+ provides multiple ways to create running
 The documentation includes animated examples showing how users can select "Running total" from a dropdown menu to instantly add this calculation to their visualization.
 
 The DAX version requires understanding of filter manipulation and date relationships, while the Analytics+ version offers both a purpose-built function and a no-code option through the Additional Series feature.
+
+![](images/gross-sales-monthly-chart-pareto-analysis.png)
 
 ### Scenario 4: Top N Analysis with Others
 
@@ -182,6 +188,8 @@ The documentation outlines a simple two-step process:
 This approach not only simplifies the initial implementation but also enables dynamic, interactive analysis where users can adjust the N value through a slider.
 
 The DAX approach requires complex measure definitions and separate measures for the "Others" category, while Analytics+ handles this common visualization need through simple configuration options with built-in "Group Others" functionality.
+
+![](images/data-visualization-chart-top-n-analysis.png)
 
 ## Development Complexity Comparison
 

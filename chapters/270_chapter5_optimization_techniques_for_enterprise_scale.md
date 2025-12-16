@@ -1,8 +1,12 @@
 # 5.3 Optimization Techniques for Enterprise Scale
 
+![Optimization Techniques](images/analytics-performance-mode-charts-tables-cards.png)
+
 While sections 5.1 and 5.2 demonstrated Analytics+' inherent advantages in handling large datasets and superior performance metrics, enterprise deployments require specific optimization strategies to maximize these capabilities. This section outlines proven techniques for scaling Analytics+ implementations across large organizations with thousands of users and complex reporting requirements.
 
 ## Enterprise Deployment Architecture Patterns
+
+![Enterprise Deployment](images/data-visualization-sales-analysis-dashboard.png)
 
 Enterprise deployments of Analytics+ typically follow one of several architecture patterns, each with specific optimization considerations:
 
@@ -43,6 +47,8 @@ Centers of excellence support distributed teams with specialized expertise:
   - Establish optimization forums and communities of practice
 
 ## Data Model Optimization Strategies
+
+![Data Model Optimization](images/sankey-diagram-horizontal-vertical-drinks-months.png)
 
 The foundation of any high-performing Analytics+ implementation is an optimized data model:
 
@@ -96,6 +102,8 @@ Optimize the integration between Power BI data models and Analytics+:
 
 ## Visual Design Optimization Techniques
 
+![Visual Design Optimization](images/data-visualization-dashboard-settings-properties.png)
+
 Report design significantly impacts performance at enterprise scale:
 
 ### Data Density Optimization
@@ -126,6 +134,8 @@ Certain Analytics+ components offer superior performance characteristics for spe
 | Multi-metric dashboards | Small multiples | Multiple individual charts | 3.8x faster |
 
 ## Report Distribution and Consumption Optimization
+
+![Report Distribution](images/gantt-chart-project-timeline-schedule-2024-2025.png)
 
 Enterprise deployments must optimize how reports are distributed and consumed:
 
@@ -166,6 +176,8 @@ Three-tiered caching strategy for enterprise deployments:
 
 ## Infrastructure and Resource Optimization
 
+![Infrastructure Optimization](images/data-visualization-tools-storyboarding-dashboard.png)
+
 Enterprise deployments require specific infrastructure considerations:
 
 ### Power BI Premium Capacity Configuration
@@ -198,6 +210,8 @@ Optimize client environment configuration:
 - **Network Configuration**: Optimize packet sizes and connection limits
 
 ## Monitoring and Performance Management
+
+![Performance Management](images/kpi-dashboard-sales-performance-regions.png)
 
 Enterprise deployments require systematic performance monitoring:
 
@@ -233,6 +247,8 @@ Establish a systematic approach to ongoing optimization:
 
 ## Security and Governance Optimization
 
+![Security and Governance](images/dashboard-properties-settings-data-analysis-1.png)
+
 Enterprise deployments must balance security requirements with performance:
 
 ### Row-Level Security Optimization
@@ -255,6 +271,8 @@ Automate these governance processes to ensure consistent performance:
 - **Development Standards**: Enforce optimization guidelines through automated validation
 
 ## Case Study: Global Financial Services Firm
+
+![Case Study](images/financial-results-q3-2024-summary-dashboard.png)
 
 A global financial services organization with 12,000 Analytics+ users implemented these enterprise optimization techniques with remarkable results:
 

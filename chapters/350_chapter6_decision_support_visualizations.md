@@ -21,7 +21,7 @@ Analytics+ addresses these challenges with purpose-built decision support visual
 
 Analytics+ provides a comprehensive toolkit of visualizations specifically designed for decision support:
 
-![Decision Support Interface](images/decision_support.png)
+![Decision Support Interface](images/analytics-plus-visualization-interface-screenshot.png)
 *Figure 6.5.1: Analytics+ Decision Support Interface*
 
 ### Multi-Criteria Decision Analysis (MCDA) Visualizations
@@ -40,6 +40,9 @@ Support complex decisions with multiple criteria and alternatives:
 | Parallel Coordinates | Visualize multiple variables simultaneously across options | Multi-factor option comparison, pattern identification |
 
 #### Radar and Polar Charts for Multi-Criteria Evaluation
+
+![Radar Chart](images/2024-2023-actuals-radar-chart-subregion.png)
+
 
 Radar charts (also known as spider or web charts) are particularly effective for multi-criteria decision analysis, allowing decision-makers to:
 
@@ -70,6 +73,9 @@ Analytics+ implementation includes:
 - Small multiples capability for additional categorization
 - Interactive highlighting for focused analysis
 
+![Parallel Coordinates](images/data-visualization-ribbon-tornado-parallel-coordinates.png)
+
+
 The MCDA visualizations allow decision-makers to systematically evaluate alternatives and make transparent, defensible choices:
 
 ```
@@ -95,7 +101,7 @@ Help decision-makers understand and account for uncertainty:
 - **Bullet Charts**: Compare actual performance against targets with qualitative ranges
 - **Treemap Charts**: Visualize hierarchical risk categories with size representing impact
 
-![Risk Matrix](images/risk_matrix.png)
+![Risk Matrix](images/2024-actuals-plan-chart-quadrants-analysis.png)
 *Figure 6.5.2: Interactive Risk Matrix in Analytics+*
 
 #### Tornado Charts for Sensitivity Analysis
@@ -112,6 +118,9 @@ Analytics+ implementation features:
 - Clear visualization of positive and negative impacts
 - Automatic sorting of factors by impact magnitude
 - Customizable formatting and styling
+
+![Tornado Chart](images/data-visualization-ribbon-tornado-parallel-charts.png)
+
 
 #### Bullet Charts for Performance-to-Target Visualization
 
@@ -130,6 +139,9 @@ Analytics+ offers several bullet chart variations:
 - **IBCS Bullet**: Standardized format following IBCS notation guidelines
 
 These charts include features like variance bars (inside or outside the actual bar), customizable colors for positive/negative variances, and target indicators.
+
+![Bullet Charts](images/bullet-charts-data-insight-management-dashboard.png)
+
 
 ### Recommendation Visualizations
 
@@ -164,6 +176,9 @@ Analytics+ implementation includes:
 - Options to handle missing or negative values
 - Customizable node colors for different dimensions
 
+![Sankey Diagram](images/sankey-diagram-horizontal-vertical-drinks-months.png)
+
+
 #### Insight Charts for Compact Decision Metrics
 
 For dashboard-style decision support, insight charts provide:
@@ -180,6 +195,9 @@ Analytics+ offers several insight chart types:
 - IBCS bullet bar
 
 These compact visualizations can be integrated into decision support dashboards to provide at-a-glance performance context for decision-making.
+
+![Insight Charts](images/data-visualization-insight-charts-dashboard-summary.png)
+
 
 ## Interactive Decision Support Features
 
@@ -209,7 +227,7 @@ Enable interactive evaluation of alternative decisions:
 - **Treemap Exploration**: Drill down through hierarchical decision factors
 - **Multi-Variate Scenario Analysis**: Compare scenarios across multiple dimensions simultaneously
 
-![Scenario Explorer](images/scenario_explorer.png)
+![Scenario Explorer](images/sales-data-forecast-country-category-subcategory.png)
 *Figure 6.5.3: Scenario Explorer for Decision Support in Analytics+*
 
 #### Treemap Charts for Hierarchical Decision Exploration
@@ -227,6 +245,9 @@ Analytics+ implementation features:
 - Measure grouping for comparing multiple metrics
 - Customizable padding and spacing for visual clarity
 - Options for handling missing values
+
+![Treemap Chart](images/treemap-chart-sum-of-actuals-and-plan.png)
+
 
 #### Multi-Variate Scenario Comparison
 
@@ -356,6 +377,9 @@ A global pharmaceutical company implemented Analytics+ decision support visualiz
 - Decision bias indicators reduced by 68%
 - Portfolio risk-adjusted value increased by 28% while maintaining diversification
 - ROI of 940% in first 18 months of implementation
+
+![Pharmaceutical Portfolio Optimization Dashboard](images/financial-performance-executive-summary-dashboard.png)
+
 
 ## Integration with Analytics+ and Power BI
 

@@ -50,7 +50,7 @@ After evaluating multiple solutions, Ibex selected Analytics+ as their enterpris
 
 ### Implementation Architecture
 
-![Ibex Architecture](images/ibex_architecture.png)
+![Ibex Architecture](images/analytics-plus-visualization-interface-screenshot.png)
 *Figure 5.6.1: Ibex's Analytics+ Implementation Architecture*
 
 The implementation architecture included:
@@ -75,6 +75,9 @@ The implementation architecture included:
    - Automated alerts via mobile devices
 
 ### Performance Optimization Strategy
+
+![Performance Optimization Strategy](images/analytics-performance-mode-charts-tables-cards.png)
+*Figure 5.6.2: Analytics+ Performance Optimization Features*
 
 Ibex leveraged many of the techniques discussed in previous sections to achieve their performance requirements:
 
@@ -117,6 +120,9 @@ Ibex leveraged many of the techniques discussed in previous sections to achieve 
 - Configured intelligent calculation dependency tracking
 
 ## Implementation Process and Timeline
+
+![Implementation Timeline](images/gantt-chart-project-phases-timeline-2024-2025.png)
+*Figure 5.6.3: Ibex Implementation Timeline*
 
 The implementation followed a structured approach:
 
@@ -206,6 +212,9 @@ The implementation of Analytics+ with real-time data capabilities delivered subs
 
 ### Quantifiable Business Results
 
+![Quantifiable Business Results](images/data-analysis-kpi-sales-performance-graphs.png)
+*Figure 5.6.4: Key Performance Indicators Dashboard*
+
 | Key Performance Indicator | Before | After | Improvement |
 |---------------------------|--------|-------|-------------|
 | Manufacturing release cycle | 27 hours | 4 hours | 85% reduction |
@@ -216,6 +225,9 @@ The implementation of Analytics+ with real-time data capabilities delivered subs
 | Data accessibility | 25% of staff | 92% of staff | 3.7x improvement |
 
 ### Financial Impact
+
+![Financial Impact](images/financial-performance-executive-summary-dashboard.png)
+*Figure 5.6.5: Financial Performance Summary*
 
 The implementation delivered a compelling financial return:
 

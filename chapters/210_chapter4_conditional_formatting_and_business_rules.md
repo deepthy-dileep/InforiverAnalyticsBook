@@ -39,7 +39,7 @@ These one-click options provide a quick way to highlight important data points w
 
 Color scales apply a gradient of colors to represent value ranges, making it easy to identify high and low values at a glance. As shown in the documentation, users can create heatmaps "either based on the same column or driven by a different column."
 
-![Color Scale Example](images/color_scale.png)
+![Color Scale Example](images/monthly-data-chart-with-color-scale.png)
 
 - **Two-color scales**: Transition from one color to another (e.g., red to green)
 - **Three-color scales**: Include a midpoint color for additional context (e.g., red-yellow-green)
@@ -56,7 +56,7 @@ The documentation demonstrates how users can:
 
 Data bars display a horizontal bar in each cell proportional to its value, combining the precision of numbers with the visual impact of a bar chart:
 
-![Data Bars Example](images/data_bars.png)
+![Data Bars Example](images/progress-bar-sales-data-visualization-dashboard.png)
 
 Options include:
 - Bar orientation (left-to-right or right-to-left)
@@ -70,7 +70,7 @@ Options include:
 
 Icon sets place intuitive symbols next to values based on thresholds, providing instant classification of data points:
 
-![Icon Sets Example](images/icon_sets.png)
+![Icon Sets Example](images/variance-icon-kpi-chart-settings.png)
 
 Analytics+ includes:
 - Traffic lights (red/yellow/green)

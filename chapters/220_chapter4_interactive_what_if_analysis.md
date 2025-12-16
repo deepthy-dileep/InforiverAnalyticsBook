@@ -27,7 +27,7 @@ Based on the documentation, Analytics+ provides integration with Power BI's what
 
 Analytics+ can leverage Power BI's native what-if parameters to create interactive visualizations:
 
-![Parameter Sliders](images/parameter_sliders.png)
+![Parameter Sliders](images/data-visualization-ranking-slider-chart-1.png)
 
 As documented in the "Dynamic ranking with numeric parameters" section, Analytics+ can work with Power BI numeric range parameters to enable what-if analysis. The documentation states:
 
@@ -42,7 +42,7 @@ This integration allows users to:
 
 Analytics+ provides context-aware visualizations that respond to parameter changes:
 
-![Context-Aware Visualization](images/direct_editing.png)
+![Context-Aware Visualization](images/comments-pane-styling-financial-performance-dashboard.png)
 
 The documentation describes how Analytics+ supports context awareness:
 
@@ -57,7 +57,7 @@ This context awareness extends to:
 
 Analytics+ offers robust comparative analysis capabilities that enhance what-if scenarios:
 
-![Comparative Analysis](images/scenario_manager.png)
+![Comparative Analysis](images/data-visualization-variance-chart-analysis.png)
 
 The documentation highlights how Analytics+ supports comparative analysis through:
 - Side-by-side visualization of different scenarios
@@ -127,7 +127,7 @@ Analytics+ provides robust comparative analysis capabilities that can be used fo
 
 Based on the documentation, here's a practical example of using Analytics+ for what-if analysis with dynamic ranking:
 
-![Dynamic Ranking Analysis](images/marketing_whatif.png)
+![Dynamic Ranking Analysis](images/data-visualization-ranking-slider-chart.png)
 
 In this example:
 
@@ -166,6 +166,8 @@ The documentation describes how context-aware conditional formatting can enhance
 
 4. **Apply formatting through the color picker's CF Rules tab** to create sophisticated visual feedback
 
+![Context-Aware Conditional Formatting](images/conditional-formatting-data-visualization-chart.png)
+
 ### Small Multiple Visualizations
 
 The documentation highlights how small multiples can be used for comparative analysis:
@@ -178,6 +180,8 @@ The documentation highlights how small multiples can be used for comparative ana
 
 4. **Use the "Split" button in the toolbar** to quickly create small multiple views
 
+![Small Multiple Visualizations](images/hierarchical-small-multiples-4d-charts-data.png)
+
 ### Hierarchical Data Exploration
 
 The documentation shows how hierarchical data exploration can enhance what-if analysis:
@@ -189,6 +193,8 @@ The documentation shows how hierarchical data exploration can enhance what-if an
 3. **Apply the "Ragged hierarchy" toggle** to handle unbalanced hierarchies
 
 4. **Configure zoom levels** to control the level of detail shown in time-based visualizations
+
+![Hierarchical Data Exploration](images/filtercontext-data-table-category-hierarchy.png)
 
 ## Best Practices for Effective What-If Analysis
 

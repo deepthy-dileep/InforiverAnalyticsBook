@@ -14,19 +14,19 @@ The foundation of comparison visualization, these charts include:
 
 - **Overlapped Column/Bar Chart**: For basic category comparison
 
-![Overlapped](images/OverlappeColumn.png)
+![Overlapped](images/overlapped-column-chart-data-analysis-2022.png)
 
 - **Clustered Column/Bar Chart**: For comparing multiple measures across categories
 
-![Clustered](images/ClusteredColumn.png)
+![Clustered](images/cluster-column-chart-data-comparison-2020-2022.png)
   
 - **Stacked Column/Bar Chart**: For showing both individual and total values
 
-![Stacked](images/StackedColumn.png)
+![Stacked](images/stacked-column-chart-drink-consumption-2022.png)
   
 - **100% Stacked Column/Bar Chart**: For comparing percentage contributions
 
-![100%StackedColumn](images/HundredPercentStackedColumn.png)
+![100%StackedColumn](images/stacked-column-chart-drinks-consumption-2022.png)
 
 - **Column +Column Chart**: For hierarchical category comparison
 
@@ -34,11 +34,11 @@ The foundation of comparison visualization, these charts include:
   
 - **Win Loss Chart**: For depicting categories that are performing well against those that are under-performing
 
-![WinLossColumn](images/WinLossColumn.png)
+![WinLossColumn](images/win-loss-column-chart-data-analysis.png)
   
 - **Side by Side Bar Chart**: For showing two measures side-by-side in horizontal orientation
 
-![SidebySideBar](images/SidebySideBar.png)
+![SidebySideBar](images/side-by-side-bar-chart-2021-2022-actuals.png)
   
 - **Stacked Measure Chart**: For showing the contribution of each measure to the total
 
@@ -74,7 +74,7 @@ Specialized for actual vs. target/plan/prior period comparisons:
 
 - **Integrated Variance Column**: Showing actual and plan with variance
 
-![Integrated Variance Column](images/IntegratedVarianceColumnChart.png)
+![Integrated Variance Column](images/integrated-variance-column-monthly-data-chart.png)
 
 - **Variance Line**: Displaying cumulative variance over time
 
@@ -86,7 +86,7 @@ Specialized for actual vs. target/plan/prior period comparisons:
 
 - **Waterfall Variance Chart**: Visualizing how variances contribute to final results
 
-![Variance Waterfall](images/VarianceWaterfall.png)
+![Variance Waterfall](images/variance-waterfall-chart-2020-2021-actuals.png)
 
 - **Bullet Chart**: Comparing actual performance against targets and ranges
 
@@ -106,7 +106,7 @@ Charts specifically designed to highlight rank order:
 
 - **Slope Chart**: Comparing rankings between two time periods
 
-![Slope chart](images/SlopeGraph.png)
+![Slope chart](images/slope-graph-data-analysis-chart-example.png)
   
 - **Lollipop Chart**: Combining bar and point for clearer ranking
 
@@ -162,7 +162,7 @@ Analytics+ offers several specialized implementations of area charts:
 
 - **Stacked Area Chart**: Shows multiple measures stacked on top of each other, allowing users to see both individual contributions and the total.
 
-![Stacked Area](images/StackedArea.png)
+![Stacked Area](images/sum-of-actuals-by-month-stacked-area-chart.png)
 
 - **100% Stacked Area Chart**: Normalizes the data to show percentage contributions of each measure to the total.
 
@@ -201,7 +201,7 @@ Classic approaches to showing composition:
 
 - **Donut Chart**: For part-to-whole with space for central metrics
 
-![Donut](images/Donut.png)
+![Donut](images/donut-chart-sum-of-cogs-by-country.png)
 
 - **Exploded Pie/Donut**: For emphasizing specific segments
 
@@ -209,7 +209,7 @@ Classic approaches to showing composition:
 
 - **Waterfall Chart**: For building up/breaking down a total
 
-![Waterfall Chart](images/BreakdownWaterfall.png)
+![Waterfall Chart](images/stacked-breakdown-waterfall-chart-data-analysis.png)
 
 - **Mekko Chart (Marimekko)**: For showing composition with two variables
 
@@ -225,7 +225,7 @@ Visualizations for multi-level compositional data:
 
 - **Treemap**: For hierarchical part-to-whole relationships
 
-![Treemap](images/Treemap.png)
+![Treemap](images/treemap-chart-sum-of-actuals-and-plan.png)
 
 - **Sunburst Chart**: For visualizing hierarchical data as concentric rings
 
@@ -291,7 +291,7 @@ Specialized charts for distribution analysis:
 
 - **Bee Swarm**: For distribution with individual point visibility
 
-![Swarm plot](images/swarm-plot.png)
+![Swarm plot](images/swarm-plot-data-by-country-and-value.png)
 
 These statistical visualizations are particularly valuable for quality control, research analysis, and understanding data characteristics.
 
