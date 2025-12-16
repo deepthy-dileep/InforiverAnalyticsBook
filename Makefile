@@ -28,7 +28,7 @@ PDF_ARGS = -f markdown-raw_tex \
 		   -V documentclass=book \
 		   -V colorlinks \
 		   -V urlcolor=NavyBlue \
-		   --filter /Library/Frameworks/Python.framework/Versions/3.11/bin/pandoc-latex-environment \
+		   --filter .venv/bin/pandoc-latex-environment \
 		   --variable linestretch=1.2  \
 		   --include-before-body others/cover.tex \
 		   -V header-includes="\\usepackage{fontspec} \
