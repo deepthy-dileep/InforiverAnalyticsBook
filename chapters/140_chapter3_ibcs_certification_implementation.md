@@ -92,7 +92,7 @@ Analytics+ provides a flexible approach to IBCS implementation, allowing users t
 
 - **IBCS Standards Toggle**: A simple switch that enables full IBCS compliance
 
-![image](https://github.com/user-attachments/assets/e86c70d4-b89f-45c6-a436-faed3afe1367)
+![image](images/pivot-data-ibcs-standards-2023-actuals-chart.png)
   
 - **Flexible Implementation**: Can be applied at both dashboard and individual visualization levels
 - **Automatic Notation Conversion**: Field names automatically convert to IBCS notation (AC, PY, PL, FC)
