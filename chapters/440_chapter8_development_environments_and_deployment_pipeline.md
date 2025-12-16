@@ -6,6 +6,8 @@ Implementing Analytics+ at an enterprise scale requires a structured approach to
 
 ## Development Environment Architecture
 
+![Analytics+ Configuration Environment](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/chart-settings-data-visualization-analysis.png)
+
 ### Multi-Tier Environment Strategy
 
 A robust Analytics+ implementation typically employs multiple environments:
@@ -49,6 +51,8 @@ A robust Analytics+ implementation typically employs multiple environments:
 
 ## Deployment Pipeline Architecture
 
+![Deployment Pipeline Stages and Timeline](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/gantt-chart-project-timeline-2024-2025.png)
+
 ### Continuous Integration/Continuous Deployment (CI/CD)
 
 The Analytics+ deployment pipeline leverages modern CI/CD practices:
@@ -91,6 +95,8 @@ Source Control ← [Build Process] ← [Quality Gates] ← [Approval Workflows]
 
 ## Version Control for Analytics+ Solutions
 
+![Exporting Templates for Version Control](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/export-settings-json-configuration-download.png)
+
 ### Versioning Strategy
 
 **Component Versioning:**
@@ -123,6 +129,8 @@ Source Control ← [Build Process] ← [Quality Gates] ← [Approval Workflows]
 - Configuration audits
 
 ## Testing Framework for Analytics+ Deployments
+
+![Automated Testing Variance Analysis](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/data-visualization-variance-chart-analysis.png)
 
 ### Testing Levels
 
@@ -171,6 +179,8 @@ Source Control ← [Build Process] ← [Quality Gates] ← [Approval Workflows]
 
 ## Environment Isolation and Governance
 
+![Security and Governance Configuration](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/dashboard-properties-settings-data-analysis.png)
+
 ### Data Isolation Strategy
 
 **Development Data Management:**
@@ -204,6 +214,8 @@ Source Control ← [Build Process] ← [Quality Gates] ← [Approval Workflows]
 - Integration with enterprise security systems
 
 ## Practical Deployment Pipeline Implementation
+
+![Deployment Workflow Execution Tracking](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/gantt-chart-progress-status-overview-2024-2025.png)
 
 ### Deployment Workflow Steps
 
@@ -253,6 +265,8 @@ Source Control ← [Build Process] ← [Quality Gates] ← [Approval Workflows]
 
 ## CASE STUDY: Global Financial Services Firm's Deployment Pipeline
 
+![Financial Services Analytics Dashboard](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/financial-results-q3-2024-summary-dashboard.png)
+
 A leading financial services organization implemented a sophisticated deployment pipeline for their Analytics+ rollout across 2,000+ reports:
 
 **Challenge:**
@@ -273,6 +287,8 @@ The firm needed to maintain strict regulatory compliance while enabling rapid de
 - Enabled parallel development across 40+ developers
 
 ## Integration with Microsoft Tools and Services
+
+![Integration and Data Import Configuration](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/data-import-settings-chart-visualization-json.png)
 
 ### Azure DevOps Integration
 
@@ -316,6 +332,8 @@ The firm needed to maintain strict regulatory compliance while enabling rapid de
 - Fabric workspace permission alignment
 
 ## Deployment Monitoring and Optimization
+
+![Deployment Performance Monitoring](/Users/devarajns/Documents/Repo/InforiverAnalyticsBook/images/kpi-dashboard-sales-performance-regions.png)
 
 ### Monitoring Framework
 
