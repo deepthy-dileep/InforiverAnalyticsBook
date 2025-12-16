@@ -89,16 +89,16 @@ Rather than refreshing entire datasets, Analytics+ can selectively refresh data 
 
 ```
 Refresh Hierarchy:
-├── Dashboard
-│   ├── Page 1 (Refresh: 15 min)
-│   │   ├── Visual 1.1 (Refresh: 5 min)
-│   │   └── Visual 1.2 (Refresh: 15 min)
-│   ├── Page 2 (Refresh: 60 min)
-│   │   ├── Visual 2.1 (Refresh: 60 min)
-│   │   └── Visual 2.2 (Refresh: 60 min)
-│   └── Page 3 (Refresh: 24 hr)
-│       ├── Visual 3.1 (Refresh: 24 hr)
-│       └── Visual 3.2 (Refresh: 24 hr)
++-- Dashboard
+|   |-- Page 1 (Refresh: 15 min)
+|   |   |-- Visual 1.1 (Refresh: 5 min)
+|   |   +-- Visual 1.2 (Refresh: 15 min)
+|   |-- Page 2 (Refresh: 60 min)
+|   |   |-- Visual 2.1 (Refresh: 60 min)
+|   |   +-- Visual 2.2 (Refresh: 60 min)
+|   +-- Page 3 (Refresh: 24 hr)
+|       |-- Visual 3.1 (Refresh: 24 hr)
+|       +-- Visual 3.2 (Refresh: 24 hr)
 ```
 
 This hierarchical approach enables targeted refresh operations based on data criticality and update frequency requirements.
@@ -168,15 +168,15 @@ For complex deployment architectures, Analytics+ optimizes caching across tiers:
 
 ```
 Enterprise Caching Architecture:
-├── Client Tier
-│   └── Browser-level cache (user-specific interactions)
-├── Middle Tier
-│   ├── Application server cache (shared calculation results)
-│   └── Web front-end cache (visualization assets)
-└── Data Tier
-    ├── Power BI Service cache (dataset query results)
-    ├── Premium capacity cache (model segments)
-    └── Source system cache (incremental data extracts)
+|-- Client Tier
+|   +-- Browser-level cache (user-specific interactions)
+|-- Middle Tier
+|   |-- Application server cache (shared calculation results)
+|   +-- Web front-end cache (visualization assets)
++-- Data Tier
+    |-- Power BI Service cache (dataset query results)
+    |-- Premium capacity cache (model segments)
+    +-- Source system cache (incremental data extracts)
 ```
 
 This multi-tier approach optimizes caching at each level of the architecture, balancing performance with resource utilization.

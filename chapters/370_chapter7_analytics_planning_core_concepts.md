@@ -22,7 +22,7 @@ Analytics+ addresses these challenges by unifying analysis and planning in a sin
 
 The Analytics+ planning module provides a comprehensive planning and writeback solution that integrates directly with the analytical capabilities discussed in previous chapters:
 
-![Analytics+ Planning Interface](images/planning_interface.png)
+![Analytics+ Planning Interface](images/analytics-plus-visualization-interface-screenshot.png)
 *Figure 7.1.1: Analytics+ Planning Interface with Integrated Analysis and Planning*
 
 ### Unified Planning Framework
@@ -53,7 +53,7 @@ The core of Analytics+ planning functionality lies in its intelligent grid techn
 - **Adaptive Layout**: Responsive grid design optimized for planning tasks
 - **Hierarchy Management**: Intelligent handling of hierarchical relationships
 
-![Planning Grid Technology](images/planning_grid.png)
+![Planning Grid Technology](images/2024-plan-2023-actuals-quarterly-data-grid.png)
 *Figure 7.1.2: Rich Planning Grid with Formula Support and Cell-Level Validation*
 
 ### Multi-Dimensional Planning Model
@@ -102,6 +102,9 @@ Support for various planning directional flows:
 
 Analytics+ accommodates different planning process types:
 
+![Planning Process Summary](images/profit-forecast-summary-august-january-2023.png)
+*Figure 7.1.3: Profit Forecast Summary showing Rolling Forecasts*
+
 | Process Type | Analytics+ Implementation | Business Application |
 |--------------|---------------------------|----------------------|
 | Annual Budget Planning | Structured budget development workflow | Yearly budgeting process |
@@ -111,6 +114,9 @@ Analytics+ accommodates different planning process types:
 | Event-Based Planning | Triggered planning cycles based on events | Response to market changes |
 | Zero-Based Planning | Start-from-zero methodology support | Cost restructuring initiatives |
 | Project-Based Planning | Planning organized around projects or initiatives | Capital projects, campaigns |
+
+![Project Planning Gantt Chart](images/gantt-chart-analytics-project-management-overview.png)
+*Figure 7.1.4: Project Planning using Gantt Chart Visualizations*
 
 These planning processes are implemented through configurable workflows that guide users through each step while maintaining governance and control.
 
@@ -126,8 +132,8 @@ Analytics+ supports sophisticated collaboration for planning activities:
 - **Contribution Tracking**: Visibility into who changed what and when
 - **Consensus Building**: Tools to facilitate agreement on plan elements
 
-![Collaborative Planning](images/collaborative_planning.png)
-*Figure 7.1.3: Collaborative Planning with Role Assignments and Contribution Tracking*
+![Collaborative Planning](images/comments-pane-styling-financial-performance-dashboard.png)
+*Figure 7.1.5: Collaborative Planning with Comments and Discussions*
 
 ## Integration with Analytics Capabilities
 
@@ -279,6 +285,9 @@ A global consumer products company with operations in 60+ countries implemented 
 ## Integration with Power BI
 
 The Analytics+ planning capabilities integrate with Power BI to create a complete decision cycle:
+
+![Integration with Power BI](images/power-bi-visuals-inforiver-analytics-reporting-writeback.png)
+*Figure 7.1.6: Power BI Integration with Writeback Capabilities*
 
 - **Power BI Dataset Integration**: Direct writeback to Power BI datasets
 - **Power BI Report Embedding**: Embed planning components in Power BI reports

@@ -7,16 +7,16 @@ Inforiver Analytics+ features a sophisticated yet intuitive interface designed t
 The Inforiver Analytics+ interface consists of several key components organized in a logical structure:
 
 ```
-┌───────────────────────────────────────────────────────────────┐
-│ Toolbar and Global Controls                                   │
-├───────────┬───────────────────────────────────┬───────────────┤
-│           │                                   │               │
-│ Field     │                                   │ Configuration │
-│ Selection │         Visualization Area        │     Panel     │
-│ Panel     │                                   │               │
-├───────────┴───────────────────────────────────┴───────────────┤
-│ Status Bar / Information Area                                 │
-└───────────────────────────────────────────────────────────────┘
++---------------------------------------------------------------+
+| Toolbar and Global Controls                                   |
++-----------+-----------------------------------+---------------+
+|           |                                   |               |
+| Field     |                                   | Configuration |
+| Selection |         Visualization Area        |     Panel     |
+| Panel     |                                   |               |
++-----------+-----------------------------------+---------------+
+| Status Bar / Information Area                                 |
++---------------------------------------------------------------+
 ```
 
 This layout is designed to provide easy access to all necessary tools while maximizing the space available for your visualization.

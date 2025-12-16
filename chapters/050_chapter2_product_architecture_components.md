@@ -7,31 +7,31 @@ Inforiver Analytics+ features a sophisticated architecture designed to deliver e
 Inforiver Analytics+ is structured as a layered architecture that extends and enhances the Power BI environment:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                   User Interface Layer                       │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │ Configuration│  │ Visualization│  │ Interaction      │   │
-│  │ Panels       │  │ Canvas       │  │ Controls         │   │
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                 Business Logic Layer                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │ Calculation  │  │ Formatting   │  │ Event            │   │
-│  │ Engine       │  │ Engine       │  │ Handler          │   │
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                 Data Processing Layer                        │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │ Data         │  │ Cache        │  │ State            │   │
-│  │ Transformer  │  │ Manager      │  │ Manager          │   │
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │
-├─────────────────────────────────────────────────────────────┤
-│                 Integration Layer                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │ Power BI     │  │ Data         │  │ Export/Import    │   │
-│  │ Connector    │  │ Connector    │  │ Manager          │   │
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                   User Interface Layer                       |
+|  +--------------+  +--------------+  +------------------+   |
+|  | Configuration|  | Visualization|  | Interaction      |   |
+|  | Panels       |  | Canvas       |  | Controls         |   |
+|  +--------------+  +--------------+  +------------------+   |
++-------------------------------------------------------------+
+|                 Business Logic Layer                         |
+|  +--------------+  +--------------+  +------------------+   |
+|  | Calculation  |  | Formatting   |  | Event            |   |
+|  | Engine       |  | Engine       |  | Handler          |   |
+|  +--------------+  +--------------+  +------------------+   |
++-------------------------------------------------------------+
+|                 Data Processing Layer                        |
+|  +--------------+  +--------------+  +------------------+   |
+|  | Data         |  | Cache        |  | State            |   |
+|  | Transformer  |  | Manager      |  | Manager          |   |
+|  +--------------+  +--------------+  +------------------+   |
++-------------------------------------------------------------+
+|                 Integration Layer                            |
+|  +--------------+  +--------------+  +------------------+   |
+|  | Power BI     |  | Connector    |  | Export/Import    |   |
+|  | Connector    |  | Connector    |  | Manager          |   |
+|  +--------------+  +--------------+  +------------------+   |
++-------------------------------------------------------------+
 ```
 
 These layers work together to provide a comprehensive analytics experience while maintaining compatibility with the Power BI environment.

@@ -62,13 +62,13 @@ Analytics+ performs best with properly designed star schema models:
 - **Implementation Example**:
   ```
   Facts
-  └── Sales
-      ├── Measures (Revenue, Quantity, etc.)
-      └── Foreign Keys
-          ├── ProductKey → Dimension[Products]
-          ├── CustomerKey → Dimension[Customers] 
-          ├── DateKey → Dimension[Date]
-          └── LocationKey → Dimension[Geography]
+  +-- Sales
+      |-- Measures (Revenue, Quantity, etc.)
+      +-- Foreign Keys
+          |-- ProductKey -> Dimension[Products]
+          |-- CustomerKey -> Dimension[Customers] 
+          |-- DateKey -> Dimension[Date]
+          +-- LocationKey -> Dimension[Geography]
   ```
 
 ### Aggregation Design

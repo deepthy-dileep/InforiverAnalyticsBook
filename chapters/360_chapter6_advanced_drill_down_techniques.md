@@ -21,7 +21,7 @@ Analytics+ addresses these challenges with advanced drill-down techniques that m
 
 Analytics+ provides a comprehensive toolkit of drill-down capabilities that go beyond standard hierarchical navigation:
 
-![Advanced Drill-Down Interface](images/advanced_drilldown.png)
+![Advanced Drill-Down Interface](../images/visualization-tools-data-fields-drill-through-options.png)
 *Figure 6.6.1: Analytics+ Advanced Drill-Down Interface*
 
 ### Multi-Directional Drill-Down
@@ -89,7 +89,7 @@ Maintain analytical relevance through context-aware exploration:
 - **Guided Analysis Paths**: Suggested exploration routes based on data characteristics
 - **Synchronized Highlighting**: Maintain selection context across multiple visualizations
 
-![Contextual Drill-Down](images/contextual_drilldown.png)
+![Contextual Drill-Down](../images/filtercontext-data-table-category-hierarchy.png)
 *Figure 6.6.2: Contextual Drill-Down with Preserved Filters in Analytics+*
 
 #### Advanced Data Selection Techniques
@@ -154,6 +154,9 @@ Intuitive interfaces for navigation and exploration:
 
 Analytics+ provides multiple ways to select and focus on specific data:
 
+![Lasso Selection](../images/lasso-reverse-lasso-selection-bar-chart-data.png)
+*Figure 6.6.3: Advanced Selection Capabilities like Lasso and Reverse Lasso*
+
 - **Single-Click Selection**: Highlight individual data points with precise control
 - **Lasso Selection**: Draw a selection area to include multiple data points
 - **Reverse Lasso**: Select everything except the specified area
@@ -184,8 +187,8 @@ Guide users through the exploration process:
 - **Detail Availability Indicators**: Show where further detail is available
 - **Related Content Signposts**: Indicate related data areas worth exploring
 
-![Navigation Signposts](images/navigation_signposts.png)
-*Figure 6.6.3: Visual Exploration Signposts in Analytics+*
+![Navigation Signposts](../images/data-visualization-dashboard-elements-menu.png)
+*Figure 6.6.4: Visual Exploration Signposts in Analytics+*
 
 ### Performance Optimization
 
@@ -310,6 +313,9 @@ A major fashion retailer with 1,200+ stores implemented Analytics+ advanced dril
   - Performance optimization for 200M+ transaction records
 - Deployed smart drill-down suggestions highlighting anomalies and patterns
 - Implemented visual cues for navigation and context preservation
+
+![Retail Markdown Optimization Dashboard](../images/data-visualization-sales-analysis-dashboard.png)
+*Figure 6.6.5: Sales Analysis Dashboard for Markdown Optimization*
 
 ### Results
 - Markdown analysis time reduced from 3-5 days to under 30 minutes

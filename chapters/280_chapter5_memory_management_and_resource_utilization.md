@@ -118,19 +118,19 @@ Analytics+ implements intelligent CPU scheduling:
 
 ```
 CPU Thread Allocation Strategy:
-├── Primary Thread
-│   ├── User Interaction Handling (highest priority)
-│   ├── Viewport Rendering
-│   └── Animation Management
-├── Worker Threads
-│   ├── Data Processing
-│   ├── Calculation Execution
-│   ├── Off-screen Rendering
-│   └── Data Prefetching
-└── Background Thread
-    ├── Memory Management
-    ├── Cache Optimization
-    └── Telemetry
+|-- Primary Thread
+|   |-- User Interaction Handling (highest priority)
+|   |-- Viewport Rendering
+|   +-- Animation Management
+|-- Worker Threads
+|   |-- Data Processing
+|   |-- Calculation Execution
+|   |-- Off-screen Rendering
+|   +-- Data Prefetching
++-- Background Thread
+    |-- Memory Management
+    |-- Cache Optimization
+    +-- Telemetry
 ```
 
 This architecture enables Analytics+ to effectively utilize available CPU resources while maintaining responsive UI interactions.
@@ -215,17 +215,17 @@ When memory-related performance issues occur, this diagnostic workflow helps ide
 ```
 Memory Issue Diagnostic Flow:
 1. Quantify the issue
-   ├── Measure memory baseline
-   ├── Identify triggering interactions
-   └── Document growth pattern
+   |-- Measure memory baseline
+   |-- Identify triggering interactions
+   +-- Document growth pattern
 2. Isolate the source
-   ├── Individual visual vs. report-wide
-   ├── Data model vs. visualization layer
-   └── Browser-specific vs. cross-browser
+   |-- Individual visual vs. report-wide
+   |-- Data model vs. visualization layer
+   +-- Browser-specific vs. cross-browser
 3. Apply targeted optimization
-   └── Based on identified source
+   +-- Based on identified source
 4. Validate resolution
-   └── Confirm stable memory pattern
+   +-- Confirm stable memory pattern
 ```
 
 ## Case Study: Healthcare Analytics Deployment
