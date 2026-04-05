@@ -13,7 +13,7 @@ The first step in using Inforiver Analytics+ is to add it to your Power BI repor
 5. **Add to Canvas**: Click on the Inforiver Analytics+ icon to add it to your report canvas
 6. **Resize Visual**: Adjust the size and position of the visual on your canvas
 
-![Useful Links](https://github.com/user-attachments/assets/69483d35-f618-4190-8be0-d8ce12168736)
+![Useful Links](images/infoviewer-analytics-visualization-software-interface.png)
 
 Use the links in the visual for additional information:
 
@@ -26,7 +26,7 @@ Use the links in the visual for additional information:
 
 The Analytics+ visual ships with different modes - chart, card, table, and Gantt. Each mode has a dedicated toolbar that contains customization options specific to it. 
 
-![Selection](https://github.com/user-attachments/assets/2223e6dc-9bed-4d69-bf19-d6f1a2d4c67d)
+![Selection](images/infoview-analytics-charts-cards-tables-interface.png)
 
 
 ## Assign Data
@@ -38,27 +38,27 @@ For starters, you can assign the Axis and Values visual parameters. We've added 
 |          |
 |:--------:|
 | **Chart mode** |
-| ![Chart Mode](https://github.com/user-attachments/assets/40ec8644-6abc-400f-8592-ec7a7f2544a6) |
+| ![Chart Mode](images/2022-actuals-by-sub-region-bar-chart.png) |
 
 
 |          |
 |:--------:|
 | **Card mode** |
-| ![Card Mode](https://github.com/user-attachments/assets/dc73c627-76f2-4283-a4a8-4510a4cc1077) | 
+| ![Card Mode](images/data-visualization-kpi-card-chart-elements.png) | 
 
 
 
 |          |
 |:--------:|
 | **Table mode** |
-| ![Table Mode](https://github.com/user-attachments/assets/52890a84-d100-4659-9b11-e81395515fd2) |  
+| ![Table Mode](images/2023-actuals-by-subcategory-data-table.png) |  
 
 
 
 |          |
 |:--------:|
 | **Gantt mode** |
-| ![Gantt Mode](https://github.com/user-attachments/assets/9d454400-18bf-4b16-a1d2-5b27187c4f1a) |   
+| ![Gantt Mode](images/gantt-chart-employee-project-schedule-2024-2025-1.png) |   
 
 
 By following these first steps and guidance, you'll quickly become comfortable with Inforiver Analytics+ and begin creating powerful, insightful visualizations that exceed the capabilities of native Power BI visuals.

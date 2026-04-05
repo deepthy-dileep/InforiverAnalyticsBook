@@ -21,10 +21,15 @@ Analytics+ addresses these challenges with an integrated suite of comparative an
 
 Analytics+ provides a comprehensive toolkit for comparison across various business dimensions:
 
-![Comparative Analysis Dashboard](images/comparative_analysis.png)
+![Comparative Analysis Dashboard](images/data-analysis-charts-2023-2022-comparison.png)
 *Figure 6.4.1: Analytics+ Comparative Analysis Dashboard*
 
+
 ### Time-Based Comparisons
+
+![Monthly Actuals Comparison Chart (2024 vs 2023)](images/2024-2023-actuals-monthly-comparison-chart.png)
+*Figure 6.4.5: Monthly Actuals Comparison Chart (2024 vs 2023)*
+
 
 Analyze how metrics change over time with sophisticated period-over-period analysis:
 
@@ -58,7 +63,7 @@ Compare actual performance against planned scenarios, forecasts, or what-if anal
 - **Target Comparison**: Evaluate performance against strategic goals
 - **Benchmark Comparison**: Compare metrics against industry standards
 
-![Scenario Comparison](images/scenario_comparison.png)
+![Scenario Comparison](images/2024-sales-actuals-vs-plan-dashboard.png)
 *Figure 6.4.2: Scenario Comparison in Analytics+*
 
 ### Entity Comparisons
@@ -102,7 +107,7 @@ Directly compare different datasets with aligned visualizations:
 - **Synchronized Filtering**: Apply filters to multiple comparative views simultaneously
 - **Comparative Tables**: Multi-column tables with dynamic comparison calculations
 
-![Small Multiples](images/small_multiples.png)
+![Small Multiples](images/hierarchical-small-multiples-4d-charts-data.png)
 *Figure 6.4.3: Small Multiples for Regional Comparison in Analytics+*
 
 ### Integrated Comparative Visuals
@@ -120,7 +125,7 @@ Specialized charts that integrate comparative data within a single visualization
 | Tornado Charts | Side-by-side analysis with opposing bars | Category contribution comparison |
 | Slope Graphs | Connect related points to show changes | Trend comparison across categories |
 
-![Variance Analysis](images/variance_analysis.png)
+![Variance Analysis](images/data-visualization-variance-chart-analysis.png)
 *Figure 6.4.4: Variance Analysis Chart in Analytics+*
 
 #### Waterfall Chart Variations
@@ -136,6 +141,10 @@ Analytics+ offers multiple waterfall chart types for different comparative scena
 
 Waterfall charts include specialized features like variance data label formatting (value, percentage, or both), variance inflection indicators, and customizable variance base selection.
 
+![Combination Waterfall Chart for Variance Analysis](images/combination-waterfall-chart-2020-2021-actuals.png)
+*Figure 6.4.6: Combination Waterfall Chart for Variance Analysis*
+
+
 #### Multi-Variate Comparison Charts
 
 For comparing across multiple dimensions simultaneously:
@@ -143,6 +152,10 @@ For comparing across multiple dimensions simultaneously:
 - **Parallel Coordinates**: Visualizes multiple measures across categories with customizable axis scaling (individual or uniform)
 - **Slope Graphs**: Shows changes between two states with connecting lines to emphasize magnitude and direction of change
 - **Tornado Charts**: Displays opposing bars for direct comparison of two measures across categories
+
+![Advanced Comparative Visuals including Parallel Coordinates and Tornado Charts](images/data-visualization-ribbon-tornado-parallel-coordinates.png)
+*Figure 6.4.7: Advanced Comparative Visuals including Parallel Coordinates and Tornado Charts*
+
 
 ### Interactive Comparison Tools
 

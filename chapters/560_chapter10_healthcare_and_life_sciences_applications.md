@@ -3,6 +3,9 @@
 
 Healthcare organizations face unique data visualization challenges that Analytics+ is well-positioned to address. This section explores healthcare-specific implementations and considerations.
 
+![Healthcare Analytics](images/kpi-dashboard-sales-performance-regions.png)
+*Figure 10.2.1: Healthcare Analytics Dashboard*
+
 #### Clinical Analytics Applications
 
 Healthcare providers utilize Analytics+ for:
@@ -31,6 +34,9 @@ Healthcare providers utilize Analytics+ for:
 #### Healthcare Operations Applications
 
 Operational excellence in healthcare leverages:
+
+![Healthcare Operations](images/charts-and-kpis-for-sales-performance-analysis.png)
+*Figure 10.2.2: Healthcare Operations Analytics*
 
 1. **Capacity Management Visualization**
    - Census prediction and planning
@@ -81,6 +87,9 @@ Pharmaceutical and research organizations benefit from:
 #### Healthcare Implementation Considerations
 
 Key considerations for healthcare implementations include:
+
+![Healthcare Implementation](images/infoview-analytics-charts-cards-tables-visualization.png)
+*Figure 10.2.3: Healthcare Implementation Framework*
 
 1. **Data Privacy and Compliance**
    - HIPAA compliance requirements

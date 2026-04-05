@@ -2,6 +2,9 @@
 
 Maintaining and expanding Analytics+ value requires ongoing improvement efforts. This section outlines frameworks for continuous enhancement of implementation and adoption.
 
+![Continuous Improvement](images/chart-data-visualization-summary-analysis.png)
+*Figure 9.6.1: Continuous Improvement Framework*
+
 #### Continuous Improvement Framework
 
 Establish a structured approach to ongoing enhancement:
@@ -80,6 +83,9 @@ Develop a system for capturing and sharing best practices:
 
 Consider establishing a formal structure for excellence:
 
+![Center of Excellence](images/project-management-gantt-chart-web-urls.png)
+*Figure 9.6.2: Center of Excellence Structure*
+
 1. **Center of Excellence Functions**
    - Standards development and maintenance
    - Advanced training and certification
@@ -104,6 +110,9 @@ Consider establishing a formal structure for excellence:
 #### Measurement and Reporting
 
 Track improvement initiatives through:
+
+![Improvement Metrics](images/kpi-dashboard-sales-performance-regions.png)
+*Figure 9.6.3: Improvement Measurement Dashboard*
 
 - Enhancement implementation rates
 - User satisfaction trend analysis

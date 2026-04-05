@@ -92,21 +92,21 @@ Analytics+ provides a flexible approach to IBCS implementation, allowing users t
 
 - **IBCS Standards Toggle**: A simple switch that enables full IBCS compliance
 
-![image](https://github.com/user-attachments/assets/e86c70d4-b89f-45c6-a436-faed3afe1367)
+![image](images/pivot-data-ibcs-standards-2023-actuals-chart.png)
   
 - **Flexible Implementation**: Can be applied at both dashboard and individual visualization levels
 - **Automatic Notation Conversion**: Field names automatically convert to IBCS notation (AC, PY, PL, FC)
 
-![IBCS naming convention](/images/ACPYPLNotation.png)
+![IBCS naming convention](images/monthly-data-analysis-py-pl-fc-ac.png)
 
 - **Variance Calculation**: Automatic generation of absolute and relative variances
 
-![Variance Calculation](/images/IBCSVarianceCalculation.png)
+![Variance Calculation](images/chart-card-table-variance-format-settings.png)
 
 - **Visual Transformation**: Immediate visual conversion to IBCS-compliant representation
 - **Template Integration**: One-click application of IBCS-compliant templates
 
-![image](https://github.com/user-attachments/assets/e7de3b04-e80c-472f-972d-019682fbb423)
+![image](images/choose-template-explore-import-options.png)
 
 - **Preservation of Customization**: Maintains user customizations while ensuring standards compliance
 
@@ -178,11 +178,11 @@ Analytics+ includes specialized chart types designed specifically for IBCS-compl
 
 - **Integrated Variance Column**: Combines actuals, plan, and variance in a single column with standardized notation
 
-![IntegratedVarianceColumn](/images/IntegratedVarianceColumn.png)
+![IntegratedVarianceColumn](images/integrated-variance-column-monthly-data-chart.png)
 
 - **IBCS Bullet Chart**: Tracks progress against targets with standardized visual encoding
 
-![image](https://github.com/user-attachments/assets/d71829c7-f3ab-4ab9-9bf8-8aa1018e62ed)
+![image](images/multi-measure-bullet-bar-chart-data-analysis.png)
 
 - **IBCS Waterfall**: Visualizes financial statements with proper notation for increases and decreases
 
@@ -192,7 +192,7 @@ Analytics+ includes specialized chart types designed specifically for IBCS-compl
   
 - **Semantic KPI Cards**: Displays key metrics with standardized visual elements and variance indicators
 
-![IBCS Cards](/images/IBCSCards.png)
+![IBCS Cards](images/data-visualization-kpi-cards-bar-chart.png)
 
 Each chart type automatically implements the appropriate IBCS notation, ensuring consistent communication across different visualization formats.
 

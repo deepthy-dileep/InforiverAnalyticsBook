@@ -3,6 +3,9 @@
 
 Different user roles require tailored training approaches to ensure effective adoption of Analytics+. This section outlines strategies for role-specific training programs.
 
+![Role-Based Training](images/gantt-chart-project-timeline-resource-allocation.png)
+*Figure 9.2.1: Role-Based Training Timeline and Resource Allocation*
+
 #### Training Needs Analysis
 
 Begin by identifying specific training requirements:
@@ -33,6 +36,9 @@ Begin by identifying specific training requirements:
 #### Training Program Structure
 
 Develop a comprehensive training curriculum:
+
+![Training Program Structure](images/project-timeline-design-development-requirements.png)
+*Figure 9.2.2: Training Program Structure and Modules*
 
 1. **Modular Learning Paths**
    - Foundational skills (all users)
@@ -99,6 +105,9 @@ Tailor content to specific user needs:
 #### Training Delivery Timeline
 
 Structure training delivery around implementation phases:
+
+![Training Delivery Timeline](images/gantt-chart-project-phases-timeline-analysis.png)
+*Figure 9.2.3: Training Delivery Timeline*
 
 1. **Pre-Implementation Training**
    - Author/developer intensive training

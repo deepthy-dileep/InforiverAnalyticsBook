@@ -18,7 +18,7 @@ Modern business analytics presents a fundamental tension between data freshness 
 
 Analytics+ implements a sophisticated multi-level caching architecture that optimizes both performance and data currency:
 
-![Caching Architecture](images/caching_architecture.png)
+![Caching Architecture](images/analytics-performance-mode-charts-tables-cards.png)
 *Figure 5.5.1: Analytics+ Multi-Level Caching Architecture*
 
 ### Level 1: Visualization Rendering Cache
@@ -67,6 +67,8 @@ The innermost cache layer that operates at the data model level:
 
 ## Intelligent Refresh Strategies
 
+![Refresh Strategies](images/refresh-icon-blue-arrow-circle.png)
+
 Analytics+ implements multiple refresh strategies optimized for different business scenarios:
 
 ### Time-Based Refresh Patterns
@@ -81,20 +83,22 @@ Analytics+ implements multiple refresh strategies optimized for different busine
 
 ### Segment-Level Refresh Optimization
 
+![Refresh Hierarchy](images/filtercontext-data-table-category-hierarchy.png)
+
 Rather than refreshing entire datasets, Analytics+ can selectively refresh data segments:
 
 ```
 Refresh Hierarchy:
-├── Dashboard
-│   ├── Page 1 (Refresh: 15 min)
-│   │   ├── Visual 1.1 (Refresh: 5 min)
-│   │   └── Visual 1.2 (Refresh: 15 min)
-│   ├── Page 2 (Refresh: 60 min)
-│   │   ├── Visual 2.1 (Refresh: 60 min)
-│   │   └── Visual 2.2 (Refresh: 60 min)
-│   └── Page 3 (Refresh: 24 hr)
-│       ├── Visual 3.1 (Refresh: 24 hr)
-│       └── Visual 3.2 (Refresh: 24 hr)
++-- Dashboard
+|   |-- Page 1 (Refresh: 15 min)
+|   |   |-- Visual 1.1 (Refresh: 5 min)
+|   |   +-- Visual 1.2 (Refresh: 15 min)
+|   |-- Page 2 (Refresh: 60 min)
+|   |   |-- Visual 2.1 (Refresh: 60 min)
+|   |   +-- Visual 2.2 (Refresh: 60 min)
+|   +-- Page 3 (Refresh: 24 hr)
+|       |-- Visual 3.1 (Refresh: 24 hr)
+|       +-- Visual 3.2 (Refresh: 24 hr)
 ```
 
 This hierarchical approach enables targeted refresh operations based on data criticality and update frequency requirements.
@@ -164,20 +168,22 @@ For complex deployment architectures, Analytics+ optimizes caching across tiers:
 
 ```
 Enterprise Caching Architecture:
-├── Client Tier
-│   └── Browser-level cache (user-specific interactions)
-├── Middle Tier
-│   ├── Application server cache (shared calculation results)
-│   └── Web front-end cache (visualization assets)
-└── Data Tier
-    ├── Power BI Service cache (dataset query results)
-    ├── Premium capacity cache (model segments)
-    └── Source system cache (incremental data extracts)
+|-- Client Tier
+|   +-- Browser-level cache (user-specific interactions)
+|-- Middle Tier
+|   |-- Application server cache (shared calculation results)
+|   +-- Web front-end cache (visualization assets)
++-- Data Tier
+    |-- Power BI Service cache (dataset query results)
+    |-- Premium capacity cache (model segments)
+    +-- Source system cache (incremental data extracts)
 ```
 
 This multi-tier approach optimizes caching at each level of the architecture, balancing performance with resource utilization.
 
 ## Refresh Performance Optimization
+
+![Performance Optimization](images/charts-data-analysis-performance-metrics-2023.png)
 
 Analytics+ implements several techniques to optimize refresh performance:
 

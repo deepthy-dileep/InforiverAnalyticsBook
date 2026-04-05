@@ -3,6 +3,9 @@
 
 Robust metrics are essential for tracking Analytics+ adoption, optimizing implementation, and demonstrating ROI. This section outlines frameworks for meaningful adoption measurement.
 
+![Adoption Metrics Dashboard](images/kpi-dashboard-sales-performance-regions.png)
+*Figure 9.4.1: Adoption Metrics Dashboard*
+
 #### Adoption Metric Framework
 
 Establish comprehensive metrics across multiple dimensions:
@@ -63,6 +66,9 @@ Implement multiple approaches to gather adoption data:
 
 Structure adoption reporting for different stakeholders:
 
+![Adoption Reporting](images/charts-data-analysis-performance-metrics-2023.png)
+*Figure 9.4.2: Adoption Reporting Framework*
+
 1. **Executive Dashboards**
    - High-level adoption trends
    - ROI metrics and business impact
@@ -87,6 +93,9 @@ Structure adoption reporting for different stakeholders:
 #### Adoption Improvement Cycle
 
 Establish a process for continuous adoption enhancement:
+
+![Improvement Cycle](images/chart-data-visualization-summary-analysis.png)
+*Figure 9.4.3: Continuous Adoption Improvement Cycle*
 
 1. **Regular Analysis Cadence**
    - Weekly operational metrics review

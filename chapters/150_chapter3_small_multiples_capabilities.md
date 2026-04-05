@@ -57,19 +57,19 @@ Analytics+ offers several layout options for chart small multiples:
 
 - **Grid**: Displays data in a row-column grid with panels of equal size and uniform scaling
 
-![Grid](/images/GridLayout-Charts.png)
+![Grid](/images/chart-sum-of-actuals-by-quarter-trellis.png)
 
 - **Grid Auto-fit**: Maximizes data display in available canvas space without scrolling or pagination
 
-![GridAutoFit](/images/GridAutoFitCharts.png)
+![GridAutoFit](/images/charts-data-analysis-trellis-visualization.png)
 
 - **Scaled Rows**: Scales row height according to the top-performing panel (for vertical chart orientations)
 
-![Scaled Rows](/images/ScacledRowsCharts.png)
+![Scaled Rows](/images/analytics-chart-scaling-total-bar-by-month.png)
 
 - **Ranked Panels**: Varies panel size based on measure magnitude (for single small multiple parameter assigned to column)
 
-![Ranked Panels](/images/RankedPanelsCharts.png)
+![Ranked Panels](/images/data-visualization-ranking-slider-chart.png)
 
 Interactive resizing is available in grid and grid auto-fit layouts, allowing users to drag panel sides to adjust dimensions.
 
@@ -120,19 +120,19 @@ Analytics+ provides specialized layouts for table small multiples:
 
 - **Grid**: Standard row-column grid with equal-sized panels
 
-![Grid](/images/GridLayoutTables.png)
+![Grid](/images/2024-plan-2023-actuals-quarterly-data-grid.png)
 
 - **Scaled Table**: Panel size determined by the number of rows and columns in each table
 
-![Scaled Table](/images/ScaledTable.png)
+![Scaled Table](/images/monthly-data-chart-with-color-scale.png)
 
 - **Single Row**: All small multiple tables arranged side-by-side in one row
 
-![Single Row](/images/SingleRow.png)
+![Single Row](/images/data-table-layout-profit-sales-summary.png)
 
 - **Single Column**: All small multiple tables stacked vertically in one column
 
-![Single Column](/images/SingleColumn.png)
+![Single Column](/images/beverage-sales-data-juices-soda-water-coffee.png)
 
 ### Cards and KPIs
 
@@ -187,6 +187,8 @@ Analytics+ extends the small multiples concept with advanced techniques that enh
 
 ### Hierarchical Small Multiples
 
+![Hierarchical Small Multiples](/images/hierarchical-small-multiples-4d-charts-data.png)
+
 Analytics+ supports hierarchical small multiples:
 
 - **Nested Dimensions**: Creating multiples based on multiple dimensional levels
@@ -215,6 +217,8 @@ Analytics+ enhances small multiples with reference elements:
 These reference elements enhance the comparative power of small multiples by providing consistent context across all charts.
 
 ### Advanced Layout Options
+
+![Advanced Layout Options](/images/data-visualization-chart-layout-settings.png)
 
 Analytics+ provides sophisticated layout control:
 
@@ -277,6 +281,8 @@ The small multiples capabilities in Analytics+ enable sophisticated comparative 
 
 ### Sales Analysis
 
+![Sales Analysis](/images/data-visualization-sales-analysis-dashboard.png)
+
 Small multiples for sales analysis:
 
 - **Regional Sales Comparison**: Comparing sales trends across regions
@@ -292,6 +298,8 @@ These applications help sales teams identify performance patterns, optimization 
 
 
 ### Financial Analysis
+
+![Financial Analysis](/images/financial-performance-executive-summary-dashboard.png)
 
 Small multiples for financial analysis:
 

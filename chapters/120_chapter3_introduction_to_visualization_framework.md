@@ -6,19 +6,19 @@ Analytics+ has been built as a complete storytelling platform that enables even 
 
 1. **Chart Mode**: Offers a diverse library of over 100 chart types including Waterfall, Marimekko, Bullet charts, and boxplots, suitable for virtually any data visualization scenario.
 
-![Chart mode](/images/2025-05-26_15h06_30.png)  
+![Chart mode](images/2025-05-26_15h06_30.png)  
 
 2. **Card Mode**: Provides KPI cards with embedded charts, text, and image support to showcase metrics in a compact, information-rich format.
 
-![Card mode](/images/2025-05-26_15h09_40.png)
+![Card mode](images/2025-05-26_15h09_40.png)
 
 3. **Table Mode**: Delivers a bird's eye view of data categories and relationships with advanced tabular visualizations including small multiples tables.
 
-![Table mode](/images/2025-05-26_15h13_14.png)
+![Table mode](images/2025-05-26_15h13_14.png)
 
 4. **Gantt Mode**: Enables users to visualize task schedules, identify dependencies, allocate resources, and track deadlines with a best-in-class Gantt chart implementation.
 
-![Gantt mode](/images/GanttMode.png)
+![Gantt mode](images/GanttMode.png)
 
 5. **Storyboard Mode**: Allows rapid design of captivating dashboards with a single visual and a single query, incorporating charts, text, images, slicers, KPI cards, and tables without importing separate visuals.
 
@@ -98,7 +98,7 @@ Reference lines add context and highlight important thresholds or benchmarks:
 
 These reference lines help users quickly identify performance against key metrics and thresholds.
 
-![Reference Lines](/images/referencelines.png)  
+![Reference Lines](images/referencelines.png)  
 
 #### Reference Bands
 
@@ -112,7 +112,7 @@ Reference bands highlight ranges or zones within visualizations:
 
 Reference bands provide visual context that helps users interpret data within established parameters.
 
-![Reference bands](/images/2025-05-20_09h31_32.png)
+![Reference bands](images/2025-05-20_09h31_32.png)
 
 #### Error Bars
 
@@ -126,7 +126,7 @@ Error bars communicate data uncertainty and variability:
 
 These error indicators help users understand data reliability and make more informed decisions.
 
-![Error bars](/images/error-bars-stacked-cluster-charts.png)
+![Error bars](images/error-bars-stacked-cluster-charts.png)
 
 #### Trend Lines
 
@@ -141,7 +141,7 @@ Trend lines reveal underlying patterns and future directions:
 
 Trend analysis helps users distinguish between random fluctuations and meaningful directional changes.
 
-![Trend line](/images/TrendLine.png)
+![Trend line](images/TrendLine.png)
 
 #### Additional Series
 
@@ -155,7 +155,7 @@ Analytics+ allows the addition of derived or supplementary data series:
 
 These additional series enhance comparative analysis and provide richer context for data interpretation.
 
-![Additional series](/images/Movingaverage.png)
+![Additional series](images/Movingaverage.png)
 
 ### Data Processing Layer
 
@@ -163,23 +163,23 @@ The foundation layer that prepares data for visualization:
 
 - **Aggregation Engine**: Summarization of data at different levels
 
-![Aggregation engine](/images/Aggregation.png)
+![Aggregation engine](images/actuals-plan-chart-year-quarter-aggregation.png)
   
 - **Filtering System**: Selection of relevant data subsets
 
-![Aggregation engine](/images/filter.png)
+![Aggregation engine](images/filter.png)
   
 - **Sorting Mechanism**: Arrangement of data in meaningful sequences
 
-![Sorting engine](/images/Sort.png)
+![Sorting engine](images/Sort.png)
   
 - **Calculation Engine**: Execution of visualization-specific calculations
 
-![Calculation engine](/images/Calcmeasues.png)
+![Calculation engine](images/Calcmeasues.png)
   
 - **Pivoting Engine**: Reorganization of data for different analytical perspectives
 
-![Pivoting engine](/images/PivotingEngine.png)
+![Pivoting engine](images/PivotingEngine.png)
 
 These layers work together to provide a seamless visualization experience that balances analytical power with ease of use.
 
@@ -193,15 +193,15 @@ Analytics+ offers multiple paths to dashboard creation:
 
 1. **Auto-create Reports**: Leverages AI to automatically generate dashboards based on the data structure, creating appropriate visualizations without manual intervention.
 
-![Auto create](/images/autocreate.png)
+![Auto create](images/autocreate.png)
 
 2. **Template-Based Dashboards**: Provides a library of pre-built templates for common scenarios including IBCS-compliant dashboards, financial reports, and KPI dashboards.
 
-![Template](/images/templatestore.png)
+![Template](images/templatestore.png)
 
 3. **Custom Layouts**: Enables users to build dashboards from scratch, defining the number and arrangement of elements through an intuitive interface.
 
-![CustomLayout](/images/customLayout.png)
+![CustomLayout](images/customLayout.png)
 
 The Viz-data-ink ratio slider allows users to quickly adjust the information density of dashboards, balancing visual appeal with analytical depth.
 
@@ -211,27 +211,27 @@ Storyboard mode supports a comprehensive set of dashboard elements:
 
 - **Visualization Components**: Charts, cards, and tables with full customization capabilities
 
-![VisualizationComponents](/images/VisualizationComponents.png)
+![VisualizationComponents](images/VisualizationComponents.png)
   
 - **Navigation Controls**: Tabs, boards, and play axes for multi-page dashboards
 
-![NavigationControls](/images/Navigation.png)
+![NavigationControls](images/Navigation.png)
   
 - **Annotation System**: Comments and highlights to explain insights
 
-![Annotation](/images/Annotations.png)
+![Annotation](images/chart-data-visualization-2024-2023-annotations.png)
 
 - **Design Elements**: Shapes, text boxes, and images for visual organization
 
-![DesignElements](/images/shapesimagestextboxes.png)
+![DesignElements](images/shapesimagestextboxes.png)
   
 - **Interactive Controls**: Slicers and filters for data exploration
 
-![SlicersFilters](/images/slicer.png)
+![SlicersFilters](images/slicer.png)
 
 - **Layering System**: Z-order control for complex visual arrangements
 
-![Layers](/images/Layers.png)
+![Layers](images/Layers.png)
 
 Each element maintains its full functionality and customization options, with dedicated toolbars appearing contextually when elements are selected.
 
@@ -252,20 +252,20 @@ Analytics+ includes a comprehensive theming system for visual consistency:
 
 - **Pre-built Themes**: Library of professionally designed color schemes
 
-![CustomLayout](/images/StoryboardThemes.png)
+![CustomLayout](images/StoryboardThemes.png)
   
 - **Theme Customization**: Ability to modify existing themes or create new ones
 
-![CustomStoryboardTheme](/images/CustomStoryboardTheme.png)
+![CustomStoryboardTheme](images/CustomStoryboardTheme.png)
   
 - **Element-Level Theming**: Application of different themes to individual dashboard elements
 
-![Individual Element Theme](/images/IndividualElementThemes.png)
+![Individual Element Theme](images/IndividualElementThemes.png)
 
 - **Color Palette Management**: Control of primary, secondary, and accent colors
 - **Accessibility Considerations**: High-contrast themes for improved readability
 
-![Color blind Themes](/images/ColorBlindTheme.png)
+![Color blind Themes](images/ColorBlindTheme.png)
   
 - **Corporate Branding**: Support for organization-specific color schemes
 
@@ -309,27 +309,27 @@ Analytics+ provides specialized IBCS-compliant chart types:
 
 - **Integrated Variance Column**: Showing actuals, plans, and variances in a standardized format
 
-![Integrated Variance Column](/images/IntegratedVarianceColumn.png)
+![Integrated Variance Column](images/integrated-variance-column-monthly-data-chart.png)
 
 - **IBCS Waterfall**: Visualizing financial statements with proper notation
 
-![IBCS Waterfall](/images/ColumnsWithWaterfall.png)
+![IBCS Waterfall](images/ColumnsWithWaterfall.png)
   
 - **Variance Bridge**: Connecting start and end values with standardized variance representation
 
-![Variance Bridge](/images/HierarchicalrowswithIntegratedBar.png)
+![Variance Bridge](images/HierarchicalrowswithIntegratedBar.png)
   
 - **IBCS-Compliant Tables**: Implementing proper notation in tabular formats
 
-![IBCS-Compliant Tables](/images/IBCSTable.png)
+![IBCS-Compliant Tables](images/IBCSTable.png)
 
 - **Tables with integrated waterfalls**: Measure rows and integrated waterfalls
 
-![Tables with integrated waterfalls](/images/TablesWithIntegratedWaterfalls.png)
+![Tables with integrated waterfalls](images/TablesWithIntegratedWaterfalls.png)
 
 - **Semantic KPI Cards**: Displaying key metrics with standardized visual elements
 
-![IBCS KPI cards](/images/IBCSCards.png)
+![IBCS KPI cards](images/IBCSCards.png)
 
 These specialized chart types ensure that business reporting adheres to consistent standards, improving clarity and comparability.
 

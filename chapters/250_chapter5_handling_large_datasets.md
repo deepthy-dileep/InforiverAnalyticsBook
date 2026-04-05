@@ -39,6 +39,9 @@ Analytics+ uses sophisticated data structure approaches to efficiently organize 
 - **Lazy computation** that defers calculations until needed
 - **Field pruning** that eliminates unnecessary columns
 
+![Data Structure Optimization](images/financial-performance-executive-summary-data-analysis-2.png)
+
+
 ### 3. Intelligent Pagination and Scrolling
 
 Rather than forcing all data into view simultaneously, Analytics+ implements advanced pagination and scrolling:
@@ -62,6 +65,9 @@ The following benchmark tests illustrate the practical impact of Analytics+ data
 
 These tests were conducted on standard hardware configurations (8GB RAM, i5 processor) with real business datasets.
 
+![Real-World Performance Benchmarks](images/regional-financial-performance-bar-charts.png)
+
+
 ## Large Dataset Visualization Techniques
 
 Analytics+ doesn't just render large datasets—it provides specialized visualization techniques optimized for high-volume data:
@@ -71,6 +77,9 @@ Analytics+ doesn't just render large datasets—it provides specialized visualiz
 - **Heat maps** that represent data density through color intensity
 - **Contour plots** showing data distribution patterns
 - **Density scatter plots** that adjust point transparency based on clustering
+
+
+![Density-Aware Visualizations](images/animal-gestation-vs-average-weight-scatterplot.png)
 
 ### 2. Progressive Detail Techniques
 
@@ -104,6 +113,9 @@ To achieve optimal performance with extremely large datasets, Analytics+ users c
 4. **Use appropriate visualization types** for the data volume
 5. **Implement progressive disclosure** of details
 
+![Optimization Strategies for Maximum Performance](images/charts-data-visualization-financial-performance-analysis.png)
+
+
 ### Interaction Optimization
 
 1. **Define logical drill paths** that focus user exploration
@@ -133,6 +145,9 @@ After implementing Analytics+:
 
 Result: The company identified underperforming product lines that had been masked by aggregation, leading to targeted interventions that improved profitability by 9% within six months.
 
+![Case Study: Financial Analysis Transformation](images/financial-performance-executive-summary-data-analysis.png)
+
+
 ## Beyond the Data Point Limit: Future Directions
 
 While the current 30,000+ data point capability represents a dramatic improvement over native visuals, Analytics+ development continues to push this boundary. Future enhancements on the roadmap include:
@@ -143,4 +158,7 @@ While the current 30,000+ data point capability represents a dramatic improvemen
 - **Predictive loading** that anticipates user exploration paths
 - **Adaptive rendering** based on available system resources
 
-By removing the data point constraints that have traditionally limited Power BI analysis, Analytics+ fundamentally changes what's possible within the Microsoft BI ecosystem, enabling true enterprise-scale visual analytics without compromising on detail or performance. 
+By removing the data point constraints that have traditionally limited Power BI analysis, Analytics+ fundamentally changes what's possible within the Microsoft BI ecosystem, enabling true enterprise-scale visual analytics without compromising on detail or performance.
+
+![Beyond the Data Point Limit](images/q3-2024-financial-results-data-visualization-report.png)
+ 

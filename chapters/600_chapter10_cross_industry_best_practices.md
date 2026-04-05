@@ -1,6 +1,9 @@
-# 10.6 Cross-Industry Best Practices
+### 10.6 Cross-Industry Best Practices
 
 While industry-specific implementations offer targeted solutions, certain Analytics+ best practices apply across sectors. This section explores universal visualization approaches that deliver consistent value regardless of industry context.
+
+![Cross-Industry Best Practices](images/chart-types-overview-data-visualization.png)
+*Figure 10.6.1: Cross-Industry Best Practices Framework*
 
 #### Universal Dashboard Design Principles
 
@@ -55,6 +58,9 @@ Organizations across sectors benefit from:
 #### Visual Storytelling Techniques
 
 Compelling data narratives utilize:
+
+![Visual Storytelling](images/data-visualization-chart-editing-view.png)
+*Figure 10.6.2: Visual Storytelling Techniques*
 
 1. **Narrative Structure Implementation**
    - Problem statement visualization
@@ -130,6 +136,9 @@ Common implementation best practices include:
 #### Governance Framework Elements
 
 Sustainable analytics governance requires:
+
+![Governance Framework](images/analytics-license-visual-styles-json-file.png)
+*Figure 10.6.3: Governance Framework Elements*
 
 1. **Data Quality Management**
    - Source-to-visualization validation

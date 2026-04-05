@@ -1,4 +1,4 @@
-# 11.3 API and Programmatic Access
+### 11.3 API and Programmatic Access
 
 ## Introduction to Analytics+ API Framework
 
@@ -6,9 +6,15 @@ Inforiver Analytics+ offers a comprehensive API framework that enables developer
 
 The API architecture of Analytics+ follows modern REST principles with JSON payloads, secure authentication mechanisms, and comprehensive documentation to facilitate rapid development and integration.
 
+![API Framework](images/inforiver-analytics-power-bi-visuals-overview.png)
+*Figure 11.3.1: Analytics+ API Framework Overview*
+
 ## API Capabilities Overview
 
 The Analytics+ API provides access to several functional areas:
+
+![API Capabilities](images/chart-types-and-examples-overview.png)
+*Figure 11.3.2: API Capabilities Overview*
 
 ### Visualization Management
 

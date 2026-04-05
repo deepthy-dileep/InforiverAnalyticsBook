@@ -20,7 +20,7 @@ This architecture allows business users to work directly with their data in a ta
 
 The formula editor provides an intuitive environment for creating calculations, as demonstrated in the Analytics+ documentation:
 
-![Formula Editor Interface](images/formula_editor.png)
+![Formula Editor Interface](images/data-visualization-chart-with-formula.png)
 
 Key components include:
 

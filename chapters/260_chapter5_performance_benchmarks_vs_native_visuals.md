@@ -2,6 +2,8 @@
 
 For organizations making critical business decisions based on Power BI reports, visualization performance isn't just about convenience—it directly impacts operational efficiency, decision quality, and user adoption. While section 5.1 focused on the data volume advantage of Analytics+, this section provides comprehensive performance benchmarks comparing Analytics+ with native Power BI visualizations across multiple dimensions.
 
+![Performance Mode Charts and Tables](images/analytics-performance-mode-charts-tables-cards.png)
+
 ## Comprehensive Performance Testing Methodology
 
 To ensure fair and accurate comparisons, all benchmarks followed a rigorous testing methodology:
@@ -100,6 +102,8 @@ The network traffic reduction is particularly valuable for:
 
 Modern business intelligence often requires sophisticated calculations:
 
+![Visual Formula Engine Calculation](images/data-visualization-chart-with-formula.png)
+
 | Calculation Type | Native Power BI | Analytics+ | Improvement |
 |------------------|----------------|------------|-------------|
 | YoY Growth (50 products, 12 months) | 3.2 seconds | 0.7 seconds | 4.6x faster |
@@ -128,6 +132,8 @@ As business intelligence increasingly moves to mobile platforms, performance on 
 ## Real-World Impact: Quantifying Business Value
 
 The performance advantages of Analytics+ translate directly into business value:
+
+![Financial Performance Executive Summary](images/financial-performance-executive-summary-dashboard.png)
 
 ### Productivity Improvement
 

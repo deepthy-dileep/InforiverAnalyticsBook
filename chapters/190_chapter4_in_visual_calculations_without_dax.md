@@ -34,6 +34,9 @@ The formula editor provides an intuitive environment for creating calculations w
 - **Formula validation**: Real-time syntax checking and error highlighting
 - **AutoComplete**: Intelligent suggestions as you type (use the '#' key to open suggestions)
 
+![Formula Editor Interface](images/data-visualization-chart-with-formula.png)
+
+
 ### Basic Arithmetic Operations
 Create custom measures using simple arithmetic:
 ```
@@ -51,6 +54,9 @@ MIN(DeliveryTime)
 MAX(OrderSize)
 ```
 
+![Aggregations](images/actuals-plan-chart-year-quarter-aggregation.png)
+
+
 ### Time Intelligence
 Perform time-based comparisons without complex DAX time intelligence functions:
 - Year-over-year growth (PREVIOUS_YEAR function)
@@ -67,12 +73,18 @@ Calculate and visualize variances in multiple formats:
 - Performance against targets
 - Variance against benchmarks
 
+![Variance Analysis](images/monthly-actuals-plan-variance-chart.png)
+
+
 ### Ranking and Filtering
 Create dynamic rankings and filters:
 - Top/Bottom N performers (TOP_N, BOTTOM_N functions)
 - Above/Below threshold values (FILTER function)
 - Percentile-based segmentation (PERCENTILE, PERCENTRANK functions)
 - Conditional rankings (RANK, RANK_DENSE functions)
+
+![Ranking and Filtering](images/data-visualization-ranking-slider-chart.png)
+
 
 ### Advanced Analytics
 Analytics+ also supports more sophisticated calculations:
@@ -84,6 +96,9 @@ Analytics+ also supports more sophisticated calculations:
 
 ## Practical Example: Sales Performance Dashboard
 
+![Sales Performance Dashboard](images/2024-sales-actuals-vs-plan-dashboard.png)
+
+
 Let's walk through creating a sales performance analysis that would typically require multiple DAX measures:
 
 1. **Start with base metrics**: Revenue and Units from your dataset
@@ -91,6 +106,9 @@ Let's walk through creating a sales performance analysis that would typically re
 3. **Add Prior Year Comparison**: Create another calculated measure with `=[Revenue]-PREVIOUS_YEAR([Revenue])`
 4. **Calculate YoY %**: Create a percentage measure with `=[YoY]/PREVIOUS_YEAR([Revenue])*100`
 5. **Add conditional formatting**: Select the YoY% column → Format → Conditional Formatting → Configure thresholds (positive values green, negative values red)
+
+![Conditional Formatting](images/conditional-formatting-settings-example.png)
+
 
 This entire process takes approximately 2 minutes in Analytics+ compared to writing, testing, and debugging multiple DAX measures that might require:
 

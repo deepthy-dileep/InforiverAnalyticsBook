@@ -2,6 +2,8 @@
 
 Analytics+ is distinguished by its innovative direct manipulation interface that enables users to interact with data visualizations in intuitive, immediate ways. This approach moves beyond the traditional form-based configuration of business intelligence tools to provide a more natural, immediate connection between users and their data. As demonstrated throughout the Analytics+ documentation, users can directly manipulate charts, tables, and dashboard elements with simple gestures and clicks, making complex data visualization accessible to business users of all skill levels. This section explores the direct manipulation philosophy, interactive selection and filtering techniques, and in-situ editing capabilities that make Analytics+ uniquely accessible and powerful.
 
+![Analytics+ Interface](images/analytics-plus-visualization-interface-screenshot.png)
+
 ## Direct Manipulation Philosophy
 
 The Analytics+ direct manipulation approach is built on fundamental principles that enhance user experience and analytical effectiveness.
@@ -54,6 +56,9 @@ Analytics+ provides sophisticated capabilities for selecting and filtering data 
 ### Selection Mechanisms
 
 Comprehensive selection capabilities include:
+
+
+![Data Selection](images/sales-profit-chart-by-region-data-selection.png)
 
 - **Click Selection**: Selecting individual data points, series, or categories in charts and tables
 - **Rectangle Selection**: Dragging to select multiple elements, as demonstrated in the "14. Data selection" documentation
@@ -108,6 +113,9 @@ The documentation showcases these techniques in action, such as the Gantt chart'
 ## In-Situ Editing and Configuration
 
 Analytics+ enables direct editing and configuration within the visualization itself, eliminating the need to switch between views or open separate configuration panels.
+
+![Chart Editing View](images/data-visualization-chart-editing-view.png)
+
 
 ### Direct Property Manipulation
 
@@ -167,6 +175,9 @@ The documentation provides specific examples of these mapping capabilities, such
 ## Advanced Interaction Patterns
 
 Analytics+ implements sophisticated interaction patterns that support complex analytical workflows.
+
+![Data Visualization Interface](images/data-visualization-tools-interface.png)
+
 
 ### Multi-Touch and Gesture Support
 

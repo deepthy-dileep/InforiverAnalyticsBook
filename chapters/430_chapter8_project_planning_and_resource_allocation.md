@@ -22,12 +22,15 @@ Analytics+ implementations require a balanced approach that addresses both techn
 
 A comprehensive implementation strategy framework provides structure and direction for Analytics+ projects:
 
-![Implementation Framework](images/implementation_framework.png)
+![Implementation Framework](images/gantt-chart-project-phases-timeline-analysis.png)
 *Figure 8.1.1: Analytics+ Implementation Strategy Framework*
 
 ### Strategic Planning Phase
 
 Establishing the foundation for implementation success:
+
+![Strategic Planning](images/gantt-chart-progress-status-resource-planning.png)
+*Figure 8.1.1a: Strategic Planning Phase Activities*
 
 | Planning Component | Key Activities | Deliverables |
 |-------------------|----------------|--------------|
@@ -55,7 +58,7 @@ Evaluating organizational readiness for implementation:
 
 Creating an effective organizational model for implementation:
 
-![Project Structure](images/project_structure.png)
+![Project Structure](images/gantt-chart-resource-scheduling-progress-report.png)
 *Figure 8.1.2: Analytics+ Implementation Project Structure*
 
 | Role/Team | Responsibilities | Composition |
@@ -74,6 +77,9 @@ Creating an effective organizational model for implementation:
 ### Resource Allocation Strategy
 
 Approach to optimizing resource allocation across the implementation:
+
+![Resource Allocation Strategy](images/gantt-chart-project-timeline-resource-allocation.png)
+*Figure 8.1.2a: Resource Allocation Strategy Framework*
 
 - **Skill-Based Allocation**: Matching resources based on required capabilities
 - **Phase-Based Allocation**: Dynamic resource assignment based on project phases
@@ -117,7 +123,7 @@ Business and functional resources required:
 
 Technical infrastructure requirements:
 
-![Infrastructure Resources](images/infrastructure_resources.png)
+![Infrastructure Resources](images/analytics-performance-mode-charts-tables-cards.png)
 *Figure 8.1.3: Analytics+ Infrastructure Resource Requirements*
 
 | Infrastructure Component | Requirements | Purpose |
@@ -150,7 +156,7 @@ Analytics+ implementations typically follow a phased approach with specific time
 
 Structured implementation progression:
 
-![Implementation Phases](images/implementation_phases.png)
+![Implementation Phases](images/analytics-gantt-chart-progress-tasks-phases.png)
 *Figure 8.1.4: Analytics+ Implementation Phase Model*
 
 | Phase | Duration | Key Activities | Deliverables |
@@ -209,7 +215,7 @@ Comprehensive implementation across the organization:
 
 Focused implementation within specific business units:
 
-![Business Unit Approach](images/business_unit_approach.png)
+![Business Unit Approach](images/bar-chart-united-states-international-data.png)
 *Figure 8.1.5: Business Unit Implementation Approach*
 
 | Characteristic | Implementation | Business Impact |
@@ -267,7 +273,7 @@ Resources managed through a central project structure:
 
 Distributed resources with central coordination:
 
-![Federated Resource Model](images/federated_resource.png)
+![Federated Resource Model](images/pivot-table-resource-progress-report-2024-2025.png)
 *Figure 8.1.6: Federated Resource Allocation Model*
 
 | Resource Category | Allocation Approach | Coordination Method |
@@ -350,11 +356,17 @@ A global manufacturing corporation with operations in 25 countries implemented A
 
 Key practices for optimizing resource allocation and utilization:
 
+![Resource Management](images/project-management-gantt-chart-web-urls.png)
+*Figure 8.1.8a: Resource Management Best Practices Framework*
+
 ### Skill Development Approach
 
 Building capabilities throughout the implementation:
 
-![Skill Development](images/skill_development.png)
+![Skill Development](images/project-timeline-development-progress-chart.png)
+*Figure 8.1.8b: Skill Development Timeline*
+
+![Skill Development](images/chart-types-overview-data-visualization.png)
 *Figure 8.1.7: Analytics+ Implementation Skill Development Model*
 
 | Skill Development Strategy | Implementation | Capability Benefit |
@@ -397,6 +409,9 @@ Effective use of implementation partners and external resources:
 
 Strategies for minimizing operational impact during implementation:
 
+![Business Disruption Management](images/bullet-charts-data-insight-management-dashboard.png)
+*Figure 8.1.9: Business Disruption Management Dashboard*
+
 - **Business Calendar Alignment**: Scheduling implementation around critical business periods
 - **Progressive Deployment**: Incremental capability rollout to manage change impact
 - **Parallel Operations**: Maintaining existing systems during transition period
@@ -409,11 +424,14 @@ Strategies for minimizing operational impact during implementation:
 
 Analytics+ implementation can be coordinated with Power BI projects:
 
+![Power BI Integration](images/inforiver-analytics-power-bi-visuals-overview.png)
+*Figure 8.1.10: Analytics+ and Power BI Integration Overview*
+
 ### Power BI Alignment
 
 Coordination with Power BI implementation activities:
 
-![Power BI Alignment](images/powerbi_alignment.png)
+![Power BI Alignment](images/bar-chart-data-visualization-report-power-bi.png)
 *Figure 8.1.8: Analytics+ and Power BI Implementation Alignment*
 
 | Implementation Area | Alignment Approach | Integration Benefit |

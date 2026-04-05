@@ -22,7 +22,7 @@ Analytics+ addresses these challenges with a structured approach to version cont
 
 Analytics+ provides a comprehensive version control system that brings clarity and governance to the planning process:
 
-![Version Control Framework](images/version_control.png)
+![Version Control Framework](images/monthly-data-comparison-2022-2024-actuals-plans.png)
 *Figure 7.4.1: Analytics+ Version Control Interface with Version Tree and Comparison*
 
 ### Version Management
@@ -55,7 +55,7 @@ Rich classification system for different version purposes:
 
 Track and organize versions across time dimensions:
 
-![Version Timeline](images/version_timeline.png)
+![Version Timeline](images/gantt-chart-project-timeline-2024-2025.png)
 *Figure 7.4.2: Version Timeline Management with Planning Cadence*
 
 - **Calendar Alignment**: Versions mapped to planning calendar events
@@ -100,7 +100,7 @@ Comprehensive tools for scenario development:
 
 Multiple approaches to creating and evolving scenarios:
 
-![Scenario Development Methods](images/scenario_development.png)
+![Scenario Development Methods](images/financial-data-2023-2024-actuals-plans.png)
 *Figure 7.4.3: Multiple Scenario Development Approaches in Analytics+*
 
 | Method | Implementation | Business Application |
@@ -147,7 +147,7 @@ Analytics+ provides a structured approach to managing the assumptions that drive
 
 Centralized management of planning assumptions:
 
-![Assumption Management](images/assumption_management.png)
+![Assumption Management](images/comments-pane-styling-financial-performance-dashboard.png)
 *Figure 7.4.4: Assumption Management Interface*
 
 - **Assumption Categories**: Organize assumptions by type and area

@@ -1,4 +1,4 @@
-# 11.4 Custom Development Possibilities 
+### 11.4 Custom Development Possibilities 
 
 ## The Extensibility Vision
 
@@ -6,9 +6,15 @@ Inforiver Analytics+ was designed with extensibility as a core principle, recogn
 
 This extensibility vision enables organizations to leverage the enterprise-grade foundation of Analytics+ while adding custom capabilities that address their unique business needs, technical ecosystems, and user requirements.
 
+![Custom Development](images/project-timeline-development-progress-chart.png)
+*Figure 11.4.1: Custom Development Possibilities Overview*
+
 ## Extension Framework Architecture
 
 The Analytics+ Extension Framework is built on a modular architecture that provides clear extension points:
+
+![Extension Framework](images/chart-types-overview-data-visualization.png)
+*Figure 11.4.2: Extension Framework Architecture*
 
 ### Core Extension Points
 

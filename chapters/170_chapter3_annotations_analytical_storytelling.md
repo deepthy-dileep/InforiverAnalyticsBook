@@ -59,6 +59,8 @@ Analytics+ makes it easy to create and manage annotations:
 
 #### Annotation Customization
 
+![Annotation Customization](images/chart-customization-sum-actuals-quarterly-data.png)
+
 Analytics+ provides extensive customization options for annotations:
 
 - **Indicator Types**: Choose from markers only, text with arrows, or floating text
@@ -87,6 +89,8 @@ These positioning capabilities ensure that annotations remain properly placed an
 
 ### Conditional Annotations
 
+![Conditional Annotations](images/sales-data-conditional-formatting-chart.png)
+
 Dynamic annotation capabilities include:
 
 - **Value-Triggered Annotations**: Appearing when values meet criteria
@@ -100,6 +104,8 @@ Dynamic annotation capabilities include:
 These conditional capabilities transform annotations from static elements to dynamic analytical tools that respond to data patterns and user interaction.
 
 ## Reference Lines and Bands
+
+![Reference Lines and Bands](images/ac-by-year-line-chart-with-reference-lines.png)
 
 Analytics+ provides comprehensive reference elements that add analytical context to visualizations. These elements help viewers quickly assess whether values are above or below certain targets, goals, or historical averages, and identify trends and patterns in the data.
 
@@ -119,6 +125,8 @@ These basic elements provide essential context for understanding data in relatio
 
 #### Reference Line Configuration
 
+![Reference Line Configuration](images/ac-by-year-line-chart-with-reference-lines.png)
+
 Analytics+ offers extensive customization options for reference lines:
 
 - **Position Options**: Choose between horizontal (y-axis) or vertical (x-axis) orientation
@@ -132,6 +140,8 @@ Analytics+ offers extensive customization options for reference lines:
 
 #### Reference Band Configuration
 
+![Reference Band Configuration](images/chart-ac-by-year-with-reference-band.png)
+
 Reference bands provide additional context by highlighting ranges rather than single values:
 
 - **Position Options**: Create horizontal or vertical reference bands
@@ -142,6 +152,8 @@ Reference bands provide additional context by highlighting ranges rather than si
 - **Placement Control**: Position bands behind or in front of data elements
 
 #### Time Series References
+
+![Time Series References](images/sales-and-discount-chart-timeseries-analysis.png)
 
 For time-based data, Analytics+ provides specialized reference capabilities:
 
@@ -169,6 +181,8 @@ These advanced capabilities enable more sophisticated analytical context for com
 
 ### Trend Lines
 
+![Trend Lines](images/gross-sales-trend-chart-by-month.png)
+
 Analytics+ provides powerful trend line capabilities to visualize and highlight trends within data:
 
 - **Trend Line Types**: Choose from linear, exponential, logarithmic, and polynomial trend lines
@@ -182,6 +196,8 @@ Analytics+ provides powerful trend line capabilities to visualize and highlight 
 Trend lines help users quickly identify patterns, predict future values, and understand the mathematical relationships in their data.
 
 ### Error Bars
+
+![Error Bars](images/sales-data-visualization-error-bars-2024.png)
 
 Error bars provide visual representation of data variability and uncertainty:
 
@@ -212,9 +228,13 @@ These interactive capabilities transform reference elements from static visual g
 
 ## Deviation Analysis Visualization
 
+![Deviation Analysis Visualization](images/deviation-chart-2024-2023-subregions-analysis.png)
+
 Analytics+ provides specialized capabilities for visualizing and analyzing deviations from expected values, benchmarks, or historical patterns. These features are essential for evaluating performance, identifying anomalies, and planning future actions.
 
 ### Deviation Lines
+
+![Deviation Lines](images/monthly-actuals-plan-deviation-chart.png)
 
 Analytics+ offers powerful deviation line capabilities to highlight changes between data points:
 
@@ -228,6 +248,8 @@ Analytics+ offers powerful deviation line capabilities to highlight changes betw
 - **Label Display Options**: Show deviation as percentage, absolute value, or both
 
 ### Variance Visualization Types
+
+![Variance Visualization Types](images/variance-icon-kpi-chart-settings.png)
 
 Comprehensive variance visualization options include:
 
@@ -243,6 +265,8 @@ Comprehensive variance visualization options include:
 These visualization types provide clear, intuitive representations of business variances for performance analysis and exception identification.
 
 ### Additional Series Analysis
+
+![Additional Series Analysis](images/data-table-measure-series-analysis.png)
 
 Analytics+ enables advanced analysis through additional series visualization:
 
@@ -286,9 +310,13 @@ These threshold capabilities automatically direct attention to the most importan
 
 ## Storyboard Capabilities
 
+![Storyboard Capabilities](images/data-analytics-software-storyboarding-tools.png)
+
 Analytics+ provides a powerful Storyboard mode that enables users to create comprehensive dashboards with multiple visualization elements, all within a single visual and using a single query. This feature transforms Analytics+ from a visualization tool into a complete dashboard creation platform.
 
 ### Storyboard Elements
+
+![Storyboard Elements](images/data-visualization-card-design-elements.png)
 
 The Storyboard mode supports a wide range of elements:
 
@@ -305,6 +333,8 @@ The Storyboard mode supports a wide range of elements:
 These elements can be freely arranged, sized, and styled to create professional, interactive dashboards without requiring multiple visuals.
 
 ### Dashboard Creation
+
+![Dashboard Creation](images/kpi-dashboard-sales-data-2022-2024.png)
 
 The Storyboard provides multiple approaches to dashboard creation:
 
@@ -380,6 +410,8 @@ The annotation and storytelling capabilities in Analytics+ support sophisticated
 
 ### Executive Communication
 
+![Executive Communication](images/financial-performance-executive-summary-dashboard.png)
+
 Applications for leadership communication include:
 
 - **Performance Summaries**: Highlighting key metrics and variances
@@ -394,6 +426,8 @@ These applications help executives communicate complex business situations clear
 
 ### Financial Analysis and Reporting
 
+![Financial Analysis and Reporting](images/charts-data-analysis-financial-reporting-visualization.png)
+
 Applications for finance include:
 
 - **Variance Explanations**: Documenting reasons for budget deviations
@@ -407,6 +441,8 @@ Applications for finance include:
 These applications help finance professionals communicate not just what happened, but why it happened and what it means for the business.
 
 ### Sales and Marketing Analysis
+
+![Sales and Marketing Analysis](images/sales-data-table-forecast-analysis.png)
 
 Applications for sales and marketing include:
 

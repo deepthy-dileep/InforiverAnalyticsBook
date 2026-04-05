@@ -1,8 +1,12 @@
 
 
+
 ### 8.5 Governance Framework Development
 
 Implementing a governance framework ensures Analytics+ deployments remain manageable, compliant, and valuable over time. This section provides a blueprint for establishing effective governance.
+
+![Governance Framework](images/project-timeline-design-development-requirements.png)
+*Figure 8.5.1: Governance Framework Development Timeline*
 
 #### Governance Foundation Elements
 
@@ -40,6 +44,9 @@ A comprehensive governance framework includes:
 
 Establishing governance typically follows these phases:
 
+![Governance Roadmap](images/gantt-chart-project-phases-timeline-analysis.png)
+*Figure 8.5.2: Governance Implementation Roadmap*
+
 1. **Assessment and Planning**
    - Evaluate current state and governance gaps
    - Define governance objectives and success metrics
@@ -68,6 +75,9 @@ Establishing governance typically follows these phases:
 
 Several tools can support governance implementation:
 
+![Governance Technology](images/analytics-license-visual-styles-json-file.png)
+*Figure 8.5.3: Governance Technology Enablers*
+
 - **Analytics+ Template Library**
   - Centralized repository of approved visualizations
   - Pre-configured compliance with standards
@@ -89,6 +99,9 @@ Several tools can support governance implementation:
 #### Measuring Governance Effectiveness
 
 Establish metrics to evaluate governance program success:
+
+![Governance Metrics](images/kpi-dashboard-sales-performance-regions.png)
+*Figure 8.5.4: Governance Effectiveness Metrics Dashboard*
 
 - Percentage of visualizations adhering to standards
 - Time from development to production deployment

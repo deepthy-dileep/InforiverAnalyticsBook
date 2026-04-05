@@ -21,7 +21,7 @@ Analytics+ addresses these challenges by providing comprehensive anomaly detecti
 
 Analytics+ implements multiple outlier detection techniques, selecting the appropriate method based on data characteristics:
 
-![Outlier Detection Dashboard](images/outlier_detection.png)
+![Outlier Detection Dashboard](images/data-labels-chart-outlier-percentage-visualization.png)
 *Figure 6.3.1: Analytics+ Outlier Detection Dashboard*
 
 ### Statistical Outlier Detection
@@ -36,6 +36,9 @@ Basic statistical approaches provide an essential foundation for anomaly detecti
 | Percentile-based | Custom percentile thresholds with business context | When specific portion of data should be flagged |
 | GESD (Generalized ESD) | Iterative outlier identification for multiple anomalies | When multiple outliers may be present |
 | Chauvenet's criterion | Probability-based rejection of unlikely observations | Scientific and engineering measurements |
+
+![Statistical Outlier With Box Plot](images/box-plot-values-by-month-data-analysis.png)
+*Figure 6.3.2: Statistical Outlier Analysis with Box Plots*
 
 Users can easily adjust detection sensitivity through interactive controls:
 
@@ -68,8 +71,8 @@ Analytics+ goes beyond basic statistical outliers to identify values that are an
 - **Relationship-Based Detection**: Flag unusual relationships between variables
 - **State-Dependent Anomalies**: Detect values unusual only in specific business states
 
-![Contextual Anomaly](images/contextual_anomaly.png)
-*Figure 6.3.2: Contextual Anomaly Detection in Analytics+*
+![Contextual Anomaly Detection](images/sales-by-country-monthly-deviation-chart.png)
+*Figure 6.3.3: Contextual Anomaly Detection in Analytics+*
 
 Example contextual anomaly: A 15% increase in website traffic would be normal during a marketing campaign but anomalous during a typical weekend. Analytics+ can distinguish these cases automatically.
 
@@ -85,6 +88,9 @@ For complex patterns and evolving data, Analytics+ offers advanced ML-based anom
 | Autoencoder Neural Networks | Self-learning to identify reconstruction errors | Captures complex relationships without explicit modeling |
 | Time Series Decomposition | Identifies anomalies after accounting for trends and seasonality | Perfect for time-based data with multiple patterns |
 | Ensemble Methods | Combines multiple detection approaches with weighted voting | Reduces false positives while maintaining sensitivity |
+
+![Machine Learning Forecasting](images/sales-data-forecast-country-category-subcategory.png)
+*Figure 6.3.4: Machine Learning-Based Anomaly Detection and Forecasting*
 
 These advanced techniques operate behind a business-friendly interface that doesn't require users to understand the underlying algorithms:
 
@@ -112,8 +118,8 @@ Basic but effective techniques to draw attention to anomalies:
 - **Focus+Context Views**: Emphasize anomalies while maintaining overall context
 - **Outlier Galleries**: Curated collections of discovered anomalies for review
 
-![Anomaly Highlighting](images/anomaly_highlighting.png)
-*Figure 6.3.3: Anomaly Highlighting in Analytics+*
+![Anomaly Highlighting](images/sales-profit-chart-subcategory-data-highlight.png)
+*Figure 6.3.5: Anomaly Highlighting in Analytics+*
 
 ### Conditional Formatting for Anomalies
 
@@ -147,8 +153,8 @@ Analytics+ includes dedicated visualization types for anomaly analysis:
 | Deviation Lollipop Charts | Quantify and rank anomaly magnitude | Prioritize investigation by impact |
 | Anomaly Calendar Heatmaps | Temporal pattern visualization for anomalies | Identify time-based patterns in anomaly occurrence |
 
-![Anomaly Network](images/anomaly_network.png)
-*Figure 6.3.4: Anomaly Network Visualization in Analytics+*
+![Anomaly Network Visualization](images/data-visualization-ribbon-tornado-parallel-coordinates.png)
+*Figure 6.3.6: Anomaly Network Visualization in Analytics+*
 
 ### Interactive Exploration
 
@@ -223,6 +229,9 @@ The anomaly detection capabilities in Analytics+ enable numerous business applic
 - **Resource Utilization Outliers**: Detect unexpected resource consumption
 - **User Behavior Anomalies**: Identify unusual user activity patterns
 - **Application Error Patterns**: Detect unusual error rates or patterns
+
+![Business Applications Dashboard](images/financial-performance-executive-summary-dashboard.png)
+*Figure 6.3.7: Business Applications Dashboard with Anomaly Insights*
 
 ## Advanced Features
 

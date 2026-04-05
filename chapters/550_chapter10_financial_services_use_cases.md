@@ -3,6 +3,9 @@
 
 Analytics+ provides powerful visualization capabilities tailored to the unique needs of financial services organizations. This section explores industry-specific applications and best practices.
 
+![Financial Services Analytics](images/financial-data-table-juices-soda-analysis.png)
+*Figure 10.1.1: Financial Services Analytics Dashboard*
+
 #### Wealth Management and Investment Analytics
 
 Analytics+ enhances investment visualization through:
@@ -31,6 +34,9 @@ Analytics+ enhances investment visualization through:
 #### Banking Analytics Applications
 
 Retail and commercial banking operations benefit from:
+
+![Banking Analytics](images/regional-financial-performance-bar-charts.png)
+*Figure 10.1.2: Banking Performance Analytics*
 
 1. **Branch Performance Optimization**
    - Small multiples for branch comparison
@@ -81,6 +87,9 @@ Insurance companies leverage Analytics+ for:
 #### Financial Services Implementation Considerations
 
 When implementing in financial services, consider:
+
+![Implementation Considerations](images/financial-data-2024-2023-juices-soda-tables.png)
+*Figure 10.1.3: Financial Services Implementation Framework*
 
 1. **Regulatory Compliance**
    - Audit trail requirements
